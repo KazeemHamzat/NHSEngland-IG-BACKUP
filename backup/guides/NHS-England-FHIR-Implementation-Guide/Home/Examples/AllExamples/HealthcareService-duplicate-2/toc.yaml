@@ -1,0 +1,6 @@
+- name: Index
+  filename: Index.page.md
+- name: HealthcareService
+  filename: HealthcareService.page.md
+- name: HealthcareService-detailed
+  filename: HealthcareService-detailed.page.md
