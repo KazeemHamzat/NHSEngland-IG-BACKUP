@@ -155,7 +155,7 @@ View further information about <a href="https://hl7.org/fhir/R4/valueset.html" T
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>This element SHALL be used in the UKCore</td>
+        <td>This element SHALL be used in the NHS England IG</td>
     </tr>
     <tr>
         <td>compose<br>.include<br>.filter<br>.property</td>
