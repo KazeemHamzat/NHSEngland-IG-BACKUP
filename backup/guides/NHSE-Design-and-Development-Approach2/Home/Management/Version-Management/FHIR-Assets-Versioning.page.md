@@ -78,7 +78,10 @@ Further information about both FHIR asset creation and maintenance is available 
 ### Instance Conformance Identification
 For some information flows, there is a requirement to identify which NHSE IG profile(s) an instance being exchanged between healthcare IT systems conforms to. This could be for the purpose of validation of the instance against the profile definition and/or for conformance testing. This profile conformance is declared using the profile.meta element. The element carries the profile URL appended with the version information. 
 
-  <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Most implementations will use NPM Packages for validation and therefore the use of this approach is not mandated when using NHSE IG profiles. More information about NPM packages is available on the {{pagelink:UseofNPMPackages}} page.  </div>
+<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Most implementations will use NPM Packages for validation and therefore the use of this approach is not mandated when using NHSE IG profiles.   </div>
+
+More information about NPM packages is available on the
+[package versioning page.](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Management/Version-Management?version=current#Package-Versioning)
 
 The format is: 'URL' "\|" 'version'
 For example:
