@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-The list below contains the element differences between the UKCore and HL7. 
+The list below contains the element differences between the NHS England IG and UkCore. 
 
 ### Base Resource Definitions
 
