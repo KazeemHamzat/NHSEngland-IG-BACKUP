@@ -1,0 +1,8 @@
+- name: Index
+  filename: Index.page.md
+- name: Extension-SDS-ManufacturingOrganisation
+  filename: Extension-SDS-ManufacturingOrganisation.page.md
+- name: Extension-SDS-ReliabilityConfiguration
+  filename: Extension-SDS-ReliabilityConfiguration.page.md
+- name: Extension-Spine-ActorRoleServiceOrSpecialty
+  filename: Extension-Spine-ActorRoleServiceOrSpecialty.page.md

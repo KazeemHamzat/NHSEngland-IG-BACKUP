@@ -1,0 +1,14 @@
+- name: Index
+  filename: Index.page.md
+- name: NamingSystem-NHSEndpointServiceId
+  filename: NamingSystem-NHSEndpointServiceId.page.md
+- name: NamingSystem-NHSMHSEndPoint
+  filename: NamingSystem-NHSMHSEndPoint.page.md
+- name: NamingSystem-NHSMHSFQDN
+  filename: NamingSystem-NHSMHSFQDN.page.md
+- name: NamingSystem-NHSMHSPartyKey
+  filename: NamingSystem-NHSMHSPartyKey.page.md
+- name: NamingSystem-NHSSpineASID
+  filename: NamingSystem-NHSSpineASID.page.md
+- name: NamingSystem-NhsMhsCPAId
+  filename: NamingSystem-NhsMhsCPAId.page.md
