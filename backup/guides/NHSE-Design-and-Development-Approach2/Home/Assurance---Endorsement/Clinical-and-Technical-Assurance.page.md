@@ -210,7 +210,7 @@ The following activities are not in scope; it is assumed they are completed as p
 - Review of data model(s) with vendors 
 ### Clinical and Technical Assurance and UK Core Development and Release
 Clinical and Technical assurance occurs during the UK Core development process. Selected UK Core assets at draft status must go through the assurance process in order to move to the status of Draft Standard for Trial Use (DSTU) prior to readiness for the HL7 ballot process.   
-Find out more about the {{pagelink:UKCoreDevelopmentandReleaseManagement}}.
+Find out more about NHS England [Release management](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Management/Development-and-Release-Management?version=current).
 
 
 <!-- ##### RM: Removed as duplicating info from  UKCoreDevelopmentandReleaseManagement (link above) #####
@@ -241,7 +241,7 @@ The roles and responsibilities for the process can be viewed in <a href="#append
 ### Key Steps in the Clinical and Technical Assurance process
 The diagram describes the key steps in the process and each step is described in more detail below.   
 
-{{render:c-and-t-process}}
+{{render:NHSEAssureance}}
 
 ### Publication of the UK Core pack (1.0)
 This involves creating a UK Core pack for external consultation. 
