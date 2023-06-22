@@ -16,13 +16,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:696f13f9-a246-4c28-98be-cd979b86bfe2}}
+{{json:England-Immunization-VaccinationPerformer-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:696f13f9-a246-4c28-98be-cd979b86bfe2}}
+{{xml:England-Immunization-VaccinationPerformer-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:696f13f9-a246-4c28-98be-cd979b86bfe2}}
+{{tree:England-Immunization-VaccinationPerformer-Example}}
     </div>
   </div>
 </div>

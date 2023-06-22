@@ -1,8 +1,8 @@
-### NHSDigital-Immunization
+### England-Immunization
 
 | Conformance url | FHIR Module | Maturity Level |
 |--
-| [https://fhir.nhs.uk/StructureDefinition/NHSDigital-Immunization](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-Immunization)  | {{pagelink:Medications}} | trial-use |
+| [https://fhir.nhs.uk/StructureDefinition/England-Immunization](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/England-Immunization)  | {{pagelink:Medications}} | trial-use |
 
 
 <br>
@@ -28,17 +28,17 @@
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
             Combined with {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-Immunization}} <br><br>
-            {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-Immunization, snapshot}}
+            {{tree: https://fhir.nhs.uk/StructureDefinition/England-Immunization, snapshot}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
-            {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-Immunization, diff}}
+            {{tree: https://fhir.nhs.uk/StructureDefinition/England-Immunization, diff}}
         </div>
 <div id="Constraints" class="tab-pane">
 <br />
 @```
 from StructureDefinition
-where url='https://fhir.nhs.uk/StructureDefinition/NHSDigital-MedicationDispense'
+where url='https://fhir.nhs.uk/StructureDefinition/England-Immunization'
 for differential.element.constraint
 select key, human, severity, expression
 ```
@@ -70,7 +70,7 @@ select key, human, severity, expression
 
 <br>
 
-This conformance profile is based on the [NHS Digital - Daily Clinical Vaccination Specification COVID 19](https://digital.nhs.uk/developer/api-catalogue/vaccination) and is intended for internal use only. 
+This conformance profile is based on the [NHS England - Daily Clinical Vaccination Specification COVID 19](https://digital.nhs.uk/developer/api-catalogue/vaccination) and is intended for internal use only. 
 
 - <a href="#mustSupport">Must Support, Optional and Should Not Support</a>
 - <a href="#vaccinationProcedure">extension vaccinationProcedure</a>
@@ -520,7 +520,7 @@ For COVID-19 a reference set has been published here: https://dd4c.digital.nhs.u
 
 The organisation ODS code of the location where the vaccination event took place with corresponding system of `https://fhir.nhs.uk/Id/ods-organization-code`. For roving teams on home visits or care home visits use the site code of the responsible site e.g. GP practice or dedicated vaccination site. It is strongly recommend the name of the Organisation is present in the display field.
 
-Vaccination professional should be recorded using professional codes, see [NHSDigital-Practitioner](https://simplifier.net/guide/nhsdigital/NHSDigital-Practitioner) for details.
+Vaccination professional should be recorded using professional codes, see [NHSDigital-Practitioner](https://simplifier.net/guide/nhsdigital/England-Practitioner) for details.
 
 
 ```json

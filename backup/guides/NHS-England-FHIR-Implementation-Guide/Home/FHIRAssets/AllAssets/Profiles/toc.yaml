@@ -12,8 +12,8 @@
   filename: NHSDigital-CommunicationRequest.page.md
 - name: NHSDigital-HealthcareService
   filename: NHSDigital-HealthcareService.page.md
-- name: NHSDigital-Immunization
-  filename: NHSDigital-Immunization.page.md
+- name: England-Immunization
+  filename: England-Immunization.page.md
 - name: NHSDigital-MessageHeader
   filename: NHSDigital-MessageHeader.page.md
 - name: NHSDigital-Observation

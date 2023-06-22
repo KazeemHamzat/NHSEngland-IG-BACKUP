@@ -15,13 +15,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:bd2ec326-7570-46bd-98a0-02c4b924c79d}}
+{{json:England-Immunization-AdministrationOfSARSCoV2FirstDose-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:bd2ec326-7570-46bd-98a0-02c4b924c79d}}
+{{xml:England-Immunization-AdministrationOfSARSCoV2FirstDose-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:bd2ec326-7570-46bd-98a0-02c4b924c79d}}
+{{tree:England-Immunization-AdministrationOfSARSCoV2FirstDose-Example}}
     </div>
   </div>
 </div>
