@@ -15,13 +15,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:dd4c3e37-555d-47fc-9309-37539893e074}}
+{{json:England-Bundle-PatientImmunizationQuery-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:dd4c3e37-555d-47fc-9309-37539893e074}}
+{{xml:England-Bundle-PatientImmunizationQuery-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:dd4c3e37-555d-47fc-9309-37539893e074}}
+{{tree:England-Bundle-PatientImmunizationQuery-Example}}
     </div>
   </div>
 </div>
