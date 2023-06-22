@@ -302,3 +302,29 @@ ul.dropdown-menu {
     padding: 10px;
     margin-bottom: 15px;
 }
+
+.nhsd-header{
+  display: flex;
+      justify-content: flex-end;
+}
+
+.hl7_logo{
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hl7-outer{
+  background-color: green;
+  order: 2;
+}
+
+.ig-version{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NHS-logo{
+  max-height: 65px;
+}

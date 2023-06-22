@@ -24,7 +24,7 @@ Releases timings of the NHS England IG and FHIR assets will be decided by IOPS a
 - Program delivery time scales
 
 ### Internal Review
-Once the change has been done the IOPS will carry out an internal review and rework as necessary until the development is of the quality required. The page on {{pagelink:AssetDesign}} gives more information on the principles and design of FHIR assets which are used during internal review. 
+Once the change has been done the IOPS will carry out an internal review and rework as necessary until the development is of the quality required. The page on [Asset Design](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Asset-Design?version=current "Title"). gives more information on the principles and design of FHIR assets which are used during internal review. 
 
 ### External Review
 There is no external review until the changes are included in a pre-release as part of the C&TA but as all development is done in the public domain and feedback on any change is always possible via Simplifier.  
