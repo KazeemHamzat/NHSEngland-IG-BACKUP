@@ -44,7 +44,7 @@ select key, human, severity, expression
 </div>
 <div id="Examples"  class="tab-pane">
 
-{{pagelink: MessageHeader}}
+{{pagelink:MessageHeader}}
 
 </div>
 </div>
