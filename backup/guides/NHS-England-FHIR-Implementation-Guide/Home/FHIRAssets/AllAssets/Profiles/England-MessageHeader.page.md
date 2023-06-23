@@ -1,8 +1,8 @@
-## NHSDigital-MessageHeader
+## England-MessageHeader
 
 | Conformance url | FHIR Module | Maturity Level |
 |--
-| [https://fhir.nhs.uk/StructureDefinition/NHSDigital-MessageHeader](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-MessageHeader) | {{pagelink:Implementation-Support}} | trial-use |
+| [https://fhir.nhs.uk/StructureDefinition/England-MessageHeader](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/England-MessageHeader) | {{pagelink:Implementation-Support}} | trial-use |
 
 <br>
 
@@ -25,19 +25,19 @@
        
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
-        with {{link:http://hl7.org/fhir/StructureDefinition/MessageHeader}} <br><br>
-  {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-MessageHeader, snapshot}}
+        with {{https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader}} <br><br>
+  {{tree: https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, snapshot}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
-      from {{link:http://hl7.org/fhir/StructureDefinition/MessageHeader}} <br><br>
-  {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-MessageHeader, diff}}
+      from {{https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader}} <br><br>
+  {{tree: https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, diff}}
         </div>
                      <div id="Constraints"  class="tab-pane">
 <br />
 @```
 from StructureDefinition
-where url='https://fhir.nhs.uk/StructureDefinition/NHSDigital-MessageHeader'
+where url='https://fhir.nhs.uk/StructureDefinition/England-MessageHeader'
 for differential.element.constraint
 select key, human, severity, expression
 ```
@@ -78,11 +78,11 @@ The `Bundle.identifier`, the messageIdentifier, **MUST** have a UUID value.
 
 Systems may chose to map *X-Request-ID* header to the `Bundle.id`, messageId. If both are supplied to a `$process-message` endpoint it is recommended they hold the same values.
 
-MessageHeader can hold previous and extra messageId's in the {{link:https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-messageId}}
+MessageHeader can hold previous and extra messageId's in the {{https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID}}
 
 #### Local Part/Addressing (sender and/or destination.receiver)
 
-When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{link:https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-LocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
+When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
 
 This concept is similar to email addresses `local-part@domain` and also HL7 version 2 combination of `Sending/Receiving Application | Sending/Receiving Facility` in the MSH segment.
 
@@ -95,7 +95,7 @@ In the example below, the destination is a clinic (A99968) which part of NHS Tru
         "receiver": {
           "extension": [
               {
-                  "url": "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-LocalPart",
+                  "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart",
                   "valueReference": {
                         "identifier": {
                         "system": "https://fhir.nhs.uk/Id/ods-organization-code",
