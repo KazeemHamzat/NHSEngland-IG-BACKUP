@@ -15,13 +15,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:England-MessageHeader-BasicPassMessageHeader-Example}}
+{{json:England-MessageHeader-PrescriptionOrder-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:England-MessageHeader-BasicPassMessageHeader-Example}}
+{{xml:England-MessageHeader-PrescriptionOrder-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:England-MessageHeader-BasicPassMessageHeader-Example}}
+{{tree:England-MessageHeader-PrescriptionOrder-Example}}
     </div>
   </div>
 </div>

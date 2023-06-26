@@ -1,3 +1,3 @@
 ### MessageHeader
 
-- {{pagelink:MessageHeader-duplicate-2}}
+- {{pagelink:MessageHeader-duplicate-3}}
