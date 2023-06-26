@@ -1,4 +1,4 @@
-## England-MessageHeader
+## {{page-title}}
 
 | Conformance url | FHIR Module | Maturity Level |
 |--
@@ -25,12 +25,12 @@
        
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
-        with {{https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader}} <br><br>
+        with {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader}} <br><br>
   {{tree: https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, snapshot}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
-      from {{https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader}} <br><br>
+      from {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-MessageHeader}} <br><br>
   {{tree: https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, diff}}
         </div>
                      <div id="Constraints"  class="tab-pane">
@@ -44,7 +44,7 @@ select key, human, severity, expression
 </div>
 <div id="Examples"  class="tab-pane">
 
-{{pagelink:MessageHeader}}
+{{pagelink:MessageHeader-duplicate-3}}
 
 </div>
 </div>
@@ -119,7 +119,7 @@ In the example below, the destination is a clinic (A99968) which part of NHS Tru
 
 #### example - Prescription, Pharmacy known
 
-{{render:nominatedPharmacy}}
+{{render:diagrams-nominatedpharmacy}}
 
 In the example below, the prescriber Taunton and Somerset Foundation Trust (RBA), is sending a message to The Simple Pharmacy (VNE51). The `destination.receiver` and `sender` are references to these organisations.
 
@@ -142,7 +142,7 @@ This message is to be sent via the Electronic Prescription Service, the http add
     "identifier": {
         "extension": [
             {
-                "url": "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-LocalPart",
+                "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart",
                 "valueReference": {
                         "identifier": {
                         "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -179,7 +179,7 @@ EPS will now send this message to the pharmacy. This message is collected by the
 "sender": {
     "extension": [
             {
-                "url": "https://fhir.nhs.uk/StructureDefinition/Extension-MessageHeader-LocalPart",
+                "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart",
                 "valueReference": {
                         "identifier": {
                         "system": "https://fhir.nhs.uk/Id/ods-organization-code",
@@ -202,7 +202,7 @@ EPS will now send this message to the pharmacy. This message is collected by the
 
 #### example - Prescription, Pharmacy not known
 
-{{render:noNominatedPharmacy}}
+{{render:diagrams-noNominatedPharmacy}}
 
 In this example the destination is not known and the message is sent to NHS Digital (X26). 
 
@@ -241,7 +241,7 @@ The last time the message was updated (e.g. by storing or modification) is captu
                 "resourceType": "MessageHeader",
                 "extension": [
                     {
-                        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-Spine-MessageHeader-messageId",
+                        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID",
                         "valueIdentifier": {
                             "system": "https://fhir.nhs.uk/Id/prescription-order-number",
                             "value": "DC2C66-A1B2C3-23407B"
@@ -284,7 +284,7 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 |Element Id|MessageHeader.extension:replacementOf|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|0..1|
 |[Slice Name](https://www.hl7.org/fhir/profiling.html#slicing)|replacementOf|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[Extension](https://www.hl7.org/fhir/datatypes.html#Extension)([ExtensionreplacementOf](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/Extension-replacementOf))|
+|[type](https://www.hl7.org/fhir/datatypes.html)|[Extension](https://www.hl7.org/fhir/datatypes.html#Extension)([ExtensionreplacementOf](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderReplacement))|
 
 <br/>
 
@@ -295,7 +295,7 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 ```json
 "extension": [
     {
-        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-replacementOf",
+        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderReplacement",
         "valueIdentifier": {
             "system": "https://tools.ietf.org/html/rfc4122",
             "value": "334a3195-1f6c-497a-8efe-d272ca9c4e38"
@@ -326,7 +326,7 @@ For example the event code `dispense-notification` has a MessageDefinition of [h
 
 ```json
 "eventCoding": {
-  "system": "https://fhir.nhs.uk/CodeSystem/message-event",
+  "system": "https://fhir.nhs.uk/CodeSystem/England-MessageEventEPS",
   "code": "dispense-notification",
   "display": "Dispense Notification"
 }

@@ -15,13 +15,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:Provenance-example}}
+{{json:England-Provenance-PatientMedicationRequestor-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:Provenance-example}}
+{{xml:England-Provenance-PatientMedicationRequestor-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:Provenance-example}}
+{{tree:England-Provenance-PatientMedicationRequestor-Example}}
     </div>
   </div>
 </div>

@@ -3,11 +3,11 @@
 
 | Conformance url |
 |--
-| [https://fhir.nhs.uk/StructureDefinition/NHSDigital-Provenance](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-Provenance) | 
+| [https://fhir.nhs.uk/StructureDefinition/England-Provenance](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/England-Provenance) | 
 
 <br>
 
-NHSDigital-Provenance is used to convey the prescription digital signature.
+England-Provenance is used to convey the prescription digital signature.
 
 <br>
 
@@ -31,17 +31,17 @@ NHSDigital-Provenance is used to convey the prescription digital signature.
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
           <br><br>
-          {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-Provenance, hybrid}}
+          {{tree: https://fhir.nhs.uk/StructureDefinition/England-Provenance, hybrid}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
-         {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-Provenance, diff}}
+         {{tree: https://fhir.nhs.uk/StructureDefinition/England-Provenance, diff}}
         </div>
         <div id="Constraints"  class="tab-pane">
 <br/>
 @```
 from StructureDefinition
-where url='https://fhir.nhs.uk/StructureDefinition/NHSDigital-Provenance'
+where url='https://fhir.nhs.uk/StructureDefinition/England-Provenance'
 for differential.element.constraint
 select key, human, severity, expression
 ```
