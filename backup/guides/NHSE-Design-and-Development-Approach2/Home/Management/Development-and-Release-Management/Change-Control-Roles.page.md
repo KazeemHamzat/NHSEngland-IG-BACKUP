@@ -13,11 +13,15 @@ This section details a change control process for use with the NHS England stand
 - **NHS England Development Team**- Individuals who are involved in the NHS England FHIR assets development and/or authoring guidance contained in the NHS England Implementation Guide.
 - **Stakeholder** – Any individual or group/organisation using the NHS England IG or involved in FHIR implementation and/or design within NHS England
 
-### Requesting a Change to the NHSE IG
+### Navigation to the NHS England IG Project
+The NHS England IG project is located here in Simplifier https://simplifier.net/guide/nhs-england-fhir-implementation-guide.
 
-Requests for a change to the NHS England IG shall be made using the create issue option in Simplifier if its not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or group/organisation looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
+### Requesting a Change to the NHS England IG
 
-### Creating a Simplifier Account
+Issues for new NHS England IG FHIR assets can be raised at the NHS England IG project level the issue shall indicate the use case or details of the requirement as to why the new asset is needed. Projects or Programmes may also raise requests for new or amended FHIR assets.
+Requests for a change to the NHS England IG must shall be made using the create issue option in Simplifier if it’s not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or group/organisation looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
+
+### Creating a Simplifier Issue at Project Level
 The NHS England IG uses Simplifier for issue tracking and maintenance.
 Although the NHS England IG is in the public domain, you will need to create an account and login to raise issues. Creating a Simplifier account is done by going to <a href="https://simplifier.net/" target="_blank"> https://simplifier.net/</a> and using the sign-up option on the top right of the page. An email address and a chosen password are the only details needed to set up an account.
 

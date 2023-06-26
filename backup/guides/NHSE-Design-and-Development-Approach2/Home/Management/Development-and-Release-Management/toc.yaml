@@ -1,7 +1,7 @@
 - name: Index
   filename: Index.page.md
-- name: Change Control
-  filename: Change-Control.page.md
+- name: Change Control Roles
+  filename: Change-Control-Roles.page.md
 - name: Development Cycle
   filename: Development-Cycle.page.md
 - name: Overview of Release Cycle

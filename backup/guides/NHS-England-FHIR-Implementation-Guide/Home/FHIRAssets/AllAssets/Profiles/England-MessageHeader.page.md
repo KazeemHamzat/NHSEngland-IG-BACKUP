@@ -212,7 +212,7 @@ In this example the destination is not known and the message is sent to NHS Digi
         "endpoint": "https://sandbox.api.service.nhs.uk/electronic-prescriptions/$post-message",
         "receiver": {
     
-{{render:messageIDs}}
+{{render:diagrams-messageids}}
 
 
 
@@ -311,7 +311,7 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 |----|----|
 |Element Id|MessageHeader.event[x]|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|1..1|
-|[Terminology Binding](https://www.hl7.org/fhir/terminologies.html)|[NHSMessageEvents](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/ValueSet/NHSDigital-message-events) (Required)|
+|[Terminology Binding](https://www.hl7.org/fhir/terminologies.html)|[NHSMessageEvents](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/ValueSet/England-MessageEvents) (Required)|
 |[type](https://www.hl7.org/fhir/datatypes.html)|[Coding](https://www.hl7.org/fhir/datatypes.html#Coding)|
 
 <br/>
@@ -386,7 +386,7 @@ The recipient of a message takes the responsibility of delivering to all the `de
 |----|----|
 |Element Id|MessageHeader.sender|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|0..1|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[Reference](https://www.hl7.org/fhir/datatypes.html#Reference)([NHSDigitalPractitionerRole](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-PractitionerRole) [NHSDigitalPractitioner](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-Practitioner) [NHSDigitalOrganization](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-Organization))|
+|[type](https://www.hl7.org/fhir/datatypes.html)|[Reference](https://www.hl7.org/fhir/datatypes.html#Reference)([England-PractitionerRole](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/England-PractitionerRole) [England-Practitioner](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/England-Practitioner) [England-Organization](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/England-Organization))|
 
 <br/>
 
