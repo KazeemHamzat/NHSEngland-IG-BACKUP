@@ -2,7 +2,7 @@
 This section details the version management approach used with the NHS England Implementation Guides, NHS England Implementation Guides packages and FHIR assets. The approach differs for each of these items and so is documented in separate sections.
 
 ### FHIR Assets Versioning
-All profiles produced for the NHS England IG will be versioned during development using <a href="https://git-scm.com/" Target="_blank"> Git</a> and will follow the standard <a href="https://guides.github.com/introduction/flow/" Target="_blank"> GitFlow model</a>.   
+All profiles produced for the NHSE IG will be versioned during development using <a href="https://git-scm.com/" Target="_blank"> Git</a> and will follow the standard <a href="https://guides.github.com/introduction/flow/" Target="_blank"> GitFlow model</a>.   
 
 The version information is maintained by the IOPS team in line with the Semantic Versioning Standard outlined above. Thus, for a StructureDefinition, this could read:
 
@@ -23,6 +23,7 @@ For a ValueSet, this could read:
 
 
 <code>https://fhir.nhs.uk/StructureDefinition/England-RelatedPerson|1.1.0</code>
+
 This is illustrated below:
 
 ````xml
