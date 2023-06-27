@@ -3,7 +3,7 @@
 
 ## FHIR Assets
 
-This section documents the approach used by the IOPS to produce and maintain the NHS England Implementation Guides and the NHS England FHIR assets. It will be updated and matured in line with decisions taken during the Clinical and Technical Assurance process. This documentation is aimed at the technical reader and is included as reference material. The approach is based on the design principles.
+This section documents the approach used by IOPS to produce and maintain the NHS England Implementation Guides and the NHS England FHIR assets. It will be updated and matured in line with decisions taken during the Clinical and Technical Assurance process. This documentation is aimed at the technical reader and is included as reference material. The approach is based on the design principles.
 
 ## Conformance
 
@@ -27,12 +27,7 @@ Vendors shall build to UK Core profiles in data exchanges see the section on con
 
 #### Extensions
 
-There is a NHS England IG requirement to develop extensions based on any equivalent CareConnect STU3 extensions. The exception to this is where an extension is no longer needed because either:
-
-- the data can be carried in a new element for a relevant resource in FHIR R4 
-- a corresponding common extension has been developed in FHIR R4
-
-Extension will be constrained (hard coded) into profiles to profiles after agreement during Clinical and Technical assurance.
+Extension will be constrained (hard coded) into profiles to profiles after agreement during Clinical and Technical assurance which is the process for extension approval.
 
 The Implementation Guide for the NHS England IG will include an Extension Library page, which will list extensions and their corresponding NHS England IG profiles. There is no requirement to profile HL7 extensions locally. Where a HL7 extension is identified as in scope, a link to it will be added on the Extension Library page under HL7 Common Extensions.
 
