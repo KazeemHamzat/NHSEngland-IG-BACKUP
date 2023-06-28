@@ -69,14 +69,14 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In NHS England the format is PascalCase:<br/><br/><code>England<i>[Extension name]</i></code> .</td>
+        <td>In NHS England the format is PascalCase:<br/><br/><code>NHS England<i>[Extension name]</i></code> .</td>
     </tr>
     <tr>
         <td>title</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England the format in Proper Case:<br/><br/><code>England<i>[Extension name]</i> <code>.</td>
+        <td>In the NHS England the format in Proper Case:<br/><br/><code>NHS England<i>[Extension name]</i> <code>.</td>
     </tr>
     <tr>
         <td>status</td>
@@ -95,14 +95,14 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>dateTime</td>
-        <td>Only the date, without time, is populated in the NHS England IG.</td>
+        <td>Only the date, without time, is populated in the NHS England.</td>
     </tr>
     <tr>
         <td>publisher</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>For all NHS England Extensions, where the base URL is <code>https://fhir.nhs.uk</code>, this will be <code>England</code>.</td>
+        <td>For all NHS England Extensions, where the base URL is <code>https://fhir.nhs.uk</code>, this will be <code>HL7 UK</code>.</td>
     </tr>
     <tr>
         <td>contact</td>

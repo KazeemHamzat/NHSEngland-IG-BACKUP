@@ -22,7 +22,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
         <td>0..1</td>
         <td>1..1</td>
         <td>id</td>
-        <td>In the NHS England the format is the following, with the BusinessName in PascalCase:<br/><br/><code>England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In the NHS England the format is the following, with the BusinessName in PascalCase:<br/><br/><code>NHS England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
     </tr>
     </tbody>
 </table>
@@ -68,7 +68,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In NHS England the format is PascalCase:<br/><br/><code>England<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In NHS England the format is PascalCase:<br/><br/><code>NHS England<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
     </tr>
     <tr>
         <td>title</td>

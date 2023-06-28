@@ -22,9 +22,9 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
         <td>0..1</td>
         <td>1..1</td>
         <td>id</td>
-        <td>In the NHS England IG the format is the following, with the BusinessName in PascalCase:<br/><br/><code>England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In the NHS England IG the format is the following, with the BusinessName in PascalCase:<br/><br/><code>NHS England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
     </tr>
-    </tbody>
+  </tbody>
 </table>
 
 ### DomainResource Resource
@@ -39,7 +39,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <th width="10%">UK Core Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
-    </tr>
+      </tr>
   </thead>
   <tbody>
     <tr>
@@ -49,7 +49,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>uri</td>
         <td>In the NHS England the format is the following, with the BusinessName in PascalCase:<br/><br/><code>https://fhir.nhs.uk/ValueSet/England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
     </tr>
-
+   <tbody>
     <tr>
         <td>identifier</td>
         <td>0..*</td>
@@ -69,14 +69,14 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England IG the format is PascalCase:<br/><br/><code>England<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In the NHS England IG the format is PascalCase:<br/><br/><code>NHS England<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
     </tr>
     <tr>
         <td>title</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England the format is Proper Case:<br/><br/><code>England<i>&lsqb;Business Names&rsqb;</i></code>.</td>
+        <td>In the NHS England the format is Proper Case:<br/><br/><code>NHS England<i>&lsqb;Business Names&rsqb;</i></code>.</td>
     </tr>
     <tr>
         <td>status</td>
@@ -102,7 +102,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>For all NHS England ValueSets, where the base URL is <code>https://fhir.nhs.uk</code>, this will be <code>England</code>.</td>
+        <td>For all NHS England ValueSets, where the base URL is <code>https://fhir.nhs.uk</code>, this will be <code>NHS England</code>.</td>
     </tr>
         <tr>
         <td>contact</td>
@@ -170,8 +170,8 @@ View further information about <a href="https://hl7.org/fhir/R4/valueset.html" T
         <td>1..1</td>
         <td>string</td>
         <td>Due to some systems having difficulties processing symbols, for NHS England ValueSets containing SNOMED CT concepts encapsulated within an ECL expression, the long syntax SHALL be used. The SNOMED CT term SHALL NOT be suffixed to the SCTID.</td>
-        </tr> 
-  </tbody>
+    </tr> 
+    </tbody>
 </table>
 
 ---
