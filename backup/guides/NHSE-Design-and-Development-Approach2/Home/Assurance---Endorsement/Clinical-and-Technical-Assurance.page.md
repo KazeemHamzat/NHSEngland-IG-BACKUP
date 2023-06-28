@@ -6,6 +6,11 @@
 This page details the Clinical and Technical Assurance process for the NHS England Implementation Guide
 A key part of the NHS England Clinical and Technical Assurance process is to ensure that any profiling of FHIR resources is done in a clinically safe and technically coherent manner and is UK Core conformant.
 
+The IOPS team will manage a regular Clinical and Technical Assurance (C&TA) review cycle, which will allow stakeholders, including programmes, a chance to propose and review changes to the NHS England IG before the release of a live version, i.e. not marked as pre-release (e.g. uk.nhsdigital.r4 2.8.0 - SIMPLIFIER.NET)
+
+The exact timescale and scope for the C&TA sprints is yet to be determined.
+
+
 ## Why do we need a Clinical and Technical Assurance Process?
 
 ### Assets which are fit for purpose

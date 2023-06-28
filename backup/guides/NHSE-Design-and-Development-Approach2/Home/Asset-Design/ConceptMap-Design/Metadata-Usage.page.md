@@ -48,7 +48,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>uri</td>
-        <td>In the UK Core the format is the following, with the BusinessName in PascalCase:<br/><br/><code>https://fhir.nhs.uk/CodeSystem/England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In the NHS England the format is the following, with the BusinessName in PascalCase:<br/><br/><code>https://fhir.nhs.uk/CodeSystem/England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
     </tr>
     <tr>
         <td>identifier</td>
