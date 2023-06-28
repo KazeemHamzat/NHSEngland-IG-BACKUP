@@ -5,6 +5,17 @@
 
 This section documents the approach used by IOPS to produce and maintain the NHS England Implementation Guides and the NHS England FHIR assets. It will be updated and matured in line with decisions taken during the Clinical and Technical Assurance process. This documentation is aimed at the technical reader and is included as reference material. The approach is based on the design principles.
 
+### Changes to FHIR Profiles and conformance assets
+- These are hosted on the GitHub project [here](https://github.com/NHSDigital/NHSEngland-FHIR-ImplementationGuide).
+- Each folder contains resources of a specific type. In particular, the StructureDefinition folder contains the FHIR profiles and extensions, the ValueSet and CodeSystem folders contain the ValueSets and CodeSystems used across NHSE programmes, Message and OperationDefinition folders contain the resources defining which profiles to include in specific message types, e.g. prescription-orders, and the CapabilityStatement folder contains resources which define which profiles to validate against in a specific context.
+- The IOPS change control process is [here](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Management/Development-and-Release-Management?version=current).
+- If approved, changes to FHIR assets will be made in a branch with the same name as the JIRA ticket from which the request originated (e.g. AEA-3019). This links changes to the original request for auditing.
+- To release a package using the changed assets, the branch needs to be merged into the 'main' branch. This will be done through a Pull Request (PR), which can only be merged after receiving approval from the IOPS team.
+- Once merged into the main branch, the commit will be tagged with the package number and marked as pre-release, e.g. See [here](https://github.com/NHSDigital/NHSEngland-FHIR-ImplementationGuide/tags). This allows easy comparison of changes between releases.
+- A mirrored release of the npm package will then be created, incrementing the patch number and corresponding releases of the NHSE Implementation Guide.
+- The NHS England package guidance is [here](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Management/Version-Management?version=current#Package-Versioning).
+
+
 ## Conformance
 
 The NHS England IG conforms to the HL7 FHIR® specification (Release 4) and its assets are profiles derived from the corresponding UK Core Profiles.
