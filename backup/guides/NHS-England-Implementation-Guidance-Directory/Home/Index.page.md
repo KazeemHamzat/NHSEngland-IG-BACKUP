@@ -1,5 +1,4 @@
 # {{page-title}} 
-{{index:root}}
 
 This directory contains links to guidance and documentation deemed useful to implementers of NHS England IG's. It is supplied on the understanding that all content of listed items is the responsibility of the publisher indicated.
 
