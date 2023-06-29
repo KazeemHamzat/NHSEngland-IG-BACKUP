@@ -1,7 +1,5 @@
 # {{page-title}}
 
-
-
 ## Overview
 This page details the Clinical and Technical Assurance process for the NHS England Implementation Guide
 A key part of the NHS England Clinical and Technical Assurance process is to ensure that any profiling of FHIR resources is done in a clinically safe and technically coherent manner and is UK Core conformant.
@@ -35,6 +33,7 @@ From a Clinical Assurance perspective, FHIR assets are reviewed for:
 - Validity (designed correctly for the purpose of clinical practice and clinical use)
 - Usability (useful and usable for the clinical story tested against)
 - Whether they provide enough extra constraint over the UK Core to make them worth while
+
 From a Technical Assurance perspective, the FHIR assets are reviewed for:
 - Conformance to the FHIR Standard and UK Core
 - Adherence to the documented guidance for Creating NHS England FHIR assets produced by the IOPS Team
@@ -77,7 +76,7 @@ Roles may include, but may not be limited to:-
 - Project manager
 - IOPS Team
 
-The roles and responsibilities for the process can be viewed in Appendix A.
+The roles and responsibilities for the process can be viewed in [Appendix A](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Assurance---Endorsement/Clinical-and-Technical-Assurance.page.md?version=current).
 
 ### Key Steps in the Clinical and Technical Assurance process
 The diagram describes the key steps in the process and each step is described in more detail below.
@@ -89,8 +88,8 @@ This involves creating a NHS England pack for consultation.
 The following are key inputs to the creation of the NHS England pack:-
 
 - Strategic overview to include background, scope, strategic objectives, vision and timelines
-- Use cases, including description of clinical workflows and key interactions; see Appendix B for an example use case.
-- Clinically assured Information models/datasets, including models from the Professional Record Standards Body (PRSB)
+- Use cases, including description of clinical workflows and key interactions; see [Appendix B](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Assurance---Endorsement/Clinical-and-Technical-Assurance.page.md?version=current) for an example use case.
+- Clinically assured Information models/datasets, including models from the Professional Record Standards Body [(PRSB)](https://theprsb.org/)
 - Patient journeys with example clinical content
 - Architecture overview to include FHIR paradigm e.g. REST, bundle, document and transport layer e.g. MESH
 - Initial list of FHIR resources for use cases
@@ -123,7 +122,8 @@ An initial hazard log will be produced in parallel as per the NHS England Clinic
 - Anyone who is interested in developing new, or amending existing, FHIR assets should engage with the IOPS Team to discuss the creation of a pack using the agreed template.
 - If further clinical and technical assurance work is needed, the IOPS team will then start to prepare the schedule, including estimating the number of sprints required.
 - The IOPS Team will invite other stakeholders, such as terminologists, clinical safety representatives, clinicians as it sees fit.
-Setting up meetings
+
+## Setting up meetings
 - The IOPS Team will set up meetings and communicate with all potential participants.
 - The IOPS team will arrange all administration and organisation of agreed meetings.
 
@@ -142,7 +142,7 @@ Via Simplifier
 - Any stakeholder can raise an issue in Simplifier relevant to these assets; you need a Simplifier account to do this. You can register at https://simplifier.net/signup.
 Contact Us
 
-If you require further information, please email the [IOPS Team](interoperabilityteam@nhs.net "Title").
+If you require further information, please email the [IOPS Team]( mailto:interoperabilityteam@nhs.net).
 
 
 <!-- 
@@ -333,7 +333,7 @@ The main functions of this team are:-
 - To prepare the core pack for calls/core team meetings to include profiling questions and technical options for decisions by stakeholders.
 - To agree on the technical design decisions for changes to the NHS England profiles working in collaboration with stakeholders.
 - To act as FHIR technical Subject Matter Expert (SME) to answer questions on FHIR constraints, proposed extensions and design principles
-- To post on Zulip FHIR Chat for feedback required and liaise with HL7 UK, if required.
+- To post on [Zulip FHIR Chat](https://chat.fhir.org/) for feedback required and liaise with HL7 UK, if required.
 - To Liaise with the UK Core Development Team where required. 
 
 ### Project Manager (IOPS Team):
