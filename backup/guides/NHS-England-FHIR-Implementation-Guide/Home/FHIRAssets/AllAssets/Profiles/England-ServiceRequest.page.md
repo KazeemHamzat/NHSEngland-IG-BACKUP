@@ -3,7 +3,7 @@
 
 | Conformance url | FHIR Module | Maturity Level |
 |--
-| [https://fhir.nhs.uk/StructureDefinition/NHSDigital-ServiceRequest](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/NHSDigital-ServiceRequest) | | draft |
+| [https://fhir.nhs.uk/StructureDefinition/England-ServiceRequest](https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical=https://fhir.nhs.uk/StructureDefinition/England-ServiceRequest) | | draft |
 
 <br>
 
@@ -28,13 +28,14 @@
        
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
-    
-  {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-ServiceRequest, combined}}
+            with {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-ServiceRequest}} 
+          <br><br>
+  {{tree: https://fhir.nhs.uk/StructureDefinition/England-ServiceRequest, combined}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
         
-  {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-ServiceRequest, diff}}
+  {{tree: https://fhir.nhs.uk/StructureDefinition/England-ServiceRequest, diff}}
         </div>
 <div id="Examples"  class="tab-pane">
 
@@ -47,7 +48,7 @@ None defined at present
 
 @```
 from StructureDefinition
-where baseDefinition='https://fhir.nhs.uk/StructureDefinition/NHSDigital-ServiceRequest' 
+where baseDefinition='https://fhir.nhs.uk/StructureDefinition/England-ServiceRequest' 
 select name, profile: '<a href="https://simplifier.net/resolve?target=simplifier&scope=uk.nhsdigital.r4&canonical='+ url + '">'+url+'</a>', purpose
 ```
 
