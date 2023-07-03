@@ -57,22 +57,22 @@ This section is intended to provide examples that illustrate the different ways 
 
 <div id="HTML View" class="tabcontent">
   <h3>HTML View</h3>
-{{render:https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationRequestCourseOfTherapy}}
+{{render:https://fhir.nhs.uk/CodeSystem/England-MedicationRequestCourseOfTherapy}}
 </div>
 
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationRequestCourseOfTherapy}}
+{{table:https://fhir.nhs.uk/CodeSystem/England-MedicationRequestCourseOfTherapy}}
 </div>
 
 <div id="XML View" class="tabcontent" style="display:block">
   <h3>XML View</h3>
-{{xml:https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationRequestCourseOfTherapy}}
+{{xml:https://fhir.nhs.uk/CodeSystem/England-MedicationRequestCourseOfTherapy}}
 </div>
 
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationRequestCourseOfTherapy}}
+{{json:https://fhir.nhs.uk/CodeSystem/England-MedicationRequestCourseOfTherapy}}
 </div>
 </nocheck>
 <br>
@@ -243,22 +243,22 @@ This section is intended to provide examples that illustrate the different ways 
 
 <div id="HTML View" class="tabcontent">
   <h3>HTML View</h3>
-{{render:https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure}}
+{{render:https://fhir.nhs.uk/ValueSet/England-VaccinationProcedure}}
 </div>
 
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure}}
+{{table:https://fhir.nhs.uk/ValueSet/England-VaccinationProcedure}}
 </div>
 
 <div id="XML View" class="tabcontent" style="display:block">
   <h3>XML View</h3>
-{{xml:https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure}}
+{{xml:https://fhir.nhs.uk/ValueSet/England-VaccinationProcedure}}
 </div>
 
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.hl7.org.uk/ValueSet/UKCore-VaccinationProcedure}}
+{{json:https://fhir.nhs.uk/ValueSet/England-VaccinationProcedure}}
 </div>
 </nocheck>
 <br>
