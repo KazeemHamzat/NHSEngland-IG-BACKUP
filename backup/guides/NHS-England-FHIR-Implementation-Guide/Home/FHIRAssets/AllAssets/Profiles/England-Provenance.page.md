@@ -30,6 +30,7 @@ England-Provenance is used to convey the prescription digital signature.
        
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
+            with {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-Provenance}} 
           <br><br>
           {{tree: https://fhir.nhs.uk/StructureDefinition/England-Provenance, hybrid}}
         </div>
@@ -50,7 +51,7 @@ select key, human, severity, expression
 <div id="Examples"  class="tab-pane">
 <br/>
 
--  {{pagelink:Provenance-duplicate-2}}
+-  {{pagelink:Provenance}}
 
 </div>
 </div>

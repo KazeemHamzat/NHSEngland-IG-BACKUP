@@ -30,13 +30,13 @@
        
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
-       with {{link:http://hl7.org/fhir/StructureDefinition/OperationOutcome}} <br><br>
-  {{tree: England-OperationOutcome, combined}}
+       with {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-OperationOutcome}} <br><br>
+  {{tree: https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, combined}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
-        from {{link:http://hl7.org/fhir/StructureDefinition/OperationOutcome}} <br><br>
-  {{tree: England-OperationOutcome, diff}}
+        from {{link:https://fhir.hl7.org.uk/StructureDefinition/UKCore-OperationOutcome}} <br><br>
+  {{tree: https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, diff}}
         </div>
         <div id="Constraints"  class="tab-pane">
 <br />
