@@ -101,7 +101,7 @@ select name, profile: '<a href="https://simplifier.net/resolve?target=simplifier
 |Element Id|ServiceRequest.extension:ERSAdviceAndGuidance|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|0..*|
 |[Slice Name](https://www.hl7.org/fhir/profiling.html#slicing)|ERSAdviceAndGuidance|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[Extension](https://www.hl7.org/fhir/datatypes.html#Extension)([ExtensionERSAdviceAndGuidance](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/Extension-ERS-Referral))|
+|[type](https://www.hl7.org/fhir/datatypes.html)|[Extension](https://www.hl7.org/fhir/datatypes.html#Extension)([ExtensionERSAdviceAndGuidance](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/Extension-England-ERSReferral))|
 
 <br/>
 
@@ -110,7 +110,7 @@ select name, profile: '<a href="https://simplifier.net/resolve?target=simplifier
  ```json
   "extension": [
         {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-ERS-Referral",
+            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-ERSReferral",
             "extension": [
                 {
                     "url": "sourceSystem",
@@ -132,7 +132,7 @@ select name, profile: '<a href="https://simplifier.net/resolve?target=simplifier
 |Element Id|ServiceRequest.extension:ERSServiceRequestState|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|0..*|
 |[Slice Name](https://www.hl7.org/fhir/profiling.html#slicing)|ERSServiceRequestState|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[Extension](https://www.hl7.org/fhir/datatypes.html#Extension)([ExtensionNHSDigitaleRSReferralState](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/Extension-eRS-ServiceRequest-State))|
+|[type](https://www.hl7.org/fhir/datatypes.html)|[Extension](https://www.hl7.org/fhir/datatypes.html#Extension)([ExtensionNHSDigitaleRSReferralState](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/Extension-England-ERSServiceRequestState))|
 
 <br/>
 
