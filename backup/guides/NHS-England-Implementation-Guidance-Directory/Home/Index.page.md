@@ -2,12 +2,14 @@
 
 This directory contains links to guidance and documentation deemed useful to implementers of NHS England Implementation Guides (IG's) 
 
-This directory is the starting point for all readers of NHSE Ig's. The purpose of this director is to list the IG landscape and what historical IG's have been created and what the current and future plan is for IG creation.
+This directory is the starting point for all readers of NHSE IG's. The purpose of this directory is to list the IG landscape including historical IG's as well as explain the plan for NHSE IG's going forward.
 
-All new FHIR assets will be developed in the  [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide).  Domain IG's will still be created to give guidance on a particular subject and help implementors understand the background, context and Use Cases of a domain. However these domain IG's FHIR Assets and profiles will be stored in the [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide).
+All new FHIR assets will be developed in the  [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide).  Domain IG's will still be created at project/programme level, to give guidance on a particular subject and help implementors understand the background, context and Use Cases of a domain. However these domain IG's FHIR Asset's and profiles will be stored in the [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide).
 
 
-Historical IG's in the list below will have profile and FHIR Assets contained within, so may be useful if you are working in the domain 
+Historical IG's in the list below will have profile and FHIR Assets contained within, so may be useful if you are working in that domain.
+
+Within the NHSE folder is an IG called [NHSE Design and Development Approach](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home?version=current) which gives detailed guidence to NHSE IG creators.
 
 | **Name**  | **Type**  |  **Description** |  **Publisher** | ** FHIR Version**|
 |---|---|---|---|---|
