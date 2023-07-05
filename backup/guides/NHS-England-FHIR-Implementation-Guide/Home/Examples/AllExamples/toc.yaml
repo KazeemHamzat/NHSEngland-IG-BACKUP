@@ -34,3 +34,5 @@
   filename: Task
 - name: CapabilityStatement
   filename: CapabilityStatement
+- name: ServiceRequest
+  filename: ServiceRequest

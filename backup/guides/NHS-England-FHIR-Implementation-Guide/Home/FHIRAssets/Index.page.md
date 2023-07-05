@@ -1,6 +1,4 @@
----
-topic: FHIR Assets
----
+## FHIR Assets
 
 This section lists all the FHIR assets which are available in this Implementation Guide.
 

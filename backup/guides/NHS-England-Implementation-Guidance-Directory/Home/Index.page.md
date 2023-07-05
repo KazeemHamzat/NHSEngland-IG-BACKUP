@@ -4,12 +4,19 @@ This directory contains links to guidance and documentation deemed useful to imp
 
 This directory is the starting point for all readers of NHSE IG's. The purpose of this directory is to list the IG landscape including historical IG's as well as explain the plan for NHSE IG's going forward.
 
+## Future NHSE IG Development
+
 All new FHIR assets will be developed in the  [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide).  Domain IG's will still be created at project/programme level, to give guidance on a particular subject and help implementors understand the background, context and Use Cases of a domain. However these domain IG's FHIR Asset's and profiles will be stored in the [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide).
 
-
-Historical IG's in the list below will have profile and FHIR Assets contained within, so may be useful if you are working in that domain.
-
 Within the NHSE folder is an IG called [NHSE Design and Development Approach](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home?version=current) which gives detailed guidence to NHSE IG creators.
+
+| **Name**  | **Type**  |  **Description** |  **Publisher** | ** FHIR Version**|
+|---|---|---|---|---|
+| [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide)  | 	Implementation Guidance  | 	Implementation Guidance for All NHS England FHIR Assets | NHS England  | R4 |
+| [NHS England Programme Implementation Guides](https://simplifier.net/nhs-england-programme-implementation-guides)  | Implementation Guidance  | NHS England Programme Implementation Guides  |  NHS England | R4 |
+
+## Historical NHSE IG Development
+Historical IG's in the list below will have profile and FHIR Assets contained within, so may be useful if you are working in that domain.
 
 | **Name**  | **Type**  |  **Description** |  **Publisher** | ** FHIR Version**|
 |---|---|---|---|---|
@@ -25,8 +32,7 @@ Within the NHSE folder is an IG called [NHSE Design and Development Approach](ht
 | [Diabetes](https://simplifier.net/diabetesinfosharing)  | Implementation Guidance  | Implementation Guide for Diabetes   | NHS England |R4|
 | [Genomics](https://simplifier.net/nhs-digital-fhir-genomics-implementation-guide)  | Implementation Guidance  | Implementation Guide for Genomics   | NHS England |R4|
 | [eRS](https://simplifier.net/ers) |Implementation Guidance  | Implementation Guide for Electronic referral Service   | NHS England  | R4 |
-| [NHS England Implementation Guide](https://simplifier.net/nhs-england-implementation-guide)  | 	Implementation Guidance  | 	Implementation Guidance for All NHS England FHIR Assets | NHS England  | R4 |
-| [NHS England Programme Implementation Guides](https://simplifier.net/nhs-england-programme-implementation-guides)  | Implementation Guidance  | NHS England Programme Implementation Guides  |  NHS England | R4 |
 |[EPMA Implementation Guidance for FHIR STU3](https://simplifier.net/epmaimplementationguidanceforstu3)   | Implementation Guidance  | Please note: This guidance has been superseded by the Implementation Guide for Digital Medicines, which contains up-to-date information.  | NHS England| STU3 |
 | [Dose Syntax Implementation Guidance for FHIR STU3](https://simplifier.net/dosesyntaxforstu3)  | Implementation Guidance  | Please note: This guidance has been superseded by the Implementation Guide for Dose Syntax, which contains up-to-date information.  |  NHS England | STU3|
 | [HL7 FHIR® CareConnect Baseline for STU3](https://simplifier.net/hl7fhircareconnectbaselineforstu3)  | Implementation Guidance  | This is the project and the implementation guide for the Care Connect STU3 assets.  |  NHS England | STU3|
+
