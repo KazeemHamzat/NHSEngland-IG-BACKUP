@@ -39,7 +39,10 @@
         </div>
 <div id="Examples"  class="tab-pane">
 
-None defined at present
+- {{pagelink:ServiceRequest-BARS}}
+- {{pagelink:ServiceRequest-ERS}}
+- {{pagelink:ServiceRequest-Active-ERS-Advice-And-Guidance}}
+- {{pagelink:ServiceRequest-Active-Patient-Referral}}
 <br/>
 
 </div>
