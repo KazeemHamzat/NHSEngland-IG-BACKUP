@@ -45,12 +45,10 @@ select key, human, severity, expression
 <div id="Examples"  class="tab-pane">
 
 - {{pagelink:MessageHeader-PrescriptionOrder}}
+<br/><br/>
 
 </div>
-</div>
-
 ---
-
 <br/>
 
  #### Definition
