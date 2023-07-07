@@ -15,13 +15,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:England-ServiceRequest-ActivePatientReferral-Example}}
+{{json:England-ServiceRequest-DraftERSAdviceAndGuidance-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:England-ServiceRequest-ActivePatientReferral-Example}}
+{{xml:England-ServiceRequest-DraftERSAdviceAndGuidance-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:England-ServiceRequest-ActivePatientReferral-Example}}
+{{tree:England-ServiceRequest-DraftERSAdviceAndGuidance-Example}}
     </div>
   </div>
 </div>
