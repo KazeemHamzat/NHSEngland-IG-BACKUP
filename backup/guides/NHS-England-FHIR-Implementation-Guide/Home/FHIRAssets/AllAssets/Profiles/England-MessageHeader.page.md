@@ -44,7 +44,7 @@ select key, human, severity, expression
 </div>
 <div id="Examples"  class="tab-pane">
 
-{{pagelink:MessageHeader-duplicate-3}}
+- {{pagelink:MessageHeader-PrescriptionOrder}}
 
 </div>
 </div>
@@ -78,11 +78,11 @@ The `Bundle.identifier`, the messageIdentifier, **MUST** have a UUID value.
 
 Systems may chose to map *X-Request-ID* header to the `Bundle.id`, messageId. If both are supplied to a `$process-message` endpoint it is recommended they hold the same values.
 
-MessageHeader can hold previous and extra messageId's in the {{https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID}}
+MessageHeader can hold previous and extra messageId's in the {{link:https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID}}
 
 #### Local Part/Addressing (sender and/or destination.receiver)
 
-When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
+When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{link:https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
 
 This concept is similar to email addresses `local-part@domain` and also HL7 version 2 combination of `Sending/Receiving Application | Sending/Receiving Facility` in the MSH segment.
 
@@ -311,7 +311,7 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 |----|----|
 |Element Id|MessageHeader.event[x]|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|1..1|
-|[Terminology Binding](https://www.hl7.org/fhir/terminologies.html)|[NHSMessageEvents](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/ValueSet/England-MessageEvents) (Required)|
+|[Terminology Binding](https://www.hl7.org/fhir/terminologies.html)|[England-MessageEvents](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/ValueSet/England-MessageEvents) (Required)|
 |[type](https://www.hl7.org/fhir/datatypes.html)|[Coding](https://www.hl7.org/fhir/datatypes.html#Coding)|
 
 <br/>

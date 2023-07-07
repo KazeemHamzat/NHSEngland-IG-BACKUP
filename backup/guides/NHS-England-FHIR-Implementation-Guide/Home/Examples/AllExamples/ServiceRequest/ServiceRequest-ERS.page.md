@@ -15,13 +15,13 @@
     
   <div class="tab-content snippet">
     <div id="JSON" role="tabpanel" class="tab-pane active">
-{{json:06570d9e-1dd7-49b6-8276-c903eef74b73}}
+{{json:England-Bundle-ERSServiceRequestState-Example}}
     </div>
     <div id="XML" role="tabpanel" class="tab-pane">
-{{xml:06570d9e-1dd7-49b6-8276-c903eef74b73}}
+{{xml:England-Bundle-ERSServiceRequestState-Example}}
     </div>
     <div id="Tree" role="tabpanel" class="tab-pane">
-{{tree:06570d9e-1dd7-49b6-8276-c903eef74b73}}
+{{tree:England-Bundle-ERSServiceRequestState-Example}}
     </div>
   </div>
 </div>
