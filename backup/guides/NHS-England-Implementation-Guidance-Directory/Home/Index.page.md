@@ -1,4 +1,4 @@
-# {{page-title}} 
+# NHS England Implementation Guidance Directory
 
 This directory contains links to guidance and documentation deemed useful to implementers of NHS England Implementation Guides (IG's) 
 
