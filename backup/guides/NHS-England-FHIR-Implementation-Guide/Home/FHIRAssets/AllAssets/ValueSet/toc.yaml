@@ -16,8 +16,10 @@
   filename: NHSDataDictionaryClinicalSpecialty.page.md
 - name: NHSDigital-Message-Events
   filename: NHSDigital-Message-Events.page.md
-- name: NHSDigital-OperationOutcome-Codes
-  filename: NHSDigital-OperationOutcome-Codes.page.md
+- name: England-OperationOutcome-Codes
+  filename: England-OperationOutcome-Codes.page.md
+- name: England-BARSMessageServiceRequestCategory
+  filename: England-BARSMessageServiceRequestCategory.page.md
 - name: covid-19-detection-of-virus
   filename: covid-19-detection-of-virus.page.md
 - name: covid-19-detection-of-antigen
