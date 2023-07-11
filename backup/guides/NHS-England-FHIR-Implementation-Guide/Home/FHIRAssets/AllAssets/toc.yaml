@@ -6,6 +6,8 @@
   filename: Extension
 - name: ValueSet
   filename: ValueSet
+- name: CodeSystem
+  filename: CodeSystem
 - name: ConceptMap
   filename: ConceptMap
 - name: SearchParameter

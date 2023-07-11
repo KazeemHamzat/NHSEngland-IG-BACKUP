@@ -11,7 +11,7 @@
 
 #### OperationOutcode CodeSystems
 
-- {{link:https://fhir.nhs.uk/CodeSystem/NHSD-API-ErrorOrWarningCode}}
+- {{pagelink:England-APIErrorOrWarningCode}}
 - {{link:https://fhir.nhs.uk/CodeSystem/Spine-ErrorOrWarningCode}}
 - {{link:https://fhir.nhs.uk/CodeSystem/EPS-IssueCode}}
 - {{link:https://fhir.nhs.uk/CodeSystem/http-error-codes}}

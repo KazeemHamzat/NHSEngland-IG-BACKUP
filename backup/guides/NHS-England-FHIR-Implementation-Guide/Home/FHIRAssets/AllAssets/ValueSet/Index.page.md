@@ -1,6 +1,6 @@
 #### ValueSet
 - {{pagelink:UKCore-England-organisation-type}}
-- {{pagelink:NHSDigital-OperationOutcome-Codes}}
+- {{pagelink:England-OperationOutcome-Codes}}
 - {{pagelink:organisation-role}}
 - {{pagelink:NHSDigital-Message-Events}}
 - {{pagelink:Message-Reason-Codes}}
