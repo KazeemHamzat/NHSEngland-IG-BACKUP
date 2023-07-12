@@ -1,5 +1,77 @@
 - name: Index
   filename: Index.page.md
+- name: England-BARSMessageServiceRequestCategory
+  filename: England-BARSMessageServiceRequestCategory.page.md
+- name: England-OperationOutcome-Codes
+  filename: England-OperationOutcome-Codes.page.md
+- name: England-CareSettingType
+  filename: England-CareSettingType.page.md
+- name: England-ClinicalSpecialty
+  filename: England-ClinicalSpecialty.page.md
+- name: New item
+  filename: New-item-duplicate-30.page.md
+- name: New item
+  filename: New-item-duplicate-32.page.md
+- name: New item
+  filename: New-item-duplicate-34.page.md
+- name: New item
+  filename: New-item-duplicate-4.page.md
+- name: New item
+  filename: New-item-duplicate-31.page.md
+- name: New item
+  filename: New-item-duplicate-28.page.md
+- name: New item
+  filename: New-item-duplicate-33.page.md
+- name: New item
+  filename: New-item-duplicate-27.page.md
+- name: New item
+  filename: New-item-duplicate-29.page.md
+- name: New item
+  filename: New-item-duplicate-17.page.md
+- name: New item
+  filename: New-item-duplicate-21.page.md
+- name: New item
+  filename: New-item-duplicate-26.page.md
+- name: New item
+  filename: New-item-duplicate-24.page.md
+- name: New item
+  filename: New-item-duplicate-16.page.md
+- name: New item
+  filename: New-item-duplicate-23.page.md
+- name: New item
+  filename: New-item-duplicate-20.page.md
+- name: New item
+  filename: New-item-duplicate-19.page.md
+- name: New item
+  filename: New-item-duplicate-15.page.md
+- name: New item
+  filename: New-item-duplicate-14.page.md
+- name: New item
+  filename: New-item-duplicate-18.page.md
+- name: New item
+  filename: New-item-duplicate-13.page.md
+- name: New item
+  filename: New-item-duplicate-12.page.md
+- name: New item
+  filename: New-item-duplicate-11.page.md
+- name: New item
+  filename: New-item-duplicate-22.page.md
+- name: New item
+  filename: New-item-duplicate-10.page.md
+- name: New item
+  filename: New-item-duplicate-9.page.md
+- name: New item
+  filename: New-item-duplicate-6.page.md
+- name: New item
+  filename: New-item-duplicate-3.page.md
+- name: New item
+  filename: New-item-duplicate-8.page.md
+- name: New item
+  filename: New-item-duplicate-7.page.md
+- name: New item
+  filename: New-item-duplicate-5.page.md
+- name: New item
+  filename: New-item-duplicate-25.page.md
 - name: UKCore-England-organisation-type
   filename: UKCore-England-organisation-type.page.md
 - name: Message-Reason-Codes
@@ -16,10 +88,6 @@
   filename: NHSDataDictionaryClinicalSpecialty.page.md
 - name: NHSDigital-Message-Events
   filename: NHSDigital-Message-Events.page.md
-- name: England-OperationOutcome-Codes
-  filename: England-OperationOutcome-Codes.page.md
-- name: England-BARSMessageServiceRequestCategory
-  filename: England-BARSMessageServiceRequestCategory.page.md
 - name: covid-19-detection-of-virus
   filename: covid-19-detection-of-virus.page.md
 - name: covid-19-detection-of-antigen

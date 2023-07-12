@@ -1,7 +1,5 @@
-## {{page-title}}
+## England CodeSystem APIErrorOrWarningCode
 
-<br>
-<br>
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'HTML View')">HTML View</button>
