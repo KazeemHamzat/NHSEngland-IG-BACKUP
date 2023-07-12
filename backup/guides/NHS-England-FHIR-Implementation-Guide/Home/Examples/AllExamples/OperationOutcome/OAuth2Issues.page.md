@@ -1,4 +1,4 @@
-### OAuth2 Issues
+### OAuth2 Issues: 
 
 <div class="nhsd-!t-margin-bottom-6">
   <ul class="nav nav-tabs" role="tablist">
