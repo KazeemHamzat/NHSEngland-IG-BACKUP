@@ -64,5 +64,7 @@
   filename: NHSDigital-Binary.page.md
 - name: England-Parameters-SubscriptionStatus
   filename: England-Parameters-SubscriptionStatus.page.md
-- name: England-Patient
-  filename: England-Patient.page.md
+- name: Profile-England-Patient
+  filename: Profile-England-Patient
+- name: Profile-England-OperationOutcome
+  filename: Profile-England-OperationOutcome
