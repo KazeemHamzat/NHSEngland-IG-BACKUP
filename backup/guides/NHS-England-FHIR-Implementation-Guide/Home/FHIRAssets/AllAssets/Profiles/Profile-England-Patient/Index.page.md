@@ -75,3 +75,59 @@ select
 <br>{ {pagelink:Example-UKCore-[profile]}}
 </div>
 </nocheck>
+
+---
+
+### Example Usage Scenarios
+
+The following are feasible use cases for the England Patient profile:
+
+- TBC. 
+
+---
+
+## Profile Specific Implementation Guidance: ##
+
+<h3>Minimum Viable Content</h3>
+
+A minimum viable content that all provider and consumer systems SHALL support are the following elements.
+
+<table class="assets">
+<tr>
+<th width="30%">Element</th>
+<th width="70%">Reason</th>
+</tr>
+<tr>
+<td><code>Patient.generalPractitioner</code></td>
+<td>The registered GP or GP practice for this patient.</td>
+</tr>
+</table>
+
+---
+
+## Bindings (differential)
+
+There are no bindings to England ValueSets.
+
+---
+
+## Constraints (differential)
+
+More information about the constraints on the <code>England-Patient</code> profile can be found below.
+
+<table class="assets">
+<tr>
+<th width="15%">Key</th>
+<th width="10%">Severity</th>
+<th width="30%">Expression</th>
+<th width="45%">Human Description</th>
+</tr>
+<tr>
+<td>patient-nhs</td>
+<td>error</td>
+<td>TO BE UPDATED</td>
+<td>TO BE UPDATED</td>
+</tr>
+</table>
+
+---

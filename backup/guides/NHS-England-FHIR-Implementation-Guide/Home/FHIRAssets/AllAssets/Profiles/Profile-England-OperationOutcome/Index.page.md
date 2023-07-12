@@ -5,8 +5,7 @@ topic: Profile-England-OperationOutcome
 # StructureDefinition-England-OperationOutcome
 
 <div id="transpose">
-
-@ ```
+@```
 from
 	StructureDefinition
 where
@@ -20,7 +19,7 @@ select
 </div>
 <br>
 
-@ ```
+@```
 from
 	StructureDefinition
 where
@@ -28,6 +27,7 @@ where
 select
 	Profile_Purpose: purpose
 ```
+<div id="transpose">
 
 <nocheck>
 <div class="tab fhirTree">
@@ -79,6 +79,26 @@ select
 <br> - {{pagelink:ValidationErrors}}
 <br>
 <br> - {{pagelink:OAuth2Issues}}
+<br>
 </div>
 </nocheck>
 <br>
+
+## Profile Specific Implementation Guidance:
+
+<h3>Minimum Viable Content</h3>
+
+A minimum viable content that all provider and consumer systems SHALL support are the following elements.
+
+<table class="assets">
+<tr>
+<th width="30%">Element</th>
+<th width="70%">Reason</th>
+</tr>
+<tr>
+<td><code>[element]</code></td>
+<td>[reason].</td>
+</tr>
+</table>
+
+---
