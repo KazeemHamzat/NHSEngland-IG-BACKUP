@@ -1,7 +1,5 @@
 - name: Index
   filename: Index.page.md
-- name: test
-  filename: test.page.md
 - name: Extensions
   filename: Extensions.page.md
 - name: Bindings

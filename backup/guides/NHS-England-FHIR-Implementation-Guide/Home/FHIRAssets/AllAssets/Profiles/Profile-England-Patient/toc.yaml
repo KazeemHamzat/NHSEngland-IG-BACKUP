@@ -2,3 +2,23 @@
   filename: Index.page.md
 - name: Extensions
   filename: Extensions.page.md
+- name: Bindings
+  filename: Bindings.page.md
+- name: Constraints
+  filename: Constraints.page.md
+- name: Patient.extension:medicalApplianceSupplier
+  filename: Patient.extension-medicalApplianceSupplier.page.md
+- name: Patient.extension:nominatedPharmacy
+  filename: Patient.extension-nominatedPharmacy.page.md
+- name: Patient.extension:preferredDispenserOrganization
+  filename: Patient.extension-preferredDispenserOrganization.page.md
+- name: Patient.identifier
+  filename: Patient.identifier.page.md
+- name: Patient.name
+  filename: Patient.name.page.md
+- name: Patient.name.use
+  filename: Patient.name.use.page.md
+- name: Patient.name.given
+  filename: Patient.name.given.page.md
+- name: Patient.telecom
+  filename: Patient.telecom.page.md

@@ -68,3 +68,7 @@
   filename: Profile-England-Patient
 - name: Profile-England-OperationOutcome
   filename: Profile-England-OperationOutcome
+- name: ExtensionLibrary
+  filename: ExtensionLibrary
+- name: ExtensionIndex
+  filename: ExtensionIndex
