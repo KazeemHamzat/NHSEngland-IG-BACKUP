@@ -11,7 +11,7 @@ More information about the bindings to NHS England ValueSets can be found below.
 <tr>
 <td><code>OperationOutcome.issue.details.coding<code></td>
 <td>extensible</td>
-<td>{{pagelink:England-OperationOutcome-Codes}}</td>
+<td>{{pagelink:England-OperationOutcomeCodes}}</td>
 </tr>
 
 </table>

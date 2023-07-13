@@ -1,5 +1,5 @@
 ## Bindings (differential)
 
-There are no bindings to England ValueSets.
+There are no bindings to NHS England ValueSets for Profile England-Patient.
 
 ---
