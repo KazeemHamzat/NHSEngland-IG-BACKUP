@@ -1,4 +1,4 @@
-## `generalPractitioner:registeredGPPractice`
+    ## `generalPractitioner:registeredGPPractice`
 
 <b>Definition:</b>
 
