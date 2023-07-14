@@ -48,7 +48,7 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-<b>Supporting Info Prescription</b>-TBC</br>
+<b>SpineSupportingInfoPrescription</b>-TBC</br>
 
 <br><br>
 </div>
