@@ -75,9 +75,9 @@ select
   
 Some examples to illustrate errors arising due to non-compliance to business rules guiding the exchange of patient details across systems.
 <br>
-<br> - {{pagelink:ValidationErrors}}
+<br> - {{pagelink:ValidationErrors, text:England-OperationOutcome-PatientFirstNameValidation}}
 <br>
-<br> - {{pagelink:OAuth2Issues}}
+<br> - {{pagelink:OAuth2Issues, text:England-OperationOutcome-PatientDetailsValidation}}
 <br>
 </div>
 </nocheck>
