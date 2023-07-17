@@ -1,6 +1,6 @@
 ## Constraints (differential)
 
-More information about the constraints on the <code>UKCore-[profile]</code> profile can be found below.
+More information about the constraints on the <code>England-Organization</code> profile can be found below.
 
 <table class="assets">
 <tr>
