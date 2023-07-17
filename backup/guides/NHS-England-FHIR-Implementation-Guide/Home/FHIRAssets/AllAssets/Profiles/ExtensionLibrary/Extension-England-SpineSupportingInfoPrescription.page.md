@@ -14,7 +14,7 @@ select
 
 <table id="addToTranspose">
 <tr><td>Context of Use</td>
-<td>{{pagelink:Profile-England-OperationOutcome-83857, text:OperationOutcome}}</td>
+<td>{{pagelink:Profile-England-OperationOutcome, text:OperationOutcome}}</td>
 </tr>
 </table>
 
