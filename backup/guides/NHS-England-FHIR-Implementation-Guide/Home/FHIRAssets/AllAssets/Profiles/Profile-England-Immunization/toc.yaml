@@ -1,11 +1,15 @@
 - name: Index
   filename: Index.page.md
+- name: Extensions
+  filename: Extensions.page.md
 - name: Bindings
   filename: Bindings.page.md
 - name: Constraints
   filename: Constraints.page.md
-- name: identifier
-  filename: identifier.page.md
+- name: identifier.system
+  filename: identifier.system.page.md
+- name: identifier.value
+  filename: identifier.value.page.md
 - name: status
   filename: status.page.md
 - name: vaccineCode
