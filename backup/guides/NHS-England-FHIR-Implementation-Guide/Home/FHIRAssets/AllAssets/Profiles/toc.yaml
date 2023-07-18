@@ -80,3 +80,7 @@
   filename: Profile-England-Provenance
 - name: Profile-England-Immunization
   filename: Profile-England-Immunization
+- name: Profile-England-Task
+  filename: Profile-England-Task
+- name: Profile-England-Practitioner
+  filename: Profile-England-Practitioner

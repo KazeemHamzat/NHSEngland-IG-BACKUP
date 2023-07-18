@@ -56,4 +56,3 @@ select
 
 
 ---
-## {{page-title}}
