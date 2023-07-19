@@ -71,9 +71,10 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-  <b>TBC</b> - TBC
+  <b>An example to illustrate medication prescription</b> 
   <br>
-  {{pagelink:England-MedicationRequest-DMPrescriptionType-Example}}
+  <br>
+  {{pagelink:MedicationRequest-DMPrescriptionType}}
   <br><br>
 </div>
 <nocheck>

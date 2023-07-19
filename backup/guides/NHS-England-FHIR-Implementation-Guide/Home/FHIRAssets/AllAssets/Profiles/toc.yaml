@@ -90,3 +90,5 @@
   filename: Profile-England-MedicationRequest
 - name: Profile-England-MessageHeader
   filename: Profile-England-MessageHeader
+- name: Profile-England-HealthcareService
+  filename: Profile-England-HealthcareService

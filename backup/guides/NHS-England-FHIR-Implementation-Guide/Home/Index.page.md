@@ -55,7 +55,7 @@ See {{pagelink:Implementation-Support}} for more details.
      Consent
      </td>
      <td>
-   {{pagelink:NHSDigital-MessageHeader}} 
+   {{pagelink:Profile-England-MessageHeader, text:England-MessageHeader}} 
      </td>
    </tr>
     <tr>

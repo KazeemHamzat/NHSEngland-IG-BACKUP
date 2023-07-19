@@ -36,3 +36,5 @@
   filename: CapabilityStatement
 - name: ServiceRequest
   filename: ServiceRequest
+- name: MedicationRequest
+  filename: MedicationRequest
