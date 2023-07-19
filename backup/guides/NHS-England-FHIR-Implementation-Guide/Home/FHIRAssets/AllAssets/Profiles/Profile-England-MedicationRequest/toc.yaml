@@ -12,3 +12,11 @@
   filename: extension-prescriptionEndorsement.page.md
 - name: extension:prescriptionTaskStatusReason
   filename: extension-prescriptionTaskStatusReason.page.md
+- name: extension:NHSBSAprescriptionType
+  filename: extension-NHSBSAprescriptionType.page.md
+- name: extension:controlledDrug
+  filename: extension-controlledDrug.page.md
+- name: extension:dispensingInformation
+  filename: extension-dispensingInformation.page.md
+- name: New item
+  filename: New-item-duplicate-2.page.md
