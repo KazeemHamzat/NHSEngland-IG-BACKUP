@@ -2,8 +2,9 @@
 
 <b>Definition</b><br>
 
-Where status is `completed` this is Mandatory. This indicates vaccine product administered. This should be a SNOMED CT code from {{link:https://fhir.hl7.org.uk/ValueSet/UKCore-VaccineCode}}
-AMPP codes should not be used.
+Where status is `completed` this is Mandatory. This indicates vaccine product administered. <br>Please see [ProfileUKCore-Immunization](https://simplifier.net/guide/UK-Core-Implementation-Guide/Home/ProfilesandExtensions/ProfileUKCore-Immunization) for more details.
+
+<br>
 
 <table>
 <thead>
@@ -95,7 +96,7 @@ COVID-19 vaccines
 
 <br>
 
-For EU/international purposes, a vaccination type code can be also be included. The SNOMED CT concept should be from [Vaccines (GPS) - IPS](http://hl7.org/fhir/uv/ips/ValueSet/vaccines-gps-uv-ips) and [EU SNOMED CT Vaccine List (COVID-19)](https://build.fhir.org/ig/hl7-eu/dgc/ValueSet-sct-vaccines-covid-19.html)
+For EU/international purposes, a vaccination type code can be also be included. The SNOMED CT concept should be from [Vaccines (GPS) - IPS]() and [EU SNOMED CT Vaccine List (COVID-19)]()
 
 ```json
 "vaccineCode": {

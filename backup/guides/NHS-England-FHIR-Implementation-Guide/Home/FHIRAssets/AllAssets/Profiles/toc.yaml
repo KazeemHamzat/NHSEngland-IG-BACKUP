@@ -84,3 +84,9 @@
   filename: Profile-England-Task
 - name: Profile-England-Practitioner
   filename: Profile-England-Practitioner
+- name: Profile-England-PractitionerRole
+  filename: Profile-England-PractitionerRole
+- name: Profile-England-MedicationRequest
+  filename: Profile-England-MedicationRequest
+- name: Profile-England-MessageHeader
+  filename: Profile-England-MessageHeader
