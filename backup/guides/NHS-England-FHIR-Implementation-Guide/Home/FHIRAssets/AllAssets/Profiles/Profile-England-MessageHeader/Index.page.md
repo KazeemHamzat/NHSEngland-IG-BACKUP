@@ -2,7 +2,7 @@
 topic: Profile-England-MessageHeader
 ---
 
-# StructureDefinition-England-OperationOutcome
+# StructureDefinition-England-MessageHeader
 
 <div id="transpose">
 @```
@@ -41,43 +41,41 @@ select
 
 <div id="Snapshot View" class="tabcontent" style="display:block">
   <h3>Snapshot View</h3>
-{{tree:https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, snapshot}}
+{{tree:https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, snapshot}}
 </div>
 
 <div id="Differential View" class="tabcontent">
   <h3>Differential View</h3>
-{{tree:https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, diff}}
+{{tree:https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, diff}}
 </div>
 
 <div id="Hybrid View" class="tabcontent">
   <h3>Hybrid View</h3>
-{{tree:https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, hybrid}}
+{{tree:https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, hybrid}}
 </div>
 
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, snapshot}}
+{{table:https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, snapshot}}
 </div>
 
 <div id="XML View" class="tabcontent">
   <h3>XML View</h3>
-{{xml:https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, snapshot}}
+{{xml:https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, snapshot}}
 </div>
 
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.nhs.uk/StructureDefinition/England-OperationOutcome, snapshot}}
+{{json:https://fhir.nhs.uk/StructureDefinition/England-MessageHeader, snapshot}}
 </div>
 
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
   
-Some examples to illustrate errors arising due to non-compliance to business rules guiding the exchange of patient details across systems.
+An example to illustrate the message header of a prescription order
 <br>
-<br> - {{pagelink:ValidationErrors, text:England-OperationOutcome-PatientFirstNameValidation}}
-<br>
-<br> - {{pagelink:OAuth2Issues, text:England-OperationOutcome-PatientDetailsValidation}}
+<br> {{pagelink:MessageHeader-PrescriptionOrder}}
 <br>
 </div>
 </nocheck>

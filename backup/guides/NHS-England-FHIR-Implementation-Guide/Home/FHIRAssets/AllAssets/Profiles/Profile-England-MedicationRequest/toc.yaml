@@ -6,5 +6,9 @@
   filename: Bindings.page.md
 - name: Constraints
   filename: Constraints.page.md
-- name: New item
-  filename: New-item.page.md
+- name: extension:responsiblePractitioner
+  filename: extension-responsiblePractitioner.page.md
+- name: extension:prescriptionEndorsement
+  filename: extension-prescriptionEndorsement.page.md
+- name: extension:prescriptionTaskStatusReason
+  filename: extension-prescriptionTaskStatusReason.page.md
