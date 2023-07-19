@@ -1,6 +1,6 @@
 ## Bindings (differential)
 
-More information about the bindings to UK Core ValueSets can be found below.
+More information about the bindings to England ValueSets can be found below.
 
 <table class="assets">
 <tr>

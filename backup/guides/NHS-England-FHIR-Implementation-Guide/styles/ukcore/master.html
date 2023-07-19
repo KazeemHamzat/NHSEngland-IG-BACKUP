@@ -417,6 +417,8 @@
     <!-- Ensures footer is at the bottom of the page -->
     <script>
         $(function () {
+            transposeFQLTables();
+            tidyUpFQLTables();
             updateFooterPosition();
         });
 
@@ -429,6 +431,106 @@
             var heightShortage = $(document).height() - bottomOfFooter;
             if (heightShortage < 0) heightShortage = 0;
             $('footer').css('margin-top', heightShortage);
+        }
+
+         // function alters styling of FQL tables
+            function tidyUpFQLTables() {
+                //fix the contents of FQL table headers
+                // specifically swap _ for spaces, and change ProfilePurpose to have a space
+                $('table.table-bordered > thead > tr > th').each(function(index) {
+                    if ($(this).text() == 'ProfilePurpose') {
+                            $(this).text('Profile Purpose');
+                    }
+                    $(this).text($(this).text().split("_").join(" "));
+                });
+
+                //for any remaining FQL tables, remove the scrollbar, and add our UKCore assets and forceWhite class
+                $('table.table-bordered').each(function(index) {
+                    $(this)[0].dataset.noSort = 0;
+                });
+            }
+
+         // function to turn multiple columns into rows for an fql table, within a specific div
+        function transposeFQLTables() {
+            //look for a div with id transpose
+            $('div#transpose div.nhsd-m-table').each(function(index) {
+                //within this div, look for an fql table
+                var fqlTable = $(this).children("table.table-bordered");
+                //and optionally a 2 column table you want to combine with the transposed one
+                var contextTable = $(this).children("table#addToTranspose");
+
+                //only continue to transpose if we have an fql table
+                if (fqlTable != undefined && fqlTable.length > 0) {
+
+                //create a new table to be populated during the transpose
+                var newTable = document.createElement('table');
+                newTable.dataset.noSort = 0;
+                newTable.classList.add("table-bordered");
+                newTable.classList.add("scrollbar");
+                
+                // Find the max number of columns in the fql table
+                var maxColumns = 0;
+                for(var r = 0; r < fqlTable[0].rows.length; r++) {
+                    if(fqlTable[0].rows[r].cells.length > maxColumns) {
+                        maxColumns = fqlTable[0].rows[r].cells.length;
+                    }
+                }                   
+
+                //create the header row
+                let header = newTable.createTHead();
+                let headerRow = header.insertRow();
+                headerRow.innerHTML= '<th colspan=2>Profile Details</th>';
+
+                //populate the body by transposing columns to rows
+                let body = newTable.createTBody();
+                for(var c = 0; c < maxColumns; c++) {
+                    let addedRow = body.insertRow(c);
+                    var isCanonicalURL = false;
+                    for(var r = 0; r < fqlTable[0].rows.length; r++) {
+                        if(r==0) {
+                            if (fqlTable[0].rows[r].cells[c].innerText == "Canonical_URL"){
+                                isCanonicalURL= true;
+                            }
+                            addedRow.insertCell(r);
+                            addedRow.cells[r].innerHTML = "<b>" + fqlTable[0].rows[r].cells[c].innerHTML.split("_").join(" ") + "</b>";
+                            addedRow.cells[r].classList.add('width20');
+                        }
+                        else {
+                            addedRow.insertCell(r);
+
+                            pTag = "<p>";
+                            pTagClose = "</p>"
+                            if (isCanonicalURL) {
+                                str = fqlTable[0].rows[r].cells[c].innerText;
+                            } else {
+                                str = fqlTable[0].rows[r].cells[c].innerHTML;
+                            }
+
+                            str = str.replace(pTag, '');
+                            str = str.replace(pTagClose, '');
+                            addedRow.cells[r].innerHTML = str;
+                        }
+                    }
+                }
+
+                //optionally add rows from a two column table to be joined to the bottom of the transposed table
+                if (contextTable != undefined && contextTable.length > 0) {
+                    let addedRow = body.insertRow(c);
+                    for(var r = 0; r < contextTable[0].rows.length; r++) {
+                        addedRow.insertCell(-1);
+                        addedRow.cells[0].innerHTML = "<b>" + contextTable[0].rows[r].cells[0].innerHTML.split("_").join(" ") + "</b>";
+                        addedRow.cells[0].classList.add('width20');
+                        addedRow.insertCell(-1);
+                        addedRow.cells[1].innerHTML = contextTable[0].rows[r].cells[1].innerHTML;
+                    }
+                }
+
+                //add the transposed table to the div, and remove the other tables
+                $(this).append(newTable);
+                fqlTable.remove();
+                contextTable.remove();
+                }
+            });
         }
     </script>
 

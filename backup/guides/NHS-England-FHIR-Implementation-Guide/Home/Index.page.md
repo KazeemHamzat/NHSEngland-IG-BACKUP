@@ -41,7 +41,7 @@ See {{pagelink:Implementation-Support}} for more details.
    {{pagelink:NHSDigital-CapabilityStatement}}   
     </td>
     <td>
- {{pagelink:NHSDigital-Provenance}}
+ {{pagelink:Profile-England-Provenance, text:England-Provenance}}
     </td>
     <td>
  {{pagelink:NHSDigital-Bundle}}      
@@ -66,7 +66,7 @@ See {{pagelink:Implementation-Support}} for more details.
      AuditEvent
      </td>
      <td>
-  {{pagelink:NHSDigital-OperationOutcome}} 
+  {{pagelink:Profile-England-OperationOutcome, text:England-OperationOutcome}} 
      </td>
    </tr>
    </tbody>
@@ -165,7 +165,7 @@ and {{pagelink:Medications}} supplements.
        {{pagelink:NHSDigital-Observation}}
     </td>
     <td>
-{{pagelink:NHSDigital-Immunization}}  
+{{pagelink:Profile-England-Immunization, text:England-Immunization}}  
     <td>
 {{pagelink:NHSDigital-ServiceRequest}}  
     </td>
