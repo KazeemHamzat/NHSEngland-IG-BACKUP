@@ -1,2 +1,10 @@
 - name: Index
   filename: Index.page.md
+- name: Extension
+  filename: Extension.page.md
+- name: Binding
+  filename: Binding.page.md
+- name: Constraints
+  filename: Constraints.page.md
+- name: Identifier
+  filename: Identifier.page.md

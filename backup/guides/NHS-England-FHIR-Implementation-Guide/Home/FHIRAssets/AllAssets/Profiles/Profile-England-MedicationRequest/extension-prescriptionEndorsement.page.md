@@ -5,23 +5,27 @@ The codes are contained in the valueset
 
 | Code| Dispaly | 
 |--
-|cc |Contraceptive |
-|FS | Sexual Health |
-|ACBS |Advisory Committee on Borderline Substances. Part XV Drug Tariff| 
-| SLS |Selected List Scheme.Part XVIIIB Drug Tariff| 
- | AF |Food replacement/food supplement products.| 
+|cc|Contraceptive |
+|FS| Sexual Health |
+|ACBS|Advisory Committee on Borderline Substances. Part XV Drug Tariff| 
+|SLS|Selected List Scheme.Part XVIIIB Drug Tariff| 
+|AF|Food replacement/food supplement products.| 
 
 <br>
 
 ```json
 
 "resourceType": "MedicationRequest",
-"extension":
-[
-    "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionEndorsement",
-    "valueCodeableConcept": {
-        "coding": "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-endorsement",
-        "code": "SLS",
-        "display": "Selected List Scheme"
-    }
-]
+{
+    "extension":
+    [
+        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionEndorsement",
+        "valueCodeableConcept": {
+            "coding": "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-endorsement",
+            "code": "SLS",
+            "display": "Selected List Scheme"
+        }
+    ]
+}
+
+````

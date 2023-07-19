@@ -7,19 +7,20 @@ Must only be populated if the  `requester` can not be responsible for the prescr
     
 ```json
 
-"extension": [
+{
+    "extension": [
 
-    "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-ResponsiblePractitioner",
+        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-ResponsiblePractitioner",
 
-    "valueReference":
-    {
+        "valueReference": {
 
-        "reference": "urn:uuid:a5acefc1-f8ca-4989-a5ac-34ae36741466",
+            "reference": "urn:uuid:a5acefc1-f8ca-4989-a5ac-34ae36741466",
 
-        "display": "DR SAZ RAZ"
+            "display": "DR SAZ RAZ"
 
-    }
+        }
 
-]
+    ]
+}
 
 ````
