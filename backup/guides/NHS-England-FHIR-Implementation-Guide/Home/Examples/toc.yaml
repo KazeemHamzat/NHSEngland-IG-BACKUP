@@ -2,7 +2,7 @@
   filename: Index.page.md
 - name: Example-England-OperationOutcome-PatientFirstNameValidation
   filename: Example-England-OperationOutcome-PatientFirstNameValidation.page.md
-- name: New item
-  filename: New-item.page.md
+- name: Example-England-OperationOutcome-PatientDetailsValidation
+  filename: Example-England-OperationOutcome-PatientDetailsValidation.page.md
 - name: All Examples
   filename: AllExamples
