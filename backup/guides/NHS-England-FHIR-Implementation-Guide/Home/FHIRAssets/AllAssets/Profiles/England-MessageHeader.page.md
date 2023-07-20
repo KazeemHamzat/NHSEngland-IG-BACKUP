@@ -392,7 +392,7 @@ The recipient of a message takes the responsibility of delivering to all the `de
 
  The current requirement in NHS Engl API's is to rely on the [Access Tokens and Audit (JWT)](https://developer.nhs.uk/apis/spine-core/security_jwt.html) for sender details.
 
-For use outside of NHS Digital it is recommended this is populated with either the Organisation ODS code or the Practitioner's professional code.
+For use outside of NHS England it is recommended this is populated with either the Organisation ODS code or the Practitioner's professional code.
 
 ```json
 "sender": {

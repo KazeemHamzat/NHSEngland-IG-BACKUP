@@ -16,16 +16,18 @@ The codes are contained in the valueset
 ```json
 
 "resourceType": "MedicationRequest",
-{
-    "extension":
-    [
-        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionEndorsement",
-        "valueCodeableConcept": {
-            "coding": "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-endorsement",
-            "code": "SLS",
-            "display": "Selected List Scheme"
-        }
-    ]
-}
+...
+"extension":
+[
+    "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionEndorsement",
+    "valueCodeableConcept": {
+        "coding": "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-endorsement",
+        "code": "SLS",
+        "display": "Selected List Scheme"
+    }
+    ...
+]
+
 
 ````
+

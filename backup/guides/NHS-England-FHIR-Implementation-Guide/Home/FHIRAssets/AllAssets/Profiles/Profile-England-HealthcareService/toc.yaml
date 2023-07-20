@@ -8,3 +8,21 @@
   filename: Constraints.page.md
 - name: identifier
   filename: identifier.page.md
+- name: providedBy
+  filename: providedBy.page.md
+- name: type
+  filename: type.page.md
+- name: type.coding:eRSAppointmentType
+  filename: type.coding-eRSAppointmentType.page.md
+- name: specialty
+  filename: specialty.page.md
+- name: location
+  filename: location.page.md
+- name: name
+  filename: name.page.md
+- name: telecom
+  filename: telecom.page.md
+- name: availableTime
+  filename: availableTime.page.md
+- name: endpoint
+  filename: endpoint.page.md

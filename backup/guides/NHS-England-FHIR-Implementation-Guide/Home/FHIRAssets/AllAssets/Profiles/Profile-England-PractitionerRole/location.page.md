@@ -27,5 +27,3 @@ For EPS, currently a *Resource reference* is required.
   ]
 ```
 
----
-
