@@ -16,14 +16,4 @@ For example the event code `dispense-notification` has a MessageDefinition of [h
 }
 ```
 
-#### Requirements
-
- Drives the behaviour associated with this message.
-
- #### Comment
-
- The time of the event will be found in the focus resource. The time of the message will be found in [Bundle.timestamp](http://hl7.org/fhir/R4/bundle-definitions.html#Bundle.timestamp).
-
- 
 ---
-

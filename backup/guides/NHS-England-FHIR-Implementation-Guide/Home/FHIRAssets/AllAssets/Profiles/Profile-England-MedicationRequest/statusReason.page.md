@@ -10,13 +10,14 @@ This is mandatory for 'prescription-order-update' messages.
 
 ```json
 
-    "statusReason": [{
-            "coding": {
-                "system": "https: //fhir.nhs.uk/CodeSystem/medicationrequest-status-reason",
-                "code": "0001",
-                "display": "Prescribing Error"
-            }
+"statusReason": {
+    "coding": [
+        {
+            "system": "https://fhir.nhs.uk/CodeSystem/medicationrequest-status-reason",
+            "code": "0001",
+            "display": "Prescribing Error"
         }
     ]
+}
 
  ````       

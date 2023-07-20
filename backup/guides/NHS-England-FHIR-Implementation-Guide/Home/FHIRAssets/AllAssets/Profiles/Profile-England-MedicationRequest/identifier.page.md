@@ -10,9 +10,11 @@ Each MedicationRequest MUST be identified by an Universal Unique Identifiers (UU
 
 ```json
 
- "extension": [
-                "url ": " https://fhir.nhs.uk/Id/prescription-order-item-number",
-                "value": "54219b8-f741-4c47-b662-e4f8dfa49ab6"
-            ]
+ "identifier":  [
+    {
+        "system": "https://fhir.nhs.uk/Id/prescription-order-item-number",
+        "value": "a54219b8-f741-4c47-b662-e4f8dfa49ab6"
+    }
+]
 
  ```` 

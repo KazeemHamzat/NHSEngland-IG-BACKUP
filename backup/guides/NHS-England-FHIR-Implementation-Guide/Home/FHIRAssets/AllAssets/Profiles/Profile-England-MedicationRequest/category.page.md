@@ -17,14 +17,16 @@ In primary care the code of `community` should be used. In secondary care the ca
 
 ```json  
 
-	"category": [{
-	        "coding": [{
-	                "system": "http: //terminology.hl7.org/CodeSystem/medicationrequest-category",
-	                "code": "outpatient",
-	                "display": "Outpatient"
-	            }
-	        ]
-	    }
-	]
+"category": [
+    {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
+                "code": "outpatient",
+                "display": "Outpatient"
+            }
+        ]
+    }
+],
 
  ````     

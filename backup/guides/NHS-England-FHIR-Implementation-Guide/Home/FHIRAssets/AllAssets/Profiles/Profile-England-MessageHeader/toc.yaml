@@ -14,5 +14,15 @@
   filename: destination.page.md
 - name: sender
   filename: sender.page.md
+- name: sender.identifier
+  filename: sender.identifier.page.md
 - name: author
   filename: author.page.md
+- name: source
+  filename: source.page.md
+- name: reason
+  filename: reason.page.md
+- name: response
+  filename: response.page.md
+- name: focus
+  filename: focus.page.md

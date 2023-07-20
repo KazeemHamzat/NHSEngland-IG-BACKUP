@@ -23,12 +23,4 @@ For use outside of NHS England it is recommended this is populated with either t
 }
 ```
 
- #### Requirements
-
- Allows routing beyond just the application level.
-
- #### Comment
-
- Use case is for where a (trusted) sending system is responsible for multiple organisations, and therefore cannot differentiate based on source endpoint / authentication alone.
-
  ---
