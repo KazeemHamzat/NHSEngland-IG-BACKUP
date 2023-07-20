@@ -76,20 +76,17 @@ select
 
 <br>{{pagelink:Example-England-OperationOutcome-PatientFirstNameValidation}}
 <br><br>
-<br> - {{pagelink:OAuth2Issues, text:England-OperationOutcome-PatientDetailsValidation}}
-<br>
+
+<b>OperationOutcome</b> -  An example to illustrate PatientDetailsValidation.
+
+<br>{{pagelink:Example-England-OperationOutcome-PatientDetailsValidation}}
+<br><br>
 </div>
 </nocheck>
-<br>
 
 ---
 
 ## Profile Specific Implementation Guidance: ##
 
-<div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-<b>Allergy</b> - An example to illustrate an allergy to medication.
-<br>{{pagelink:Example-UKCore-AllergyIntolerance}}
-<br><br>
 
 ---
