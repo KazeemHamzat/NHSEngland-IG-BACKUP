@@ -24,8 +24,4 @@ The recipient of a message takes the responsibility of delivering to all the `de
                 ]
 ```
 
- #### Comment
-
- There SHOULD be at least one destination, but in some circumstances, the source system is unaware of any particular destination system.
-
- ---
+---

@@ -7,11 +7,11 @@ A resource reference to a Patient with a traced NHS Number is required, an untra
 
 ```json
  
-	 "subject": {
-	     "type": "Patient",
-	     "reference": "urn: uuid: bde9eba6 - 079f - 4210 - 8108 - 6ea8db58de8c",
-	     "display": "Miss Bernie Kanfeld"
-	 }
+"subject": {
+                    "type": "Patient",
+                    "reference": "urn:uuid:bde9eba6-079f-4210-8108-6ea8db58de8c",
+                    "display": "Miss Bernie Kanfeld"
+                }
 
 	 
  ````   
