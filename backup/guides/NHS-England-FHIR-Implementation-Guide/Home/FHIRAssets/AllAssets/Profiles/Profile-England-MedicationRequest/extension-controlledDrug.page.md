@@ -12,14 +12,16 @@ The table below summarises the EPS requirements for the CD schedules. The terms 
 | 5 | CD5 | Hand signature or electronic signature | In scope | 6 Months | Figures | Yes | 6 months | Up to 12 months |
 
 
-It is a legal requirement to state the prescribed quantity as words in the `quantityWords`;
+It is a legal requirement to state the prescribed quantity as words in the `quantityWords`.
+
+<br>
 
 ```json
-{
+
     "extension": [
         " url ": " https://fhir.nhs.uk/StructureDefinition/Extension-DM-ControlledDrug",
         "quantityWords", {
-            "valueString": "twenty eight",
+            "valueString": "twenty eight"
         }
         "schedule", [
             "valueCoding ": {
@@ -29,22 +31,6 @@ It is a legal requirement to state the prescribed quantity as words in the `quan
             }
         ]
     ]
-}
 
-"extension": [
-    " url ": " "https: //fhir.nhs.uk/StructureDefinition/Extension-EPS-DispensingInformation",
-" url":
-        dispenseStatus;
-        "valueCoding": {
-        "system":"https: //fhir.nhs.uk/CodeSystem/medicationdispense-type"
-        "code": "0001",
-         "display":"Item fully dispensed",
-        }
-    }, {
-        url;
-        dateLastDispensed;
-        valueDateTime;
-        2018 - 04 - 22T09: 57: 03 + 00: 00;
-    }
-]
+
 ````        
