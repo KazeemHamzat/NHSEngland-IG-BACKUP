@@ -70,9 +70,33 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
+<br>
   <h3>Examples</h3>
-<b>[profile]</b> - An example to illustrate the [reason for example].
-<br>{ {pagelink:Example-UKCore-[profile]}}
+<b>Practitioner</b> - An example to illustrate the Basic Practitioner.
+
+<br>{{pagelink:Example-England-Practitioner-BasicPractitioner}}
+<br><br>
+
+<b>Practitioner</b> - An example to illustrate the practitioner who is a consultant.
+
+<br>{{pagelink:Example-England-Practitioner-Consultant}}
+<br><br>
+
+<b>Practitioner</b> -  An example to illustrate the general practitioner.
+
+<br>{{pagelink:Example-England-Practitioner-GP}}
+<br><br>
+
+<b>Practitioner</b> - An example to illustrate the practitioner who is a nurse.
+
+<br>{{pagelink:Example-England-Practitioner-Nurse}}
+<br><br>
+
+<b>Practitioner</b> - An example to illustrate to validate practitioner.
+
+<br>{{pagelink:Example-England-Practitioner-Validation}}
+<br><br>
+
 </div>
 </nocheck>
 

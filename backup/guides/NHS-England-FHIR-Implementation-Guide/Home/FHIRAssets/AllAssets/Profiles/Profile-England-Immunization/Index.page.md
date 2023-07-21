@@ -72,12 +72,6 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-Some examples to illustrate the data capture requirements for the administration of Vaccinne types and the location of administration.
-
-
-<div id="Examples" class="tabcontent">
-<br>
-  <h3>Examples</h3>
   <b>Bundle</b> - An example to illustrate the Patient Immunization Query.
 
 <br>{{pagelink:Example-England-Bundle-PatientImmunizationQuery}}

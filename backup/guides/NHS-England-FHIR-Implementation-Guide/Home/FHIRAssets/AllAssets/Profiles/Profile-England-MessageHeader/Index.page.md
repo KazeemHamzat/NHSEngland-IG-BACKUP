@@ -72,14 +72,14 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  
-An example to illustrate the message header of a prescription order
-<br>
-<br> {{pagelink:MessageHeader-PrescriptionOrder}}
-<br>
+  <b>MessageHeader</b> - An example to illustrate a message header for prescription order.
+
+<br>{{pagelink:Example-England-MessageHeader-PrescriptionOrder}}
+<br><br>
+
 </div>
 </nocheck>
-<br>
+
 
 ---
 
@@ -297,5 +297,10 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 - MessageHeader.extension(messageId)
 
  Endpoints **MUST** point to valid endpoint uri's on each leg of the messages journey, they may not refer to inaccessible endpoints on other legs. See also the destination section below.
+
+
+---
+
+## Profile Specific Implementation Guidance: ##
 
 ---
