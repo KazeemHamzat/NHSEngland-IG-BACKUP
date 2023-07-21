@@ -73,24 +73,40 @@ select
 <br>
   <h3>Examples</h3>
 Some examples to illustrate the data capture requirements for the administration of Vaccinne types and the location of administration.
+
+
+<div id="Examples" class="tabcontent">
 <br>
-<table>
-<tr><td>
-  {{pagelink:Immunization-history-search}}
-</td></tr>
-<tr><td>
-   {{pagelink:vaccination-covid19-1st-dose}}
-</td></tr>
-<tr><td>
- {{pagelink:vaccination-covid19-2nd-dose}}  
-</td></tr>
-<tr><td>
-   {{pagelink:vaccination-covid19-not-given}}
-</td></tr>
-<tr><td>
-   {{pagelink:vaccination-covid19-international}}
-</td></tr>
-</table>
+  <h3>Examples</h3>
+  <b>Bundle</b> - An example to illustrate the Patient Immunization Query.
+
+<br>{{pagelink:Example-England-Bundle-PatientImmunizationQuery}}
+<br><br>
+
+<b>Immunization</b> -  An example to illustrate the Administration Of SARS-CoV-2  First Dose.
+
+
+<br>{{pagelink:Example-England-Immunization-AdministrationOfSARSCoV2FirstDose}}
+<br><br>
+
+<b>Immunization</b> -  An example to illustrate the Administration Of SARS-CoV-2  Second Dose.
+
+
+<br>{{pagelink:Example-England-Immunization-AdministrationOfSARSCoV2SecondDose}}
+<br><br>
+
+<b>Immunization</b> -  An example to illustrate the SARS-CoV-2 Not Administered.
+
+
+<br>{{pagelink:Example-England-Immunization-SARSCoV2NotAdministered}}
+<br><br>
+
+<b>Immunization</b> -  An example to illustrate the Vaccination Performer.
+
+
+<br>{{pagelink:Example-England-Immunization-VaccinationPerformer}}
+<br><br>
+
 </div>
 </nocheck>
 

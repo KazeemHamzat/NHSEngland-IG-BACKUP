@@ -1,1 +1,2 @@
 ### All Assets
+{{index:current}}

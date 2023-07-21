@@ -1,3 +1,0 @@
-## Examples
-
-- {{pagelink:Listing-AllExamples}}

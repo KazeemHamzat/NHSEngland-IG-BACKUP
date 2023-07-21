@@ -72,13 +72,13 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  An example to illustrate the history and authority for patient medication requestor
-<br>
-<br>{{pagelink:Provenance, text:Example: England-Provenance-PatientMedicationRequestor}}
-<br>
+  <b>Location</b> - An example to illustrate the history and authority for patient medication requestor.
+
+<br>{{pagelink:Example-England-Provenance-PatientMedicationRequestor}}
+<br><br>
+
 </div>
 </nocheck>
-<br>
 
 ---
 
