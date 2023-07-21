@@ -70,14 +70,16 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
+<br>
   <h3>Examples</h3>
-  <b>An example to illustrate medication prescription</b> 
-  <br>
-  <br>
-  {{pagelink:MedicationRequest-DMPrescriptionType}}
-  <br><br>
+  <b>OperationOutcome</b> -  An example to illustrate medication prescription.
+
+<br>{{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
+<br><br>
+
 </div>
-<nocheck>
+</nocheck>
+
 
 ---
 

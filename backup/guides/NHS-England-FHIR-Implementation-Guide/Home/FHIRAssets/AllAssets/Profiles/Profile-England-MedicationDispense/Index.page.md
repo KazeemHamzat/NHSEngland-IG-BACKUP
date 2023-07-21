@@ -74,12 +74,12 @@ select
   <h3>Examples</h3>
   <b>MedicationDispense</b> - An example to illustrate PatientFirstNameValidation.
 
-<br>{{pagelink:Example-England-MedicationDispense-PatientFirstNameValidation}}
+<br>{{pagelink:TBC}}
 <br><br>
 
 <b>MedicationDispense</b> -  An example to illustrate PatientDetailsValidation.
 
-<br>{{pagelink:Example-England-MedicationDispense-PatientDetailsValidation}}
+<br>{{pagelink:TBC}}
 <br><br>
 </div>
 </nocheck>

@@ -70,11 +70,26 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
+<br>
   <h3>Examples</h3>
-<b>[profile]</b> - An example to illustrate the [reason for example].
-<br>{ {pagelink:Example-UKCore-[profile]}}
+<b>Practitioner</b> - An example to illustrate a practitioner role of consultant.
+
+<br>{{pagelink:Example-England-PractitionerRole-Consultant}}
+<br><br>
+
+<b>Practitioner</b> - An example to illustrate a practitioner role of general surgery consultant.
+
+<br>{{pagelink:Example-England-PractitionerRole-GeneralSurgeryConsultant}}
+<br><br>
+
+<b>Practitioner</b> - An example to illustrate  a practitioner role of SDS Provenance.
+
+<br>{{pagelink:Example-England-PractitionerRole-SDSProvenance}}
+<br><br>
+
 </div>
 </nocheck>
+
 
 ---
 
