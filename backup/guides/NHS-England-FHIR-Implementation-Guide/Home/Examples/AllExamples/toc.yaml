@@ -48,8 +48,14 @@
   filename: Example-England-PractitionerRole-SDSProvenance.page.md
 - name: Example-England-MedicationRequest-DMPrescriptionType
   filename: Example-England-MedicationRequest-DMPrescriptionType.page.md
+- name: Example-England-Bundle-MedicationPrescriptionType
+  filename: Example-England-Bundle-MedicationPrescriptionType.page.md
 - name: Example-England-MessageHeader-PrescriptionOrder
   filename: Example-England-MessageHeader-PrescriptionOrder.page.md
+- name: Example-England-HealthcareService-CancerScreeningCentre
+  filename: Example-England-HealthcareService-CancerScreeningCentre.page.md
+- name: Example-England-HealthcareService-ERSSearchResults
+  filename: Example-England-HealthcareService-ERSSearchResults.page.md
 - name: Bundle (FHIR Message)
   filename: BundleFHIRMessage
 - name: CommunicationRequest
