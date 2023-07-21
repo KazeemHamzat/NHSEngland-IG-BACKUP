@@ -72,11 +72,15 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>OperationOutcome</b> -  An example to illustrate medication prescription.
+  <b>MedicationRequest</b> - An example to illustrate medication prescription.
 
 <br>{{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
 <br><br>
 
+  <b>BundleMedication</b> - An example to illustrate a bundled medication prescription.
+
+<br>{{pagelink:Example-England-Bundle-MedicationPrescriptionType}}
+<br><br>
 </div>
 </nocheck>
 
