@@ -69,10 +69,19 @@ select
   {{json:https://fhir.nhs.uk/StructureDefinition/England-Location, snapshot}}
 </div>
 
+
 <div id="Examples" class="tabcontent">
+<br>
   <h3>Examples</h3>
-<b>[profile]</b> - An example to illustrate the [reason for example].
-<br>{ {pagelink:Example-UKCore-[profile]}}
+  <b>Location</b> - An example to illustrate Hospital Location.
+
+<br>{{pagelink:Example-England-Location-Hospital}}
+<br><br>
+
+<b>Location</b> - An example to illustrate Nightingale Hospital Location.
+
+<br>{{pagelink:Example-England-Location-NightingaleHospital}}
+<br><br>
 </div>
 </nocheck>
 

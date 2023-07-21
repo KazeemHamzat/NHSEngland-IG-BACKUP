@@ -5,6 +5,7 @@
 Additional details about the error. This may be a text description of the error or a system code that identifies the error.
 
 ```json
+
 "details": {
                 "coding": [
                     {
