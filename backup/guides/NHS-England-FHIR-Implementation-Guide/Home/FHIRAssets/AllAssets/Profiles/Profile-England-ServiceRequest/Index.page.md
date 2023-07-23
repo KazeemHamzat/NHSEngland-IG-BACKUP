@@ -74,16 +74,19 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>ServiceRequest</b> -An example to illustrate a cancer screening centre service within a HealthcareService resource
+  <b>ServiceRequest</b> -An example to illustrate a service request category.
 
-<br>{{pagelink:Example-England-HealthcareService-CancerScreeningCentre}}
+<br>{{pagelink:Example-England-Bundle-BARSMessageServiceRequestCategory}}
 <br><br>
 
-  <b>ServiceRequest</b> - An example to illustrate a ERS search results service within a HealthcareService resource.
+  <b>ServiceRequest</b> - An example to illustrate a ERS service request state.
 
-
-<br>{{pagelink:Example-England-HealthcareService-ERSSearchResults}}
+<br>{{pagelink:Example-England-Bundle-ERSServiceRequestState}}
 <br><br>
+
+
+
+
 </div>
 </nocheck>
 

@@ -27,9 +27,4 @@
 {{json:England-PractitionerRole-GeneralSurgeryConsultant-Example}}
 </div>
 
-
-
-
-
-
-
+---

@@ -26,9 +26,4 @@
 {{json:England-Practitioner-BasicPractitioner-Example}}
 </div>
 
-
-
-
-
-
-
+---

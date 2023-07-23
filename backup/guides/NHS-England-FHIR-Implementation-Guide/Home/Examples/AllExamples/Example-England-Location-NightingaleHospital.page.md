@@ -26,9 +26,4 @@
 {{json:England-Location-NightingaleHospital-Example}}
 </div>
 
-
-
-
-
-
-
+---

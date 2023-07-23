@@ -26,9 +26,4 @@
 {{json:England-Immunization-AdministrationOfSARSCoV2SecondDose-Example}}
 </div>
 
-
-
-
-
-
-
+---

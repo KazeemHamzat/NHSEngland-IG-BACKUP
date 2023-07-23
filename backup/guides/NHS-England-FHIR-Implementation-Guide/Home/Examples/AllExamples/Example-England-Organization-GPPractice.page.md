@@ -26,9 +26,4 @@
 {{json:England-Organization-GPPractice-Example}}
 </div>
 
-
-
-
-
-
-
+---

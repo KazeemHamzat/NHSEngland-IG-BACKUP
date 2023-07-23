@@ -26,9 +26,6 @@
 {{json:England-Immunization-SARSCoV2NotAdministered-Example}}
 </div>
 
-
-
-
-
+---
 
 

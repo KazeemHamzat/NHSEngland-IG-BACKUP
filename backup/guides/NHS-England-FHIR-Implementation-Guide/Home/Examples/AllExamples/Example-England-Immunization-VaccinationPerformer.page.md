@@ -26,9 +26,4 @@
 {{json:England-Immunization-VaccinationPerformer-Example}}
 </div>
 
-
-
-
-
-
-
+---

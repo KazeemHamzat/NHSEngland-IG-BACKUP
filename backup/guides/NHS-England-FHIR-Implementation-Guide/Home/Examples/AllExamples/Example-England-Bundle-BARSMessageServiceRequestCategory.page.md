@@ -1,4 +1,4 @@
-### An example to illustrate ODSAPIOrganizationR4ReadResponse
+### An example to illustrate a service request category.
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>
@@ -11,19 +11,19 @@
     
 <div id="Table View" class="tabcontent" style="display:block">
   <h3>Table View</h3>
-{{table:England-Organization-ODSAPIOrganizationR4ReadResponse-Example}}
+{{table:England-Bundle-BARSMessageServiceRequestCategory-Example}}
 </div>
 <div id="Tree View" class="tabcontent">
   <h3>Tree View</h3>
-{{tree:England-Organization-ODSAPIOrganizationR4ReadResponse-Example}}
+{{tree:England-Bundle-BARSMessageServiceRequestCategory-Example}}
 </div>
 <div id="XML View" class="tabcontent">
   <h3>XML View</h3>
-{{xml:England-Organization-ODSAPIOrganizationR4ReadResponse-Example}}
+{{xml:England-Bundle-BARSMessageServiceRequestCategory-Example}}
 </div>
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:England-Organization-ODSAPIOrganizationR4ReadResponse-Example}}
+{{json:England-Bundle-BARSMessageServiceRequestCategory-Example}}
 </div>
 
 ---

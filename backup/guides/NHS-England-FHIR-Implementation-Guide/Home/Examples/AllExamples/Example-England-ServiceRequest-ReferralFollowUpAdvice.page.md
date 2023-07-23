@@ -1,5 +1,4 @@
-### An example to illustrate a service request category.
-
+### An example to illustrate a service request for referral follow up advice
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>
@@ -12,19 +11,19 @@
     
 <div id="Table View" class="tabcontent" style="display:block">
   <h3>Table View</h3>
-{{table:England-Bundle-BARSMessageServiceRequestCategory-Example}}
+{{table:England-ServiceRequest-ReferralFollowUpAdvice-Example}}
 </div>
 <div id="Tree View" class="tabcontent">
   <h3>Tree View</h3>
-{{tree:England-Bundle-BARSMessageServiceRequestCategory-Example}}
+{{tree:England-ServiceRequest-ReferralFollowUpAdvice-Example}}
 </div>
 <div id="XML View" class="tabcontent">
   <h3>XML View</h3>
-{{xml:England-Bundle-BARSMessageServiceRequestCategory-Example}}
+{{xml:England-ServiceRequest-ReferralFollowUpAdvice-Example}}
 </div>
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:England-Bundle-BARSMessageServiceRequestCategory-Example}}
+{{json:England-ServiceRequest-ReferralFollowUpAdvice-Example}}
 </div>
 
-
+---
