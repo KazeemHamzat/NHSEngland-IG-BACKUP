@@ -26,9 +26,4 @@
 {{json:England-OperationOutcome-PatientFirstNameValidation-Example}}
 </div>
 
-
-
-
-
-
-
+---

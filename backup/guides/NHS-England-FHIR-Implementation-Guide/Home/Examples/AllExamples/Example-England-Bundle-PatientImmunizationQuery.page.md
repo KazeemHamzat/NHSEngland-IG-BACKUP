@@ -26,9 +26,4 @@
 {{json:England-Bundle-PatientImmunizationQuery-Example}}
 </div>
 
-
-
-
-
-
-
+---

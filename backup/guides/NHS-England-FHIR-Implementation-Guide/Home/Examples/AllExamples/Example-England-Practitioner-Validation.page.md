@@ -27,9 +27,4 @@
 {{json:England-Practitioner-Validation-Example}}
 </div>
 
-
-
-
-
-
-
+---
