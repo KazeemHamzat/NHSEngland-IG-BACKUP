@@ -56,6 +56,26 @@
   filename: Example-England-HealthcareService-CancerScreeningCentre.page.md
 - name: Example-England-HealthcareService-ERSSearchResults
   filename: Example-England-HealthcareService-ERSSearchResults.page.md
+- name: New item
+  filename: New-item.page.md
+- name: New item
+  filename: New-item-duplicate-2.page.md
+- name: New item
+  filename: New-item-duplicate-3.page.md
+- name: New item
+  filename: New-item-duplicate-4.page.md
+- name: New item
+  filename: New-item-duplicate-5.page.md
+- name: New item
+  filename: New-item-duplicate-6.page.md
+- name: New item
+  filename: New-item-duplicate-7.page.md
+- name: New item
+  filename: New-item-duplicate-8.page.md
+- name: New item
+  filename: New-item-duplicate-9.page.md
+- name: New item
+  filename: New-item-duplicate-10.page.md
 - name: Bundle (FHIR Message)
   filename: BundleFHIRMessage
 - name: CommunicationRequest
