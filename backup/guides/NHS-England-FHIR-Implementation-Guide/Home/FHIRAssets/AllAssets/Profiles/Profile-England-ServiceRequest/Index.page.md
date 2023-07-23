@@ -69,6 +69,26 @@ select
 {{json:https://fhir.nhs.uk/StructureDefinition/England-ServiceRequest, snapshot}}
 </div>
 
+
+
+<div id="Examples" class="tabcontent">
+<br>
+  <h3>Examples</h3>
+  <b>ServiceRequest</b> -An example to illustrate a cancer screening centre service within a HealthcareService resource
+
+<br>{{pagelink:Example-England-HealthcareService-CancerScreeningCentre}}
+<br><br>
+
+  <b>ServiceRequest</b> - An example to illustrate a ERS search results service within a HealthcareService resource.
+
+
+<br>{{pagelink:Example-England-HealthcareService-ERSSearchResults}}
+<br><br>
+</div>
+</nocheck>
+
+
+
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
