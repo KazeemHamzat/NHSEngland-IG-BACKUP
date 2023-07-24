@@ -70,9 +70,27 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
+<br>
   <h3>Examples</h3>
-<b>[profile]</b> - An example to illustrate the [reason for example].
-<br>{ {pagelink:Example-UKCore-[profile]}}
+  <b>Patient</b> - An example to illustrate a patient called FredricaSmith
+
+<br>{{pagelink:Example-England-Patient-FredricaSmith}}
+<br><br>
+
+<b>Patient</b> - An example to illustrate a patient called JackDawkins
+
+<br>{{pagelink:Example-England-Patient-JackDawkins}}
+<br><br>
+
+<b>Patient</b> - An example to illustrate a patient
+
+<br>{{pagelink:Example-England-Patient-PDS}}
+<br><br>
+
+<b>Patient</b> - An example to illustrate a patient called RichardSmith
+
+<br>{{pagelink:Example-England-Patient-RichardSmith}}
+<br><br>
 </div>
 </nocheck>
 

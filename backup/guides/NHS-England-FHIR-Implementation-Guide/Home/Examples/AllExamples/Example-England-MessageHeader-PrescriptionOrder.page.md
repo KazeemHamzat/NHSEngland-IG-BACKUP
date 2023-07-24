@@ -1,6 +1,5 @@
 ### An example to illustrate a message header for prescription order.
 
-
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>
  <button class="tablinks" onclick="openTab(event, 'Tree View')">Tree View</button>

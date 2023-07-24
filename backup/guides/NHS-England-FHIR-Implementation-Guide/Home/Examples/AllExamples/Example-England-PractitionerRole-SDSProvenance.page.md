@@ -1,4 +1,4 @@
-### An example to illustrate  a practitioner role of SDS Provenance.
+### An example to illustrate  a practitioner role of SDS Provenance
 
 
 <div class="tab">
@@ -8,7 +8,6 @@
   <button class="tablinks" onclick="openTab(event, 'JSON View')">JSON View</button>
 </div>
     
-
     
 <div id="Table View" class="tabcontent" style="display:block">
   <h3>Table View</h3>

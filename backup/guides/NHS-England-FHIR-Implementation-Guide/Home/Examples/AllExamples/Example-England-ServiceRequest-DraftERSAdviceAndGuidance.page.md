@@ -1,4 +1,4 @@
-### An example to illustrate a service request for draft ERS advice And guidance
+### An example to illustrate a service request for draft ERS advice and guidance
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

@@ -2,7 +2,7 @@
 
 <b>Definition</b><br>
 
-type must be provided. 
+Type must be provided. 
 
 ```json
 "signature": [

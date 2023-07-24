@@ -1,4 +1,4 @@
-### An example to illustrate a service request category.
+### An example to illustrate a service request category
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

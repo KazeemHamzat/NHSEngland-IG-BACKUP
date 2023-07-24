@@ -72,7 +72,7 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>MessageHeader</b> - An example to illustrate a message header for prescription order.
+  <b>MessageHeader</b> - An example to illustrate a message header for prescription order
 
 <br>{{pagelink:Example-England-MessageHeader-PrescriptionOrder}}
 <br><br>
