@@ -10,10 +10,12 @@ More information about the extensions can be found using the links below.
 <th width="30%">Comment</th>
 </tr>
 <tr>
-<td>responsiblePractitioner</td>
-<td>MedicationRequest</td>
-<td>{{pagelink:Extension-England-DMResponsiblePractitioner}}</td>
+<td>covid19Testing</td>
+<td>Observation</td>
+<td>{{pagelink:Extension-England-COVID19TestResult}}</td>
 <td></td>
 </tr>
 </table>
 
+
+---
