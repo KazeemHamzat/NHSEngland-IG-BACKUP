@@ -1,4 +1,4 @@
-### An example to illustrate the history and authority for patient medication requestor.
+### An example to illustrate the history and authority for patient medication requestor
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>
@@ -7,7 +7,6 @@
   <button class="tablinks" onclick="openTab(event, 'JSON View')">JSON View</button>
 </div>
     
-
     
 <div id="Table View" class="tabcontent" style="display:block">
   <h3>Table View</h3>

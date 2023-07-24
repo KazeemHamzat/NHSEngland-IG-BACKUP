@@ -76,6 +76,14 @@
   filename: Example-England-ServiceRequest-ERSWayFinder.page.md
 - name: Example-England-ServiceRequest-ReferralFollowUpAdvice
   filename: Example-England-ServiceRequest-ReferralFollowUpAdvice.page.md
+- name: Example-England-Patient-FredricaSmith
+  filename: Example-England-Patient-FredricaSmith.page.md
+- name: Example-England-Patient-JackDawkins
+  filename: Example-England-Patient-JackDawkins.page.md
+- name: Example-England-Patient-PDS
+  filename: Example-England-Patient-PDS.page.md
+- name: Example-England-Patient-RichardSmith
+  filename: Example-England-Patient-RichardSmith.page.md
 - name: Bundle (FHIR Message)
   filename: BundleFHIRMessage
 - name: CommunicationRequest

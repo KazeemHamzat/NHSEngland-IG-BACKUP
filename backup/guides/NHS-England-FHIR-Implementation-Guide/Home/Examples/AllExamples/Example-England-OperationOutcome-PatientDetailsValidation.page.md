@@ -1,4 +1,4 @@
-### An example to illustrate PatientDetailsValidation
+### An example to validate patient details
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

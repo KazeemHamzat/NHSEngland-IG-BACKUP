@@ -1,4 +1,4 @@
-### An example to illustrate PatientFirstNameValidation
+### An example to validate patient first name 
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>
