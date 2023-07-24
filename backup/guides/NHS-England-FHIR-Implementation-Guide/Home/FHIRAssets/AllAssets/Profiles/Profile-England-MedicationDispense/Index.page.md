@@ -72,14 +72,13 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>MedicationDispense</b> - An example to illustrate PatientFirstNameValidation.
+  <b>MedicationDispense</b> - An example to illustrate medication dispennse for a patient:
 
-<br>{{pagelink:TBC}}
+<br><a href="https://simplifier.net/UKDigitalMedicine/MedicationDispense-example-duplicate-3/~overview" target="_blank">Example-Medication dispense for MISS ETTA CORY</a>
 <br><br>
 
-<b>MedicationDispense</b> -  An example to illustrate PatientDetailsValidation.
-
-<br>{{pagelink:TBC}}
+<b>MedicationDispense</b> -  An example to illustrate medication dispennse for a patient:.
+<br><a href="https://simplifier.net/UKDigitalMedicine/MedicationDispense-example-duplicate-2/~overview" target="_blank">Example-Medication dispense for Mrs Chi Edinburgh</a>
 <br><br>
 </div>
 </nocheck>
