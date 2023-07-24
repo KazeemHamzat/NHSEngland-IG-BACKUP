@@ -84,6 +84,8 @@
   filename: Example-England-Patient-PDS.page.md
 - name: Example-England-Patient-RichardSmith
   filename: Example-England-Patient-RichardSmith.page.md
+- name: Example-England-Bundle-SearchSetCOVID19Test
+  filename: Example-England-Bundle-SearchSetCOVID19Test.page.md
 - name: Bundle (FHIR Message)
   filename: BundleFHIRMessage
 - name: CommunicationRequest

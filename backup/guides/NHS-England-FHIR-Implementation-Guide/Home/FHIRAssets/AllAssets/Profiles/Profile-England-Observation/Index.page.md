@@ -72,15 +72,11 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>Observation</b> - An example to illustrate PatientFirstNameValidation.
+  <b>Observation</b> - An example to illustrate an observation of the COVID19 test
 
-<br>{{pagelink:TBC}}
+<br>{{pagelink:Example-England-Bundle-SearchSetCOVID19Test}}
 <br><br>
 
-<b>Observation</b> -  An example to illustrate PatientDetailsValidation.
-
-<br>{{pagelink:TBC}}
-<br><br>
 </div>
 </nocheck>
 
