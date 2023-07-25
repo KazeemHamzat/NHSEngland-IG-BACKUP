@@ -453,11 +453,11 @@
          // function to turn multiple columns into rows for an fql table, within a specific div
         function transposeFQLTables() {
             //look for a div with id transpose
-            $('div#transpose').each(function(index) {
+            $('div#transpose div.nhsd-m-table').each(function(index) {
                 //within this div, look for an fql table
-                var fqlTable = $(this).children('div.nhsd-m-table').children("table.table-bordered");
+                var fqlTable = $(this).children("table.table-bordered");
                 //and optionally a 2 column table you want to combine with the transposed one
-                var contextTable = $(this).children('div.nhsd-m-table').children("table#addToTranspose");
+                var contextTable =  $(this).children('div.nhsd-m-table').children("table#addToTranspose");
 
                 //only continue to transpose if we have an fql table
                 if (fqlTable != undefined && fqlTable.length > 0) {

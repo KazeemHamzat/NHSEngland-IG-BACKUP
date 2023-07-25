@@ -34,3 +34,9 @@
   filename: requester.page.md
 - name: owner
   filename: owner.page.md
+- name: reasonCode
+  filename: reasonCode.page.md
+- name: note
+  filename: note.page.md
+- name: restriction.period.end
+  filename: restriction.period.end.page.md
