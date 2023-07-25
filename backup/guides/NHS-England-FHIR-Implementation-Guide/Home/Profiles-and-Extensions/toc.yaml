@@ -1,0 +1,6 @@
+- name: ExtensionIndex
+  filename: ExtensionIndex
+- name: ExtensionLibrary
+  filename: ExtensionLibrary
+- name: Profiles
+  filename: Profiles
