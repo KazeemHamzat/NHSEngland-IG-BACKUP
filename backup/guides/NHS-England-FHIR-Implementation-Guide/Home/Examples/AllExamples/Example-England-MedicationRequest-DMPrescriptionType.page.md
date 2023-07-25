@@ -1,4 +1,4 @@
-### An example to illustrate medication prescription.
+### An example to illustrate medication prescription
 
 
 <div class="tab">

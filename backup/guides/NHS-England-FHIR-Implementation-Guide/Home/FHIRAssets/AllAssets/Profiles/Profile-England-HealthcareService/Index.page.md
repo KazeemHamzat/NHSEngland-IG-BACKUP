@@ -72,13 +72,12 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>HealthcareService</b> -An example to illustrate a cancer screening centre service within a HealthcareService resource
+  <b>Cancer Screening Centre</b> - An example to illustrate a cancer screening centre service within a HealthcareService resource
 
 <br>{{pagelink:Example-England-HealthcareService-CancerScreeningCentre}}
 <br><br>
 
-  <b>HealthcareService</b> - An example to illustrate a ERS search results service within a HealthcareService resource.
-
+  <b>ERS Search Results</b> - An example to illustrate a ERS search results service within a HealthcareService resource.
 
 <br>{{pagelink:Example-England-HealthcareService-ERSSearchResults}}
 <br><br>

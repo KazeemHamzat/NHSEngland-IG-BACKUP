@@ -72,31 +72,27 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>Bundle</b> - An example to illustrate the Patient Immunization Query.
+  <b>Patient Immunization Query</b> - An example to illustrate the patient immunization query contained in a Bundle resource
 
 <br>{{pagelink:Example-England-Bundle-PatientImmunizationQuery}}
 <br><br>
 
-<b>Immunization</b> -  An example to illustrate the Administration Of SARS-CoV-2  First Dose.
-
+<b>Administration Of SARS-CoV-2 First Dose</b> - An example to illustrate the administration Of SARS-CoV-2 first dose
 
 <br>{{pagelink:Example-England-Immunization-AdministrationOfSARSCoV2FirstDose}}
 <br><br>
 
-<b>Immunization</b> -  An example to illustrate the Administration Of SARS-CoV-2  Second Dose.
-
+<b>SARS-CoV-2 Second Dose</b> - An example to illustrate the administration Of SARS-CoV-2 second dose
 
 <br>{{pagelink:Example-England-Immunization-AdministrationOfSARSCoV2SecondDose}}
 <br><br>
 
-<b>Immunization</b> -  An example to illustrate the SARS-CoV-2 Not Administered.
-
+<b>SARS-CoV-2 Not Administered</b> - An example to illustrate the SARS-CoV-2 not administered
 
 <br>{{pagelink:Example-England-Immunization-SARSCoV2NotAdministered}}
 <br><br>
 
-<b>Immunization</b> -  An example to illustrate the Vaccination Performer.
-
+<b>Vaccination Performer</b> - An example to illustrate the vaccination performer
 
 <br>{{pagelink:Example-England-Immunization-VaccinationPerformer}}
 <br><br>

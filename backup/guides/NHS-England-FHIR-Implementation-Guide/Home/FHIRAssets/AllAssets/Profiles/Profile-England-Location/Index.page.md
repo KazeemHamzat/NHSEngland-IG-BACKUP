@@ -73,12 +73,12 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>Location</b> - An example to illustrate Hospital Location.
+  <b>Hospital</b> - An example to illustrate Hospital Location.
 
 <br>{{pagelink:Example-England-Location-Hospital}}
 <br><br>
 
-<b>Location</b> - An example to illustrate Nightingale Hospital Location.
+<b>Nightingale Hospital</b> - An example to illustrate Nightingale Hospital Location.
 
 <br>{{pagelink:Example-England-Location-NightingaleHospital}}
 <br><br>

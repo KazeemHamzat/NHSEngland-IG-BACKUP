@@ -1,4 +1,4 @@
-### An example to illustrate the general practitioner.
+### An example to illustrate the  a practitioner who is the patient's GP
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

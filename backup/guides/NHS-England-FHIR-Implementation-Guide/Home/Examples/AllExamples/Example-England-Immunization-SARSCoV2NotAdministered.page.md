@@ -1,4 +1,4 @@
-### An example to illustrate the SARS-CoV-2 Not Administered.
+### An example to illustrate the SARS-CoV-2 not administered
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

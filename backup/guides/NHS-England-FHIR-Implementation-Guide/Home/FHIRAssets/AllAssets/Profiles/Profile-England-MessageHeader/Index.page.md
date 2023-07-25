@@ -72,7 +72,7 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>MessageHeader</b> - An example to illustrate a message header for prescription order
+  <b>Prescription Order</b> - An example to illustrate a message header for prescription order
 
 <br>{{pagelink:Example-England-MessageHeader-PrescriptionOrder}}
 <br><br>
@@ -100,6 +100,9 @@ In circumstances where more detailed information is required for routing this **
 
 Systems involved in NHSDigital/UKCore messaging are expected to support this profile only, extensions or derived profiles are permitted but they may only have limited (internal) scope and will not be supported outside of this scope (e.g. externally). 
 This resource **SHOULD NOT** be profiled to further define the contents of the resources and [FHIR MessageDefinition](https://www.hl7.org/fhir/messagedefinition.html) **MUST** be used instead.
+
+---
+
 
  #### Comment
 
@@ -298,9 +301,4 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 
  Endpoints **MUST** point to valid endpoint uri's on each leg of the messages journey, they may not refer to inaccessible endpoints on other legs. See also the destination section below.
 
-
----
-
-## Profile Specific Implementation Guidance: ##
-
----
+ ---

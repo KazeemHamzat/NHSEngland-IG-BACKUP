@@ -72,27 +72,27 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-<b>Practitioner</b> - An example to illustrate the Basic Practitioner.
+<b>Basic Practitioner</b> - An example to illustrate the basic practitioner
 
 <br>{{pagelink:Example-England-Practitioner-BasicPractitioner}}
 <br><br>
 
-<b>Practitioner</b> - An example to illustrate the practitioner who is a consultant.
+<b>Consultant</b> - An example to illustrate the practitioner who is a consultant
 
 <br>{{pagelink:Example-England-Practitioner-Consultant}}
 <br><br>
 
-<b>Practitioner</b> -  An example to illustrate the general practitioner.
+<b>General Practitioner</b> - An example to illustrate the  a practitioner who is the patient's GP
 
 <br>{{pagelink:Example-England-Practitioner-GP}}
 <br><br>
 
-<b>Practitioner</b> - An example to illustrate the practitioner who is a nurse.
+<b> Practitioner As Nurse</b> - An example to illustrate the practitioner who is a nurse
 
 <br>{{pagelink:Example-England-Practitioner-Nurse}}
 <br><br>
 
-<b>Practitioner</b> - An example to illustrate to validate practitioner.
+<b>Validate Practitioner</b> - An example to illustrate to validate practitioner
 
 <br>{{pagelink:Example-England-Practitioner-Validation}}
 <br><br>

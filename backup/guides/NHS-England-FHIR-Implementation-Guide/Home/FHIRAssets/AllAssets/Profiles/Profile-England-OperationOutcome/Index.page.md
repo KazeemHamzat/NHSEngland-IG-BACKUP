@@ -72,12 +72,12 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>OperationOutcome</b> - An example to validate patient first name 
+  <b>Patient First Name Validation</b> - An example to validate patient first name 
 
 <br>{{pagelink:Example-England-OperationOutcome-PatientFirstNameValidation}}
 <br><br>
 
-<b>OperationOutcome</b> - An example to validate patient details
+<b>Patient Details Validation</b> - An example to validate patient details
 
 <br>{{pagelink:Example-England-OperationOutcome-PatientDetailsValidation}}
 <br><br>
