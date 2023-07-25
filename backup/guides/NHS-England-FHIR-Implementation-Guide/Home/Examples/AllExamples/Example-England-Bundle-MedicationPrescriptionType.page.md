@@ -1,4 +1,4 @@
-### An example to illustrate a bundled medication prescription.
+### An example to illustrate a bundled medication prescription
 
 
 <div class="tab">

@@ -31,7 +31,7 @@ More information about the constraints on the <code>England-Immunization</code> 
 <td>usercode-nmc</td>
 <td>error</td>
 <td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').value.matches('^[0-9]{2}[A-Z]{1}[0-9]{4}[A-Z]{1}$'))</td>
-<td>NMC must be of the format NNANNNNA/td>
+<td>NMC must be of the format NNANNNNA</td>
 </tr>
 <tr>
 <td>usercode-gmp</td>

@@ -1,4 +1,4 @@
-### An example to illustrate to validate practitioner.
+### An example to illustrate to validate practitioner
 .
 
 <div class="tab">

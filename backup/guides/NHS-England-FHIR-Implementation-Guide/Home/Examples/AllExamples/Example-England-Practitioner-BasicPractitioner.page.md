@@ -1,4 +1,4 @@
-### An example to illustrate the Basic Practitioner.
+### An example to illustrate the Basic Practitioner
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

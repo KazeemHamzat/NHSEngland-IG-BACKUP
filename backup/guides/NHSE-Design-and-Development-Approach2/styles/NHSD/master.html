@@ -511,10 +511,12 @@
             // Fix FQL generated tables
             $("table:not(.treetable):not(:has(>thead))").removeClass("table")
             $("table").removeClass("table-bordered")
-            $("table:not(.treetable):not(:has(>thead))").removeClass("table-bordered")
-            $("table:not(.treetable):not(:has(>thead)) tbody tr").unwrap()
-            $("table:not(.treetable):not(:has(>thead)) tr:first-child").wrap("<thead></thead>")
-            $("table:not(.treetable):not(:has(>tbody)) tr:not(:first-child)").wrapAll("<tbody></tbody>")
+            $("table:not(.treetable):not(:has(>thead))").each(function(index) {
+                $(this).removeClass("table-bordered");
+                $(this).children("tbody").children("tr").unwrap();
+                $(this).children("tr:first-child").wrap("<thead></thead>");
+                $(this).children("tr:not(:first-child)").wrapAll("<tbody></tbody>");
+            });
 
     </script>
 

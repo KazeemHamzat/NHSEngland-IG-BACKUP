@@ -27,11 +27,11 @@
         <div id="Combined" role="tabpanel" class="tab-pane active">
             <br>
           <br><br>
-          {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-Task, snapsho}}
+          {{tree: https://fhir.nhs.uk/StructureDefinition/England-Task, snapshot}}
         </div>
          <div id="Differential" role="tabpanel" class="tab-pane">
             <br>
-         {{tree: https://fhir.nhs.uk/StructureDefinition/NHSDigital-Task, diff}}
+         {{tree: https://fhir.nhs.uk/StructureDefinition/England-Task, diff}}
         </div>
         <div id="Constraints"  class="tab-pane">
 <br/>
@@ -70,7 +70,7 @@ select name, profile: '<a href="https://simplifier.net/resolve?target=simplifier
 
  FHIR Task usage and scope is defined as 
 
-> A task resource describes an activity that can be performed and tracks the state of completion of that activity. It is a representation that an activity should be or has been initiated, and eventually, represents the successful or unsuccessful completion of that activity. Note that there are a variety of processes associated with making and processing orders. Some orders may be handled immediately by automated systems but most require real world actions by one or more humans. Some orders can only be processed when other real world actions happen, such as a patient presenting themselves so that the action to be performed can actually be performed. Often these real world dependencies are only implicit in the order details.
+A task resource describes an activity that can be performed and tracks the state of completion of that activity. It is a representation that an activity should be or has been initiated, and eventually, represents the successful or unsuccessful completion of that activity. Note that there are a variety of processes associated with making and processing orders. Some orders may be handled immediately by automated systems but most require real world actions by one or more humans. Some orders can only be processed when other real world actions happen, such as a patient presenting themselves so that the action to be performed can actually be performed. Often these real world dependencies are only implicit in the order details.
 
 **A Task resource often exists in parallel with clinical resources.** 
 
@@ -550,7 +550,7 @@ For Tasks with a reasonCode of `33633005 - Prescription of drug` this will be th
 
  #### Definition
 
- Who is created the Request or the Event. In NHSDigital API's this **SHOULD** always be a PractitionerRole role reference.
+Who created the Request or the Event. In NHSDigital API's this **SHOULD** always be a PractitionerRole role reference.
 
 ```json
  "requester": {

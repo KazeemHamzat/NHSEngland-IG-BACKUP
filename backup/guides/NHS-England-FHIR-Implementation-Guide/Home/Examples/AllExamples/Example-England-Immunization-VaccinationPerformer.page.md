@@ -1,4 +1,4 @@
-### An example to illustrate the Vaccination Performer.
+### An example to illustrate the vaccination performer
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

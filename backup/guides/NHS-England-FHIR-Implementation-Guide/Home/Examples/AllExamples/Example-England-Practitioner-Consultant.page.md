@@ -1,4 +1,4 @@
-### An example to illustrate the practitioner who is a consultant.
+### An example to illustrate the practitioner who is a consultant
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

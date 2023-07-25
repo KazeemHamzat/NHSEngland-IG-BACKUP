@@ -72,12 +72,12 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>Patient</b> - An example to illustrate a patient called FredricaSmith
+  <b>FredricaSmith</b> - An example to illustrate a patient called FredricaSmith
 
 <br>{{pagelink:Example-England-Patient-FredricaSmith}}
 <br><br>
 
-<b>Patient</b> - An example to illustrate a patient called JackDawkins
+<b>JackDawkins</b> - An example to illustrate a patient called JackDawkins
 
 <br>{{pagelink:Example-England-Patient-JackDawkins}}
 <br><br>
@@ -87,7 +87,7 @@ select
 <br>{{pagelink:Example-England-Patient-PDS}}
 <br><br>
 
-<b>Patient</b> - An example to illustrate a patient called RichardSmith
+<b>RichardSmith</b> - An example to illustrate a patient called RichardSmith
 
 <br>{{pagelink:Example-England-Patient-RichardSmith}}
 <br><br>

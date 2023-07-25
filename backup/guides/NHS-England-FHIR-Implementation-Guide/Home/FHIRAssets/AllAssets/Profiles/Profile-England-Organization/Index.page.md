@@ -73,27 +73,27 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>Organization</b> - An example to illustrate GPPractice.
+  <b>GP Practice</b> - An example to illustrate GPPractice.
 
 <br>{{pagelink:Example-England-Organization-GPPractice}}
 <br><br>
 
-<b>Organization</b> -  An example to illustrate NHSICS.
+<b>NHSICS</b> -  An example to illustrate NHSICS.
 
 <br>{{pagelink:Example-England-Organization-NHSICS}}
 <br><br>
 
-<b>Organization</b> -  An example to illustrate ODSAPIOrganizationR4LeedsCCG.
+<b>ODSAPI Organization R4 Leeds CCG</b> -  An example to illustrate ODSAPIOrganizationR4LeedsCCG.
 
 <br>{{pagelink:Example-England-Organization-ODSAPIOrganizationR4LeedsCCG}}
 <br><br>
 
-<b>Organization</b> - An example to illustrate ODSAPIOrganizationR4ReadResponse.
+<b>ODSAPI Organization R4 Read Response</b> - An example to illustrate ODSAPIOrganizationR4ReadResponse.
 
 <br>{{pagelink:Example-England-Organization-ODSAPIOrganizationR4ReadResponse}}
 <br><br>
 
-<b>Organization</b> -  An example to illustrate OrganisationPrison.
+<b>Organisation Prison</b> -  An example to illustrate OrganisationPrison.
 
 <br>{{pagelink:Example-England-Organization-OrganisationPrison}}
 <br><br>

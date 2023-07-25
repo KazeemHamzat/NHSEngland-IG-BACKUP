@@ -1,4 +1,4 @@
-### An example to illustrate the Administration Of SARS-CoV-2  Second Dose.
+### An example to illustrate the administration Of SARS-CoV-2 second dose
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

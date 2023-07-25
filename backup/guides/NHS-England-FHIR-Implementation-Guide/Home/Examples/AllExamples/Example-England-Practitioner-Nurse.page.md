@@ -1,4 +1,4 @@
-### An example to illustrate the practitioner who is a nurse.
+### An example to illustrate the practitioner who is a nurse
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>
