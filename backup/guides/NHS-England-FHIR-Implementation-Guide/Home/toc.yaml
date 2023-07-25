@@ -1,12 +1,14 @@
 - name: Index
   filename: Index.page.md
-- name: FHIR Assets
-  filename: FHIRAssets
+- name: Profiles and Extensions
+  filename: Profiles-and-Extensions
+- name: Terminology
+  filename: Terminology
+- name: Examples
+  filename: Examples
 - name: Policy
   filename: Policy
 - name: Guidance
   filename: Guidance
-- name: Examples
-  filename: Examples
 - name: Help and Support
   filename: HelpandSupport

@@ -1,3 +1,0 @@
-#### NamingSystems
-
-{{pagelink:NamingSystems}}
