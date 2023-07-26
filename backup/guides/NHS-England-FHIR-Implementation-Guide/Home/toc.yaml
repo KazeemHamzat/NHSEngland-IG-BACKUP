@@ -4,6 +4,8 @@
   filename: Guidance
 - name: Profiles and Extensions
   filename: Profiles-and-Extensions
+- name: Extension Overview
+  filename: Extension-Overview.page.md
 - name: Terminology
   filename: Terminology
 - name: Examples

@@ -72,14 +72,11 @@ select
 <div id="Examples" class="tabcontent">
 <br>
   <h3>Examples</h3>
-  <b>MISS ETTA CORY</b> - An example to illustrate medication dispense for a patient
+  <b>PractitionerRole</b> -An example to illustrate PractitionerRole in MedicationDispense
 
-<br><a href="https://simplifier.net/UKDigitalMedicine/MedicationDispense-example-duplicate-3/~overview" target="_blank">Example-Medication dispense for MISS ETTA CORY</a>
+<br>{{pagelink:Example-England-MedicationDispense-PractitionerRole}}
 <br><br>
 
-<b>Mrs Chi Edinburgh</b> -  An example to illustrate medication dispense for a patient
-<br><a href="https://simplifier.net/UKDigitalMedicine/MedicationDispense-example-duplicate-2/~overview" target="_blank">Example-Medication dispense for Mrs Chi Edinburgh</a>
-<br><br>
 </div>
 </nocheck>
 
