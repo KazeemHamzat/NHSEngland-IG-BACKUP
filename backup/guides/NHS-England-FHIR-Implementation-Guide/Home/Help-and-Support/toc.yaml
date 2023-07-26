@@ -1,0 +1,6 @@
+- name: Release Notes
+  filename: ReleaseNotes.page.md
+- name: Directory
+  filename: Directory.page.md
+- name: Issues
+  filename: Issues.page.md

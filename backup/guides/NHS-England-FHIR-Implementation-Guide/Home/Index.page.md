@@ -38,35 +38,35 @@ See {{pagelink:Implementation-Support}} for more details.
  <tbody>
    <tr>
     <td>
-   {{pagelink:NHSDigital-CapabilityStatement}}   
+    <a>England-CapabilityStatement</a>
     </td>
     <td>
  {{pagelink:Profile-England-Provenance, text:England-Provenance}}
     </td>
     <td>
- {{pagelink:NHSDigital-Bundle}}      
+ {{pagelink:Profile-England-MessageHeader, text:England-MessageHeader}} 
     </td>
    </tr>
     <tr>
      <td>
-     {{pagelink:NHSDigital-MessageDefinition}} 
+     {{pagelink:Profile-England-OperationOutcome, text:England-OperationOutcome}}
      </td>
      <td>
      Consent
      </td>
      <td>
-   {{pagelink:Profile-England-MessageHeader, text:England-MessageHeader}} 
+   England-Bundle
      </td>
    </tr>
     <tr>
      <td>
-{{pagelink:NHSDigital-OperationDefinition}} 
+England-OperationDefinition
      </td>
      <td>
      AuditEvent
      </td>
      <td>
-  {{pagelink:Profile-England-OperationOutcome, text:England-OperationOutcome}} 
+   England-MessageDefinition
      </td>
    </tr>
    </tbody>
@@ -90,52 +90,44 @@ See {{pagelink:Administration}} for more details.
  <tbody>
    <tr>
     <td>
-      {{pagelink:NHSDigital-Patient}} 
+      {{pagelink:Profile-England-Patient,text:England-Patient}} 
     </td>
     <td>
-        {{pagelink:NHSDigital-Location}}  
+        {{pagelink:Profile-England-Location,text:England-Location}}  
     </td>
      <td>
-      {{pagelink:NHSDigital-Appointment}}
+      {{pagelink:Profile-England-Practitioner,text:England-Practitioner}} 
     
      </td>
    </tr>
    <tr>
     <td>
-      {{pagelink:NHSDigital-Practitioner}} 
+      {{pagelink:Profile-England-Organization,text:England-Organization}}
    </td>
    <td>
-      {{pagelink:NHSDigital-Organization}}
+         {{pagelink:Profile-England-PractitionerRole,text:England-PractitionerRole}} 
    </td>
       <td>
-        {{pagelink:NHSDigital-Encounter}}
+        {{pagelink:Profile-England-HealthcareService,text:England-HealthcareService}}
      </td>
    </tr>
    <tr>
      <td>
-       {{pagelink:NHSDigital-PractitionerRole}} 
+       England-Encounter
      </td>
      <td>
-      {{pagelink:NHSDigital-HealthcareService}}  
+       England-Appointment 
      </td>
      <td>
-  {{pagelink:NHSDigital-Flag}}
-     </td>
-   </tr>
-   <tr>
-     <td>
-     </td>
-     <td>
-     {{pagelink:SDS-Device}} 
-     </td>
-     <td>
+  England-Flag
      </td>
    </tr>
    <tr>
      <td>
+      England-SDS-Device
      </td>
      <td>
-      {{pagelink:SDS-Endpoint}}
+    England-SDS-Endpoint
      </td>
      <td>
      </td>
@@ -162,39 +154,39 @@ and {{pagelink:Medications}} supplements.
  <tbody>
    <tr>
     <td>
-       {{pagelink:NHSDigital-Observation}}
+       {{pagelink:Profile-England-Observation, text:England-Observation}}
     </td>
     <td>
 {{pagelink:Profile-England-Immunization, text:England-Immunization}}  
     <td>
-{{pagelink:NHSDigital-ServiceRequest}}  
+{{pagelink:Profile-England-ServiceRequest, text:England-ServiceRequest}}  
     </td>
    </tr>
    <tr>
     <td>
-{{pagelink:NHSDigital-QuestionnaireResponse}}
+{{pagelink:Profile-England-MedicationDispense, text:England-MedicationDispense}}
     </td>
     <td>
-    <a href="https://simplifier.net/guide/NHSDigital-Medicines/Home/FHIRAssets/AllAssets/Profiles/NHSDigital-MedicationRequest">NHSDigital-MedicationRequest</a>
+     {{pagelink:Profile-England-MedicationRequest, text:England-MedicationRequest}}
+    
     </td>
     <td>
- {{pagelink:NHSDigital-Task}} 
+ {{pagelink:Profile-England-Task, text:England-Task}} 
     </td>
    </tr>
    <tr>
     <td>
+    England-ImmunizationRecommendation
     </td>
     <td>
-    <a href="https://simplifier.net/guide/NHSDigital-Medicines/Home/FHIRAssets/AllAssets/Profiles/NHSDigital-MedicationDispense">NHSDigital-MedicationDispense</a>
     </td>
     <td>
     </td>
    </tr>
-     <tr>
+    <tr>
     <td>
     </td>
     <td>
-{{pagelink:NHSDigital-ImmunizationRecommendation}}
     </td>
     <td></td>
    </tr>
@@ -212,24 +204,24 @@ and {{pagelink:Medications}} supplements.
  <tbody>
    <tr>
     <td>
-       {{pagelink:NHSDigital-Composition}}
+    England-Composition
     </td>
      <td>
-     {{pagelink:NHSDigital-Questionnaire}}
+     England-Questionnaire
     </td>
     <td>
- <a href="https://simplifier.net/guide/NHSDigital-Medicines/Home/FHIRAssets/AllAssets/Profiles/NHSDigital-Claim">NHSDigital-Claim</a>
+ England-Claim
     </td>
    </tr>
    <tr>
     <td>
-       {{pagelink:NHSDigital-DocumentReference}}
+       England-DocumentReference
+    </td>
+    <td>
+    England-CommunicationRequest
     </td>
     <td>
     </td>
-    <td>
-      {{pagelink:NHSDigital-CommunicationRequest}}       
-     </td>
    </tr>
    </tbody>
 </table>
