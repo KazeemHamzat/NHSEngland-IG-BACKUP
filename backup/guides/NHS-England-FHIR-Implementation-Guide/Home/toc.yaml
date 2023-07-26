@@ -1,5 +1,7 @@
 - name: Index
   filename: Index.page.md
+- name: Guidance
+  filename: Guidance
 - name: Profiles and Extensions
   filename: Profiles-and-Extensions
 - name: Terminology
@@ -8,7 +10,11 @@
   filename: Examples
 - name: Policy
   filename: Policy
-- name: Guidance
-  filename: Guidance
 - name: Help and Support
-  filename: HelpandSupport
+  filename: Help-and-Support
+- name: Contact Us
+  filename: Contact-Us.page.md
+- name: Downloads
+  filename: Downloads.page.md
+- name: Glossary
+  filename: Glossary.page.md
