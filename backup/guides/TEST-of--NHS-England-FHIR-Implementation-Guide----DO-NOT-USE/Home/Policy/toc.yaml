@@ -1,0 +1,20 @@
+- name: Policy
+  filename: Policy.page.md
+- name: Conformance
+  filename: Conformance.page.md
+- name: Identifiers
+  filename: Identifiers.page.md
+- name: Naming
+  filename: Naming.page.md
+- name: National Services
+  filename: NationalServices.page.md
+- name: Operations
+  filename: Operations.page.md
+- name: Profiling
+  filename: Profiling.page.md
+- name: Publication Requirements
+  filename: PublicationRequirements.page.md
+- name: Serialisation
+  filename: Serialisation.page.md
+- name: Versioning
+  filename: Versioning.page.md

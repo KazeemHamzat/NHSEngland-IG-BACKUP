@@ -1,0 +1,12 @@
+- name: Index
+  filename: Index.page.md
+- name: Vaccination-Covid19-1st-dose
+  filename: vaccination-covid19-1st-dose.page.md
+- name: Vaccination-Covid19-2nd-dose
+  filename: vaccination-covid19-2nd-dose.page.md
+- name: Vaccination-covid19-not-given
+  filename: vaccination-covid19-not-given.page.md
+- name: Immunization-history-search
+  filename: Immunization-history-search.page.md
+- name: Vaccination-covid19-international
+  filename: vaccination-covid19-international.page.md

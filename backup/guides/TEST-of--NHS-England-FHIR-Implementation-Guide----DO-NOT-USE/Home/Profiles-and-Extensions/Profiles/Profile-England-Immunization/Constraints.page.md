@@ -1,0 +1,74 @@
+## Constraints (differential)
+
+More information about the constraints on the <code>England-Immunization</code> profile can be found below.
+
+<table class="assets">
+<tr>
+<th width="15%">Key</th>
+<th width="10%">Severity</th>
+<th width="30%">Expression</th>
+<th width="45%">Human Description</th>
+</tr>
+<tr>
+<td>patient-reference</td>
+<td>warning</td>
+<td>(reference.exists() or (identifier.exists()))</td>
+<td> subject - An identifier reference or resource reference must be provided</td>
+</tr>
+<tr>
+<td>patient-nhs</td>
+<td>error</td>
+<td>identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').exists().not() or (identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').exists()  and identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').value.matches('^([456789]{1}[0-9]{9})$'))</td>
+<td>Supplied NHS Number is outside the English and Welsh NHS Number range or length of the number is wrong.</td>
+</tr>
+<tr>
+<td>usercode-reference</td>
+<td>error</td>
+<td>(reference.exists() or identifier.exists())</td>
+<td>An identifier reference or resource reference must be provided</td>
+</tr>
+<tr>
+<td>usercode-nmc</td>
+<td>error</td>
+<td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').value.matches('^[0-9]{2}[A-Z]{1}[0-9]{4}[A-Z]{1}$'))</td>
+<td>NMC must be of the format NNANNNNA</td>
+</tr>
+<tr>
+<td>usercode-gmp</td>
+<td>error</td>
+<td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/gmp-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gmp-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gmp-number').value.matches('^[G]{1}[01234589]{1}[0-9]{6}$'))</td>
+<td>GMP must be of the format GNNNNNNN and not be a spurious code (starts with G6 or G7)</td>
+</tr>
+<tr>
+<td>usercode-gmc</td>
+<td>error</td>
+<td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-number').value.matches('^[C]{1}[0-9]{7}$'))</td>
+<td>GMC must be of the format CNNNNNNN</td>
+</tr>
+<tr>
+<td>usercode-gphc</td>
+<td>error</td>
+<td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').value.matches('^[0-9]{7}$'))</td>
+<td>GPHC must be of the format NNNNNNN</td>
+</tr>
+<tr>
+<td>usercode-hcpc</td>
+<td>error</td>
+<td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/hcpc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/hcpc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/hcpc-number').value.matches('^[A-Z]{2}[0-9]{6}$'))</td>
+<td>HCPC must be of the format AANNNNNN</td>
+</tr>
+<tr>
+<td>usercode-din</td>
+<td>error</td>
+<td>identifier.exists().not() or identifier.where(system='https://fhir.hl7.org.uk/Id/din-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/din-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/din-number').value.matches('^[0-9]{6}$'))</td>
+<td>DIN format must be NNNNNN</td>
+</tr>
+<tr>
+<td>role-sds-role-profile</td>
+<td>error</td>
+<td>identifier.where(system='https://fhir.nhs.uk/Id/sds-role-profile-id').exists().not() or (identifier.where(system='https://fhir.nhs.uk/Id/sds-role-profile-id').exists()  and identifier.where(system='https://fhir.nhs.uk/Id/sds-role-profile-id').value.matches('^[0-9]{12}$'))</td>
+<td>SDS Role Profile Id must be 12 digits</td>
+</tr>
+</table>
+
+---

@@ -1,0 +1,3 @@
+### DocumentReference
+
+- {{pagelink:MentalHealthCrisisPlan}}
