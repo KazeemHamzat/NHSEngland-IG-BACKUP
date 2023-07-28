@@ -9,7 +9,6 @@ This is mandatory for 'prescription-order-update' messages.
 <br>
 
 ```json
-
 "statusReason": {
     "coding": [
         {
@@ -19,5 +18,6 @@ This is mandatory for 'prescription-order-update' messages.
         }
     ]
 }
+```
 
- ````       
+---     

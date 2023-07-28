@@ -7,7 +7,6 @@ Details of the dispenser who is actioning the MedicationRequest.
 <br>
 
 ```json
-
        "dispenseRequest": { 
                     "performer": {
                         "extension":  [
@@ -26,6 +25,6 @@ Details of the dispenser who is actioning the MedicationRequest.
                         "display": "The Simple Pharmacy"
                     }
                 },
-
-
 ```
+
+---

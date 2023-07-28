@@ -16,12 +16,11 @@ Examples of dispensing notes are:-
  <br>
  
 ```json
-
 "note": [
     {
       "text": "Tell patient to stop their statin whilst on this anitbiotic"
     }
   ],
+```
 
-````  
-  
+--- 

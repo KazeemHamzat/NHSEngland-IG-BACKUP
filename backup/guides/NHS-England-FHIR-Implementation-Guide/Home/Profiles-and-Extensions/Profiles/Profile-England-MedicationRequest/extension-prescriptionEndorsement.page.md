@@ -14,7 +14,6 @@ The codes are contained in the valueset
 <br>
 
 ```json
-
 "resourceType": "MedicationRequest",
 ...
 "extension":
@@ -27,7 +26,8 @@ The codes are contained in the valueset
     }
     ...
 ]
+```
 
+---
 
-````
 

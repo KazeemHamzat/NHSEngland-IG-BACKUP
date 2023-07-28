@@ -114,5 +114,11 @@ E.g. in the example below, 2134567 is probably a GMC Reference Number but we are
 
 SHOULD contain a professional code or SDS-user-id.
 
+### `identifier.gmpCode`
+
+<b>Definition:</b>
+
+Formerly called GP General National Code (GNC).
+
 ---
 

@@ -17,7 +17,6 @@ It is a legal requirement to state the prescribed quantity as words in the `quan
 <br>
 
 ```json
-
     "extension": [
         " url ": " https://fhir.nhs.uk/StructureDefinition/Extension-DM-ControlledDrug",
         "quantityWords", {
@@ -31,5 +30,6 @@ It is a legal requirement to state the prescribed quantity as words in the `quan
             }
         ]
     ]
+```
 
-````        
+---     

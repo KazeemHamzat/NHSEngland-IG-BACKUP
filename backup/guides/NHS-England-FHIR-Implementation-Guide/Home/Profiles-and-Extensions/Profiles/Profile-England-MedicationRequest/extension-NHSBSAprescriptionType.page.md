@@ -8,7 +8,6 @@ The System must populate the ‘PrescriptionType’ attribute for the appropriat
 <br>
 
 ```json
-
 "extension": [
     " url ": " https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionType",
     "valueCoding": {
@@ -17,7 +16,8 @@ The System must populate the ‘PrescriptionType’ attribute for the appropriat
         "display": "Outpatient Homecare Prescriber - Medical Prescriber"
     }
 ]
-            
-````
+```
+
+---
 
 

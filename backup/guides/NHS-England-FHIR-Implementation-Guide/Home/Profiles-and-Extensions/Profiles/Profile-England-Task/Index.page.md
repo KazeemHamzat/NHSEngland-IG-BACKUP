@@ -70,13 +70,40 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
+<br>
   <h3>Examples</h3>
-  <b>TBC</b> - TBC
-  <br>
-  {{pagelink:Example-England-Task-Colonoscopy}}
-  <br><br>
+  <b>Active ERS Advice And Guidance</b> - An example to illustrate a task regarding advice and guidance
+
+<br>{{pagelink:Example-England-Task-ActiveERSAdviceAndGuidance}}
+<br><br>
+
+  <b>Check Prescription</b> - An example to illustrate a workflow process for a prescription order to be clinically checked
+
+<br>{{pagelink:Example-England-Task-CheckPrescription}}
+<br><br>
+
+<b>Lab Report</b> - An example to illustrate a laboratory report (FHIR DiagnosticReport) needs acknowledging and reviewing
+
+<br>{{pagelink:Example-England-Task-LabReport}}
+<br><br>
+
+<b>Validate Referral</b> - An example to illustrate to validate a referral (FHIR ServiceRequest) needs checking before it is sent to a service provider
+
+<br>{{pagelink:Example-England-Task-ValidateReferral}}
+<br><br>
+
+<b>Fulfill Patient Referral</b> - An example to illustrate to fulfill a referral (FHIR ServiceRequest) needs checking before it is sent to a service provider
+
+<br>{{pagelink:Example-England-Task-FulfillPatientReferral}}
+<br><br>
+
+<b>Form Complete</b> - An example to illustrate a task regarding form complete
+
+<br>{{pagelink:Example-England-Task-FormComplete}}
+<br><br>
+
 </div>
-<nocheck>
+</nocheck>
 
 ---
 

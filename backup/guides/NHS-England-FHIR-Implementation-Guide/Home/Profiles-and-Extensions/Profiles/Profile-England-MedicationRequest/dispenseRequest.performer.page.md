@@ -14,7 +14,6 @@ Patients pharmacy preferences may be overriden by an 'one-off pharmacy nominatio
 <br>
 
 ```json
-
 "dispenseRequest": {
         "extension":  [
             {
@@ -31,6 +30,6 @@ Patients pharmacy preferences may be overriden by an 'one-off pharmacy nominatio
                 "value": "FX748"
             }
         },
-
 ```
- 
+
+---

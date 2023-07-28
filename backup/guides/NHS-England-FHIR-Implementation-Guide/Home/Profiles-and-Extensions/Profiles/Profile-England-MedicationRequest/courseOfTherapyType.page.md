@@ -7,7 +7,6 @@ A course of therapy for a medication request.
 <br>
 
 ```json 
-
 "courseOfTherapyType": {
   "coding":  [
       {
@@ -17,6 +16,6 @@ A course of therapy for a medication request.
       }
   ]
 },
-  
-````  
+```
 
+---

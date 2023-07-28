@@ -9,7 +9,6 @@ The `expectedSupplyDuration` element defines the expected duration, in days, of 
 <br>
 
 ```json
-
 "dispenseRequest": {
           ...
           "expectedSupplyDuration": {
@@ -19,6 +18,6 @@ The `expectedSupplyDuration` element defines the expected duration, in days, of 
             "code": "d"
           }
       }
-      
 ```
- 
+
+--- 

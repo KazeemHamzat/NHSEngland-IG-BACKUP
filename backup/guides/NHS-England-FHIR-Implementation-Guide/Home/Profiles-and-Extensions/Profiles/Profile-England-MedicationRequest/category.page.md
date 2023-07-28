@@ -16,7 +16,6 @@ In primary care the code of `community` should be used. In secondary care the ca
 <br>
 
 ```json  
-
 "category": [
     {
         "coding": [
@@ -28,5 +27,6 @@ In primary care the code of `community` should be used. In secondary care the ca
         ]
     }
 ],
+```
 
- ````     
+---   

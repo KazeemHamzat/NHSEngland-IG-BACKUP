@@ -9,7 +9,6 @@ Example for a `reflex-order` (continuous-repeat-dispensing):
 <br>
 
 ```json 
-
 "basedOn": [
         {
             "extension": [
@@ -29,15 +28,15 @@ Example for a `reflex-order` (continuous-repeat-dispensing):
             }
         }
     ]
-
 ```
+
+---
 
 Example for a ` instance - order ` (continuous). Note this references an example MedicationRequest from GP Connect:
 
 <br>
 
 ``` json
-
  "basedOn": [
         {
             "extension": [
@@ -57,5 +56,6 @@ Example for a ` instance - order ` (continuous). Note this references an example
             }
         }
     ]
+```
 
-````
+---

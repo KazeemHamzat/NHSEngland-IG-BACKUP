@@ -6,8 +6,6 @@ Must only be populated if the  `requester` can not be responsible for the prescr
 
     
 ```json
-
-
 "extension": [
 
     "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-ResponsiblePractitioner",
@@ -23,4 +21,4 @@ Must only be populated if the  `requester` can not be responsible for the prescr
 ]
 ```
 
-````
+---

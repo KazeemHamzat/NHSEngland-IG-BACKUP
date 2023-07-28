@@ -11,17 +11,18 @@ The number of repeat issues authorised if specified.
 **MUST** NOT be specified where the number of repeat issues has not been defined. Therefore, the numberOfRepeats allowed is the total number of allowed issues. See also extension repeatInformation.
 
 For `continuous` orders and `continuous-repeat-dispensing` with intent=`reflex-order` (i.e., orders sent from EPS to pharmacists) this &lt;b&gt;MUST&lt;/b&gt; be zero. The `numberOfRepeatsAllowed` in the extension to `basedOn` can be used to convey this information to inform patients that they need to re-order the medication. 
+
 Example for a `continuous` issue:
 
 <br>
 
  ```json 
-
 "dispenseRequest": {
         "numberOfRepeatsAllowed": 0
     }
- ``` 
- Example for a `continuous-repeat-dispensing` issue with intent of `original-order`: 
+```
+
+Example for a `continuous-repeat-dispensing` issue with intent of `original-order`: 
 
  <br>
 
@@ -29,6 +30,8 @@ Example for a `continuous` issue:
 "dispenseRequest": {
         "numberOfRepeatsAllowed": 2
     }
+```
+ This will result in a total of three issues of the medication.
 
-``` 
- This will result in a total of three issues of the medication.   
+---
+  

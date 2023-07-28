@@ -11,7 +11,6 @@ UUID example (for illustration purposes only **34026084-A445-84AD-2D01-97D69ED25
 <br>
 
 ```json 
-
 "groupIdentifier": {
     "extension":  [
         {
@@ -25,6 +24,7 @@ UUID example (for illustration purposes only **34026084-A445-84AD-2D01-97D69ED25
     "system": "https://fhir.nhs.uk/Id/prescription-order-number",
     "value": "DC2C66-A1B2C3-23407B"
 }
+```
 
-````
+---
 

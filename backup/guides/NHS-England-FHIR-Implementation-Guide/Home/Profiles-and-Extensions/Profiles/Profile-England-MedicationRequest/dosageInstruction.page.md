@@ -12,7 +12,6 @@ As per BNF guidelines, the dosage must be presented to the user without abbrevia
 <br>
 
 ```json
-
 "dosageInstruction": [
    {
         "text": "Inject 10 milligram, once a week, Subcutaneous route, for 10 weeks",
@@ -59,5 +58,6 @@ As per BNF guidelines, the dosage must be presented to the user without abbrevia
         ]
     }
 ]
+```
 
-````
+---
