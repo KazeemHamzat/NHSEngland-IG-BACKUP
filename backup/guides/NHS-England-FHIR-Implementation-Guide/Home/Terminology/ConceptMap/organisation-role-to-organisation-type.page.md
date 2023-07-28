@@ -20,10 +20,20 @@
   <div class="tab-content snippet">
     <div id="Tree" role="tabpanel" class="tab-pane active">
 
-| Source CodeSystem | Destination CodeSystem  |
-|--
-| {{link:https://fhir.nhs.uk/CodeSystem/organisation-role}} | {{link:https://fhir.nhs.uk/CodeSystem/organisation-type}} |
-
+<table class="regular assets">
+<thead>
+<tr>
+<th>Source CodeSystem</th>
+<th>Destination CodeSystem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>{{link:https://fhir.nhs.uk/CodeSystem/organisation-role}}</td>
+<td>{{link:https://fhir.nhs.uk/CodeSystem/organisation-type}}</td>
+</tr>
+</tbody>
+</table>
 
 {{render:https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type}}
     </div>

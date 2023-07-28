@@ -20,9 +20,20 @@
   <div class="tab-content snippet">
     <div id="Tree" role="tabpanel" class="tab-pane active">
 
-| Source CodeSystem | Destination CodeSystem  |
-|--
-| http://hl7.org/fhir/issue-type | http://hl7.org/fhir/http-status-code (for reference only, not an actual CodeSystem) |
+<table class="regular assets">
+<thead>
+<tr>
+<th>Source CodeSystem</th>
+<th>Destination CodeSystem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://hl7.org/fhir/issue-type">http://hl7.org/fhir/issue-type</a></td>
+<td><a href="http://hl7.org/fhir/http-status-code">http://hl7.org/fhir/http-status-code</a> (for reference only, not an actual CodeSystem)</td>
+</tr>
+</tbody>
+</table>
 
 {{render:https://fhir.nhs.uk/ConceptMap/issueType-to-http-status-code}}
     </div>

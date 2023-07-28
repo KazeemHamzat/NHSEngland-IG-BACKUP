@@ -1,10 +1,5 @@
 # Home 
 
-<div class="nhsd-a-box nhsd-a-box--bg-light-yellow nhsd-!t-margin-bottom-6 nhsd-t-body">
-    <b>Important</b>: This is version 2.8.0. For a full list of available versions, see the <a href="https://simplifier.net/guide/NHSDigital/Home/HelpandSupport/Directory">directory</a> of published versions
-</div>
-
-
 This NHS England FHIR Implementation Guide provides additional guidance, rules and constraints which extends the [UK Core Implementation Guide](https://simplifier.net/guide/hl7fhirukcorer4release1/home). 
 
 The scope of this guide is NHS England, it also contains English NHS rules and constraints which are documented in Level 3 - 
@@ -27,12 +22,12 @@ Supporting implementation and binding to external specifications, covering:
 
 See {{pagelink:Implementation-Support}} for more details.
  
-<table class="regular" style="width:100%">
+<table class="regular assets" style="width:100%">
  <thead>
    <tr>
-     <th width="25%">Conformance</th>
-     <th width="25%">Security</th>
-     <th width="25%">Other</th>
+     <th width="33%">Conformance</th>
+     <th width="33%">Security</th>
+     <th width="33%">Other</th>
    </tr>
  </thead>
  <tbody>
@@ -79,12 +74,12 @@ England-OperationDefinition
 Linking to real world concepts in the healthcare system. 
 See {{pagelink:Administration}} for more details.
 
-<table class="regular" style="width:100%">
+<table class="regular assets" style="width:100%">
  <thead>
    <tr>
-     <th width="25%">Individuals</th>
-     <th width="25%">Entities</th>
-     <th width="25%">Management</th>
+     <th width="33%">Individuals</th>
+     <th width="33%">Entities</th>
+     <th width="33%">Management</th>
    </tr>
  </thead>
  <tbody>
@@ -143,12 +138,12 @@ Record-keeping and Data Exchange for the healthcare process. See also NHS Digita
 {{pagelink:Workflow}} 
 and {{pagelink:Medications}} supplements.
 
-<table class="regular nhsd-!t-margin-bottom-6" style="width:100%">
+<table class="regular assets" style="width:100%">
  <thead>
    <tr>
-     <th width="25%">{{pagelink:Diagnostics}}</th>
-     <th width="25%">{{pagelink:Medications}} </th>
-     <th width="25%">{{pagelink:Workflow}} </th>
+     <th width="33%">{{pagelink:Diagnostics}}</th>
+     <th width="33%">{{pagelink:Medications}} </th>
+     <th width="33%">{{pagelink:Workflow}} </th>
    </tr>
  </thead>
  <tbody>
@@ -193,12 +188,12 @@ and {{pagelink:Medications}} supplements.
    </tbody>
 </table>
 
-<table class="regular nhsd-!t-margin-bottom-6" style="width:100%">
+<table class="regular assets nhsd-!t-margin-bottom-6" style="width:100%">
  <thead>
    <tr>
-     <th width="25%">Document</th>
-     <th width="25%">Definitional Artifacts</th>
-       <th width="25%">Other</th>
+     <th width="33%">Document</th>
+     <th width="33%">Definitional Artifacts</th>
+    <th width="33%">Other</th>
    </tr>
  </thead>
  <tbody>
@@ -236,7 +231,7 @@ and {{pagelink:Medications}} supplements.
          <!-- UK Core -->
             <div class="nhsd-t-col-xs-12 nhsd-t-col-s-4">
                 <article class="nhsd-m-card">
-                    <a href="https://simplifier.net/guide/UKCoreImplementationGuide0.2.0STU1/Home" class="nhsd-a-box-link " aria-label="Read the EPS Guidance">
+                    <a href="https://simplifier.net/guide/uk-core-implementation-guide-stu2?version=1.1.3" class="nhsd-a-box-link " aria-label="Read the EPS Guidance">
                         <div class="nhsd-a-box nhsd-a-box--bg-light-grey">
                             <div class="nhsd-m-card__content_container">
                                 <div class="nhsd-m-card__content-box">

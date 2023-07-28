@@ -1,6 +1,7 @@
 ### FHIR Documents
 
-  <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Experimental. This page is for illustration of a concept</div>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-circle"></i><b> Important:</b> Experimental. This page is for illustration of a concept</div>
 
 This is the FHIR method of exchanging clinical [documents](https://www.hl7.org/fhir/documents.html). where content to be exchanged is wrapped by a Composition that provides the context of the content, and that has a fixed presentation for a human reader. The document framework is provided to help with computer-assisted human to human communication uses - which are not uncommon in healthcare.
 

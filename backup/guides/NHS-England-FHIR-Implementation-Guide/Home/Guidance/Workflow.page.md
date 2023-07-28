@@ -1,6 +1,7 @@
 ## {{page-title}}
  
-  <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> This page is under development by NHS Digital</div>
+  <div markdown="span" class="alert alert-warning" role="alert">
+  <i class="fas fa-exclamation-circle"></i><b> Important:</b> This page is under development by NHS Digital</div>
    
  Workflow used within the NHS can be split into two general patterns. 
 
@@ -24,22 +25,13 @@
 
 <br/>
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'broker')">FHIR Workflow Management with a Broker</button>
+  <button class="tablinks" onclick="openTab(event, 'sharing')">Event Sharing Patterns</button>
+  <button class="tablinks" onclick="openTab(event, 'adhoc')">Ad-Hoc Workflow Communication Patterns</button>
+</div>
 
-
-<div class="nhsd-!t-margin-bottom-6">
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation"  class="active">
-            <a href="#broker" role="tab" data-toggle="tab">FHIR Workflow Management with a Broker</a>
-    </li>
-     <li role="presentation">
-            <a href="#sharing" role="tab" data-toggle="tab">Event Sharing Patterns</a>
-    </li>
-    <li role="presentation">
-            <a href="#adhoc" role="tab" data-toggle="tab">Ad-Hoc Workflow Communication Patterns</a>
-    </li>
-  </ul>
-  <div class="tab-content snippet"> 
-<div id="broker" role="tabpanel" class="tab-pane active">
+<div id="broker" class="tabcontent" style="display:block">
 
 <br/>
 
@@ -85,7 +77,7 @@ EPS does not support notifications and due to technical & legal constraints, the
 
 
 </div>
-<div id="adhoc" class="tab-pane">
+<div id="adhoc" class="tabcontent">
 
 <br/>
 
@@ -121,7 +113,7 @@ BARS is designed around traditional point to point messaging exchanges which are
 6. The referrer and service can check on the status of the referral as required via querying BARS FHIR RESTful ServiceRequest endpoint (https://digital.nhs.uk/developer/api-catalogue/booking-and-referral-fhir#api-Referral)
 
 </div>
-<div id="sharing" class="tab-pane">
+<div id="sharing" class="tabcontent">
 
 <br/>
 

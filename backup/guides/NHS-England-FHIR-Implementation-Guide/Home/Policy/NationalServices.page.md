@@ -1,10 +1,12 @@
 ### National Services
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
 
 In addition to the general requirements for the use of FHIR nationally, there are also some specific requirements for the national services delivered by NHS Digital or other national organisations that use FHIR APIs.
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-NAT-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-NAT-01:</b>
 
 <br/>
 <br/>
@@ -18,13 +20,42 @@ In order to support the move to FHIR across a range of national services, there 
 
 The basePaths SHOULD be used for national services where possible:
 
-| API Name | Base Path | Further path to endpoints | 
-|--
-| Personnel Demographics Service | /personnel-demographics | /FHIR/R4 |
-| Electronic Prescription Service | /electronic-prescriptions | /FHIR/R4 |
-| Spine Directory Services (SDS) API | /spine-directory | /FHIR/R4 |
-| COVID-19 Test Results API | /covid-19-test-result | /FHIR/R4 |
-| Immunisation History API | /immunisation-history | /FHIR/R4 |
+<table class="regular assets">
+<thead>
+<tr>
+<th>API Name</th>
+<th>Base Path</th>
+<th>Further path to endpoints</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Personnel Demographics Service</td>
+<td>/personnel-demographics</td>
+<td>/FHIR/R4</td>
+</tr>
+<tr>
+<td>Electronic Prescription Service</td>
+<td>/electronic-prescriptions</td>
+<td>/FHIR/R4</td>
+</tr>
+<tr>
+<td>Spine Directory Services (SDS) API</td>
+<td>/spine-directory</td>
+<td>/FHIR/R4</td>
+</tr>
+<tr>
+<td>COVID-19 Test Results API</td>
+<td>/covid-19-test-result</td>
+<td>/FHIR/R4</td>
+</tr>
+<tr>
+<td>Immunisation History API</td>
+<td>/immunisation-history</td>
+<td>/FHIR/R4</td>
+</tr>
+</tbody>
+</table>
 
 **IMPORTANT NOTE**: This requirement is to promote alignment across NHS Digital, but until individual services are developed there is still a risk that these URLs may change.
 

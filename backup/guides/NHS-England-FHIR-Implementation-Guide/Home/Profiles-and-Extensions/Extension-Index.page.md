@@ -8,11 +8,7 @@ This extension library contains all the extensions created for use with NHS Engl
 The table below lists all the current extensions and their context of use.
 The context of use column indicates <br>the profile and /or element where the extension may be applied. <br>Additional guidance is available on <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Extensions-Index?version=current" target="_blank">UK Core Extension</a> index page.
 
-<br>
-<div id="Narrative" class="tabcontent"  style="display:block">
-<h3>Narrative Listing</h3>
-
-<table class="assets">
+<table class="regular assets">
 <tr>
 <th>Extensions</th>
 <th>Status</th>
@@ -106,7 +102,9 @@ The context of use column indicates <br>the profile and /or element where the ex
 <td>{{pagelink:Extension-England-EPSDispensingInformation}}</td>
 <td>draft</td>
 <td>MedicationDispense, <br> MedicationRequest.basedOn, <br> Task</td>
-<td>{{pagelink:Profile-England-MedicationDispense}}<br>{{pagelink:Profile-England-MedicationRequest}} <br> {{pagelink:Profile-England-Task}}</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}<br>
+{{pagelink:Profile-England-MedicationRequest}} <br> 
+{{pagelink:Profile-England-Task}}</td>
 </tr>
 <tr>
 <td>{{pagelink:Extension-England-EPSPrescription}}</td>
@@ -226,4 +224,3 @@ The context of use column indicates <br>the profile and /or element where the ex
 <td>{{pagelink:Profile-England-OperationOutcome}}</td>
 </tr>
 </table>
-</div>

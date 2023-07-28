@@ -1,12 +1,13 @@
 ### {{page-title}}
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> This page is under development by NHS Digital</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-circle"></i><b> Important:</b> This page is under development by NHS Digital</div>
 
 [FHIR Validation](https://www.hl7.org/fhir/validation.html) SHOULD be used with this implementation guide. 
 
 This IG and FHIR Validation currently tests the following:
 
-<table class="regular" style="width:100%">
+<table class="regular assets" style="width:100%">
  <thead>
    <tr>
      <th width="20%">Aspect</th>

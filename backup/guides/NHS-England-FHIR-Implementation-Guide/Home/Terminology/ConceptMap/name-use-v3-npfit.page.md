@@ -20,10 +20,25 @@
   <div class="tab-content snippet">
     <div id="Tree" role="tabpanel" class="tab-pane active">
 
-| Source CodeSystem | Destination CodeSystem  |
-|--
-| {{link:http://hl7.org/fhir/name-use}} | {{link:http://terminology.hl7.org/CodeSystem/v3-EntityNameUse}} |
-| {{link:http://hl7.org/fhir/name-use}} | {{link:https://fhir.nhs.uk/CodeSystem/v3-npfit-nameuse}} |
+
+<table class="regular assets">
+<thead>
+<tr>
+<th>Source CodeSystem</th>
+<th>Destination CodeSystem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>{{link:http://hl7.org/fhir/name-use}}</td>
+<td>{{link:http://terminology.hl7.org/CodeSystem/v3-EntityNameUse}}</td>
+</tr>
+<tr>
+<td>{{link:http://hl7.org/fhir/name-use}}</td>
+<td>{{link:https://fhir.nhs.uk/CodeSystem/v3-npfit-nameuse}}</td>
+</tr>
+</tbody>
+</table>
 
 {{render:https://fhir.nhs.uk/ConceptMap/name-use-v3-npfit}}
     </div>

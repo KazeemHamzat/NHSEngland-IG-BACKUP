@@ -1,13 +1,15 @@
 ### Serialisation
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
  
 The FHIR standard allows a number of serialisations of resources to be used. Ideally, servers will support the two main serialisations – XML and JSON, however there may be cases where this is difficult to achieve.
 
 <br/>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-SERIAL-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-SERIAL-01:</b>
 
 <br/>
 <br/>
@@ -20,7 +22,8 @@ The FHIR standard allows a number of serialisations of resources to be used. Ide
 <br/>
 
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-SERIAL-02:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-SERIAL-02:</b>
 
 <br/>
 <br/>

@@ -1,3 +1,0 @@
-### Location
-
-- {{pagelink:RBA11}}

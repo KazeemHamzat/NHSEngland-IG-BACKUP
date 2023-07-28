@@ -21,9 +21,20 @@
   <div class="tab-content snippet">
     <div id="Tree" role="tabpanel" class="tab-pane active">
 
-| Source CodeSystem | Destination CodeSystem  |
-|--
-| https://fhir.nhs.uk/CodeSystem/EPS-IssueCode | http://hl7.org/fhir/issue-type |
+<table class="regular assets">
+<thead>
+<tr>
+<th>Source CodeSystem</th>
+<th>Destination CodeSystem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://fhir.nhs.uk/CodeSystem/EPS-IssueCode">https://fhir.nhs.uk/CodeSystem/EPS-IssueCode</a></td>
+<td><a href="http://hl7.org/fhir/issue-type">http://hl7.org/fhir/issue-type</a></td>
+</tr>
+</tbody>
+</table>
 
 
 {{render:https://fhir.nhs.uk/ConceptMap/eps-issue-code-to-fhir-issue-type}}

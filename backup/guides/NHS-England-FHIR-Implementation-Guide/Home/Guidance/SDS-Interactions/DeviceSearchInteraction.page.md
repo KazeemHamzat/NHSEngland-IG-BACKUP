@@ -14,12 +14,42 @@ The Device Search Interaction supports GP Connect use cases by allowing a consum
 
 ### Search Parameter
 
-| Data Item                      | Query Parameter | Query Target | Example |
-|--
-| Organisation code              | organization | Device.owner | organization=[GPSystemODSCode]|
-| MHS Interaction ID             | identifier   | Device.identifier:NhsEndpointServiceId | identifier=https://fhir.nhs.uk/Id/nhsEndpointServiceId\|\[interactionId] |
-| Manufacturer organisation code | managing-organisation | Device.extension:Extension-SDS-ManagingOrganisation | managing-organisation=[supplierODSCode] |
-| Party Key                      | identifier   | Device.identifier:NhsMhsPartyKey | identifier=https://fhir.nhs.uk/Id/nhsMhsPartyKey\|\[partyKey] |
+<table class="regular assets">
+<thead>
+<tr>
+<th>Data Item</th>
+<th>Query Parameter</th>
+<th>Query Target</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Organisation code</td>
+<td>organization</td>
+<td>Device.owner</td>
+<td>organization=[GPSystemODSCode]</td>
+</tr>
+<tr>
+<td>MHS Interaction ID</td>
+<td>identifier</td>
+<td>Device.identifier:NhsEndpointServiceId</td>
+<td>identifier=https://fhir.nhs.uk/Id/nhsEndpointServiceId|[interactionId]</td>
+</tr>
+<tr>
+<td>Manufacturer organisation code</td>
+<td>managing-organisation</td>
+<td>Device.extension:Extension-SDS-ManagingOrganisation</td>
+<td>managing-organisation=[supplierODSCode]</td>
+</tr>
+<tr>
+<td>Party Key</td>
+<td>identifier</td>
+<td>Device.identifier:NhsMhsPartyKey</td>
+<td>identifier=https://fhir.nhs.uk/Id/nhsMhsPartyKey|[partyKey]</td>
+</tr>
+</tbody>
+</table>
 
 #### Request pattern
 

@@ -1,3 +1,0 @@
-### Encounter
-
-- {{pagelink:InpatientEncounter}}

@@ -1,12 +1,14 @@
 ### Operations
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
  
 When deploying a FHIR RESTful endpoint, the FHIR standard defines the standard RESTful operations that can be carried out on individual resources (read, vread, search, etc), resource types, or globally on a server.
 
 The target architectural model for a FHIR endpoint is RESTful as described [here](https://www.hl7.org/fhir/http.html). Therefore, designers of FHIR APIs should seek to align with this model, and make use of RESTful CRUD operations.
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-OPER-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-OPER-01:</b>
 
 <br/>
 <br/>
@@ -28,7 +30,8 @@ In addition, FHIR provides a mechanism to define [custom operations](https://www
 </div>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-OPER-02:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-OPER-02:</b>
 
 <br/>
 <br/>
