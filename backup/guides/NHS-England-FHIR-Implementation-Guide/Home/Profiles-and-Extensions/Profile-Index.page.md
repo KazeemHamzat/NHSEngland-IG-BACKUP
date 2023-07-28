@@ -5,14 +5,6 @@ topic: All-Profiles
 This index contains all the profiles created for use in NHS England Implementation Guide. 
 <br><br>
 
-<div class="tab">
-<button class="tablinks active" onclick="openTab(event, 'Narrative')">Narrative</button>
-<button class="tablinks" onclick="openTab(event, 'Resource')">By Resource</button>
-</div>
-
-<div id="Narrative" class="tabcontent"  style="display:block">
-<h3>Narrative Listing</h3>
-
 <table class="assets">
 <tr>
 <th width="25%">Profile</th>
@@ -33,4 +25,3 @@ This index contains all the profiles created for use in NHS England Implementati
 </tr>
 
 </table>
-</div>

@@ -1,11 +1,13 @@
 ### Profiling
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
 
 NHS Digital will derive any profiles from the UK Core profiles where these exist (see requirement FHIR-NAT-02 {{pagelink:NationalServices-duplicate-2}})
 
 In addition, the following requirements have been agreed:
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-PROFILE-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-PROFILE-01:</b>
 
 <br/>
 <br/>

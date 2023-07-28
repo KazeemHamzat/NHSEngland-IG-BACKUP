@@ -1,13 +1,15 @@
 ### Publication Requirements
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
 
  
 FHIR API definitions will be developed and version controlled in public Git repositories, held on Github. This is used for the day-to-day development of new specifications and changes to existing specifications. This includes both formal FHIR profile resources, and also API implementation guide content assets. Those wishing to contribute towards the development of the API specifications themselves should do so through Github (by raising issues, pull requests, etc.)
 
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-PUB-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-PUB-01:</b>
 
 <br/>
 <br/>
@@ -25,7 +27,8 @@ All FHIR resources relating to national systems and other nationally defined FHI
 </div>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-PUB-02:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-PUB-02:</b>
 
 <br/>
 <br/>
@@ -43,7 +46,8 @@ Resources that are part of Care Connect (under the governance of INTEROPen) <b>M
 **Note:** CareConnect has been migrated to the Simplifier platform and therefore this requirement is currently under review with INTEROPen. 
 </div>
 <br/>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-PUB-03:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-PUB-03:</b>
 
 <br/>
 <br/>
@@ -57,7 +61,8 @@ Resources that are part of Care Connect (under the governance of INTEROPen) <b>M
 This is currently not possible however there is discussion ongoing about development   
 </div>
 <br/>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-PUB-04:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-PUB-04:</b>
 
 <br/>
 <br/>
@@ -89,13 +94,39 @@ When any FHIR implementation guides are published, they <b>MUST</b> have an asso
  
 #### The GDS and previous process stages map as follows:
  
- |GDS          |NHS Digital (previous)|
- |-------------|----------------------|
- |Discovery    |Experimental          |
- |Alpha        |Alpha                 |
- |Private Beta |Beta                  |
- |Public Beta  |Release Candidate     |
- |Live         |Live                  |
- |Retiring     |Discontinued          | 
+<table class="regular assets">
+<thead>
+<tr>
+<th>GDS</th>
+<th>NHS Digital (previous)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discovery</td>
+<td>Experimental</td>
+</tr>
+<tr>
+<td>Alpha</td>
+<td>Alpha</td>
+</tr>
+<tr>
+<td>Private Beta</td>
+<td>Beta</td>
+</tr>
+<tr>
+<td>Public Beta</td>
+<td>Release Candidate</td>
+</tr>
+<tr>
+<td>Live</td>
+<td>Live</td>
+</tr>
+<tr>
+<td>Retiring</td>
+<td>Discontinued</td>
+</tr>
+</tbody>
+</table>
 
 </div>

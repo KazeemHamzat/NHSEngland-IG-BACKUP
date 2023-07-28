@@ -1,8 +1,10 @@
 ### Versioning
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
  
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-VER-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-VER-01:</b>
 
 <br/>
 <br/>
@@ -37,7 +39,8 @@ Definitions:
 <br/>
 
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 FHIR-VER-02:</b>
 
 <br/>
@@ -61,7 +64,8 @@ NOTES:
 - The baseurl part may be just an FQDN, but may also have other path elements if required to uniquely identify the endpoints (e.g. where a system services requests relating to multiple organisations, an organisation code may form part of the baseurl).
 </div>
 <br/>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-VER-03:</b></br>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-VER-03:</b></br>
 
 <br/>
 <br/>

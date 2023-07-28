@@ -10,10 +10,30 @@ The Endpoint Search Interaction supports GP Connect use cases by allowing a cons
 
 ### Search Parameter
 
-| Data Item          | Query Parameter  | Query Target                              | Example                       |
-|--
-| Organisation code  | organization     | managingOrganization                      | organization=[targetODSCode]  |
-| MHS Interaction ID | identifier       | Endpoint.identifier:NhsEndpointServiceId  | identifier=https://fhir.nhs.uk/Id/nhsEndpointServiceId\|\[interactionId] |
+<table class="regular assets">
+<thead>
+<tr>
+<th>Data Item</th>
+<th>Query Parameter</th>
+<th>Query Target</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Organisation code</td>
+<td>organization</td>
+<td>managingOrganization</td>
+<td>organization=[targetODSCode]</td>
+</tr>
+<tr>
+<td>MHS Interaction ID</td>
+<td>identifier</td>
+<td>Endpoint.identifier:NhsEndpointServiceId</td>
+<td>identifier=https://fhir.nhs.uk/Id/nhsEndpointServiceId|[interactionId]</td>
+</tr>
+</tbody>
+</table>
 
 #### Request pattern
 

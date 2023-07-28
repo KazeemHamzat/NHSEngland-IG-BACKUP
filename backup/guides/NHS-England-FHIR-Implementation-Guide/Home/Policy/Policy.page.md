@@ -1,6 +1,7 @@
 ## Policy
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
 
 This section details the policy for FHIR Implementations using FHIR version R4 within NHS Digital. It is currently proposed that the guidance contained here will also apply to FHIR version R5 and onwards wherever practical and allowable by the FHIR standard. 
 

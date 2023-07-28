@@ -3,7 +3,8 @@
 
  ### Requirements for FHIR endpoints to declare their capabilities.
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-CONF-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-CONF-01:</b>
 
 <br/>
 <br/>
@@ -16,7 +17,8 @@
 
 ### Requirement for FHIR Payloads to be valid and tested.
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-CONF-02:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-CONF-02:</b>
 
 <br/>
 <br/>

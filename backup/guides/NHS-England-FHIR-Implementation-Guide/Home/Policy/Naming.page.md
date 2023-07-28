@@ -1,12 +1,14 @@
 ### Naming
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
 
 In order to promote consistency and make it easier for implementers to locate suitable profiles, extensions, value sets, etc, for their projects, a naming strategy will be adopted for UK Core defined FHIR assets or FHIR assets derived from the UK Core. All UK Core derived implementation guides and FHIR assets **MUST** follow these rules to claim conformance with the UK Core.
 
 For detailed definitions of concepts discussed within this guidance document, refer to the appropriate published version of the [FHIR standard](https://www.hl7.org/fhir/).
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-NHSDIGITAL-NAME-01: (Scope NHS Digital Profiles only)</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-NHSDIGITAL-NAME-01: (Scope NHS Digital Profiles only)</b>
 
 <br/>
 <br/>
@@ -26,7 +28,8 @@ The segments are defined as follows:-
 - **Specialism**: <b>Required</b> - This is only used where there are multiple NHS Digital profiles for a given base resource type.
 - **FHIRAssetName**: The name of the base FHIR Resource. <b>Mandatory</b>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important  Note:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> Important  Note:</b>
 
 <br/>
 <br/>
@@ -52,7 +55,8 @@ This name <b>MUST</b> be used in three places:
 </div>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-NHSDIGITAL-NAME-02: (Scope NHSDigital Derived profiles only)</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-NHSDIGITAL-NAME-02: (Scope NHSDigital Derived profiles only)</b>
 
 <br/>
 <br/>
@@ -72,7 +76,8 @@ The segments are defined as follows:-
 - **BusinessName2**: The second business name of the profile. The asset name <b>MAY</b> have a second BusinessName segment. 
 - **FHIRAssetName**: The name of the base FHIR Resource. <b>Mandatory</b>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i>
 
 <br/>
 <br/>
@@ -104,7 +109,8 @@ This name <b>MUST</b> be used in three places:
 </div>
 </div>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 FHIR-NHSDIGITAL-TITLE-01: (Scope all profiles)</b>
 
 <br/>
@@ -118,7 +124,8 @@ The title of the profile <b>MUST</b> be the name with added spaces to make it hu
  </div>
 
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 FHIR-NHSDIGITAL-NAME-03:</b>
 
 <br/>
@@ -183,7 +190,8 @@ The title of the CodeSystem MUST be the name with added spaces to make it human 
 </div>
 </br>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 FHIR-NHSDIGITAL-NAME-04:</b>
 
 <br/>
@@ -224,7 +232,8 @@ The logical ID forms the final segment of the URL of the ValueSet resource and i
 
 </div>
 </br>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 FHIR-NHSDIGITAL-NAME-05:</b>
 
 <br/>
@@ -268,7 +277,8 @@ The logical ID forms the final segment of the URL of the Extension resource and 
 ```
 </div>
 <br/>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 FHIR-NHSDIGITAL-NAME-06:</b>
 
 <br/>
@@ -300,10 +310,12 @@ The logical ID forms the final segment of the URL of the OperationDefinition res
 </div>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 
 FHIR-NAME-06</b> 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> 
 <br/>
 
 Important note: FHIR identifier systems are to be managed by HL7 UK in partnership with NHS Digital within a simplifier repository. Therefore this section is for information only and more detail will be given once this repository is set up.</b> 
@@ -326,7 +338,8 @@ The segments are defined as follows:-
 </div>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b>FHIR-NAME-07 
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b>FHIR-NAME-07 
 </b> 
 
 <br/>

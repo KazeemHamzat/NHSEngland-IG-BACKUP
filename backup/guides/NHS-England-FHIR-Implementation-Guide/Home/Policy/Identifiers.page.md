@@ -1,10 +1,12 @@
 ### Identifiers
 
- <div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> Important:</b> Work in progress</div>
+ <div markdown="span" class="alert alert-warning" role="alert">
+ <i class="fas fa-exclamation-triangle"></i><b> Important:</b> Work in progress</div>
 
 In the FHIR standard, every resource has a unique identifier for that resource instance. According to the FHIR specification: “Each resource has an "id" element which contains the logical identity of the resource assigned by the server responsible for storing it.”. This identifier will differ if the resource is moved or persisted on another server (it is analogous to the primary key in a database). Typically, a resource will also have one or more “business” identifiers. These have a business meaning outside the FHIR server (e.g. an NHS number or Organisation Identifier), and can be used in resources held on multiple servers (each instance of which would have different logical IDs to identify them). See: [https://www.hl7.org/fhir/resource.html](https://www.hl7.org/fhir/resource.html)
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-IDENT-01:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-IDENT-01:</b>
 <br/><br/>
 - Business IDs <b>MUST</b> only be used as the resource ID in RESTful APIs when the system is the authoritative source of that entity.
 
@@ -27,7 +29,8 @@ Where resources include references to other resources, there is also a need to c
 <br/>
 <br/>
 
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-IDENT-02:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-IDENT-02:</b>
 
 <br/>
 <br/>
@@ -40,7 +43,8 @@ Where resources include references to other resources, there is also a need to c
 When using the FHIR Document Paradigm, wherever possible referenced resources should always be contained in the composition so that recipients have all the information needed to interpret and act on the content of the document. This also means that the recipient is confident that all included resources are the versions that were the latest at the time the document was created. Within a document, resources can reference each other, these references are meaningless outside the document however. Note: References between resources within a document can include circular references – this should be taken into account when parsing.
 </div>
 <br/>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-IDENT-03:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-IDENT-03:</b>
 <br/>
 <br/>
 - References in FHIR messaging <b>SHOULD</b> be logical references.
@@ -64,7 +68,8 @@ An example of a logical reference would be the below (for an ODS code):
 ```
 </div>
 <br/>
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-warning"></i><b> FHIR-IDENT-04:</b>
+<div markdown="span" class="alert alert-warning" role="alert">
+<i class="fas fa-exclamation-triangle"></i><b> FHIR-IDENT-04:</b>
 
 <br/>
 <br/>
