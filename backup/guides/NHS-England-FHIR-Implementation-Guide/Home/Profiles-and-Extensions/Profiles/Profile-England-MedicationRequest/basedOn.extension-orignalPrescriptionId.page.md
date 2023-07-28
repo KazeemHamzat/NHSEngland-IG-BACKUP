@@ -7,7 +7,6 @@ The original prescription id, used in repeats. This is taken from the same exten
 <br>
 
 ```json 
-
 "extension":  [
         {
             "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionId",
@@ -17,8 +16,6 @@ The original prescription id, used in repeats. This is taken from the same exten
             }
         }
     ]
-          
-````
+```
 
-
- 
+---

@@ -16,8 +16,6 @@ A code specifying the current state of the order. Generally, this will be active
 ### Logical medicationRequest status transitions
   This state transition diagram is an enhancement over the generic State Machine defined within the FHIR specification. It includes the status values associated with a medication request with transitions applicable to a NHSE implementation.
 
-  &#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;
-  https://github.com/NHSDigital/NHSDigital-FHIR-ImplementationGuide/blob/master/Diagams/medication-request-status-flow.png?raw=true&quot; width=&quot;100%&quot; hieght=&quot;auto&quot;/&gt;" />
+{{render:Diagrams-medication-request-status-flow}}
 
- ````   
-
+---

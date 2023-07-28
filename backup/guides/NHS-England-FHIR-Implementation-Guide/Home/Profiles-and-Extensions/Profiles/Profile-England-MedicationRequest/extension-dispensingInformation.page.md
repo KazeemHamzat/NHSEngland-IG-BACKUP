@@ -7,7 +7,6 @@ This extension is used in `continuous-repeat-dispensing` prescriptions sent by E
 <br>
 
 ```json
-
 "extension": [{
         "url": "https://fhir.nhs.uk/StructureDefinition/Extension-EPS-DispensingInformation",
         "extension": [{
@@ -24,7 +23,8 @@ This extension is used in `continuous-repeat-dispensing` prescriptions sent by E
         ]
     }
 ]
+```
 
- ```` 
+---
 
 

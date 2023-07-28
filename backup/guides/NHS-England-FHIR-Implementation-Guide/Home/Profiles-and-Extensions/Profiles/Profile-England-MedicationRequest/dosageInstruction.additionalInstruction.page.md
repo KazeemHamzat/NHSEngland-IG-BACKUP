@@ -10,7 +10,6 @@ Patient instructions for taking the drug are contained with in the `patientInstr
 <br>
 
 ```json
-
 "dosageInstruction": [
     {
         "text": "10 milligram, Inject, Subcutaneous route, once weekly",
@@ -26,6 +25,6 @@ Patient instructions for taking the drug are contained with in the `patientInstr
         "patientInstruction": "As directed"
     }
 ]
+```
 
-````
-
+---

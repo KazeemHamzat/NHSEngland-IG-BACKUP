@@ -23,10 +23,9 @@ Where substitution to be be allowed, set to true.The inclusion of the coded reas
 
 <br>
 ```json
-
 "substitution": {
         "allowedBoolean": false
     }
-
 ```
- 
+
+---

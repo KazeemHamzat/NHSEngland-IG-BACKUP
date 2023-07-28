@@ -7,7 +7,6 @@ The `validityPeriod` attribute defines the validity period for the prescription 
 <br>
 
 ```json
-
 "dispenseRequest": {
           "validityPeriod": {
             "start": "2020-06-10",
@@ -15,6 +14,6 @@ The `validityPeriod` attribute defines the validity period for the prescription 
           },
           ...
       }
-
 ```
-  
+
+---

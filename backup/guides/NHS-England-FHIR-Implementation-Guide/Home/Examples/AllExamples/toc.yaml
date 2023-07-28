@@ -88,6 +88,18 @@
   filename: Example-England-Bundle-SearchSetCOVID19Test.page.md
 - name: Example-England-MedicationDispense-PractitionerRole
   filename: Example-England-MedicationDispense-PractitionerRole.page.md
+- name: Example-England-Task-ActiveERSAdviceAndGuidance
+  filename: Example-England-Task-ActiveERSAdviceAndGuidance.page.md
+- name: Example-England-Task-CheckPrescription
+  filename: Example-England-Task-CheckPrescription.page.md
+- name: Example-England-Task-LabReport
+  filename: Example-England-Task-LabReport.page.md
+- name: Example-England-Task-ValidateReferral
+  filename: Example-England-Task-ValidateReferral.page.md
+- name: Example-England-Task-FulfillPatientReferral
+  filename: Example-England-Task-FulfillPatientReferral.page.md
+- name: Example-England-Task-FormComplete
+  filename: Example-England-Task-FormComplete.page.md
 - name: Bundle (FHIR Message)
   filename: BundleFHIRMessage
 - name: CommunicationRequest

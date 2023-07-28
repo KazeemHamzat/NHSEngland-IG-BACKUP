@@ -32,13 +32,13 @@ Short Form Prescription ID example (for illustration purposes only);
 
 
 ```json 
-
 "groupIdentifier": {
     ...
     "system": "https://fhir.nhs.uk/Id/prescription-order-number",
     "value": "DC2C66-A1B2C3-23407B"
 },
+```
 
-````
+---
 
  

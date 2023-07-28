@@ -11,7 +11,6 @@ An integer indicating the number of times, in addition to the original dispense 
 <br>
 
 ```json 
-
 "extension": [
                 {
                     "url": "https://fhir.nhs.uk/StructureDefinition/Extension-EPS-RepeatInformation",
@@ -23,9 +22,9 @@ An integer indicating the number of times, in addition to the original dispense 
                     ]
                 }
             ]
- 
+```
 
-````
+---
 
 
     
