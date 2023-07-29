@@ -17,4 +17,14 @@ GP Surgery **SHOULD** be provided. It is recommended the patients GP Surgery is 
 ]
 ```
 
+
+### `generalPractitioner:registeredGPPractice`
+
+Patient's registered GP Practice. Use V81998 for no registered practice and V81999 for not known as per NHS Data Dictionary guidelines.
+
+
+### `generalPractitioner:registeredGeneralMedicalPractitioner`
+
+This is to support legacy use cases where the patients GP is present.
+
 ---

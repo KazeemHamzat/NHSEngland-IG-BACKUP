@@ -16,10 +16,6 @@
   filename: identifier.page.md
 - name: name
   filename: name.page.md
-- name: name.use
-  filename: name.use.page.md
-- name: name.given
-  filename: name.given.page.md
 - name: telecom
   filename: telecom.page.md
 - name: gender
@@ -30,19 +26,9 @@
   filename: deceased-x.page.md
 - name: address
   filename: address.page.md
-- name: address.extension:addressKey
-  filename: address.extension-addressKey.page.md
-- name: address.use
-  filename: address.use.page.md
-- name: address.line
-  filename: address.line.page.md
 - name: multipleBirth[x]
   filename: multipleBirth-x.page.md
 - name: contact
   filename: contact.page.md
 - name: generalPractitioner
   filename: generalPractitioner.page.md
-- name: generalPractitioner:registeredGPPractice
-  filename: generalPractitioner-registeredGPPractice.page.md
-- name: generalPractitioner:registeredGeneralMedicalPractitioner
-  filename: generalPractitioner-registeredGeneralMedicalPractitioner.page.md

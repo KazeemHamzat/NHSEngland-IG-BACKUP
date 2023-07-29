@@ -8,11 +8,3 @@
   filename: Constraints.page.md
 - name: identifier
   filename: identifier.page.md
-- name: identifier:gmpCode
-  filename: identifier-gmpCode.page.md
-- name: identifier:professionalNumber
-  filename: identifier-professionalNumber.page.md
-- name: identifier:gmcReferenceNumber
-  filename: identifier-gmcReferenceNumber.page.md
-- name: identifier:sdsUserId
-  filename: identifier-sdsUserId.page.md

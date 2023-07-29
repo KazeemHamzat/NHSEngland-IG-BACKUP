@@ -14,8 +14,6 @@
   filename: organization.page.md
 - name: code
   filename: code.page.md
-- name: code.coding:sdsJobRoleCode
-  filename: code.coding-sdsJobRoleCode.page.md
 - name: specialty
   filename: specialty.page.md
 - name: location
