@@ -12,8 +12,6 @@
   filename: providedBy.page.md
 - name: type
   filename: type.page.md
-- name: type.coding:eRSAppointmentType
-  filename: type.coding-eRSAppointmentType.page.md
 - name: specialty
   filename: specialty.page.md
 - name: location
