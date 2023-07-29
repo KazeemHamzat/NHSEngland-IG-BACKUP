@@ -4,7 +4,7 @@
 
 A code that classifies the service for searching, sorting and display purposes (e.g. "Surgical Procedure").
 
-At present the only code in use is Patient Referral
+At present the only code in use is Patient Referral.
 
 ```json
  "category": [

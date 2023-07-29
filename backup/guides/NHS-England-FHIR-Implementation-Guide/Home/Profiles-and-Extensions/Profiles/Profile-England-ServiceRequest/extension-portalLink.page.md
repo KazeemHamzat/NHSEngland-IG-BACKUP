@@ -2,7 +2,7 @@
 
 <b>Definition:</b><br>
 
-Deep Link into the specific landing page in MYR
+Deep Link into the specific landing page in MYR.
 
 ```json
 "extension": [

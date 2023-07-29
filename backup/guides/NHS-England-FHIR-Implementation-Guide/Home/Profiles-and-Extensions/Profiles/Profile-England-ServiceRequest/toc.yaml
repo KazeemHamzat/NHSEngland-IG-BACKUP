@@ -14,10 +14,6 @@
   filename: extension-portalLink.page.md
 - name: identifier
   filename: identifier.page.md
-- name: identifier:UBRN
-  filename: identifier-UBRN.page.md
-- name: identifier:UBRN.system
-  filename: identifier-UBRN.system.page.md
 - name: intent
   filename: intent.page.md
 - name: category

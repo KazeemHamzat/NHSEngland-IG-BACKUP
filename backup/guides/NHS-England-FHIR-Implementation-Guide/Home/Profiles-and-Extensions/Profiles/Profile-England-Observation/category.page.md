@@ -2,7 +2,7 @@
 
 <b>Definition:</b><br>
 
-This is an optional element. If used the category will always be <code>laboratory</code>
+This is an optional element. If used the category will always be <code>laboratory</code>.
 
 ```json
  "category":  [

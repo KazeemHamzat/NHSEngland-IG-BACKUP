@@ -38,33 +38,15 @@
   filename: requester.page.md
 - name: basedOn
   filename: basedOn.page.md
-- name: basedOn.extension:repeatInformation
-  filename: basedOn.extension-repeatInformation.page.md
-- name: basedOn.extension:orignalPrescriptionId"
-  filename: basedOn.extension-orignalPrescriptionId.page.md
 - name: groupIdentifier
   filename: groupIdentifier.page.md
-- name: groupIdentifier.extension:PrescriptionOrderUUID
-  filename: groupIdentifier.extension-PrescriptionOrderUUID.page.md
 - name: courseOfTherapyType
   filename: courseOfTherapyType.page.md
 - name: note
   filename: note.page.md
 - name: dosageInstruction
   filename: dosageInstruction.page.md
-- name: dosageInstruction.additionalInstruction
-  filename: dosageInstruction.additionalInstruction.page.md
-- name: dosageInstruction.patientInstruction
-  filename: dosageInstruction.patientInstruction.page.md
-- name: dispenseRequest.validityPeriod
-  filename: dispenseRequest.validityPeriod.page.md
-- name: dispenseRequest.numberOfRepeatsAllowed
-  filename: dispenseRequest.numberOfRepeatsAllowed.page.md
-- name: dispenseRequest.expectedSupplyDuration
-  filename: dispenseRequest.expectedSupplyDuration.page.md
-- name: dispenseRequest.performer
-  filename: dispenseRequest.performer.page.md
-- name: dispenseRequest.performer.extension
-  filename: dispenseRequest.performer.extension.page.md
+- name: dispenseRequest
+  filename: dispenseRequest.page.md
 - name: substitution
   filename: substitution.page.md

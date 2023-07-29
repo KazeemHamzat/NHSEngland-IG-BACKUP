@@ -14,8 +14,6 @@
   filename: destination.page.md
 - name: sender
   filename: sender.page.md
-- name: sender.identifier
-  filename: sender.identifier.page.md
 - name: author
   filename: author.page.md
 - name: source
