@@ -20,8 +20,6 @@
   filename: extension-dispensingInformation.page.md
 - name: identifier
   filename: identifier.page.md
-- name: identifier:prescriptionOrderItem
-  filename: identifier-prescriptionOrderItem.page.md
 - name: status
   filename: status.page.md
 - name: statusReason

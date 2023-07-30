@@ -17,4 +17,8 @@ Each MedicationRequest MUST be identified by an Universal Unique Identifiers (UU
 ]
 ```
 
+### `identifier:prescriptionOrderItem`
+
+Unique Id of the MedicationRequest within EPS.
+
 ---
