@@ -48,11 +48,10 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-<b>ERSServiceRequestState</b>-TBC</br>
-
+  <b>PortalLink</b>- An example to illustrate a service request for ERS portal link. </br>
+{{pagelink:Example-England-ServiceRequest-ERSPortalLink}}
 <br><br>
 </div>
-
 
 ---
     
