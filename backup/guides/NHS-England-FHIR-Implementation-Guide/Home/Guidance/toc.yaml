@@ -1,16 +1,4 @@
-- name: Implementation Support
-  filename: Implementation-Support.page.md
-- name: Exchange
-  filename: Exchange
-- name: Testing
-  filename: Testing
-- name: Administration
-  filename: Administration.page.md
-- name: Medications
-  filename: Medications.page.md
-- name: Diagnostics
-  filename: Diagnostics.page.md
-- name: Workflow
-  filename: Workflow.page.md
-- name: SDS Interactions
-  filename: SDS-Interactions
+- name: Sitemap Overview
+  filename: Sitemap-Overview.page.md
+- name: NamingSystems
+  filename: NamingSystems.page.md

@@ -49,10 +49,10 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-<b>AccountCode</b>-TBC</br>
-
+  <b></b>- There is currently no example that uses this extension. An example will be added in a future release. </br>
 <br><br>
 </div>
+
 
 
 ---

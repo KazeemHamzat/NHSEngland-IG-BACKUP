@@ -6,9 +6,7 @@
   <button class="tablinks" onclick="openTab(event, 'XML View')">XML View</button>
   <button class="tablinks" onclick="openTab(event, 'JSON View')">JSON View</button>
 </div>
-    
-
-    
+   
 <div id="Table View" class="tabcontent" style="display:block">
   <h3>Table View</h3>
 {{table:England-OperationOutcome-PatientFirstNameValidation-Example}}

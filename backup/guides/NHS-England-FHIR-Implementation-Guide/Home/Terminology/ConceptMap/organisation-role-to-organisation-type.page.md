@@ -5,21 +5,13 @@
 |--
 | [https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type](https://simplifier.net/guide/NHSDigital/organisation-role-to-organisation-type) | 
 
-<div class="nhsd-!t-margin-bottom-6">
-  <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation"  class="active">
-            <a href="#Description" role="tab" data-toggle="tab">Description</a>
-        </li>
-        <li role="presentation">
-            <a href="#JSON" role="tab" data-toggle="tab">JSON</a>
-        </li>
-         <li role="presentation">
-            <a href="#XML" role="tab" data-toggle="tab">XML</a>
-        </li>
-  </ul>
-  <div class="tab-content snippet">
-    <div id="Tree" role="tabpanel" class="tab-pane active">
+<div class="tab">
+ <button class="tablinks active" onclick="openTab(event, 'Description')">Description</button>
+  <button class="tablinks" onclick="openTab(event, 'JSON')">JSON</button>
+  <button class="tablinks" onclick="openTab(event, 'XML')">XML</button>
+</div>
 
+<div id="Description" class="tabcontent" style="display:block">
 <table class="regular assets">
 <thead>
 <tr>
@@ -36,13 +28,12 @@
 </table>
 
 {{render:https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type}}
-    </div>
-    <div id="JSON" role="tabpanel" class="tab-pane">
- {{json:https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type}}
-    </div>
-    <div id="XML" role="tabpanel" class="tab-pane">
- {{xml:https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type}}
-    </div>
-  </div>
 </div>
 
+<div id="JSON" class="tabcontent">
+ {{json:https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type}}
+</div>
+<div id="XML" class="tabcontent">
+ {{xml:https://fhir.nhs.uk/ConceptMap/organisation-role-to-organisation-type}}
+    </div>
+</div>

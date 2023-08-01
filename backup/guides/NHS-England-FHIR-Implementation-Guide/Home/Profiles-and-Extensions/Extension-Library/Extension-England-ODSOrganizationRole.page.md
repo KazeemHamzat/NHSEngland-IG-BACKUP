@@ -46,13 +46,13 @@ select
 {{json:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganizationRole}}
 </div>
 
+
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-<b>ODSOrganizationRole</b>-TBC</br>
-
+  <b>GPPractice</b>- An example to illustrate GPPractice.</br>
+{{pagelink:Example-England-Organization-GPPractice}}
 <br><br>
 </div>
-
 
 ---
      
