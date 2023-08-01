@@ -1,4 +1,4 @@
-## CodeSystem-England-SpineErrorOrWarningCode
+  ## CodeSystem-England-SpineErrorOrWarningCode
 
 
 <div class="tab">
@@ -7,8 +7,6 @@
   <button class="tablinks" onclick="openTab(event, 'XML View')">XML View</button>
   <button class="tablinks" onclick="openTab(event, 'JSON View')">JSON View</button>
 </div>
-
-<br>
 
 <div id="HTML View" class="tabcontent" style="display:block">
   <h3>HTML View</h3>

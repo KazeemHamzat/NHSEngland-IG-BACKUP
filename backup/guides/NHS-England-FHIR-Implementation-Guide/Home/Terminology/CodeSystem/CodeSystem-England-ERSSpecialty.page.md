@@ -8,8 +8,6 @@
   <button class="tablinks" onclick="openTab(event, 'JSON View')">JSON View</button>
 </div>
 
-<br>
-
 <div id="HTML View" class="tabcontent" style="display:block">
   <h3>HTML View</h3>
 {{render:https://fhir.nhs.uk/CodeSystem/England-ERSSpecialty}}
