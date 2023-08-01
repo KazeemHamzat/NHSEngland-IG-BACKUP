@@ -49,7 +49,7 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-  <b>GPPractice</b>- An example to illustrate GPPractice.</br>
+  <b>GPPractice</b> An example to illustrate GPPractice.</br>
 {{pagelink:Example-England-Organization-GPPractice}}
 <br><br>
 </div>

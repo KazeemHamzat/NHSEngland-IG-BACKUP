@@ -48,7 +48,7 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-  <b>DMPrescriptionType</b>- An example to illustrate medication prescription. </br>
+  <b>DMPrescriptionType</b> An example to illustrate medication prescription. </br>
 {{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
 <br><br>
 </div>
