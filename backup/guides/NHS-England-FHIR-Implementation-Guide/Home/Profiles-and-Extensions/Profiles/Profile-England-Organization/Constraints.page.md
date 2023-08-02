@@ -10,7 +10,7 @@ More information about the constraints on the <code>England-Organization</code> 
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>nhsd-6</td>
+<td>nhse-org-001</td>
 <td>warning</td>
 <td>display.exists()</td>
 <td>partOf.display - a display name should be provided</td>
