@@ -10,7 +10,7 @@ More information about the constraints on the <code>England-OperationOutcome</co
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>nhsd-errrorcode</td>
+<td>nhse-opo-001</td>
 <td>error</td>
 <td>(severity = 'information') or ((severity != 'information') and details.empty().not())</td>
 <td>An NHS England error or warning code is required</td>

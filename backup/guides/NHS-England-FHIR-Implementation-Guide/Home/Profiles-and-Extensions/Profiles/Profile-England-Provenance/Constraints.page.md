@@ -10,7 +10,7 @@ More information about the constraints on the <code>England-Provenance</code> pr
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>who-reference</td>
+<td>nhse-prov-001</td>
 <td>warning</td>
 <td>(reference.exists() or identifier.exists())</td>
 <td><code>agent.who</code> - An identifier reference or resource reference must be provided</td>
