@@ -10,7 +10,7 @@ More information about the constraints on the <code>England-HealthcareService</c
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>nhsd-8</td>
+<td>nhse-hes-001</td>
 <td>error</td>
 <td>(reference.exists() or identifier.exists())
 </td>
