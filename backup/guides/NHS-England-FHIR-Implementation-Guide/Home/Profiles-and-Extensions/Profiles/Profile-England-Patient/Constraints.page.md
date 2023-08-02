@@ -10,10 +10,10 @@ More information about the constraints on the <code>England-Patient</code> profi
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>patient-nhs</td>
+<td>nhse-pat-001</td>
 <td>error</td>
-<td>TO BE UPDATED</td>
-<td>TO BE UPDATED</td>
+<td>identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').exists().not() or (identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').exists()  and identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').value.matches('^([0-9]{10})$'))</td>
+<td>Length of the supplied NHS Number is wrong.</td>
 </tr>
 </table>
 
