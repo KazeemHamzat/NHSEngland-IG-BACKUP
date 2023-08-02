@@ -10,63 +10,63 @@ More information about the constraints on the <code>England-Practitioner</code> 
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>prac-nmc</td>
+<td>nhse-pra-001</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/nmc-number').value.matches('^[0-9]{2}[A-Z]{1}[0-9]{4}[A-Z]{1}$'))
 </td>
 <td>NMC must be of the format NNANNNNA</td>
 </tr>
 <tr>
-<td>prac-gmp</td>
+<td>nhse-pra-002</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/gmp-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gmp-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gmp-number').value.matches('^[G]{1}[01234589]{1}[0-9]{6}$'))
 </td>
 <td>GMP must be of the format GNNNNNNN and not be a spurious code (starts with G6 or G7)</td>
 </tr>
 <tr>
-<td>prac-gmc</td>
+<td>nhse-pra-003</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-number').value.matches('^[C]{1}[0-9]{7}$'))
 </td>
 <td>GMC must be of the format CNNNNNNN</td>
 </tr>
 <tr>
-<td>prac-gphc</td>
+<td>nhse-pra-004</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').value.matches('^[0-9]{7}$'))
 </td>
 <td>GPHC must be of the format NNNNNNN</td>
 </tr>
 <tr>
-<td>prac-gmcreferencenumber</td>
+<td>nhse-pra-005</td>
 <td>error</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-reference-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/gphc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/gmc-reference-number').value.matches('^[0-9]{7}$'))
 </td>
 <td>GMC Reference Number must be of the format NNNNNNN</td>
 </tr>
 <tr>
-<td>prac-hcpc</td>
+<td>nhse-pra-006</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/hcpc-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/hcpc-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/hcpc-number').value.matches('^[A-Z]{2}[0-9]{6}$'))
 </td>
 <td>HCPC must be of the format AANNNNNN</td>
 </tr>
 <tr>
-<td>prac-din</td>
+<td>nhse-pra-007</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/din-number').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/din-number').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/din-number').value.matches('^[0-9]{6}$'))
 </td>
 <td>DIN format must be NNNNNN</td>
 </tr>
 <tr>
-<td>prac-sds-user-numeric</td>
+<td>nhse-pra-008</td>
 <td>error</td>
 <td>identifier.where(system='https://fhir.nhs.uk/Id/sds-user-id').exists().not() or (identifier.where(system='https://fhir.nhs.uk/Id/sds-user-id').exists()  and identifier.where(system='https://fhir.nhs.uk/Id/sds-user-id').value.matches('^[0-9]+$'))
 </td>
 <td>sds-user-id must be numeric</td>
 </tr>
 <tr>
-<td>nacs-code-retired</td>
+<td>nhse-pra-009</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/professional-code').exists().not()
 </td>
