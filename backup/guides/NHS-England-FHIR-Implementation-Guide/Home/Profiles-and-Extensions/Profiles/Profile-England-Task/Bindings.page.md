@@ -11,17 +11,17 @@ More information about the bindings to NHS England ValueSets can be found below.
 <tr>
 <td><code>Task.code.coding:Fulfilment<code></td>
 <td>extensible</td>
-<td>{{pagelink:https://fhir.nhs.uk/ValueSet/NHSDigital-task-code"}}</td>
+<td>{{pagelink:ValueSet-England-TaskCode}}</td>
 </tr>
 <tr>
 <td><code>Task.code.coding:SNOMED<code></td>
 <td>extensible</td>
-<td>{{pagelink:https://fhir.nhs.uk/ValueSet/NHSDigital-action-code}}</td>
+<td>{{pagelink:ValueSet-England-ActionCode}}</td>
 </tr>
 <tr>
-<td><code>Task.code.coding:Worflow<code></td>
+<td><code>Task.code.coding:Workflow<code></td>
 <td>extensible</td>
-<td>{{pagelink:https://fhir.nhs.uk/ValueSet/NHSDigital-workflow-coden}}</td>
+<td>{{pagelink:ValueSet-England-WorkflowCode}}</td>
 </tr>
 </table>
 
