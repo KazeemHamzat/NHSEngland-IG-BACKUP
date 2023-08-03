@@ -28,8 +28,8 @@
   filename: ValueSet-England-ERSAppointmentCancellationReasonCategory.page.md
 - name: ValueSet-England-ERSAppointmentType
   filename: ValueSet-England-ERSAppointmentType.page.md
-- name: ValueSet-England-ERSAppointmentType
-  filename: ValueSet-England-ERSAppointmentType-duplicate-2.page.md
+- name: ValueSet-England-ERSClinicType
+  filename: ValueSet-England-ERSClinicType.page.md
 - name: ValueSet-England-ERSPriorityCategory
   filename: ValueSet-England-ERSPriorityCategory.page.md
 - name: ValueSet-England-ERSReferralStateCategory
@@ -38,6 +38,8 @@
   filename: ValueSet-England-ERSSpecialty.page.md
 - name: ValueSet-England-ERSSpecialtyCategory
   filename: ValueSet-England-ERSSpecialtyCategory.page.md
+- name: ValueSet-England-FGMRemovalReason
+  filename: ValueSet-England-FGMRemovalReason.page.md
 - name: ValueSet-England-ImmunizationExplanationReason
   filename: ValueSet-England-ImmunizationExplanationReason.page.md
 - name: ValueSet-England-LocationType
