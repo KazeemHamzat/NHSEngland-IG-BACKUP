@@ -62,7 +62,7 @@
     <element id="HealthcareService.identifier:dosServiceId.system">
       <path value="HealthcareService.identifier.system" />
       <min value="1" />
-      <fixedUri value="http://fhir.nhs.uk/Id/dos-service-id" />
+      <fixedUri value="https://fhir.nhs.uk/Id/dos-service-id" />
     </element>
     <element id="HealthcareService.identifier:dosServiceId.value">
       <path value="HealthcareService.identifier.value" />
@@ -193,7 +193,7 @@
       <path value="HealthcareService.location" />
       <max value="1" />
       <constraint>
-        <key value="nhsd-8" />
+        <key value="nhse-hes-001" />
         <severity value="error" />
         <human value="location - An identifier reference or resource reference must be provided" />
         <expression value="(reference.exists() or identifier.exists())" />

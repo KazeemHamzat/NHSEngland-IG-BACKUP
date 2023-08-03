@@ -70,27 +70,9 @@
   filename: ValueSet-England-VaccinationProcedure.page.md
 - name: ValueSet-England-VaccineCode
   filename: ValueSet-England-VaccineCode.page.md
-- name: UKCore-England-organisation-type
-  filename: UKCore-England-organisation-type.page.md
-- name: v3-npfit-nameuse-vs
-  filename: v3-npfit-nameuse-vs.page.md
-- name: v2-hscic-0200-NameType
-  filename: v2-hscic-0200-NameType.page.md
-- name: message-status-vs
-  filename: message-status-vs.page.md
-- name: organisation-role
-  filename: organisation-role.page.md
-- name: NHS Data Dictionary Clinical Specialty
-  filename: NHSDataDictionaryClinicalSpecialty.page.md
-- name: NHSDigital-Message-Events
-  filename: NHSDigital-Message-Events.page.md
-- name: covid-19-detection-of-virus
-  filename: covid-19-detection-of-virus.page.md
-- name: covid-19-detection-of-antigen
-  filename: covid-19-detection-of-antigen.page.md
-- name: covid-19-detection-of-antibody
-  filename: covid-19-detection-of-antibody.page.md
-- name: NHSDigital-COVIDTestPillar
-  filename: NHSDigital-COVIDTestPillar.page.md
-- name: England-servicerequest-category
-  filename: England-servicerequest-category.page.md
+- name: ValueSet-England-ActionCode
+  filename: ValueSet-England-ActionCode.page.md
+- name: ValueSet-England-TaskCode
+  filename: ValueSet-England-TaskCode.page.md
+- name: ValueSet-England-WorkflowCode
+  filename: ValueSet-England-WorkflowCode.page.md
