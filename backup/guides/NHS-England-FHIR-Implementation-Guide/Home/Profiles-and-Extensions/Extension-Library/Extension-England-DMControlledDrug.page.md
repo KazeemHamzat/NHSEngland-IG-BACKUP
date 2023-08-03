@@ -53,5 +53,23 @@ select
 <br><br>
 </div>
 
+<br>
+
+More information about the constraints on the <code>ExtensionEnglandDMControlledDrug</code> can be found below.
+
+<table class="assets">
+<tr>
+<th width="15%">Key</th>
+<th width="10%">Severity</th>
+<th width="30%">Expression</th>
+<th width="45%">Human Description</th>
+</tr>
+<tr>
+<td>nhse-con-drug-001</td>
+<td>error</td>
+<td>(((extension('schedule').value.code='CD2' and extension('quantityWords').exists()) or (extension('schedule').value.code='CD3' and extension('quantityWords').exists()) or (extension('schedule').value.code != 'CD2' and extension('schedule').value.code != 'CD3')) and extension('scheduled').exists()) or (extension('scheduled').exists().not())</td>
+<td>Extension(controlledDrug) - For schedule 2 or 3 Controlled Drugs, the quantity must be expressed in words</td>
+</tr>
+</table>
 
 ---
