@@ -48,6 +48,18 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-ERSClinicType}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-HealthcareService}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-ERSClinicType}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-ImmunizationExplanationReason}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-Immunization}}</td>
@@ -66,6 +78,18 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-LocationType}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-Location}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-OrganisationRole}}</td>
 <tr>
 <td colspan="4"  class="override"></td>
 </tr>
