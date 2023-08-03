@@ -24,6 +24,30 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-ClinicalSpecialty}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-HealthcareService}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-ClinicalSpecialty}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-HealthcareService}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-ClinicalSpecialty}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-ImmunizationExplanationReason}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-Immunization}}</td>
