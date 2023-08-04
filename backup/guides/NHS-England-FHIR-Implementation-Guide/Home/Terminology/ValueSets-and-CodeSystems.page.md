@@ -174,7 +174,7 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <tr>
 <td>{{pagelink:ValueSet-England-DMMedicationDispenseType}}</td>
 <td>draft</td>
-<td>{{pagelink:Profile-England-MedicationDispense}},{{pagelink:Profile-England-MedicationRequest}}</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}</td>
 </tr>
 <tr>
 <td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationDispenseType}}</td>

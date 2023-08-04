@@ -6,21 +6,6 @@ List of addresses associated with the patient.
 
 These are fully populated on a retrieval or a successful update,only the home address is returned on a search. When a patient tagged as `restricted` or `very restricted` is retrieved, all addresses are removed from the response.
 
-```json
-"address":  [
-{
-  "line":  [
-    "1 Trevelyan Square",
-    "Boar Lane",
-    "City Centre",
-    "Leeds",
-    "West Yorkshire"
-  ],
-  "postalCode": "LS1 6AE",
-  "use": "home"
-}
-],
-```
 ### `address.extension:addressKey`
 
 Postal Address File (PAF) key associated with this address formatted as a FHIR extension. Empty if no PAF key for the address is known, or an object specifying the code system of the address key and the value of the address key.

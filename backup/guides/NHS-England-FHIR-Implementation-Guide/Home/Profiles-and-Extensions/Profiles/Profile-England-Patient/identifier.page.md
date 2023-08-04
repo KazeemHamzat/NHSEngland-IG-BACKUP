@@ -16,19 +16,4 @@ Where a traced NHS number is available for a patient this MUST be included. In g
 
 Local identifiers such as MRN **MUST** include a *system* which identifies NHS provider/assigning authority.
 
-<br />
-
-```json
-"identifier":  [
-  {
-    "system": "https://fhir.nhs.uk/Id/nhs-number",
-    "value": "9000000009"
-  },
-  {
-    "system": "https://fhir.elmet.nhs.uk/Id/MRN",
-    "value": "X54321"
-  }
-],
-```
-
 ---
