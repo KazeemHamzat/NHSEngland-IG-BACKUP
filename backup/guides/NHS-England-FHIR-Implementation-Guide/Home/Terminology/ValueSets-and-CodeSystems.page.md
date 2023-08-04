@@ -84,6 +84,24 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-VaccineCode}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-Immunization}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk</code></td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-LocationType}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-Location}}</td>
@@ -96,17 +114,109 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-VaccineCode}}</td>
+<td>{{pagelink:ValueSet-England-DMMedicationDispenseStatusReason}}</td>
 <td>draft</td>
-<td>{{pagelink:Profile-England-Immunization}}</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-MedicationDispenseStatusReason}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMTaskReasonCode}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-EPSTaskDispenseReturnStatusReason}}</td>
+<tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-EPSTaskDispenseWithdrawReason}}</td>
+<tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-MedicationRequestStatusReason}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-MedicationCode}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationDispense}},{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk where parent Equal VTM</code></td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk where parent Equal VMP</code></td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk where parent Equal AMP</code></td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk where parent Equal VMPP</code></td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk where parent Equal AMPP</code></td>
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
-<tr>
-<td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk</code></td>
 </tr>
 <tr>
-<td colspan="4">Composed of CodeSystem <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></td>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMMedicationDispenseType}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationDispense}},{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationDispenseType}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMMedicationRequestStatusReason}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationRequestStatusReason}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-BARSMessageServiceRequestCategory}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-ServiceRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-BARSMessageServiceRequestCodes}}</td>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMMedicationRequestCategory}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationRequestCategory}}</td>
+<tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>http://terminology.hl7.org/CodeSystem/medicationrequest-category</code></td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
