@@ -9,25 +9,7 @@
 
 The *SDS Role Profile Code* should be sourced from NHS Identity (SmartCard), this is also held within the Spine Directory Service LDAP database.
 
-Holds *NHS BSA spurious codes* which are role specific *Doctor Index Number (DIN)*) codes. *NHS BSA spurious codes* are issued when a doctor issues medication outside of their normal role, normally at another organisation. In the example below, the doctor is working in a secondary role (with SDS Role Id of 100102238986), as this a has a spurious code of 2345213. If the doctor was prescribing in their primary role this *spurious code* would be absent.
-
-```json
-{
-  "resourceType": "PractitionerRole",
-  ...
-  "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/sds-role-profile-id",
-            "value": "100102238986"
-          },
-          {
-            "system": "https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code",
-            "value": "2345213"
-          }
-        ],
-  ...
-}
-```
+Holds *NHS BSA spurious codes* which are role specific *Doctor Index Number (DIN)*) codes. *NHS BSA spurious codes* are issued when a doctor issues medication outside of their normal role, normally at another organisation.
 
 ---
 

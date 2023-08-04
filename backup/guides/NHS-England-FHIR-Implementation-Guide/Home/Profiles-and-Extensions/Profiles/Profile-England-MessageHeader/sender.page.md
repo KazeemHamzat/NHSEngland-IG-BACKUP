@@ -14,14 +14,6 @@
 
 For use outside of NHS England it is recommended this is populated with either the Organisation ODS code or the Practitioner's professional code.
 
-```json
-"sender": {
-    "identifier": {
-        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-        "value": "VNE51"
-   }
-}
-```
 ### `sender.identifier`
 
  An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.

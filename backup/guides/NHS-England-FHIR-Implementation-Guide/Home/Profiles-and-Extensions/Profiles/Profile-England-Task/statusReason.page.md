@@ -9,18 +9,4 @@
 | 373784005 - Dispensing medication |	`dispense-notification` | `cancelled` | {{pagelink:CodeSystem-England-EPSTaskDispenseWithdrawReason}}
 | 33633005 - Prescription of drug | `prescription-order` | `rejected / cancelled / failed` | {{pagelink:CodeSystem-England-EPSTaskDispenseReturnStatusReason}}
 
-```json
-"statusReason": [
-    {
-        "coding":  [
-            {
-                "system": "https://fhir.nhs.uk/CodeSystem/England-EPSTaskDispenseWithdrawReason",
-                "code": "DA",
-                "display": "Dosage Amendments"
-            }
-        ]
-    }
-]
-```
-
 ---

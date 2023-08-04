@@ -40,75 +40,11 @@ Format
 
 The *Doctor Index Number (DIN)* will be present in the resource even if they are prescribing using a different prescribing code. This code is called the *spurious code* is held within the `England-PractitionerRole` resource and **MUST NOT** be contained in the Practitioner resource. 
 
-In the example below, the practitioner (GP as they have a GMP Code) has a SDS User Id of 3415870201, GMP code of G1234567 and DIN code of 123456. If the GP was in a role, prescribing using a spurious code this would be found in the `PractitionerRole`.
-
-```json
-{
-  "resourceType": "Practitioner",
-  ...
-  "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/sds-user-id",
-            "value": "3415870201"
-          },
-          {
-            "system": "https://fhir.hl7.org.uk/Id/gmp-number",
-            "value": "G1234567"
-          },
-          {
-            "system": "https://fhir.hl7.org.uk/Id/din-number",
-            "value": "123456"
-          }
-        ]
-  ...
-}
-```
-
-In the example below, the practitioner (Consultant as they have a GMC Code) has a SDS User Id of 1415870201, GMC code of C2134567.
-
-```json
-{
-  "resourceType": "Practitioner",
-  ...
-  "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/sds-user-id",
-            "value": "1415870201"
-          },
-          {
-            "system": "https://fhir.hl7.org.uk/Id/gmc-number",
-            "value": "C2134567"
-          }
-        ]
-  ...
-}
-```
-
 ### Professional Code System (Unspecified/Unknown System)
 
 In cases where the profession code is present but it is not certain what type of code this is, the `https://fhir.hl7.org.uk/Id/professional-code` system should be used. It is also used for backwards compatibilty with EPS HL7 v3 ODS/NACS Practitioner Identifiers.
 
 This system may include codes from different codes and this may lead to identfication issues, for example GPhC and GMC Reference Number have the same format (7 digits), if one of these is receieved it is not known if this is a doctor and or a pharmacist.
-
-E.g. in the example below, 2134567 is probably a GMC Reference Number but we are not certain.
-
-```json
-{
-  "resourceType": "Practitioner",
-  ...
-  "identifier": [
-          {
-            "system": "https://fhir.nhs.uk/Id/sds-user-id",
-            "value": "1415870201"
-          },
-          {
-            "system": "https://fhir.hl7.org.uk/Id/professional-code",
-            "value": "2134567"
-          }
-        ]
-  ...
-}
-```
 
 <b>Comment:</b>
 
@@ -143,7 +79,6 @@ This is considered a supplemental code and the official English NHS identifiers 
 <b>Definition:</b>
 
 Used with CIS2 and Spine.
-
 
 ---
 

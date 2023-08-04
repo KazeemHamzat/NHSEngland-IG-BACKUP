@@ -4,13 +4,4 @@
 
  A reference to the patient the Task is for. This will always be an identifier reference using the Patients NHSNumber.
 
-```json
-"for": {
-        "identifier": {
-            "system": "https://fhir.nhs.uk/Id/nhs-number",
-            "value": "9446368138"
-        }
-    },
-```
-
 ---

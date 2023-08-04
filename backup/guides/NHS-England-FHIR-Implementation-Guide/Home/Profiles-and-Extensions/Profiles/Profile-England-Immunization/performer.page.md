@@ -6,29 +6,4 @@ The organisation ODS code of the location where the vaccination event took place
 
 Vaccination professional should be recorded using professional codes, see {{pagelink:Profile-England-Practitioner,text:England-Practitioner}} for details.
 
-```json
-
-"performer":  [
-        {
-            "actor": {
-                "type": "Practitioner",
-                "identifier": {
-                    "system": "https://fhir.hl7.org.uk/Id/nmc-number",
-                    "value": "5566789"
-                },
-                "display": "HOLDING, Rafferty"
-            }
-        },
-        {
-            "actor": {
-                "type": "Organization",
-                "identifier": {
-                    "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                    "value": "C4B2A"
-                },
-                "display": "ELLAND ROAD STADIUM - COVID VACCINATION CENTRE"
-            }
-        }
-    ],
-```
 ---

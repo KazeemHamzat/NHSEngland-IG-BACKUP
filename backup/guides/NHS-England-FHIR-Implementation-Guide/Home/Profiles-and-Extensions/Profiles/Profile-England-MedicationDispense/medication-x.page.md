@@ -11,19 +11,6 @@ Actual Medical Product Packs (AMPP) SHOULD be used. It is valid to include a FHI
 | VMP |Virtual Medical Product|999000561000001109|
 | AMP |Actual Medical Product|	999000541000001108
 
-
-```json
-"medicationCodeableConcept": {
-        "coding":  [
-        {
-            "system": "http://snomed.info/sct",
-            "code": "10460811000001109",
-            "display": "Amoxil 500mg capsules (Dowelhurst Ltd) 12 capsule"
-        }
-    ]
-}
-```
-
 ---
 
 
