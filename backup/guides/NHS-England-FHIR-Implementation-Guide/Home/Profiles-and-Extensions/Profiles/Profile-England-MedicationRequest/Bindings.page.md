@@ -9,22 +9,22 @@ More information about the bindings to England ValueSets can be found below.
 <th width="50%">Link</th>
 </tr>
 <tr>
-<td>MedicationRequest.statusReason</td>
+<td><code>MedicationRequest.statusReason</code></td>
 <td>preferred</td>
 <td>{{pagelink:ValueSet-England-DMMedicationRequestStatusReason}}</td>
 </tr>
 <tr>
-<td>MedicationRequest.category.coding</td>
+<td><code>MedicationRequest.category.coding</code></td>
 <td>preferred</td>
 <td>{{pagelink:ValueSet-England-DMMedicationRequestCategory}}</td>
 </tr>
 <tr>
-<td>MedicationRequest.medication</td>
+<td><code>MedicationRequest.medication</code></td>
 <td>preferred</td>
 <td>{{pagelink:ValueSet-England-MedicationCode}}</td>
 </tr>
 <tr>
-<td>MedicationRequest.courseOfTherapyType</td>
+<td><code>MedicationRequest.courseOfTherapyType</code></td>
 <td>preferred</td>
 <td>{{pagelink:ValueSet-England-DMMedicationRequestCourseOfTherapy}}</td>
 </tr>

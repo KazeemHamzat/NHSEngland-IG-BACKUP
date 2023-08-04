@@ -9,22 +9,22 @@ More information about the bindings to NHS England ValueSets can be found below.
 <th width="50%">Link</th>
 </tr>
 <tr>
-<td><code>MedicationDispense.statusReason[x].coding:notDispensedStatusReason<code></td>
+<td><code>MedicationDispense.statusReason[x].coding:notDispensedStatusReason</code></td>
 <td>required</td>
 <td>{{pagelink:ValueSet-England-DMMedicationDispenseStatusReason}}</td>
 </tr>
 <tr>
-<td><code>MedicationDispense.statusReason[x].coding:amendmentStatusReason<code></td>
+<td><code>MedicationDispense.statusReason[x].coding:amendmentStatusReason</code></td>
 <td>required</td>
 <td>{{pagelink:ValueSet-England-DMTaskReasonCode}}</td>
 </tr>
 <tr>
-<td><code>MedicationDispense.medication[x]<code></td>
+<td><code>MedicationDispense.medication[x]</code></td>
 <td>extensible</td>
 <td>{{pagelink:ValueSet-England-MedicationCode}}</td>
 </tr>
 <tr>
-<td><code>MedicationDispense.type<code></td>
+<td><code>MedicationDispense.type</code></td>
 <td>required</td>
 <td>{{pagelink:ValueSet-England-DMMedicationDispenseType}}</td>
 </tr>

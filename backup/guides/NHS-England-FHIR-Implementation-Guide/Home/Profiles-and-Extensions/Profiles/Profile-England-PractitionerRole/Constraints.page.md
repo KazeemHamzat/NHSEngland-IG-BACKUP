@@ -10,7 +10,7 @@ More information about the constraints on the <code>England-PractitionerRole</co
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>role-spurious</td>
+<td>nhse-pro-015</td>
 <td>warning</td>
 <td>identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').value.matches('^[G]{1}[67]{1}[0-9]{6}$'))
 </td>

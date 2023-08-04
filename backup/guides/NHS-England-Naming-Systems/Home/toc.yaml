@@ -1,4 +1,10 @@
 - name: Index
   filename: Index.page.md
-- name: Identifier Systems
-  filename: Identifier-Systems
+- name: Request a Naming System
+  filename: Request-a-Naming-System.page.md
+- name: Identifier Naming Systems
+  filename: Identifier-Naming-Systems
+- name: Contact Us
+  filename: Contact-Us.page.md
+- name: Downloads
+  filename: Downloads.page.md
