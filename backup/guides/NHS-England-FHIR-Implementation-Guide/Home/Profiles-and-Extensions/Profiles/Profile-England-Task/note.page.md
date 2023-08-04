@@ -10,12 +10,4 @@ This may contain cancellation reason.
 
 Used to add notes to the worklist items
 
-```json
-"note": [
-    {
-      "text": "Optional comments"
-    }
-  ]
-```
-
 ---

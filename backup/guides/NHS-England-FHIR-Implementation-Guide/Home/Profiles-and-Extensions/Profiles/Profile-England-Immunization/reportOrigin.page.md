@@ -9,11 +9,4 @@ Where primarySource=`false` and the vaccination event has been stored in local P
 -	The ODS code should be set to the ODS code of the organisation where the event has been stored e.g. GP practice or PCN.   
 Note this field will be used to determine whether or not to send the vaccination event to the patient’s registered GP
 
-```json
-
-"reportOrigin": {
-        "text": "RR8 - LEEDS TEACHING HOSPITALS NHS TRUST"
-    },
-```
-
 ---

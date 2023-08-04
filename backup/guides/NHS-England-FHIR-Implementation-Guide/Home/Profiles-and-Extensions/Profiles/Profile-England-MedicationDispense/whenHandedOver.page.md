@@ -4,9 +4,4 @@
 
 The time the dispensed product was provided to the patient or their representative. In HL7 v3 this is: The date and local time that the medication is issued by the dispenser.
 
-```json
-"whenHandedOver": "2004-09-16T16:30:00+00:00",
-
-```
-
 ---

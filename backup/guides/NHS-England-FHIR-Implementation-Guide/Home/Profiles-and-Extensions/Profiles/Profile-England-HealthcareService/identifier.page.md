@@ -6,16 +6,6 @@
 
 **MAY** contain an ANANA/ODS code.
 
-```json
-"identifier": [
-          {
-            "use": "official",
-            "system": "https://fhir.nhs.uk/Id/ers-service",
-            "value": "11021"
-          }
-        ]
-```
-
 <b>Comment:</b>
 
 MUST contain an ANANA/ODS code.

@@ -13,20 +13,4 @@ In primary care the code of `community` should be used. In secondary care the ca
 |community | http://terminology.hl7.org/CodeSystem/medicationrequest-category  |Community |
 |inpatient | http://terminology.hl7.org/CodeSystem/medicationrequest-category  | Inpatient |
 
-<br>
-
-```json  
-"category": [
-    {
-        "coding": [
-            {
-                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
-                "code": "outpatient",
-                "display": "Outpatient"
-            }
-        ]
-    }
-],
-```
-
 ---   

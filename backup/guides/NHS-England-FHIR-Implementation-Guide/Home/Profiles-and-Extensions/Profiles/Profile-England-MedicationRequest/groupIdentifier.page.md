@@ -26,18 +26,8 @@ Note. Hyphens are always included to separate the ID into 3 blocks of 6 characte
 
 Note. The implementation of the MOD 37-2 standard uses a “+” character for char 36 opposed to a “*” character.
 
-Short Form Prescription ID example (for illustration purposes only);
-
+Short Form Prescription ID example (for illustration purposes only):
 **83C40E-A23856-00123W**
-
-
-```json 
-"groupIdentifier": {
-    ...
-    "system": "https://fhir.nhs.uk/Id/prescription-order-number",
-    "value": "DC2C66-A1B2C3-23407B"
-},
-```
 
 ### `groupIdentifier.extension:PrescriptionOrderUUID`
 
@@ -47,23 +37,6 @@ When UUIDs are used within HL7 messages they must be represented in an upper cas
 
 UUID example (for illustration purposes only **34026084-A445-84AD-2D01-97D69ED25865**.
 
-<br>
-
-```json 
-"groupIdentifier": {
-    "extension":  [
-        {
-            "url": "https://fhir.nhs.uk/StructureDefinition/Extension-DM-PrescriptionId",
-            "valueIdentifier": {
-                "system": "https://fhir.nhs.uk/Id/prescription",
-                "value": "ad945a29-85f8-439a-b590-6789719adc16"
-            }
-        }
-    ],
-    "system": "https://fhir.nhs.uk/Id/prescription-order-number",
-    "value": "DC2C66-A1B2C3-23407B"
-}
-```
 ---
 
  

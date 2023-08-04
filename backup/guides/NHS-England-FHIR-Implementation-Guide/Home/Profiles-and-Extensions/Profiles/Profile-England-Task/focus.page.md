@@ -6,27 +6,12 @@
 
 Reference to the resource which is the focus of the action 
 
-```json
-"focus": {
-        "reference": "https://server.fire.ly/ServiceRequest/eb13327f-e990-4667-b37a-89eb93a94c47"
-    },
-```
-
 **EPS Only**
 
 This will be the `Bundle.identifier` of the message this Task is acting on. 
 For Tasks with a reasonCode of `373784005 - Dispensing medication`  this will be a `dispense-notification` message. 
 For Tasks with a reasonCode of `33633005 - Prescription of drug` this will be the `prescription-order` message from the Task/$release operation.
 
-```json
-"focus": {
-        "type": "Bundle",
-        "identifier": {
-            "system": "https://tools.ietf.org/html/rfc4122",
-            "value": "334a3195-1f6c-497a-8efe-d272ca9c4e38"
-        }
-    },
-```
 
  <b>Comment</b><br>
 

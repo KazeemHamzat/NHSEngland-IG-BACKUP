@@ -4,17 +4,6 @@
 `doseNumberPositiveInt` Nominal position in a series of vaccines,
 N.B. This field will not always be reliable, therefore for Covid vaccinations, the vaccination procedure code or situation code should be used as that includes the dose number
 
-```json
-
-"protocolApplied":  [
-        {
-            "doseNumberPositiveInt": 1
-        }
-    ]
-```
-
-<br>
-
 It is recommended for international/EU interoperability `targetDisease` is populated. The SNOMED CT concept should be from [EU COVID-19 Diseases]() or <a href="http://www.fhir.org/guides/stats/valueset-hl7.fhir.uv.ips-targetdiseases-uv-ips.html" target="_blank">Vaccine Target Diseases (GPS) - IPS</a>
 
 <table>
@@ -44,26 +33,4 @@ See <a href="http://www.fhir.org/guides/stats/valueset-hl7.fhir.uv.ips-targetdis
 </tr>
 </table>
 
-<br>
-
-```json
-
-  "protocolApplied": [
-    {
-        "targetDisease": [
-            {
-                "coding": [
-                    {
-                        "system": "http://snomed.info/sct",
-                        "code": "840539006",
-                        "display": "COVID-19"
-                    }
-                ]
-            }
-        ],
-        "doseNumberPositiveInt": 1
-    }
-]
-
-```
 ---

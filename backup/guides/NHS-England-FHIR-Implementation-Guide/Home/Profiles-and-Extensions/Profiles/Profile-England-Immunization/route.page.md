@@ -7,17 +7,4 @@ UK “ePrescribing route of administration simple reference set (foundation meta
 Or:
 UK published reference set “Vaccine route of administration simple reference set” (115231000001104)
 
-
-```json
-
- "route": {
-        "coding":  [
-            {
-                "system": "http://snomed.info/sct",
-                "code": "78421000",
-                "display": "Intramuscular route (qualifier value)"
-            }
-        ]
-    },
-```
 ---

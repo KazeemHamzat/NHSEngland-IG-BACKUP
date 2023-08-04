@@ -17,5 +17,4 @@ More information about the extensions can be found using the links below.
 </tr>
 </table>
 
-
 ---

@@ -14,22 +14,4 @@ The table below summarises the EPS requirements for the CD schedules. The terms 
 
 It is a legal requirement to state the prescribed quantity as words in the `quantityWords`.
 
-<br>
-
-```json
-    "extension": [
-        " url ": " https://fhir.nhs.uk/StructureDefinition/Extension-DM-ControlledDrug",
-        "quantityWords", {
-            "valueString": "twenty eight"
-        }
-        "schedule", [
-            "valueCoding ": {
-                "system ": "https: //fhir.nhs.uk/CodeSystem/medicationrequest-controlled-drug",
-                "code": "CD2",
-                "display": "Schedule 2"
-            }
-        ]
-    ]
-```
-
 ---     

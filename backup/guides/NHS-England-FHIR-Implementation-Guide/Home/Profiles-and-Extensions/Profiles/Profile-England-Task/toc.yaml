@@ -8,8 +8,6 @@
   filename: Constraints.page.md
 - name: extension:agent
   filename: extension-agent.page.md
-- name: extension:prescription
-  filename: extension-prescription.page.md
 - name: extension:repeatInformation
   filename: extension-repeatInformation.page.md
 - name: identifier
@@ -32,8 +30,6 @@
   filename: authoredOn.page.md
 - name: requester
   filename: requester.page.md
-- name: owner
-  filename: owner.page.md
 - name: reasonCode
   filename: reasonCode.page.md
 - name: note

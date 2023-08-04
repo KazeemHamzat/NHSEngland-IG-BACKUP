@@ -8,14 +8,4 @@ UUID example (for illustration purposes only);
 
 ***4509B70D-D8B8-EA03-1105-64557CB54A29***
 
-
-```json
-"identifier":  [
-    {
-        "system": "https://fhir.nhs.uk/Id/prescription-dispense-item-number",
-        "value": "4509B70D-D8B8-EA03-1105-64557CB54A29"
-    }
-]
-```
-
 ---

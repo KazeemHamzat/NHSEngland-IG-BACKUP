@@ -9,82 +9,11 @@ The content of the `dosageInstruction` should follow guidance in [Digital Medici
 
 As per BNF guidelines, the dosage must be presented to the user without abbreviation although it may be entered and stored within the PMR in an abbreviated form. Within HL7 messaging, the dosage instruction must be represented without abbreviation.
 
-<br>
-
-```json
-"dosageInstruction": [
-   {
-        "text": "Inject 10 milligram, once a week, Subcutaneous route, for 10 weeks",
-        "timing": {
-            "repeat": {
-                "boundsDuration": {
-                    "value": 10,
-                    "unit": "week",
-                     "system": "http://unitsofmeasure.org",
-                     "code": "wk"
-                },
-                 "frequency": 1,
-                 "period": 1,
-                "periodUnit": "wk"
-             }
-        },
-        "route": {
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "34206005",
-                    "display": "Subcutaneous route"
-                }
-            ]
-        },
-        "method": {
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "422145002",
-                    "display": "Inject"
-                }
-            ]
-        },
-        "doseAndRate": [
-            {
-                "doseQuantity": {
-                    "value": 10,
-                    "unit": "milligram",
-                    "system": "http://unitsofmeasure.org",
-                    "code": "mg"
-                }
-            }
-        ]
-    }
-]
-```
-
 ### `dosageInstruction.additionalInstruction`
 
 These sections **MUST** be used only be used to pass notes regarding the prescription to the pharmacist or patient. Lists of repeat medications and general practice notifications to the patient **SHOULD** be recorded in [NHSDigital-CommunicationRequest](https://simplifier.net/guide/nhsdigital/NHSDigital-CommunicationRequest) resource.
 
 Patient instructions for taking the drug are contained with in the `patientInstruction` and `additionalInstruction` as per the guidance in [Dosage Structure Overview](https://developer.nhs.uk/apis/dose-syntax-implementation/dosage-overview.html).
-
-<br>
-
-```json
-"dosageInstruction": [
-    {
-        "text": "10 milligram, Inject, Subcutaneous route, once weekly",
-        "additionalInstruction": [
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "421769005",
-                    "display": "Follow directions"
-                }
-            ],
-        ],
-        "patientInstruction": "As directed"
-    }
-]
-```
 
 ### `dosageInstruction.patientInstruction`
 
@@ -92,23 +21,4 @@ These sections **MUST** be used only be used to pass notes regarding the prescri
 
 Patient instructions for taking the drug are contained with in the `patientInstruction` and `additionalInstruction` as per the guidance in [Dosage Structure Overview](https://developer.nhs.uk/apis/dose-syntax-implementation/dosage-overview.html).
 
-<br>
-
-```json
-"dosageInstruction": [
-    {
-        "text": "10 milligram, Inject, Subcutaneous route, once weekly",
-        "additionalInstruction": [
-            "coding": [
-                {
-                    "system": "http://snomed.info/sct",
-                    "code": "421769005",
-                    "display": "Follow directions"
-                }
-            ],
-        ],
-        "patientInstruction": "As directed"
-    }
-]
-```
 ---

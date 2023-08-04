@@ -80,39 +80,6 @@ COVID-19 vaccines
 </tr>
 </table>
 
-<br>
-
-```json
-"vaccineCode": {
-        "coding":  [
-            {
-                "system": "http://snomed.info/sct",
-                "code": "39114911000001105",
-                "display": "COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca)"
-            }
-        ]
-    },
-```
-
-<br>
-
 For EU/international purposes, a vaccination type code can be also be included. The SNOMED CT concept should be from [Vaccines (GPS) - IPS]() and [EU SNOMED CT Vaccine List (COVID-19)]()
-
-```json
-"vaccineCode": {
-        "coding":  [
-            {
-                "system": "http://snomed.info/sct",
-                "code": "39114911000001105",
-                "display": "COVID-19 Vaccine AstraZeneca (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca)"
-            },
-            {
-                "system": "http://snomed.info/sct",
-                "code": "1119305005",
-                "display": "SARS-CoV-2 antigen vaccine"
-            }
-        ]
-    },
-```
 
 ---

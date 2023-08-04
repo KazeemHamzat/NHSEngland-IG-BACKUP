@@ -19,10 +19,4 @@ https://fhir.hospitaltrust.nhs.uk/$process-message
 
 For MESH this will follow [ITK2.2 MESH Transport Requirements](https://data.developer.nhs.uk/architecture/itk/Docs/ITK%20MESH%20Transport%20%20Requirements.pdf) for ITK Routing. E.g. the MESH Endpoint for Organisation B80310 
 
-```
- "source": {
-                    "endpoint": "urn:nhs-uk:addressing:mesh:Y90638OT001"
-                }
-```
-
- ---
+---
