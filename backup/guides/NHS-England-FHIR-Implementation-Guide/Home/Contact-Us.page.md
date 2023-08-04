@@ -1,1 +1,3 @@
-If you have any questions, need further information, or wish to provide feedback on this implementation guide, please e-mail: <a href="mailto:interoperabilityteam@nhs.net?subject=NHS%20Digital%20FHIR%20Implementation%20Guide">Interoperability Team</a>.
+## Contact Us
+
+If you have any questions, feedback on this Implementation Guide, or have any requests to add FHIR assets for a particular use-case, please e-mail: <a href="mailto:interoperabilityteam@nhs.net?subject=NHS%20England%20FHIR%20Implementation%20Guide%20-%20Contact">Interoperability Team</a>.

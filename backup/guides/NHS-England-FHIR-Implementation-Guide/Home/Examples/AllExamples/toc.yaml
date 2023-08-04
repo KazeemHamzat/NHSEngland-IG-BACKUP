@@ -18,8 +18,6 @@
   filename: Example-England-Location-Hospital.page.md
 - name: Example-England-Location-NightingaleHospital
   filename: Example-England-Location-NightingaleHospital.page.md
-- name: Example-England-Provenance-PatientMedicationRequestor
-  filename: Example-England-Provenance-PatientMedicationRequestor.page.md
 - name: Example-England-Bundle-PatientImmunizationQuery
   filename: Example-England-Bundle-PatientImmunizationQuery.page.md
 - name: Example-England-Immunization-AdministrationOfSARSCoV2FirstDose

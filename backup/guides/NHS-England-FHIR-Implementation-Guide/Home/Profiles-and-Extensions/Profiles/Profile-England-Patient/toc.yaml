@@ -6,8 +6,6 @@
   filename: Bindings.page.md
 - name: Constraints
   filename: Constraints.page.md
-- name: extension:medicalApplianceSupplier
-  filename: extension-medicalApplianceSupplier.page.md
 - name: extension:nominatedPharmacy
   filename: extension-nominatedPharmacy.page.md
 - name: extension:preferredDispenserOrganization

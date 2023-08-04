@@ -1,4 +1,3 @@
-## {{page-title}}
+## NamingSystems
 
-  <div markdown="span" class="alert alert-warning" role="alert">
-  <i class="fas fa-exclamation-circle"></i><b> Important:</b> This page is under development by NHS England</div>
+Please click [here](https://simplifier.net/guide/NHS-England-Naming-Systems/Home?version=current "here") to view existing, or request, Naming Systems for NHS England Implementation Guide.
