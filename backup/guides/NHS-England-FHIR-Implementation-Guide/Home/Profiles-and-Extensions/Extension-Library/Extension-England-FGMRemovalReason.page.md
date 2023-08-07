@@ -14,7 +14,7 @@ select
 
 <table id="addToTranspose">
 <tr><td>Context of Use</td>
-<td>{{pagelink:Profile-England-TBC, text:T}}
+<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Flag?version=current' target="_blank">Profile-UKCore-Flag</td>
 </tr>
 </table>
 

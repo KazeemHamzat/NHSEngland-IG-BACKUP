@@ -44,11 +44,3 @@
   filename: reasonCode.page.md
 - name: protocolApplied
   filename: protocolApplied.page.md
-- name: SNOMED CT codes relating to COVID-19 Vaccination
-  filename: SNOMED-CT-codes-relating-to-COVID-19-Vaccination.page.md
-- name: Search Parameters
-  filename: Search-Parameters.page.md
-- name: Mandatory Search Parameters
-  filename: Mandatory-Search-Parameters.page.md
-- name: Optional Search Parameters
-  filename: Optional-Search-Parameters.page.md

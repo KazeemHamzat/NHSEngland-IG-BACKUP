@@ -11,7 +11,7 @@ More information about the bindings to NHS England ValueSets can be found below.
 <tr>
 <td><code>MessageHeader.event[x]<code></td>
 <td>required</td>
-<td>{{pagelink:ValueSet-England-MessageEvents}}</td>
+<td>{{pagelink:ValueSet-England-MessageEvent}}</td>
 </tr>
 <tr>
 <td><code>MessageHeader.reason<code></td>
