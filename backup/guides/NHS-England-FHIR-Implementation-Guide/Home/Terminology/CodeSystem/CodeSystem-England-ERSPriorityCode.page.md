@@ -1,4 +1,4 @@
-## CodeSystem-England-ERSPriorityCodes
+## CodeSystem-England-ERSPriorityCode
 
 
 <div class="tab">
@@ -10,22 +10,22 @@
 
 <div id="HTML View" class="tabcontent" style="display:block">
   <h3>HTML View</h3>
-{{render:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCodes}}
+{{render:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCode}}
 </div>
 
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCodes}}
+{{table:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCode}}
 </div>
 
 <div id="XML View" class="tabcontent">
   <h3>XML View</h3>
-{{xml:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCodes}}
+{{xml:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCode}}
 </div>
 
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCodes}}
+{{json:https://fhir.nhs.uk/CodeSystem/England-ERSPriorityCode}}
 </div>
 
 ---

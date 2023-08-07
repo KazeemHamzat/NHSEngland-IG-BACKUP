@@ -48,12 +48,12 @@
   filename: Extension-England-MessageHeaderMessageID.page.md
 - name: Extension-England-MessageHeaderReplacement
   filename: Extension-England-MessageHeaderReplacement.page.md
-- name: Extension-England-ODSOrganisationRelationships
-  filename: Extension-England-ODSOrganisationRelationships.page.md
-- name: Extension-England-ODSOrganizationRole
-  filename: Extension-England-ODSOrganizationRole.page.md
-- name: Extension-England-ODSOrganizationRoleActivePeriod
-  filename: Extension-England-ODSOrganizationRoleActivePeriod.page.md
+- name: Extension-England-ODSOrganisationRelationship
+  filename: Extension-England-ODSOrganisationRelationship.page.md
+- name: Extension-England-ODSOrganisationRole
+  filename: Extension-England-ODSOrganisationRole.page.md
+- name: Extension-England-ODSOrganisationRoleActivePeriod
+  filename: Extension-England-ODSOrganisationRoleActivePeriod.page.md
 - name: Extension-England-PortalLink
   filename: Extension-England-PortalLink.page.md
 - name: Extension-England-ProvenanceAgent

@@ -170,7 +170,6 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <td colspan="4"  class="override"></td>
 </tr>
 
-
 <tr>
 <td>{{pagelink:ValueSet-England-DMMedicationDispenseType}}</td>
 <td>draft</td>
@@ -223,7 +222,7 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-MessageEvents}}</td>
+<td>{{pagelink:ValueSet-England-MessageEvent}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-MessageHeader}}</td>
 </tr>
@@ -405,11 +404,36 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <td>{{pagelink:Profile-England-Task}}</td>
 </tr>
 <tr>
-<td colspan="4">Composed of CodeSystem {{pagelink:Profile-England-Task}}ValueSet-England-WorkflowCode</td>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-WorkflowCode}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
 </tr>
 
+<tr>
+<td>{{pagelink:ValueSet-England-ERSPriorityCategory}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-ServiceRequestPriority}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-ERSPriorityCode}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-FGMRemovalReason}}</td>
+<td>draft</td>
+<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Flag?version=current' target="_blank">Profile-UKCore-Flag</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-FGMRemovalReason}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
 </table>
 </div>
+
+---

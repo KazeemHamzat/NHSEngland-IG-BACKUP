@@ -48,8 +48,8 @@
   filename: ValueSet-England-MedicationCode.page.md
 - name: ValueSet-England-MedicationDispenseCode
   filename: ValueSet-England-MedicationDispenseCode.page.md
-- name: ValueSet-England-MessageEvents
-  filename: ValueSet-England-MessageEvents.page.md
+- name: ValueSet-England-MessageEvent
+  filename: ValueSet-England-MessageEvent.page.md
 - name: ValueSet-England-MessageReasonCode
   filename: ValueSet-England-MessageReasonCode.page.md
 - name: ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory

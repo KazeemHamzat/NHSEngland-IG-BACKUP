@@ -1,11 +1,11 @@
-## StructureDefinition Extension-England-ODSOrganizationRole
+## StructureDefinition Extension-England-ODSOrganizationRoleActivePeriod
 
 <div id="transpose">
 @```
 from
 	StructureDefinition
 where
-	name = 'ExtensionEnglandODSOrganizationRole'
+	name = 'ExtensionEnglandODSOrganizationRoleActivePeriod'
 select
 	Canonical_URL: url,
 	Description: description,
@@ -31,28 +31,28 @@ select
 
 <div id="Tree View" class="tabcontent" style="display:block">
   <h3>Tree View</h3>
-{{tree:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganizationRole}}
+{{tree:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRoleActivePeriod}}
 </div>
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganizationRole}}
+{{table:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRoleActivePeriod}}
 </div>
 <div id="XML View" class="tabcontent">
   <h3>XML View</h3>
-{{xml:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganizationRole}}
+{{xml:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRoleActivePeriod}}
 </div>
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganizationRole}}
+{{json:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRoleActivePeriod}}
 </div>
-
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-  <b>GPPractice</b> An example to illustrate GPPractice.</br>
+  <b>GPPractice</b> An example to illustrate GPPractice. </br>
 {{pagelink:Example-England-Organization-GPPractice}}
 <br><br>
 </div>
 
+
 ---
-     
+   

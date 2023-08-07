@@ -21,7 +21,7 @@ More information about the bindings to NHS England ValueSets can be found below.
 <tr>
 <td><code>ServiceRequest.code.coding:ServiceRequestCode<code></td>
 <td>preferred</td>
-<td>{{pagelink:ValueSet-England-ServiceRequestCategoryCode}}</td>
+<td>{{pagelink:ValueSet-England-ServiceRequestCode}}</td>
 </tr>
 <tr>
 <td><code>ServiceRequest.performerType.coding<code></td>

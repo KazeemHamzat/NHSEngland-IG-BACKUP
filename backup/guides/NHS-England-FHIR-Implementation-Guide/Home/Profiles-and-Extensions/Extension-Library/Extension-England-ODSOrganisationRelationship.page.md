@@ -31,19 +31,19 @@ select
 
 <div id="Tree View" class="tabcontent" style="display:block">
   <h3>Tree View</h3>
-{{tree:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationships}}
+{{tree:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationship}}
 </div>
 <div id="Table View" class="tabcontent">
   <h3>Table View</h3>
-{{table:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationships}}
+{{table:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationship}}
 </div>
 <div id="XML View" class="tabcontent">
   <h3>XML View</h3>
-{{xml:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationships}}
+{{xml:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationship}}
 </div>
 <div id="JSON View" class="tabcontent">
   <h3>JSON View</h3>
-{{json:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationships}}
+{{json:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRelationship}}
 </div>
 
 <div id="Examples" class="tabcontent">
