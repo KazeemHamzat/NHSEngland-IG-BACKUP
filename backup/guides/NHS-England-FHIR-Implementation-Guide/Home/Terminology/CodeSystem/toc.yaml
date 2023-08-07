@@ -4,8 +4,8 @@
   filename: CodeSystem-England-APIErrorOrWarningCode.page.md
 - name: CodeSystem-England-AppointmentCancellationReason
   filename: CodeSystem-England-AppointmentCancellationReason.page.md
-- name: CodeSystem-England-BARSMessageServiceRequestCodes
-  filename: CodeSystem-England-BARSMessageServiceRequestCodes.page.md
+- name: CodeSystem-England-BARSMessageServiceRequestCode
+  filename: CodeSystem-England-BARSMessageServiceRequestCode.page.md
 - name: CodeSystem-England-ClinicalSpecialty
   filename: CodeSystem-England-ClinicalSpecialty.page.md
 - name: CodeSystem-England-CovidTestPillar
@@ -24,10 +24,10 @@
   filename: CodeSystem-England-ERSAppointmentType.page.md
 - name: CodeSystem-England-ERSClinicType
   filename: CodeSystem-England-ERSClinicType.page.md
-- name: CodeSystem-England-ERSErrorCodes
-  filename: CodeSystem-England-ERSErrorCodes.page.md
-- name: CodeSystem-England-ERSPriorityCodes
-  filename: CodeSystem-England-ERSPriorityCodes.page.md
+- name: CodeSystem-England-ERSErrorCode
+  filename: CodeSystem-England-ERSErrorCode.page.md
+- name: CodeSystem-England-ERSPriorityCode
+  filename: CodeSystem-England-ERSPriorityCode.page.md
 - name: CodeSystem-England-ERSPurpose
   filename: CodeSystem-England-ERSPurpose.page.md
 - name: CodeSystem-England-ERSReferralState
@@ -38,8 +38,8 @@
   filename: CodeSystem-England-ERSSpecialty.page.md
 - name: CodeSystem-England-FGMRemovalReason
   filename: CodeSystem-England-FGMRemovalReason.page.md
-- name: CodeSystem-England-HTTPErrorCodes
-  filename: CodeSystem-England-HTTPErrorCodes.page.md
+- name: CodeSystem-England-HTTPErrorCode
+  filename: CodeSystem-England-HTTPErrorCode.page.md
 - name: CodeSystem-England-MedicationDispenseEndorsement
   filename: CodeSystem-England-MedicationDispenseEndorsement.page.md
 - name: CodeSystem-England-MedicationDispenseStatusReason
@@ -74,9 +74,9 @@
   filename: CodeSystem-England-PrescriptionType.page.md
 - name: CodeSystem-England-SDSJobRoleCode
   filename: CodeSystem-England-SDSJobRoleCode.page.md
-- name: CodeSystem-England-ServiceRequestCodes
-  filename: CodeSystem-England-ServiceRequestCodes.page.md
+- name: CodeSystem-England-ServiceRequestCode
+  filename: CodeSystem-England-ServiceRequestCode.page.md
 - name: CodeSystem-England-SpineErrorOrWarningCode
   filename: CodeSystem-England-SpineErrorOrWarningCode.page.md
-- name: CodeSystem-England-WorkflowCodes
-  filename: CodeSystem-England-WorkflowCodes.page.md
+- name: CodeSystem-England-WorkflowCode
+  filename: CodeSystem-England-WorkflowCode.page.md

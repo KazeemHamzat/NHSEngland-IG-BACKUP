@@ -56,8 +56,8 @@
   filename: ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory.page.md
 - name: ValueSet-England-ObservationCategory
   filename: ValueSet-England-ObservationCategory.page.md
-- name: ValueSet-England-OperationOutcomeCodes
-  filename: ValueSet-England-OperationOutcomeCodes.page.md
+- name: ValueSet-England-OperationOutcomeCode
+  filename: ValueSet-England-OperationOutcomeCode.page.md
 - name: ValueSet-England-OrganisationRole
   filename: ValueSet-England-OrganisationRole.page.md
 - name: ValueSet-England-PractitionerRoleCode
@@ -66,8 +66,8 @@
   filename: ValueSet-England-ReasonImmunizationNotAdministered.page.md
 - name: ValueSet-England-ServiceRequestCategory
   filename: ValueSet-England-ServiceRequestCategory.page.md
-- name: ValueSet-England-ServiceRequestCategoryCodes
-  filename: ValueSet-England-ServiceRequestCategoryCodes.page.md
+- name: ValueSet-England-ServiceRequestCode
+  filename: ValueSet-England-ServiceRequestCode.page.md
 - name: ValueSet-England-VaccinationProcedure
   filename: ValueSet-England-VaccinationProcedure.page.md
 - name: ValueSet-England-VaccineCode

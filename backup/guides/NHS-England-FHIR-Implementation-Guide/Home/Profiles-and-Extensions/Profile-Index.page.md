@@ -84,12 +84,6 @@ This index contains all the profiles created for use in NHS England Implementati
 </tr>
 
 <tr>
-<td>{{pagelink:Profile-England-Provenance, text:England-Provenance}}</td>
-<td>draft</td>
-<td>This profile defines the NHS England constraints and extensions on the UK Core Provenance resource for the minimal set of data to query and retrieve information about a healthcare practioner activities in authorization and dispense of care to a patient. </td>
-</tr>
-
-<tr>
 <td>{{pagelink:Profile-England-ServiceRequest, text:England-ServiceRequest}}</td>
 <td>draft</td>
 <td>This profile defines the NHS England constraints and extensions on the UK Core ServiceRequest resource for the minimal set of data to query and retrieve service request information.</td>
