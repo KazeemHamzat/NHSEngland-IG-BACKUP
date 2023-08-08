@@ -74,8 +74,6 @@ select
 
 <b>PractitionerRole</b> -An example to illustrate PractitionerRole in MedicationDispense<br>
 {{pagelink:Example-England-MedicationDispense-PractitionerRole}}
-<br><br>
-
 </div>
 </nocheck>
 

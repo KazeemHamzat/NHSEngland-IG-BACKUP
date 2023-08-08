@@ -4,9 +4,9 @@
 
 `source.endpoint` is required and **MUST** indicate the address where replies are to be sent.
 
-| | |
-|----|----|
+
 |Element Id|MessageHeader.source|
+|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|1..1|
 |[type](https://www.hl7.org/fhir/datatypes.html)|[BackboneElement](https://www.hl7.org/fhir/datatypes.html#BackboneElement)|
 

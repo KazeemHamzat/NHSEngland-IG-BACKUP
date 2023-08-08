@@ -36,12 +36,13 @@
             <div class="container">
                 <div id="header" class="row">
                     <div class="col-md-4 hl7-fhir-logo-lhs">
-                        <a href="https://digital.nhs.uk/">
+                        <a href="https://www.england.nhs.uk/">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/NHS_England_logo.svg/2560px-NHS_England_logo.svg.png" width="100" alt="NHS England logo"/>
                         </a>
                     </div>
                     <div class="col-md-16">
                             <h3 align="center" class="guide-title">{{ guide-title }}</h3>
+                            <h5 align="center">STU1 1.0.0-pre-release-1</h5>
                     </div>
                     <div class="col-md-4 hl7-logo" style="margin-top:15px;">
                         <a href="https://www.hl7.org/fhir/{{guide-fhir-version}}">
@@ -60,9 +61,17 @@
             <!-- Header to be displayed on each page -->
             <!--Comment out for publication, start-->
             <div id="header" class="row">
-                <div  id="development-notice" markdown="span" class="alert alert-danger" role="alert">
+                <!--<div  id="development-notice" markdown="span" class="alert alert-danger" role="alert">
                     <h4><i class="fas fa-exclamation-triangle"></i> WARNING</h4>
                     This guidance is under active development by NHS England and content may be added or updated on a regular basis.
+                </div>-->
+                <div id="development-notice" markdown="span" class="alert alert-info" role="alert">
+                    <i class="fa fa-info-circle"></i>
+                    <b>Notice</b><br />
+                    <ul>
+                        <li>This version of the NHS England Implementation Guide is currently under development.</li>
+                        <li>This is a 'pre-release' version and exists for the purpose of internal review and is <b>not</b> suitable for development purposes.</li>
+                    </ul>
                 </div>
             </div>
             <!--Comment out for publication, end-->

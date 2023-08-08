@@ -48,9 +48,12 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b></b> There is currently no example that uses this extension. An example will be added in a future release. </br>
+<h3>Examples</h3>
+<b>MedicationPrescriptionType</b>- An example to illustrate a bundled medication prescription </br>
+{{pagelink:Example-England-Bundle-MedicationPrescriptionType}}
 <br><br>
+<b>DMPrescriptionType</b>- An example to illustrate medication prescription </br>
+{{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
 </div>
 
 ---

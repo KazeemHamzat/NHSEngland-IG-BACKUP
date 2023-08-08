@@ -70,8 +70,8 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Patient First Name Validation</b> - An example to validate patient first name<br>
+<h3>Examples</h3>
+<b>Patient First Name Validation</b> - An example to validate patient first name<br>
 {{pagelink:Example-England-OperationOutcome-PatientFirstNameValidation}}
 <br><br>
 <b>Patient Details Validation</b> - An example to validate patient details<br>

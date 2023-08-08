@@ -70,14 +70,13 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-  <h3>Examples</h3>
-  <b>Medication Prescription</b> - An example to illustrate medication prescription<br>
+<h3>Examples</h3>
+<b>Medication Prescription</b> - An example to illustrate medication prescription<br>
 {{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
 <br><br>
 
-  <b>Bundled Medication Prescription</b> - An example to illustrate a bundled medication prescription<br>
+<b>Bundled Medication Prescription</b> - An example to illustrate a bundled medication prescription<br>
 {{pagelink:Example-England-Bundle-MedicationPrescriptionType}}
-<br><br>
 </div>
 </nocheck>
 

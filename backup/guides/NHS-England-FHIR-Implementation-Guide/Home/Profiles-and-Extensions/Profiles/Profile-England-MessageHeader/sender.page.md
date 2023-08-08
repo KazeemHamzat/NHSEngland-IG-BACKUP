@@ -4,11 +4,19 @@
 
  The current requirement in NHS England API's is to rely on the [Access Tokens and Audit (JWT)](https://developer.nhs.uk/apis/spine-core/security_jwt.html) for sender details.
 
- | | |
-|----|----|
-|Element Id|MessageHeader.sender|
-|[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|0..1|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[Reference](https://www.hl7.org/fhir/datatypes.html#Reference)({{pagelink:Profile-England-PractitionerRole, text:England-PractitionerRole}} {{pagelink:Profile-England-Practitioner,text:England-Practitioner}} {{pagelink:Profile-England-Organization,text:England-Organization}})|
+<table class="regular assets">
+<tr>
+<td>Element Id</td>
+<td>MessageHeader.sender</td>
+</tr>
+<tr>
+<td> <a href='https://www.hl7.org/fhir/conformance-rules.html#cardinality' target="_blank">Cardinality</a></td>
+<td> 0..1</td>
+</tr>
+<td> <a href='https://www.hl7.org/fhir/datatypes.html' target="_blank">type</a></td>
+<td> <a href='https://www.hl7.org/fhir/datatypes.html#Extension' target="_blank">Reference</a>({{pagelink:Profile-England-PractitionerRole, text:England-PractitionerRole}} {{pagelink:Profile-England-Practitioner,text:England-Practitioner}} {{pagelink:Profile-England-Organization,text:England-Organization}})  </td>
+</tr>
+</table>
 
 <br/>
 
@@ -18,10 +26,23 @@ For use outside of NHS England it is recommended this is populated with either t
 
  An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.
 
- 
-| | |
-|----|----|
+ <table class="regular assets">
+<tr>
+<td>Element Id</td>
+<td>MessageHeader.sender.identifier</td>
+</tr>
+<tr>
+<td> <a href='https://www.hl7.org/fhir/conformance-rules.html#cardinality' target="_blank">Cardinality</a></td>
+<td> 1..1</td>
+</tr>
+<tr>
+<td> <a href='https://www.hl7.org/fhir/datatypes.html' target="_blank">type</a></td>
+<td> <a href='https://www.hl7.org/fhir/datatypes.html#Identifier' target="_blank">Identifier</a> </td>
+</tr>
+</table>
+
 |Element Id|MessageHeader.sender.identifier|
+|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|1..1|
 |[type](https://www.hl7.org/fhir/datatypes.html)|[Identifier](https://www.hl7.org/fhir/datatypes.html#Identifier)|
 

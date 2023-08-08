@@ -70,9 +70,8 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-
-  <h3>Examples</h3>
-  <b>FredricaSmith</b> - An example to illustrate a patient called FredricaSmith<br>
+<h3>Examples</h3>
+<b>FredricaSmith</b> - An example to illustrate a patient called FredricaSmith<br>
 {{pagelink:Example-England-Patient-FredricaSmith}}
 <br><br>
 
@@ -86,7 +85,6 @@ select
 
 <b>RichardSmith</b> - An example to illustrate a patient called RichardSmith<br>
 {{pagelink:Example-England-Patient-RichardSmith}}
-<br><br>
 </div>
 </nocheck>
 

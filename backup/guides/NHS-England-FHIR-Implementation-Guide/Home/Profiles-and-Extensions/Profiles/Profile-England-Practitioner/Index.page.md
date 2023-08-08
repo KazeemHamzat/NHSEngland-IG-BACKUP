@@ -89,8 +89,6 @@ select
 
 <b>Validate Practitioner</b> - An example to illustrate to validate practitioner<br>
 {{pagelink:Example-England-Practitioner-Validation}}
-<br><br>
-
 </div>
 </nocheck>
 
