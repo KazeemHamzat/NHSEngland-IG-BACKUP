@@ -48,17 +48,15 @@ select
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-  <b>GPPractice</b> An example to illustrate GPPractice. </br>
+  <b>GPPractice</b>- An example to illustrate GPPractice. </br>
 {{pagelink:Example-England-Organization-GPPractice}}
 <br><br>
-<b>GPPractice</b> An example to illustrate GPPractice. </br>
-{{pagelink:Example-England-Organization-GPPractice}}
+<b>ODSAPIOrganizationR4LeedsCCG</b>- An example to illustrate ODSAPIOrganizationR4LeedsCCG. </br>
+{{pagelink:Example-England-Organization-ODSAPIOrganizationR4LeedsCCG}}
 <br><br>
-<b>GPPractice</b> An example to illustrate GPPractice. </br>
-{{pagelink:Example-England-Organization-GPPractice}}
-<br><br>
+<b>ODSAPIOrganizationR4ReadResponse</b> An example to illustrate ODSAPIOrganizationR4ReadResponse. </br>
+{{pagelink:Example-England-Organization-ODSAPIOrganizationR4ReadResponse}}
 </div>
-
 
 ---
       
