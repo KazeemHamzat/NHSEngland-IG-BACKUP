@@ -78,7 +78,6 @@ select
 
 <b>Nightingale Hospital</b> - An example to illustrate Nightingale Hospital Location.<br>
 {{pagelink:Example-England-Location-NightingaleHospital}}
-<br><br>
 </div>
 </nocheck>
 

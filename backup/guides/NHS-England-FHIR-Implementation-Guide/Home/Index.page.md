@@ -2,25 +2,18 @@
 
 This NHS England FHIR Implementation Guide provides additional guidance, rules and constraints which extends the [UK Core Implementation Guide](https://simplifier.net/guide/hl7fhirukcorer4release1/home). 
 
-The scope of this guide is NHS England, it also contains English NHS rules and constraints which are documented in Level 3 - 
-{{pagelink:Administration}}
+The scope of this Implementation Guide is for programmes and products within NHS England.
 
 ---
 
 ## Level 1 - Foundation
 
-Basic framework on which the specification is built.
-See NHS England FHIR <a href='https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home?version=current'>Policy</a> for more details.
+The basic framework from which this Implementation Guide is built from.
+View the NHS England Design and Development Approach <a href='https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home?version=current'>here</a> for more information.
 
 ---
 
 ## Level 2 - Implementation Support
-
-Supporting implementation and binding to external specifications, covering: 
-{{pagelink:FHIR-Validation}}
-, {{pagelink:Guidance-Exchange}} and Exchange Patterns. 
-
-See {{pagelink:Implementation-Support}} for more details.
  
 <table class="regular assets" style="width:100%">
  <thead>
@@ -55,9 +48,6 @@ See {{pagelink:Implementation-Support}} for more details.
 ---
 
 ## Level 3 - Administration
-
-Linking to real world concepts in the healthcare system. 
-See {{pagelink:Administration}} for more details.
 
 <table class="regular assets" style="width:100%">
  <thead>
@@ -97,10 +87,6 @@ See {{pagelink:Administration}} for more details.
 ---
 
 ## Level 4 - Record Keeping and Data Exchange
-
-Record-keeping and Data Exchange for the healthcare process. See also NHS Digital 
-{{pagelink:Workflow}} 
-and {{pagelink:Medications}} supplements.
 
 <table class="regular assets" style="width:100%">
  <thead>
@@ -162,5 +148,3 @@ and {{pagelink:Medications}} supplements.
     </tr>
    </tbody>
 </table>
-
----

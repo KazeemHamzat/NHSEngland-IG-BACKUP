@@ -6,7 +6,7 @@ More information about the bindings to NHS England ValueSets can be found below.
 <tr>
 <th width="30%">Context</th>
 <th width="20%">Strength</th>
-<th width="50%">Link</th>
+<th width="60%">Link</th>
 </tr>
 <tr>
 <td><code>ServiceRequest.category.coding:BARSMessageServiceRequestCategory<code></td>

@@ -4,9 +4,12 @@ topic: Extension-Library
 
 ## Extension Index
 
-This extension library contains all the extensions created for use with NHS England Implemetation Guide. <br>
-The table below lists all the current extensions and their context of use.
-The context of use column indicates <br>the profile and /or element where the extension may be applied. <br>Additional guidance is available on <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/Terminology/ValueSetsandCodeSystems.page.md?version=current" target="_blank">UK Core Extension</a> index page.
+This extension library contains all the Extensions created for use within the NHS England Implemetation Guide.
+
+The table below lists all of the current Extensions and their context of use.
+The 'Context of Use' column indicates the profile and/or element where the extension may be applied.
+
+Additionally, guidance for UK Core Extensions is available <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/Terminology/ValueSetsandCodeSystems.page.md?version=current" target="_blank">here</a>.
 
 <table class="regular assets">
 <tr>
@@ -52,6 +55,13 @@ The context of use column indicates <br>the profile and /or element where the ex
 </tr>
 
 <tr>
+<td>{{pagelink:Extension-England-DMPrescriptionEndorsement}}</td>
+<td>draft</td>
+<td>MedicationRequest</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+
+<tr>
 <td>{{pagelink:Extension-England-DMPrescriptionId}}</td>
 <td>draft</td>
 <td>MedicationRequest</td>
@@ -73,25 +83,12 @@ The context of use column indicates <br>the profile and /or element where the ex
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-DMPrescriptionType}}</td>
-<td>draft</td>
-<td>MedicationRequest</td>
-<td>{{pagelink:Profile-England-MedicationRequest}}</td>
-</tr>
-
-<tr>
 <td>{{pagelink:Extension-England-DMResponsiblePractitioner}}</td>
 <td>draft</td>
 <td>MedicationRequest</td>
 <td>{{pagelink:Profile-England-MedicationRequest}}</td>
 </tr>
 
-<tr>
-<td>{{pagelink:Extension-England-DMRunningTotal}}</td>
-<td>draft</td>
-<td>MedicationDispense</td>
-<td>{{pagelink:Profile-England-MedicationDispense}}</td>
-</tr>
 <tr>
 <td>{{pagelink:Extension-England-DMRunningTotal}}</td>
 <td>draft</td>
@@ -116,8 +113,10 @@ The context of use column indicates <br>the profile and /or element where the ex
 <tr>
 <td>{{pagelink:Extension-England-EPSRepeatInformation}}</td>
 <td>draft</td>
-<td>Task</td>
-<td>{{pagelink:Profile-England-Task}}</td>
+<td>MedicationDispense, <br> MedicationRequest, <br> Task</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}<br>
+{{pagelink:Profile-England-MedicationRequest}} <br> 
+{{pagelink:Profile-England-Task}}</td>
 </tr>
 
 <tr>

@@ -76,47 +76,35 @@ select
   <b>Service Request Category</b> -An example to illustrate a service request category<br>
 {{pagelink:Example-England-Bundle-BARSMessageServiceRequestCategory}}
 <br><br>
-
 <b> ERS Service Request </b> - An example to illustrate a ERS service request state<br>
 {{pagelink:Example-England-Bundle-ERSServiceRequestState}}
 <br><br>
-
 <b>Active ERS Advice And Guidance</b> -An example to illustrate a service request for active ERS advice and guidance<br>
 {{pagelink:Example-England-ServiceRequest-ActiveERSAdviceAndGuidance}}
 <br><br>
-
 <b>Active Patient Referral</b> - An example to illustrate a service request for active patient referral<br>
 {{pagelink:Example-England-ServiceRequest-ActivePatientReferral}}
 <br><br>
-
 <b>Draft ERS Advice And Guidance</b> -An example to illustrate a service request for draft ERS advice and guidance<br>
 {{pagelink:Example-England-ServiceRequest-DraftERSAdviceAndGuidance}}
 <br><br>
-
 <b>Draft Patient Referral</b> - An example to illustrate a service request for draft patient referral<br>
 {{pagelink:Example-England-ServiceRequest-DraftPatientReferral}}
 <br><br>
-
 <b>ERS Counselling</b> -An example to illustrate a service request for ERS counselling<br>
 {{pagelink:Example-England-ServiceRequest-ERSCounselling}}
 <br><br>
-
 <b>ERS Portal Link</b> - An example to illustrate a service request for ERS portal link<br>
 {{pagelink:Example-England-ServiceRequest-ERSPortalLink}}
 <br><br>
-
 <b>ERS Way Finder</b> -An example to illustrate a service request for ERS way finder <br>
 {{pagelink:Example-England-ServiceRequest-ERSWayFinder}}
 <br><br>
-
 <b>Referral Follow Up Advice</b> - An example to illustrate a service request for referral follow up advice<br>
 {{pagelink:Example-England-ServiceRequest-ReferralFollowUpAdvice}}
-
 </div>
 </nocheck>
 
 ---
 
 ## Profile Specific Implementation Guidance: ##
-
----

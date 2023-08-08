@@ -1,5 +1,5 @@
-title: NHS England FHIR Implementation Guide
-description: NHS England FHIR Implementation Guide for use with NHS England API's
-version: 1.0.0
+title: NHS England Implementation Guide
+description: NHS England Implementation Guide for FHIR R4 programmes and products.
+version: 1.0.0-pre-release-1
 style-root: project
 style-name: ukcore
