@@ -62,7 +62,7 @@ Read more about "Must Support" in FHIR.
 
 #### ValueSets
 Binding Strengths
-The UKCore ValueSet binding strength SHOULD be decided as part of the Clinical and Technical Assurance, but the general philosophy is as the following:
+The ValueSet binding strength SHOULD be decided as part of the Clinical and Technical Assurance, but the general philosophy is as the following:
 
 - required - Used only when defined as 'required' by the FHIR standard, or when decided as part of the Clinical and Technical Assurance.
 - extensible - All ValueSets SHOULD be set to 'extensible', where not defined as 'required' by the FHIR standard, or 'preferred' by the NHSE IG standard.

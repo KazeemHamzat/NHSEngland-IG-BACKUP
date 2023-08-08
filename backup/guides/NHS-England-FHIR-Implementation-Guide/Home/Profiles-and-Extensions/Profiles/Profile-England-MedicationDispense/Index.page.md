@@ -70,11 +70,10 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-<br>
-  <h3>Examples</h3>
-  <b>PractitionerRole</b> -An example to illustrate PractitionerRole in MedicationDispense
+<h3>Examples</h3>
 
-<br>{{pagelink:Example-England-MedicationDispense-PractitionerRole}}
+<b>PractitionerRole</b> -An example to illustrate PractitionerRole in MedicationDispense<br>
+{{pagelink:Example-England-MedicationDispense-PractitionerRole}}
 <br><br>
 
 </div>

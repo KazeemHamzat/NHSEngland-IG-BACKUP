@@ -8,7 +8,7 @@
 |----|----|
 |Element Id|MessageHeader.sender|
 |[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|0..1|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[Reference](https://www.hl7.org/fhir/datatypes.html#Reference)([England-PractitionerRole](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/England-PractitionerRole) [England-Practitioner](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/England-Practitioner) [England-Organization](https://simplifier.net/resolve?target=simplifier&fhirVersion=R4&scope=uk.nhsdigital.medicines.r4.test@2.6.5-prerelease&canonical=https://fhir.nhs.uk/StructureDefinition/England-Organization))|
+|[type](https://www.hl7.org/fhir/datatypes.html)|[Reference](https://www.hl7.org/fhir/datatypes.html#Reference)({{pagelink:Profile-England-PractitionerRole, text:England-PractitionerRole}} {{pagelink:Profile-England-Practitioner,text:England-Practitioner}} {{pagelink:Profile-England-Organization,text:England-Organization}})|
 
 <br/>
 

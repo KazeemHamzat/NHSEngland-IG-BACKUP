@@ -12,5 +12,3 @@ The codes are contained in the valueset
 |AF|Food replacement/food supplement products.| 
 
 ---
-
-

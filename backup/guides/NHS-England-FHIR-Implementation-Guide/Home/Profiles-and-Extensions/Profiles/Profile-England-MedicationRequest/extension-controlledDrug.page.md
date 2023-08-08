@@ -1,6 +1,7 @@
 ## `extension:controlledDrug`
 
-<b>Definition:</b><br>
+<b>Definition:</b>
+
 The table below summarises the EPS requirements for the CD schedules. The terms “Hand signature” and “Electronic signature” expressed in the table are shortened references to the legal definition of signature requirements within government legislation.
 
 |  Sch. | Code | Signing Legal Requirement |EPS Scope | Expiry Date | Quantity Representation | Repeat Dispensing Allowed | RD 1st Issue Expiry | RD Subsequent Expiry |

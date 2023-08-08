@@ -7,7 +7,7 @@ More information about the extensions can be found using the links below.
 <th width="20%">Extension</th>
 <th width="20%">Context</th>
 <th width="30%">Link</th>
-<th width="30%">Comment</th>
+<th width="45%">Comment</th>
 </tr>
 <tr>
 <td>responsiblePractitioner</td>
@@ -46,3 +46,5 @@ More information about the extensions can be found using the links below.
 <td></td>
 </tr>
 </table>
+
+---
