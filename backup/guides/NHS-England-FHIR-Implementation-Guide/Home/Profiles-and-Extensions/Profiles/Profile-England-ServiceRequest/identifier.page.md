@@ -11,13 +11,23 @@ Unique Booking Reference Number (12 digit number used as an internal and externa
 
 ### `identifier:UBRN.system`
 <br>
-
-| | |
-|----|----|
-|Element Id|ServiceRequest.identifier:UBRN.system|
-|[Cardinality](https://www.hl7.org/fhir/conformance-rules.html#cardinality)|1..1|
-|Fixed Value|https://fhir.nhs.uk/Id/UBRN|
-|[type](https://www.hl7.org/fhir/datatypes.html)|[uri](https://www.hl7.org/fhir/datatypes.html#uri)|
-
+ <table class="regular assets">
+<tr>
+<td>Element Id</td>
+<td>ServiceRequest.identifier:UBRN.system</td>
+</tr>
+<tr>
+<td> <a href='https://www.hl7.org/fhir/conformance-rules.html#cardinality' target="_blank">Cardinality</a></td>
+<td> 1..1</td>
+</tr>
+<tr>
+<td>Fixed Vakue</td>
+<td> https://fhir.nhs.uk/Id/UBRN</ </td>
+</tr>
+<tr>
+<td><a href='https://www.hl7.org/fhir/datatypes.html' target="_blank">type</a></td>
+<td> <a href='https://www.hl7.org/fhir/datatypes.html#uri' target="_blank">uri</a> </td>
+</tr>
+</table>
 
 ---

@@ -5,7 +5,7 @@
 from
 	StructureDefinition
 where
-	name = 'ExtensionEnglandODSOrganizationRole'
+	name = 'ExtensionEnglandODSOrganisationRole'
 select
 	Canonical_URL: url,
 	Description: description,
@@ -14,7 +14,8 @@ select
 
 <table id="addToTranspose">
 <tr><td>Context of Use</td>
-<td>{{pagelink:Profile-England-Organization, text:Organization}}
+<td>{{pagelink:Profile-England-Organization, text:Organization}},
+{{pagelink:Profile-England-Location, text:Location}}
 </tr>
 </table>
 
@@ -46,12 +47,19 @@ select
 {{json:https://fhir.nhs.uk/StructureDefinition/Extension-England-ODSOrganisationRole}}
 </div>
 
-
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
-  <b>GPPractice</b> An example to illustrate GPPractice.</br>
+  <b>GPPractice</b>- An example to illustrate GPPractice.</br>
 {{pagelink:Example-England-Organization-GPPractice}}
 <br><br>
+  <b>NightingaleHospital</b>- An example to illustrate Nightingale Hospital Location.</br>
+{{pagelink:Example-England-Location-NightingaleHospital}}
+<br><br>
+  <b>ODSAPIOrganizationR4LeedsCCG</b>- An example to illustrate ODSAPIOrganizationR4LeedsCCG.</br>
+{{pagelink:Example-England-Organization-ODSAPIOrganizationR4LeedsCCG}}
+<br><br>
+  <b>ODSAPIOrganizationR4ReadResponse</b>- An example to illustrate ODSAPIOrganizationR4ReadResponse.</br>
+{{pagelink:Example-England-Organization-ODSAPIOrganizationR4ReadResponse}}
 </div>
 
 ---
