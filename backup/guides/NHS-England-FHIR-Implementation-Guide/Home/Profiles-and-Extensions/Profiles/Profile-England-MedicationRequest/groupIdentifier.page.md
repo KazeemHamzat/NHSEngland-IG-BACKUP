@@ -38,5 +38,3 @@ When UUIDs are used within HL7 messages they must be represented in an upper cas
 UUID example (for illustration purposes only **34026084-A445-84AD-2D01-97D69ED25865**.
 
 ---
-
- 

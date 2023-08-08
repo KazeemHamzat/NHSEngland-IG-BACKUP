@@ -70,11 +70,9 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-<br>
   <h3>Examples</h3>
-  <b>Search Set COVID-19 Test</b> - An example to illustrate an observation of the COVID-19 test
-
-<br>{{pagelink:Example-England-Bundle-SearchSetCOVID19Test}}
+  <b>Search Set COVID-19 Test</b> - An example to illustrate an observation of the COVID-19 test<br>
+{{pagelink:Example-England-Bundle-SearchSetCOVID19Test}}
 <br><br>
 
 </div>

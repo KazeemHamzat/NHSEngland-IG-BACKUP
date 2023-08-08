@@ -70,23 +70,17 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-<br>
   <h3>Examples</h3>
-  <b>Medication Prescription</b> - An example to illustrate medication prescription
-
-<br>{{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
+  <b>Medication Prescription</b> - An example to illustrate medication prescription<br>
+{{pagelink:Example-England-MedicationRequest-DMPrescriptionType}}
 <br><br>
 
-  <b>Bundled- Medication Prescription</b> - An example to illustrate a bundled medication prescription
-
-<br>{{pagelink:Example-England-Bundle-MedicationPrescriptionType}}
+  <b>Bundled Medication Prescription</b> - An example to illustrate a bundled medication prescription<br>
+{{pagelink:Example-England-Bundle-MedicationPrescriptionType}}
 <br><br>
 </div>
 </nocheck>
 
-
 ---
 
 ## Profile Specific Implementation Guidance: ##
-
----

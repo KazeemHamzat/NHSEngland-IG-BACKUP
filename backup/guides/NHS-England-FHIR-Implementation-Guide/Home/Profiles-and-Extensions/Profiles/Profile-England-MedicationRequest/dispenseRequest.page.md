@@ -5,7 +5,7 @@ Indicates the specific details for the dispense or medication supply part of a m
 
 ### `dispenseRequest.validityPeriod`
 
-The `validityPeriod` attribute defines the validity period for the prescription authorisation. This period must start (the `validityPeriod.start`) at the date of prescribing and cannot exceed 12 months (the `validityPeriod.end`). Typically, most repeatable prescriptions will be authorised for a validity period of either 6 or 12 months.
+The `validityPeriod` attribute defines the validity period for the prescription authorisation. This period **MUST** start (the `validityPeriod.start`) at the date of prescribing and cannot exceed 12 months (the `validityPeriod.end`). Typically, most repeatable prescriptions will be authorised for a validity period of either 6 or 12 months.
 
 ### `dispenseRequest.numberOfRepeatsAllowed`
 
@@ -17,20 +17,20 @@ The number of repeat issues authorised if specified.
 
 **MUST** NOT be specified where the number of repeat issues has not been defined. Therefore, the numberOfRepeats allowed is the total number of allowed issues. See also extension repeatInformation.
 
-For `continuous` orders and `continuous-repeat-dispensing` with intent=`reflex-order` (i.e., orders sent from EPS to pharmacists) this &lt;b&gt;MUST&lt;/b&gt; be zero. The `numberOfRepeatsAllowed` in the extension to `basedOn` can be used to convey this information to inform patients that they need to re-order the medication. 
+For `continuous` orders and `continuous-repeat-dispensing` with intent=`reflex-order` (i.e., orders sent from EPS to pharmacists) this **MUST** be zero. The `numberOfRepeatsAllowed` in the extension to `basedOn` can be used to convey this information to inform patients that they need to re-order the medication. 
 
 ### `dispenseRequest.expectedSupplyDuration`
 
 The `expectedSupplyDuration` entity is required for repeat dispensing (repeatable) prescriptions only.
 
-The `expectedSupplyDuration` element defines the expected duration, in days, of each issue of the prescription. A default value of 28 can be used which must be amendable by the prescriber when required. The value must be an integer value greater than zero. A sensible upper limit validation should be included within the System. If this value is omitted, the Spine will assume a value of 28.
+The `expectedSupplyDuration` element defines the expected duration, in days, of each issue of the prescription. A default value of 28 can be used which **MUST** be amendable by the prescriber when required. The value **MUST** be an integer value greater than zero. A sensible upper limit validation should be included within the System. If this value is omitted, the Spine will assume a value of 28.
 
 ### `dispenseRequest.performer`
 
 For non token based prescriptions the destination pharmacy **MUST** be recorded in the *dispenseRequest.performer.identifier* and a identifier reference (not a resource reference) with an ANANA/ODS Code **MUST** used. 
 
 The extension 
-https://fhir.nhs.uk/StructureDefinition/Extension-England-DMPerformerSiteType         **MUST** be present.
+https://fhir.nhs.uk/StructureDefinition/Extension-England-DMPerformerSiteType    **MUST** be present.
 
 Patients pharmacy preferences may be sourced from PDS.
 

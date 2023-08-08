@@ -16,18 +16,6 @@ More information about the constraints on the <code>England-MedicationRequest</c
 <td>medication[x] - Only one of medicationReference or medicationCodeableConcept should be provided</td>
 </tr>
 <tr>
-<td>nhse-mer-014</td>
-<td>error</td>
-<td>(reference.exists() or (identifier.exists()))</td>
-<td>requester - An identifier reference or resource reference must be provided</td>
-</tr>
-<tr>
-<td>nhse-mer-015</td>
-<td>error</td>
-<td>(reference.exists() or (identifier.exists()))</td>
-<td>recorder - An identifier reference or resource reference must be provided</td>
-</tr>
-<tr>
 <td>nhse-mer-002</td>
 <td>error</td>
 <td>extension('https://fhir.nhs.uk/StructureDefinition/Extension-England-DMResponsiblePractitioner').exists().not() or (extension('https://fhir.nhs.uk/StructureDefinition/Extension-England-DMResponsiblePractitioner').value.reference.exists() or extension('https://fhir.nhs.uk/StructureDefinition/Extension-England-DMResponsiblePractitioner').value.system.exists())</td>
@@ -59,7 +47,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-007</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code = 'acute') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent !='reflex-order') or ((courseOfTherapyType.coding.code = 'continuous' or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent ='reflex-order')) and (dispenseRequest.numberOfRepeatsAllowed.exists().not() or (dispenseRequest.numberOfRepeatsAllowed.exists() and dispenseRequest.numberOfRepeatsAllowed = 0)))</td>
 <td>For continuous-repeat-dispensing (intent=reflex-order) or continous orders, numberOfRepeatsAllowed must be empty or equal to 0</td>
 </tr><tr>
@@ -70,7 +58,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-009</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code != 'continuous-repeat-dispensing') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent='reflex-order') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent!='reflex-order' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists().not()) or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent!='reflex-order' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists() and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').extension('numberOfPrescriptionsIssued').exists().not())</td>
 <td>Extension repeatInformation.numberOfPrescriptionsIssued should not be present for continuous-repeat-dispensing that are not intent=reflex-order"</td>
 </tr>
@@ -88,7 +76,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-012</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code != 'acute') or (courseOfTherapyType.coding.code = 'acute' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists().not())</td>
 <td>Extension repeatInformation.numberOfPrescriptionsIssued should not be present for acute issues</td>
 </tr>
@@ -98,4 +86,18 @@ More information about the constraints on the <code>England-MedicationRequest</c
 <td>identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').exists().not() or (identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').exists()  and identifier.where(system='https://fhir.nhs.uk/Id/nhs-number').value.matches('^([0-9]{10})$'))</td>
 <td>Length of the supplied NHS Number is wrong.</td>
 </tr>
+<tr>
+<td>nhse-mer-014</td>
+<td>error</td>
+<td>(reference.exists() or (identifier.exists()))</td>
+<td>requester - An identifier reference or resource reference must be provided</td>
+</tr>
+<tr>
+<td>nhse-mer-015</td>
+<td>warning</td>
+<td>(reference.exists() or (identifier.exists()))</td>
+<td>recorder - An identifier reference or resource reference must be provided</td>
+</tr>
 </table>
+
+---

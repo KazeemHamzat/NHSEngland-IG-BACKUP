@@ -4,8 +4,6 @@
 
 Within UK healthcare, substitution is not the norm and so this element will normally be set to a default of `false`.
 
-
-
 Substitution being set to false is a mandatory requirement for EPS.
 
 Substituition is a mandatory requirement for EPS
@@ -20,5 +18,3 @@ NHSE has profiled this element as MANDATORY and MUST have a default boolean valu
 **Allowing substitution**
 
 Where substitution to be be allowed, set to true.The inclusion of the coded reason is optional as the valueset defined in FHIR is of limited benefit to NHS healthcare.
-
----

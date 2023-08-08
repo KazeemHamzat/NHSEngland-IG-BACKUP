@@ -70,24 +70,17 @@ select
 </div>
 
 <div id="Examples" class="tabcontent">
-<br>
   <h3>Examples</h3>
-  <b>Prescription Order</b> - An example to illustrate a message header for prescription order
-
-<br>{{pagelink:Example-England-MessageHeader-PrescriptionOrder}}
-<br><br>
-
+  <b>Prescription Order</b> - An example to illustrate a message header for prescription order<br>
+{{pagelink:Example-England-MessageHeader-PrescriptionOrder}}
 </div>
 </nocheck>
-
 
 ---
 
 ## Profile Specific Implementation Guidance: ##
 
----
-
-#### Definition
+### Definition
 
  The header for a FHIR Message exchange that is either requesting or responding to an action. The reference(s) that are the subject of the action as well as other information related to the action are typically transmitted in a bundle in which the MessageHeader resource instance is the first resource in the bundle.
 
@@ -101,10 +94,7 @@ In circumstances where more detailed information is required for routing this **
 Systems involved in NHSDigital/UKCore messaging are expected to support this profile only, extensions or derived profiles are permitted but they may only have limited (internal) scope and will not be supported outside of this scope (e.g. externally). 
 This resource **SHOULD NOT** be profiled to further define the contents of the resources and [FHIR MessageDefinition](https://www.hl7.org/fhir/messagedefinition.html) **MUST** be used instead.
 
----
-
-
- #### Comment
+ <b>Comment</b>
 
  <a name="identifiers"></a>
 ### identifiers and message timings<a href="#identifiers" title="link to here" class="self-link"><i class="bi-link"></i></a>
@@ -117,7 +107,7 @@ Systems may chose to map *X-Request-ID* header to the `Bundle.id`, messageId. If
 
 MessageHeader can hold previous and extra messageId's in the {{link:https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID}}
 
-#### Local Part/Addressing (sender and/or destination.receiver)
+<b> Local Part/Addressing (sender and/or destination.receiver)</b>
 
 When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{link:https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
 
@@ -152,9 +142,7 @@ In the example below, the destination is a clinic (A99968) which part of NHS Tru
 ],
 ```
 
-
-
-#### example - Prescription, Pharmacy known
+### Example - Prescription, Pharmacy known
 
 {{render:diagrams-nominatedpharmacy}}
 
@@ -237,7 +225,7 @@ EPS will now send this message to the pharmacy. This message is collected by the
 }
 ```
 
-#### example - Prescription, Pharmacy not known
+### Example - Prescription, Pharmacy not known
 
 {{render:diagrams-noNominatedPharmacy}}
 
@@ -290,7 +278,6 @@ The last time the message was updated (e.g. by storing or modification) is captu
 
 ### From (source and sender) and To (destination)
 
-
 The *From* is contained in both the `sender` and `source` elements and the *To* is contained in the `destination` array. One source, sender and at least one destination **MUST** be present. 
 
 Messages may be sent over multiple transmission legs (i.e. the first leg uses http and the second MESH). The contents of elements **SHOULD** reflect the current leg only.
@@ -300,5 +287,5 @@ Messages may be sent over multiple transmission legs (i.e. the first leg uses ht
 - MessageHeader.extension(messageId)
 
  Endpoints **MUST** point to valid endpoint uri's on each leg of the messages journey, they may not refer to inaccessible endpoints on other legs. See also the destination section below.
-
+ 
  ---
