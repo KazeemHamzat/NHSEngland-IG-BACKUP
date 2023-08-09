@@ -82,9 +82,6 @@ select
 <b>Active ERS Advice And Guidance</b> -An example to illustrate a service request for active ERS advice and guidance<br>
 {{pagelink:Example-England-ServiceRequest-ActiveERSAdviceAndGuidance}}
 <br><br>
-<b>Active Patient Referral</b> - An example to illustrate a service request for active patient referral<br>
-{{pagelink:Example-England-ServiceRequest-ActivePatientReferral}}
-<br><br>
 <b>Draft ERS Advice And Guidance</b> -An example to illustrate a service request for draft ERS advice and guidance<br>
 {{pagelink:Example-England-ServiceRequest-DraftERSAdviceAndGuidance}}
 <br><br>

@@ -224,7 +224,7 @@ Additionally, guidance for UK Core Extensions is available <a href="https://simp
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-SpineSupportingInfoPrescription}}</td>
+<td>{{pagelink:Extension-England-FGMRemovalReason}}</td>
 <td>draft</td>
 <td>UKCore-Flag</td>
 <td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Flag?version=current' target="_blank">Profile-UKCore-Flag</td>

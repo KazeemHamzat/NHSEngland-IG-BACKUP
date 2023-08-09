@@ -60,8 +60,6 @@
   filename: Example-England-Bundle-ERSServiceRequestState.page.md
 - name: Example-England-ServiceRequest-ActiveERSAdviceAndGuidance
   filename: Example-England-ServiceRequest-ActiveERSAdviceAndGuidance.page.md
-- name: Example-England-ServiceRequest-ActivePatientReferral
-  filename: Example-England-ServiceRequest-ActivePatientReferral.page.md
 - name: Example-England-ServiceRequest-DraftERSAdviceAndGuidance
   filename: Example-England-ServiceRequest-DraftERSAdviceAndGuidance.page.md
 - name: Example-England-ServiceRequest-DraftPatientReferral

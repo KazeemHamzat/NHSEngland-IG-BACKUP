@@ -17,10 +17,8 @@ select
 <td>{{pagelink:Profile-England-OperationOutcome, text:OperationOutcome}}</td>
 </tr>
 </table>
-
 </div>
 <br>
-
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Tree View')">Tree View</button>
    <button class="tablinks" onclick="openTab(event, 'Table View')">Table View</button>
@@ -28,7 +26,6 @@ select
    <button class="tablinks" onclick="openTab(event, 'JSON View')">JSON View</button>
   <button class="tablinks" onclick="openTab(event, 'Examples')">Examples</button>
 </div>
-<br>
 <div id="Tree View" class="tabcontent" style="display:block">
   <h3>Tree View</h3>
 {{tree:https://fhir.nhs.uk/StructureDefinition/Extension-England-SpineSupportingInfoPrescription}}
@@ -49,8 +46,6 @@ select
 <div id="Examples" class="tabcontent">
 <h3>Examples</h3>
 <b></b> There is currently no example that uses this extension. An example will be added in a future release. </br>
-<br><br>
 </div>
-
 
 ---
