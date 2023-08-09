@@ -54,7 +54,7 @@ select
 
 <br>
 
-More information about the constraints on the <code>ExtensionEnglandProvenanceAgent</code> can be found below.
+More information about the constraints on the <code>Extension-England-Provenance-Agent</code> can be found below.
 
 <table class="assets">
 <tr>
