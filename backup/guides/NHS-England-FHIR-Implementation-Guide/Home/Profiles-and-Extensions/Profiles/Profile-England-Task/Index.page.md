@@ -95,21 +95,13 @@ select
 
 ## Profile Specific Implementation Guidance: ##
 
----
-
-
 #### Definition
 
  FHIR Task usage and scope:
 
-A task resource describes an activity that can be performed and tracks the state of completion of that activity. It is a representation that an activity should be or has been initiated, and eventually, represents the successful or unsuccessful completion of that activity. Note that there are a variety of processes associated with making and processing orders. Some orders may be handled immediately by automated systems but most require real world actions by one or more humans. Some orders can only be processed when other real world actions happen, such as a patient presenting themselves so that the action to be performed can actually be performed. Often these real world dependencies are only implicit in the order details.
-
-**A Task resource often exists in parallel with clinical resources.** 
+A Task resource often exists in parallel with clinical resources.
 
 For example, a Task could request fulfillment of a ServiceRequest ordering a Procedure that would result in a Procedure, Observation, DiagnosticReport, ImagingStudy or similar resource. Another example would be a Task that requests fulfillment of a CommunicationRequest to be performed between various actors.
-
----
-
 
  #### Comment
 
@@ -120,7 +112,6 @@ For example, a Task could request fulfillment of a ServiceRequest ordering a Pro
 - workflow support (centred around complex workflow support and may involves a workflow engine)
 
 ---
-
 
 ##### Order Fulfilment
 
@@ -142,8 +133,6 @@ Note the fulfiller will use other resources to record the details of the fulfilm
 See the section on `status` for more details.
 
 ---
-
-
 
 ##### Minor Workflow Requests
 
