@@ -9,17 +9,17 @@ More information about the bindings to England ValueSets can be found below.
 <th width="50%">Link</th>
 </tr>
 <tr>
-<td>specialty.coding:NHSDataDictionarySpecialty</td>
+<td><code>specialty.coding:NHSDataDictionarySpecialty</code></td>
 <td>required</td>
 <td>{{pagelink:ValueSet-England-ClinicalSpecialty}}</td>
 </tr>
 <tr>
-<td>specialty.coding:eRSSpecialty</td>
+<td><code>specialty.coding:eRSSpecialty</code></td>
 <td>preferred</td>
 <td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
 </tr>
 <tr>
-<td>serviceProvisionCode.coding:eRSClinicType</td>
+<td><code>serviceProvisionCode.coding:eRSClinicType</code></td>
 <td>required</td>
 <td>{{pagelink:ValueSet-England-ERSClinicType}}</td>
 </tr>

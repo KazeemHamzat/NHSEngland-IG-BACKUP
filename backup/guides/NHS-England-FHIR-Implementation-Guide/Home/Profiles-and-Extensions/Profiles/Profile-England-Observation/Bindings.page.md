@@ -10,7 +10,7 @@ More information about the bindings to NHS England ValueSets can be found below.
 </tr>
 <tr>
 <td><code>Observation.category:COVID-TestPillar<code></td>
-<td>required</td>
+<td>preferred</td>
 <td>{{pagelink:ValueSet-England-ObservationCategory}}</td>
 </tr>
 </table>
