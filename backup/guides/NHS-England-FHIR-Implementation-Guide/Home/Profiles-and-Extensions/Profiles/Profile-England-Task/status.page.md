@@ -4,7 +4,9 @@
 
 These workflow tasks have status which indicates the Task status.
 
-The following diagram reflects the "typical" state machine for Task. Note that not all states will be supported by all workflows and that some workflows may support additional transitions, including transitions from terminal states (e.g. back to "in-progress" from "failed" or "completed").
+
+
+The diagram shown <a href="https://www.hl7.org/fhir/task-state-machine.svg">here reflects the "typical" state machine for Task. Note that not all states will be supported by all workflows and that some workflows may support additional transitions, including transitions from terminal states (e.g. back to "in-progress" from "failed" or "completed").
 
 <br>
 
