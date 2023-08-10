@@ -32,5 +32,3 @@ See <a href="http://www.fhir.org/guides/stats/valueset-hl7.fhir.uv.ips-targetdis
 </td>
 </tr>
 </table>
-
----

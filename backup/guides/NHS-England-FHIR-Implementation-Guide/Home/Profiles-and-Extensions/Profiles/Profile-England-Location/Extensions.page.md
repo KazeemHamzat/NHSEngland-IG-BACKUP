@@ -12,13 +12,13 @@ More information about the extensions can be found using the links below.
 <tr>
 <td>locationRole</td>
 <td>Location.type</td>
-<td>{{pagelink:Extension-England-ODSOrganizationRole}}</td>
+<td>{{pagelink:Extension-England-ODSOrganisationRole}}</td>
 <td></td>
 </tr>
 <tr>
 <td>activePeriod</td>
 <td>Location.type</td>
-<td>{{pagelink:Extension-England-ODSOrganizationRoleActivePeriod}}</td>
+<td>{{pagelink:Extension-England-ODSOrganisationRoleActivePeriod}}</td>
 <td></td>
 </tr>
 </table>

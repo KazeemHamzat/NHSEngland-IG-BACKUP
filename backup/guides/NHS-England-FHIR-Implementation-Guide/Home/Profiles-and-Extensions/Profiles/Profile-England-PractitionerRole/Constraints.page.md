@@ -10,13 +10,6 @@ More information about the constraints on the <code>England-PractitionerRole</co
 <th width="45%">Human Description</th>
 </tr>
 <tr>
-<td>nhse-pro-015</td>
-<td>warning</td>
-<td>identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').value.matches('^[G]{1}[67]{1}[0-9]{6}$'))
-</td>
-<td>Spurious Code format must be G6NNNNNN or G7NNNNNN</td>
-</tr>
-<tr>
 <td>nhse-pro-001</td>
 <td>error</td>
 <td>identifier.where(system='https://fhir.nhs.uk/Id/sds-role-profile-id').exists().not() or (identifier.where(system='https://fhir.nhs.uk/Id/sds-role-profile-id').exists()  and identifier.where(system='https://fhir.nhs.uk/Id/sds-role-profile-id').value.matches('^[0-9]{12}$'))
@@ -113,6 +106,13 @@ More information about the constraints on the <code>England-PractitionerRole</co
 <td>(reference.exists() or (identifier.exists()))
 </td>
 <td>PractitionerRole.healthcareService - An identifier reference or resource reference must be provided</td>
+</tr>
+<tr>
+<td>nhse-pro-015</td>
+<td>warning</td>
+<td>identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').exists().not() or (identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').exists()  and identifier.where(system='https://fhir.hl7.org.uk/Id/nhsbsa-spurious-code').value.matches('^[G]{1}[67]{1}[0-9]{6}$'))
+</td>
+<td>Spurious Code format must be G6NNNNNN or G7NNNNNN</td>
 </tr>
 </table>
 
