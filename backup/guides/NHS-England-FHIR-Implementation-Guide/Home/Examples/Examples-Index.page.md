@@ -207,12 +207,6 @@
 </tr>
 
 <tr>
-<td>{{pagelink:Example-England-Provenance-PatientMedicationRequestor}}</td>
-<td>England-Provenance-PatientMedicationRequestor-Example</td>
-<td>Provenance</td>
-</tr>
-
-<tr>
 <td>{{pagelink:Example-England-Bundle-BARSMessageServiceRequestCategory}}</td>
 <td>England-Bundle-BARSMessageServiceRequestCategory-Example</td>
 <td>ServiceRequest</td>
@@ -227,12 +221,6 @@
 <tr>
 <td>{{pagelink:Example-England-ServiceRequest-ActiveERSAdviceAndGuidance}}</td>
 <td>England-ServiceRequest-ActiveERSAdviceAndGuidance-Example</td>
-<td>ServiceRequest</td>
-</tr>
-
-<tr>
-<td>{{pagelink:Example-England-ServiceRequest-ActivePatientReferral}}</td>
-<td>England-ServiceRequest-ActivePatientReferral-Example</td>
 <td>ServiceRequest</td>
 </tr>
 
