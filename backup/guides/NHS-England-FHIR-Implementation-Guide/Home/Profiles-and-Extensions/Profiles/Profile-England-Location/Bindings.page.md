@@ -9,7 +9,7 @@ More information about the bindings to UK Core ValueSets can be found below.
 <th width="50%">Link</th>
 </tr>
 <tr>
-<td>Location.type</td>
+<td><code>Location.type</code></td>
 <td>extensible</td>
 <td>{{pagelink:ValueSet-England-LocationType}}</td>
 </tr>

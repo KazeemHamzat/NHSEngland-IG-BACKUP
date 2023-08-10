@@ -18,6 +18,3 @@ Additional details about the error. This may be a text description of the error 
 ### `issue.expression`
 
 FHIRPath of element(s) related to issue.
-
----
-

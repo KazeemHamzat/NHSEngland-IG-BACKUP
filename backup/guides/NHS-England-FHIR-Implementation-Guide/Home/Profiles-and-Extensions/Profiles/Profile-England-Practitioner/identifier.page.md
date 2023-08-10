@@ -79,6 +79,3 @@ This is considered a supplemental code and the official English NHS identifiers 
 <b>Definition:</b>
 
 Used with CIS2 and Spine.
-
----
-

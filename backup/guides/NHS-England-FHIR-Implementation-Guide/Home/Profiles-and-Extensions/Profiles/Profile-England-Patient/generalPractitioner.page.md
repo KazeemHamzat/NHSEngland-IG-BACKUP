@@ -12,5 +12,3 @@ Patient's registered GP Practice. Use V81998 for no registered practice and V819
 ### `generalPractitioner:registeredGeneralMedicalPractitioner`
 
 This is to support legacy use cases where the patients GP is present.
-
----

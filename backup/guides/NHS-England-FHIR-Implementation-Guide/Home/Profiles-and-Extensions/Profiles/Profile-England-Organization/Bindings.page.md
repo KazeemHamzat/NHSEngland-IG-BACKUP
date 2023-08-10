@@ -9,8 +9,8 @@ More information about the bindings to England ValueSets can be found below.
 <th width="50%">Link</th>
 </tr>
 <tr>
-<td>Organization.type</td>
-<td>Preferred</td>
+<td><code>Organization.type</code></td>
+<td>preferred</td>
 <td>{{pagelink:ValueSet-England-OrganisationRole}}</td>
 </tr>
 </table>
