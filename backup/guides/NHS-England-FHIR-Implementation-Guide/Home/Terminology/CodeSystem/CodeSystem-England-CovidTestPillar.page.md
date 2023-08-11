@@ -8,17 +8,17 @@
 </div>
 
 <div id="HTML View" class="tabcontent" style="display:block">
-  <h3>HTML View</h3>
+<h3>HTML View</h3>
 {{render:https://fhir.nhs.uk/CodeSystem/England-CovidTestPillar}}
 </div>
 
 <div id="Table View" class="tabcontent">
-  <h3>Table View</h3>
+<h3>Table View</h3>
 {{table:https://fhir.nhs.uk/CodeSystem/England-CovidTestPillar}}
 </div>
 
 <div id="XML View" class="tabcontent">
-  <h3>XML View</h3>
+<h3>XML View</h3>
 {{xml:https://fhir.nhs.uk/CodeSystem/England-CovidTestPillar}}
 </div>
 
