@@ -1251,6 +1251,11 @@ For example, a baby assigned an NHS number at birth that relates to the wrong mo
 <td><a href="https://ucum.org/" target="_blank">UCUM website</a></td>
 </tr>
 <tr>
+<td>UK Core</td>
+<td> An Implementation Guide that provides UK wide FHIR implementation guidance that has applicability across jurisdictions and care settings.</td>
+<td><br></td>
+</tr>
+<tr>
 <td>UML</td>
 <td>The Unified Modelling Language is a family of graphical notations baked by a single meta-model, that help in designing and describing software systems. Especially useful when working with OOP paradigms.</td>
 <td><br></td>

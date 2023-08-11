@@ -4,7 +4,7 @@ topic: Extension-Library
 
 ## Extension Index
 
-This extension library contains all the Extensions created for use within the NHS England Implemetation Guide.
+This extension library contains all the Extensions created for use within the NHS England Implementation Guide.
 
 The table below lists all of the current Extensions and their context of use.
 The 'Context of Use' column indicates the profile and/or element where the extension may be applied.
