@@ -1,4 +1,4 @@
-### An example to illustrate to fulfill a referral (FHIR ServiceRequest) needs checking before it is sent to a service provider
+### An example to illustrate the fulfillment of a Patient referral.
 
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'Table View')">Table View</button>

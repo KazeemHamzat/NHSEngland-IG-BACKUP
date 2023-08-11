@@ -83,7 +83,7 @@ select
 <b>Validate Referral</b> - An example to illustrate to validate a referral (FHIR ServiceRequest) needs checking before it is sent to a service provider<br>
 {{pagelink:Example-England-Task-ValidateReferral}}
 <br><br>
-<b>Fulfill Patient Referral</b> - An example to illustrate to fulfill a referral (FHIR ServiceRequest) needs checking before it is sent to a service provider<br>
+<b>Fulfill Patient Referral</b> - An example to illustrate the fulfillment of a Patient referral<br>
 {{pagelink:Example-England-Task-FulfillPatientReferral}}
 <br><br>
 <b>Form Complete</b> - An example to illustrate a task regarding form complete<br>

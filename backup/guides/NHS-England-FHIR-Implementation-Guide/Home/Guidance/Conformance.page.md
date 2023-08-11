@@ -17,7 +17,7 @@ Systems **MAY** deploy, and support, one or more NHS England profiles to represe
 
 To support a NHS England profile, a server:
 
-- **SHALL** be able to populate all Profile data elements that are mandatory and/or flagged as "Must Suppor" as defined by that Profile’s StructureDefinition.
+- **SHALL** be able to populate all Profile data elements that are mandatory and/or flagged as "Must Support" as defined by that Profile’s StructureDefinition.
 - **SHOULD** declare support for a NHS England Profile by including its official URL in the server’s CapabilityStatement.rest.resource.supportedProfile element.
 
 The NHS England Profile’s official or “canonical” URL can be found on each NHS England Profile page.
