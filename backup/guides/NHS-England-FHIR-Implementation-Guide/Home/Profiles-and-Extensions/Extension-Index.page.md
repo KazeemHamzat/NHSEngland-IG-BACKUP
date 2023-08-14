@@ -91,10 +91,8 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 <tr>
 <td>{{pagelink:Extension-England-EPSDispensingInformation}}</td>
 <td>draft</td>
-<td>MedicationDispense, <br> MedicationRequest, <br> Task</td>
-<td>{{pagelink:Profile-England-MedicationDispense}}<br>
-{{pagelink:Profile-England-MedicationRequest}} <br> 
-{{pagelink:Profile-England-Task}}</td>
+<td>MedicationRequest</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
 </tr>
 <tr>
 <td>{{pagelink:Extension-England-EPSPrescription}}</td>
@@ -138,6 +136,13 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 <td>draft</td>
 <td>ServiceRequest</td>
 <td>{{pagelink:Profile-England-ServiceRequest}}</td>
+</tr>
+
+<tr>
+<td>{{pagelink:Extension-England-FGMRemovalReason}}</td>
+<td>draft</td>
+<td>UKCore-Flag</td>
+<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Flag?version=current' target="_blank">Profile-UKCore-Flag</td>
 </tr>
 
 <tr>
@@ -220,12 +225,6 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 <td>{{pagelink:Profile-England-OperationOutcome}}</td>
 </tr>
 
-<tr>
-<td>{{pagelink:Extension-England-FGMRemovalReason}}</td>
-<td>draft</td>
-<td>UKCore-Flag</td>
-<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Flag?version=current' target="_blank">Profile-UKCore-Flag</td>
-</tr>
 </table>
 
 ---
