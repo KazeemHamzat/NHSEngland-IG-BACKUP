@@ -91,7 +91,7 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 <tr>
 <td>{{pagelink:Extension-England-EPSDispensingInformation}}</td>
 <td>draft</td>
-<td>MedicationDispense, <br> MedicationRequest.basedOn, <br> Task</td>
+<td>MedicationDispense, <br> MedicationRequest, <br> Task</td>
 <td>{{pagelink:Profile-England-MedicationDispense}}<br>
 {{pagelink:Profile-England-MedicationRequest}} <br> 
 {{pagelink:Profile-England-Task}}</td>
@@ -171,15 +171,19 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 <tr>
 <td>{{pagelink:Extension-England-ODSOrganisationRole}}</td>
 <td>draft</td>
-<td>Organization</td>
-<td>{{pagelink:Profile-England-Organization}}</td>
+<td>Organization,  <br> Location</td>
+<td>{{pagelink:Profile-England-Organization}}
+<br>
+{{pagelink:Profile-England-Location}}</td>
 </tr>
 
 <tr>
 <td>{{pagelink:Extension-England-ODSOrganisationRoleActivePeriod}}</td>
 <td>draft</td>
-<td>Organization</td>
-<td>{{pagelink:Profile-England-Organization}}</td>
+<td>Organization,  <br> Location</td>
+<td>{{pagelink:Profile-England-Organization}}
+<br>
+{{pagelink:Profile-England-Location}}</td>
 </tr>
 
 <tr>

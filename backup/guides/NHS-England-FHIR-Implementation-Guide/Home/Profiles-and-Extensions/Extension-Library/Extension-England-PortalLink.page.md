@@ -50,10 +50,10 @@ select
 
 <div id="Examples" class="tabcontent">
 <h3>Examples</h3>
-<b>ERSPortalLink</b>- An example to illustrate a service request for ERS portal link. </br>
+<b>ERSPortalLink</b> - An example to illustrate a service request for ERS portal link. </br>
 {{pagelink:Example-England-ServiceRequest-ERSPortalLink}}
 <br><br>
-<b>ERSWayFinder</b>- An example to illustrate a service request for ERS way finder. </br>
+<b>ERSWayFinder</b> - An example to illustrate a service request for ERS way finder. </br>
 {{pagelink:Example-England-ServiceRequest-ERSWayFinder}}
 </div>
 
