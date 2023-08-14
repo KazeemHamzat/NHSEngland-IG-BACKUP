@@ -74,15 +74,12 @@ select
 <b>FredricaSmith</b> - An example to illustrate a patient called FredricaSmith<br>
 {{pagelink:Example-England-Patient-FredricaSmith}}
 <br><br>
-
 <b>JackDawkins</b> - An example to illustrate a patient called JackDawkins<br>
 {{pagelink:Example-England-Patient-JackDawkins}}
 <br><br>
-
 <b>Patient</b> - An example to illustrate a patient<br>
 {{pagelink:Example-England-Patient-PDS}}
 <br><br>
-
 <b>RichardSmith</b> - An example to illustrate a patient called RichardSmith<br>
 {{pagelink:Example-England-Patient-RichardSmith}}
 </div>

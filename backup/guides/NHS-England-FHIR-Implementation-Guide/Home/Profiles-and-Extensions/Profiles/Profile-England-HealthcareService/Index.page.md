@@ -71,7 +71,7 @@ select
 
 <div id="Examples" class="tabcontent">
 <h3>Examples</h3>
-<b>Cancer Screening Centre</b> - An example to illustrate a cancer screening centre service within a HealthcareService resource<br>
+<b>Cancer Screening Centre</b> - An example to illustrate a cancer screening centre service within a HealthcareService resource.<br>
 {{pagelink:Example-England-HealthcareService-CancerScreeningCentre}}
 <br><br>
 

@@ -3,7 +3,7 @@
 <table class="regular assets">
 <tr>
 <td>Element Id</td>
-<td>Task.intent|</td>
+<td>Task.intent</td>
 </tr>
 <tr>
 <td> <a href='https://www.hl7.org/fhir/conformance-rules.html#cardinality' target="_blank">Cardinality</a></td>

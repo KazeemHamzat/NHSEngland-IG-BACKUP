@@ -113,35 +113,6 @@ When exchanging messages between organisations, local references **SHOULD NOT** 
 
 This concept is similar to email addresses `local-part@domain` and also HL7 version 2 combination of `Sending/Receiving Application | Sending/Receiving Facility` in the MSH segment.
 
-In the example below, the destination is a clinic (A99968) which part of NHS Trust (RBA). Note also the destination endpoint is for the NHS Trust, who will route the message as required. 
-
-```json
-"destination": [
-    {
-        "endpoint": "urn:nhs-uk:addressing:ods:RBA",
-        "receiver": {
-          "extension": [
-              {
-                  "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart",
-                  "valueReference": {
-                        "identifier": {
-                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                        "value": "A99968"
-                    }
-                }
-
-              }
-          ],
-            "identifier": {
-                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                "value": "RBA"
-            },
-            "display": "TAUNTON AND SOMERSET NHS FOUNDATION TRUST"
-        }
-    }
-],
-```
-
 ### Example - Prescription, Pharmacy known
 
 {{render:diagrams-nominatedpharmacy}}
@@ -150,131 +121,20 @@ In the example below, the prescriber Taunton and Somerset Foundation Trust (RBA)
 
 This message is to be sent via the Electronic Prescription Service, the http address of EPS is held in `destination.endpoint`. Replies to this message can only be received by MESH and the `source.endpoint` is the MESH address of the sending organisation.
 
-```json
-"destination": [
-    {
-        "endpoint": "https://sandbox.api.service.nhs.uk/electronic-prescriptions/$post-message",
-        "receiver": {
-            "identifier": {
-                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                "value": "VNE51"
-            },
-            "display": "The Simple Pharmacy"
-        }
-    }
-],
-"sender": {
-    "identifier": {
-        "extension": [
-            {
-                "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart",
-                "valueReference": {
-                        "identifier": {
-                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                        "value": "A99968"
-                    }
-                }
-            }
-        ],
-        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-        "value": "RBA"
-    },
-    "display": "TAUNTON AND SOMERSET NHS FOUNDATION TRUST"
-},
-"source": {
-    "endpoint": "urn:nhs-uk:addressing:ods:RBA"
-}
-```
-
 EPS will now send this message to the pharmacy. This message is collected by the pharmacy using MESH and so the `destination.endpoint` is now the MESH address of the pharmacy. Replies to this message are sent to EPS and so the `source.endpoint` is now the http address of the EPS **$process-message** endpoint.
-
-```json
-"destination": [
-    {
-        "endpoint": "urn:nhs-uk:addressing:ods:VNE51",
-        "receiver": {
-            "identifier": {
-                "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                "value": "VNE51"
-            },
-            "display": "The Simple Pharmacy"
-        }
-    }
-],
-"sender": {
-    "extension": [
-            {
-                "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart",
-                "valueReference": {
-                        "identifier": {
-                        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-                        "value": "A99968"
-                    }
-                }
-
-            }
-        ],
-    "identifier": {
-        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
-        "value": "RBA"
-    },
-    "display": "TAUNTON AND SOMERSET NHS FOUNDATION TRUST"
-},
-"source": {
-    "endpoint": "https://sandbox.api.service.nhs.uk/electronic-prescriptions/$post-message"
-}
-```
 
 ### Example - Prescription, Pharmacy not known
 
 {{render:diagrams-noNominatedPharmacy}}
 
 In this example the destination is not known and the message is sent to NHS Digital (X26). 
-
-```json
-"destination": [
-    {
-        "endpoint": "https://sandbox.api.service.nhs.uk/electronic-prescriptions/$post-message",
-        "receiver": {
     
 {{render:diagrams-messageids}}
 
-
-
-In addition, a FHIR Message Bundle has two important timestamps:
+In addition, a FHIR Message Bundle has two important timestamps.
 
 The time of sending the message is captured in the timestamp element
 The last time the message was updated (e.g. by storing or modification) is captured in the meta.lastUpdated element.
-
-```json
-{
-    "resourceType": "Bundle",
-    "id": "884cfa4f-7a56-4be5-9592-783ef4f3992a",
-    "meta": {
-        "lastUpdated": "2020-11-02T01:43:30+00:00"
-      },
-    "identifier": {
-        "system": "https://tools.ietf.org/html/rfc4122",
-        "value": "ad945a29-85f8-439a-b590-6789719adc16"
-    },
-    "type": "message",
-    "timestamp": "2020-11-02T01:43:30+00:00",
-    "entry": [
-        {
-            "fullUrl": "urn:uuid:311316d3-1de0-4f7c-8109-c950ead1c717",
-            "resource": {
-                "resourceType": "MessageHeader",
-                "extension": [
-                    {
-                        "url": "https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID",
-                        "valueIdentifier": {
-                            "system": "https://fhir.nhs.uk/Id/prescription-order-number",
-                            "value": "DC2C66-A1B2C3-23407B"
-                        }
-                    }
-                ]
-```
-
 
 ### From (source and sender) and To (destination)
 

@@ -74,19 +74,15 @@ select
 <b>Basic Practitioner</b> - An example to illustrate the basic practitioner<br>
 {{pagelink:Example-England-Practitioner-BasicPractitioner}}
 <br><br>
-
 <b>Consultant</b> - An example to illustrate the practitioner who is a consultant<br>
 {{pagelink:Example-England-Practitioner-Consultant}}
 <br><br>
-
 <b>General Practitioner</b> - An example to illustrate the  a practitioner who is the patient's GP<br>
 {{pagelink:Example-England-Practitioner-GP}}
 <br><br>
-
 <b> Practitioner As Nurse</b> - An example to illustrate the practitioner who is a nurse<br>
 {{pagelink:Example-England-Practitioner-Nurse}}
 <br><br>
-
 <b>Validate Practitioner</b> - An example to illustrate to validate practitioner<br>
 {{pagelink:Example-England-Practitioner-Validation}}
 </div>
