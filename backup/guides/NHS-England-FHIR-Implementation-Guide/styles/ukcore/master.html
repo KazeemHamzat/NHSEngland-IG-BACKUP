@@ -381,10 +381,20 @@
 				});
 			}
 
+            //function flips valueset expansion table visibility
+            function toggleExpandedValueSetTableVisibility(anchor) {
+                var table = anchor.parentElement.nextElementSibling;
+                if (table.style.display != 'none') {
+                    table.style.display = "none"
+                } else {
+                    table.style.display = "table"
+                }
+            }  
+
             //code finds valuesets on their sub page / all vs page
-            // and looks for the exapansion table
-            // for the all valuesets, it hides this, and makes the cncoepts text abiove a link to show/hide the table, and also swaps links for snomed ct concepts to go to term browser
-            // for sub page displays, just looks for expansion tables containg snomed ct concepts, and rewrites them to termbrwoser
+            // and looks for the expansion table
+            // for the all valuesets, it hides this, and makes the concepts text above a link to show/hide the table, and also swaps links for snomed ct concepts to go to termbrowser
+            // for sub page displays, just looks for expansion tables containing snomed ct concepts, and rewrites them to termbrowser
             function alterValueSetTables() {
                 // 
                 $('div#preview-content div[id^=ValueSet-England] div[id^=HTML]').each(function(index) {
@@ -568,6 +578,46 @@
                 }
             }
 
+            // this function wraps the left hand menu
+            function wrapSideBar() {
+                $('div.col-md-6 ul.nav li a').each(function(index) {
+                    if ($(this)[0].scrollWidth > $(this).innerWidth()) {
+                        console.log($(this)[0].text + ' SW: ' + $(this)[0].scrollWidth + ' IW: '+  $(this).innerWidth());
+
+                        var numberOfCapitalsToFind = 0;
+                        if ($(this)[0].scrollWidth -  $(this).innerWidth() < 35) {
+                                numberOfCapitalsToFind = 1;
+                        } else if ($(this)[0].scrollWidth -  $(this).innerWidth() < 70) {
+                                numberOfCapitalsToFind = 2;
+                        } else {
+                                numberOfCapitalsToFind = 3;
+                        }
+                        var lastCapitalLetter = lastCapitalLetterIndex($(this)[0].text, numberOfCapitalsToFind);
+                        if (lastCapitalLetter > -1) {
+                            $(this)[0].text = $(this)[0].text.substring(0,lastCapitalLetter) + ' ' + $(this)[0].text.substring(lastCapitalLetter);
+                        }
+                        $(this).css('word-wrap', "break-word");
+                    }
+                });
+            }
+            function lastCapitalLetterIndex(word, numberOfCapitalsToFind) {
+                var numberOfCapitalsToFound = 0;
+                var lastCapitalFound = -1;
+                for(i = word.length - 1; i >= 0; i--) {
+                    if (word[i].toUpperCase() == word[i]) {
+                        if (numberOfCapitalsToFound < numberOfCapitalsToFind -1 ){
+                            numberOfCapitalsToFound++;
+                            lastCapitalFound = i;
+                        } else {
+                            lastCapitalFound = i;
+                            return lastCapitalFound;
+                        }
+                    }
+                }
+                return lastCapitalFound;
+            }
+
+
 
             // function runs on page load
             $(function() {
@@ -580,6 +630,7 @@
                 alterValueSetTables();
                 addCodesSortButton();
                  pageInIframe();
+                 wrapSideBar();
                 updateFooterPosition();
             });
             
