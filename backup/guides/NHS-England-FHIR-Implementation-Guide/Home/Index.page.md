@@ -2,7 +2,7 @@
 
 This NHS England FHIR Implementation Guide provides additional guidance, rules and constraints which extends the [UK Core Implementation Guide](https://simplifier.net/guide/hl7fhirukcorer4release1/home). 
 
-The scope of this Implementation Guide is for programmes and products within NHS England. Please click [here](https://simplifier.net/guide/NHS-England-FHIR-Implementation-Guide/Home/Guidance/Conformance.page.md?version=current "Conformance") to learn more how a programme, product or system can follow conformance requirements. 
+The scope of this Implementation Guide is for programmes and products within NHS England. Please click [here](https://simplifier.net/guide/NHS-England-FHIR-Implementation-Guide/Home/Guidance/Conformance.page.md?version=current "Conformance") for conformance guidance for NHS England programmes, products and systems.
 
 ### NHS England Profiles
  

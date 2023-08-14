@@ -15,7 +15,6 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 	 }
 </style>
 
-<div id="Narrative" class="tabcontent"  style="display:block">
 <table id="valuesetlist">
 <tr>
 <th width="50%">ValueSet</th>
@@ -431,6 +430,5 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-FGMRemovalReason}}</td>
 </tr>
 </table>
-</div>
 
 ---

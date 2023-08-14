@@ -1,4 +1,4 @@
-## `effective[x]`
+## `performer`
 
 <b>Definition:</b><br>
 

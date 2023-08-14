@@ -48,16 +48,16 @@ select
 
 <div id="Examples" class="tabcontent">
 <h3>Examples</h3>
-<b>ERSServiceRequestState</b>- An example to illustrate a ERS service request state </br>
+<b>ERSServiceRequestState</b> - An example to illustrate a ERS service request state <br>
 {{pagelink:Example-England-Bundle-ERSServiceRequestState}}
 <br><br>
-<b>ActiveERSAdviceAndGuidance</b>- An example to illustrate a service request for active ERS advice and guidance </br>
+<b>ActiveERSAdviceAndGuidance</b> - An example to illustrate a service request for active ERS advice and guidance <br>
 {{pagelink:Example-England-ServiceRequest-ActiveERSAdviceAndGuidance}}
 <br><br>
-<b>DraftERSAdviceAndGuidance</b>- An example to illustrate a service request for draft ERS advice and guidance </br>
+<b>DraftERSAdviceAndGuidance</b> - An example to illustrate a service request for draft ERS advice and guidance <br>
 {{pagelink:Example-England-ServiceRequest-DraftERSAdviceAndGuidance}}
 <br><br>
-<b>DraftPatientReferral</b>- An example to illustrate a service request for draft patient referral </br>
+<b>DraftPatientReferral</b> - An example to illustrate a service request for draft patient referral <br>
 {{pagelink:Example-England-ServiceRequest-DraftPatientReferral}}
 </div>
 

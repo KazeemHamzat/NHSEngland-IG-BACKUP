@@ -809,7 +809,7 @@ Not all messages are in the MIM.</td>
 </tr>
 <tr>
 <td>NHS England</td>
-<td>This NHS England FHIR Implementation Guide provides additional guidance, rules and constraints which extends the <a href="https://simplifier.net/guide/hl7fhirukcorer4release1/home">UK Core Implementation Guide</a>. The scope of this Implementation Guide is for programmes and products within NHS England. </td>
+<td>NHS England is an executive non-departmental public body of the Department of Health and Social Care that oversees the National Health Service in England. </td>
 <td><br></td>
 </tr>
 <tr>
