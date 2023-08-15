@@ -1,7 +1,7 @@
 ---
 topic: ValueSetsAndCodeSystems
 ---
-## ValueSets and Code Systems
+## ValueSets and CodeSystems
 
 This is the list of ValueSets and CodeSystems defined for use within the NHS England Implementation Guide.
 
@@ -40,7 +40,7 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <td>{{pagelink:Profile-England-HealthcareService}}</td>
 </tr>
 <tr>
-<td colspan="4">{{pagelink:CodeSystem-England-ClinicalSpecialty}}</td>
+<td colspan="4">{{pagelink:CodeSystem-England-ERSSpecialty}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>

@@ -1,8 +1,8 @@
-- name: Extension Index
-  filename: Extension-Index.page.md
-- name: Extension Library
-  filename: Extension-Library
-- name: Profile Index
-  filename: Profile-Index.page.md
-- name: Profiles
-  filename: Profiles
+- name: Extensions Index
+  filename: Extensions-Index.page.md
+- name: All Extensions
+  filename: All-Extensions
+- name: Profiles Index
+  filename: Profiles-Index.page.md
+- name: All Profiles
+  filename: All-Profiles

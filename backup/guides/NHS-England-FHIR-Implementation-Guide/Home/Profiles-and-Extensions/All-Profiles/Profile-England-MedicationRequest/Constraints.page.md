@@ -23,7 +23,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-003</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code != 'continuous-repeat-dispensing') or ((courseOfTherapyType.coding.code = 'continuous-repeat-dispensing') and ((intent ='original-order') or (intent ='reflex-order')))</td>
 <td>For continuous-repeat-dispensing intent must be reflex-order or original-order</td>
 </tr>
@@ -35,7 +35,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>enhse-mer-005</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code.startsWith('acute')) or  (courseOfTherapyType.coding.code.startsWith('continuous') and dispenseRequest.exists() and dispenseRequest.numberOfRepeatsAllowed.exists())</td>
 <td>dispenseRequest.numberOfRepeatsAllowed should be populated for continuous and continuous-repeat-dispensing MedicationRequests.</td>
 </tr>
@@ -47,18 +47,18 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-007</td>
-<td>warning</td>
+<td>error</td>
 <td>(courseOfTherapyType.coding.code = 'acute') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent !='reflex-order') or ((courseOfTherapyType.coding.code = 'continuous' or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent ='reflex-order')) and (dispenseRequest.numberOfRepeatsAllowed.exists().not() or (dispenseRequest.numberOfRepeatsAllowed.exists() and dispenseRequest.numberOfRepeatsAllowed = 0)))</td>
 <td>For continuous-repeat-dispensing (intent=reflex-order) or continous orders, numberOfRepeatsAllowed must be empty or equal to 0</td>
 </tr><tr>
 <td>nhse-mer-008</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code = 'acute') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing') or (courseOfTherapyType.coding.code = 'continuous' and dispenseRequest.exists() and basedOn.exists())</td>
 <td>For continuous issues basedOn should be populated</td>
 </tr>
 <tr>
 <td>nhse-mer-009</td>
-<td>warning</td>
+<td>error</td>
 <td>(courseOfTherapyType.coding.code != 'continuous-repeat-dispensing') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent='reflex-order') or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent!='reflex-order' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists().not()) or (courseOfTherapyType.coding.code = 'continuous-repeat-dispensing' and intent!='reflex-order' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists() and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').extension('numberOfPrescriptionsIssued').exists().not())</td>
 <td>Extension repeatInformation.numberOfPrescriptionsIssued should not be present for continuous-repeat-dispensing that are not intent=reflex-order"</td>
 </tr>
@@ -70,13 +70,13 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-011</td>
-<td>error</td>
+<td>warning</td>
 <td>(courseOfTherapyType.coding.code != 'continuous') or (courseOfTherapyType.coding.code = 'continuous' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists() and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').extension('numberOfPrescriptionsIssued').exists())</td>
 <td>Extension repeatInformation.numberOfPrescriptionsIssued is recommend to be present for continuous issues</td>
 </tr>
 <tr>
 <td>nhse-mer-012</td>
-<td>warning</td>
+<td>error</td>
 <td>(courseOfTherapyType.coding.code != 'acute') or (courseOfTherapyType.coding.code = 'acute' and extension('https://fhir.hl7.org.uk/StructureDefinition/Extension-UKCore-MedicationRepeatInformation').exists().not())</td>
 <td>Extension repeatInformation.numberOfPrescriptionsIssued should not be present for acute issues</td>
 </tr>
@@ -94,7 +94,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 </tr>
 <tr>
 <td>nhse-mer-015</td>
-<td>warning</td>
+<td>error</td>
 <td>(reference.exists() or (identifier.exists()))</td>
 <td>recorder - An identifier reference or resource reference must be provided</td>
 </tr>
