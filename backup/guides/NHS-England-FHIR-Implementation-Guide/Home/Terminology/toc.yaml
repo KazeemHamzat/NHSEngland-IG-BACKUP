@@ -1,6 +1,6 @@
 - name: ValueSets and CodeSystems
   filename: ValueSets-and-CodeSystems.page.md
-- name: CodeSystem
-  filename: CodeSystem
-- name: ValueSet
-  filename: ValueSet
+- name: All CodeSystems
+  filename: All-CodeSystems
+- name: All ValueSets
+  filename: All-ValueSets
