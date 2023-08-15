@@ -1,2 +1,4 @@
-{{render:guides/NHSE-Design-and-Development-Approach2/Home/Glossary/Index.page.md}}
+link
+
+{{render:guide/nhs-england-design-and-development-approach2/home/glossary/index.page.md?version=current}}
 

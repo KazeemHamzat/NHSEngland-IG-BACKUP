@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-
+<br />
 <table class="regular assets">
 <tr>
 <th>Example Name</th>
@@ -295,5 +295,5 @@
 <td>England-Task-FormComplete-Example</td>
 <td>Task</td>
 </tr>
-Note: Every effort has been made to ensure that the examples are correct and useful.
+
 </table>

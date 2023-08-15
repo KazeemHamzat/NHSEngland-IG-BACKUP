@@ -1,10 +1,8 @@
 ## Glossary
-
-This glossary gives a short definition of terms used in this implementation guide. Links are supplied to websites where further information which may help the reader can be found. 
-
-<div markdown="span" class="alert alert-warning" role="alert"><i class="fa fa-information"></i><h4> Disclaimer</h4>
-Where the link to further reading is provided by the NHSE Development team is to an external website it is done with the best intentions, however the UK Core team cannot guarantee the accuracy of the information supplied, and is not responsible for the contents of any external internet sites listed.
- </div>
+---
+## topic: Home-Glossary-615540a1-9e56-4f88-99f0-b37dc6fb0853
+---
+This glossary gives a short definition of terms used in this Implementation guide. Links are supplied to websites where further information which may help the reader can be found. 
 
 <b>
 <a href=#A>A</a>

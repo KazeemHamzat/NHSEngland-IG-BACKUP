@@ -202,6 +202,14 @@ table.assets tr td.balloted {
      color: white !important;
 }
 
+
+ tr.wordBreak, td.wordBreak {
+    overflow-wrap: break-word !important;
+}
+
+ th.width5 { width: 5%; overflow-wrap: anywhere; }
+ th.width10 { width: 10%; overflow-wrap: anywhere; }
+ th.width15 { width: 15%; overflow-wrap: anywhere; }
  th.width20 { width: 20%; overflow-wrap: anywhere; }
  th.width25 { width: 25%; overflow-wrap: anywhere; }
  th.width30 { width: 30%; overflow-wrap: anywhere; }
