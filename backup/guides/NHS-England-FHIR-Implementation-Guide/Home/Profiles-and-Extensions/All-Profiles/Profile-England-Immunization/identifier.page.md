@@ -1,4 +1,6 @@
-## `identifier.system`
+## `identifier`
+
+### `identifier.system`
 
 <b>Definition</b><br>
 
@@ -13,7 +15,7 @@ e.g.
 `https://supplierABC/ODSCode/NKO41/identifiers/vacc`
 
 
-## `identifier.value`
+### `identifier.value`
 
 <b>Definition</b><br>
 

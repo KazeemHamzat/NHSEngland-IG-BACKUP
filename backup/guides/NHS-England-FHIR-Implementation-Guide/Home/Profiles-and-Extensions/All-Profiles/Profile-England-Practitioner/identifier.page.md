@@ -8,17 +8,103 @@ The inclusion of a professional code is strongly recommended. For consultants an
 
 The *SDS User Id* should be sourced from NHS Identity (SmartCard), this is also held within the Spine Directory Service LDAP database.
 
-| FHIR identifier | OID/HL7v3 | HL7v2 ITK | Format | Description | Professional Code  | Prescribing Code |
-| - | - | - | - | - | - | - |
-| https://fhir.hl7.org.uk/Id/gmp-number | 2.16.840.1.113883.2.1.3.2.4.16.62 | GMP | G[1234589]NNNNNN | General Medical Practitioner Code [GENERAL MEDICAL PRACTITIONER PPD CODE](https://datadictionary.nhs.uk/attributes/general_medical_practitioner_ppd_code.html). Formerly called GP General National Code (GNC).  | Yes | No, also include DIN |
-| https://fhir.hl7.org.uk/Id/gmc-number | 2.16.840.1.113883.2.1.3.2.4.16.63 | GMC | CNNNNNNN |General Medical Council Code [CONSULTANT_CODE](https://datadictionary.nhs.uk/attributes/consultant_code.html) | Yes | Yes |
-| https://fhir.hl7.org.uk/Id/nmc-number | | | NNANNNNA |Nursing and Midwifery Council Code | Yes | Yes |
-| https://fhir.hl7.org.uk/Id/gphc-number | | | NNNNNNN |General Pharmaceutical Council Code |Yes | Yes  |
-| https://fhir.hl7.org.uk/Id/hcpc-number | | | AANNNNNN(*) |Health and Care Professional Council Code |Yes | Yes  |
-| https://fhir.hl7.org.uk/Id/din-number | | | NNNNNN | [DOCTOR INDEX NUMBER](https://datadictionary.nhs.uk/attributes/doctor_index_number.html)  | No | Yes |
-| https://fhir.nhs.uk/Id/sds-user-id | 1.2.826.0.1285.0.2.0.65 | | N(*)  | SDS User ID | No | No |
-| https://fhir.nhs.uk/Id/gmc-reference-number | 2.16.840.1.113883.2.1.3.2.4.18.29 | | NNNNNNN | [GMC Reference Number](https://www.datadictionary.nhs.uk/attributes/general_medical_council_reference_number.html)  | No | No ||
-https://fhir.hl7.org.uk/Id/professional-code | 1.2.826.0.1285.0.2.1.54 | | A(*) | ODS/NACS Practitioner Code (retired). Included for backwards compatibility | No | No |
+<table class="assets" style="overflow-wrap:anywhere;">
+<thead>
+<tr class="wordBreak">
+<th width="15%">FHIR identifier</th>
+<th width="10%">OID/HL7v3</th>
+<th width="10%">HL7v2 ITK</th>
+<th width="15%">Format</th>
+<th width="20%">Description</th>
+<th width="10%">Professional Code</th>
+<th width="10%">Prescribing Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="wordBreak"><a href="https://fhir.hl7.org.uk/Id/gmp-number">https://fhir.hl7.org.uk/Id/gmp-number</a></td>
+<td>2.16.840.1.113883.2.1.3.2.4.16.62</td>
+<td>GMP</td>
+<td>G[1234589]NNNNNN</td>
+<td>General Medical Practitioner Code <a href="https://datadictionary.nhs.uk/attributes/general_medical_practitioner_ppd_code.html">GENERAL MEDICAL PRACTITIONER PPD CODE</a>. Formerly called GP General National Code (GNC).</td>
+<td>Yes</td>
+<td>No, also include DIN</td>
+</tr>
+<tr>
+<td><a href="https://fhir.hl7.org.uk/Id/gmc-number">https://fhir.hl7.org.uk/Id/gmc-number</a></td>
+<td>2.16.840.1.113883.2.1.3.2.4.16.63</td>
+<td>GMC</td>
+<td>CNNNNNNN</td>
+<td>General Medical Council Code <a href="https://datadictionary.nhs.uk/attributes/consultant_code.html">CONSULTANT_CODE</a></td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a href="https://fhir.hl7.org.uk/Id/nmc-number">https://fhir.hl7.org.uk/Id/nmc-number</a></td>
+<td></td>
+<td></td>
+<td>NNANNNNA</td>
+<td>Nursing and Midwifery Council Code</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a href="https://fhir.hl7.org.uk/Id/gphc-number">https://fhir.hl7.org.uk/Id/gphc-number</a></td>
+<td></td>
+<td></td>
+<td>NNNNNNN</td>
+<td>General Pharmaceutical Council Code</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a href="https://fhir.hl7.org.uk/Id/hcpc-number">https://fhir.hl7.org.uk/Id/hcpc-number</a></td>
+<td></td>
+<td></td>
+<td>AANNNNNN(*)</td>
+<td>Health and Care Professional Council Code</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a href="https://fhir.hl7.org.uk/Id/din-number">https://fhir.hl7.org.uk/Id/din-number</a></td>
+<td></td>
+<td></td>
+<td>NNNNNN</td>
+<td><a href="https://datadictionary.nhs.uk/attributes/doctor_index_number.html">DOCTOR INDEX NUMBER</a></td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><a href="https://fhir.nhs.uk/Id/sds-user-id">https://fhir.nhs.uk/Id/sds-user-id</a></td>
+<td>1.2.826.0.1285.0.2.0.65</td>
+<td></td>
+<td>N(*)</td>
+<td>SDS User ID</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href="https://fhir.nhs.uk/Id/gmc-reference-number">https://fhir.nhs.uk/Id/gmc-reference-number</a></td>
+<td>2.16.840.1.113883.2.1.3.2.4.18.29</td>
+<td></td>
+<td>NNNNNNN</td>
+<td><a href="https://www.datadictionary.nhs.uk/attributes/general_medical_council_reference_number.html">GMC Reference Number</a></td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td><a href="https://fhir.hl7.org.uk/Id/professional-code">https://fhir.hl7.org.uk/Id/professional-code</a></td>
+<td>1.2.826.0.1285.0.2.1.54</td>
+<td></td>
+<td>A(*)</td>
+<td>ODS/NACS Practitioner Code (retired). Included for backwards compatibility</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<br>
 
 Format
 - N = any number
@@ -26,17 +112,62 @@ Format
 
 (*) NHS Prescription Services systems require these prescriber codes to be 8 characters long. Additional zeroes (0) should be inserted immediately following the first 2 alpha characters to extend the code to 8 characters as necessary.
 
-| Code | Format | Example |
-| - | - | - |
-| GP/medical prescriber (DIN) | NNNNNN | 954000 |
-| Nurse prescriber (NMC) | NNANNNNA | 71A2998E |
-| Pharmacist prescriber (GPHC) | NNNNNNN | 2033467 |
-| Optometrist prescriber | NN-NNNNN | 01-09491 |
-| Podiatrist prescriber (HCPC) | CHNNNNNN | CH029821 |
-| Physiotherapist prescriber (HCPC) | PHNNNNNN | PH095159 |
-| Radiographer prescriber (HCPC) | RANNNNNN | RA088262 |
-| Dietician prescriber (HCPC) | DTNNNNNN | DT012345 |
-| Paramedic prescriber (HCPC) | PANNNNNN | PA054321 |
+<table class="assets">
+<thead>
+<tr>
+<th>Code</th>
+<th>Format</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GP/medical prescriber (DIN)</td>
+<td>NNNNNN</td>
+<td>954000</td>
+</tr>
+<tr>
+<td>Nurse prescriber (NMC)</td>
+<td>NNANNNNA</td>
+<td>71A2998E</td>
+</tr>
+<tr>
+<td>Pharmacist prescriber (GPHC)</td>
+<td>NNNNNNN</td>
+<td>2033467</td>
+</tr>
+<tr>
+<td>Optometrist prescriber</td>
+<td>NN-NNNNN</td>
+<td>01-09491</td>
+</tr>
+<tr>
+<td>Podiatrist prescriber (HCPC)</td>
+<td>CHNNNNNN</td>
+<td>CH029821</td>
+</tr>
+<tr>
+<td>Physiotherapist prescriber (HCPC)</td>
+<td>PHNNNNNN</td>
+<td>PH095159</td>
+</tr>
+<tr>
+<td>Radiographer prescriber (HCPC)</td>
+<td>RANNNNNN</td>
+<td>RA088262</td>
+</tr>
+<tr>
+<td>Dietician prescriber (HCPC)</td>
+<td>DTNNNNNN</td>
+<td>DT012345</td>
+</tr>
+<tr>
+<td>Paramedic prescriber (HCPC)</td>
+<td>PANNNNNN</td>
+<td>PA054321</td>
+</tr>
+</tbody>
+</table>
 
 The *Doctor Index Number (DIN)* will be present in the resource even if they are prescribing using a different prescribing code. This code is called the *spurious code* is held within the `England-PractitionerRole` resource and **MUST NOT** be contained in the Practitioner resource. 
 
