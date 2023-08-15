@@ -1,7 +1,5 @@
 ## Glossary
----
-## topic: Home-Glossary-615540a1-9e56-4f88-99f0-b37dc6fb0853
----
+
 This glossary gives a short definition of terms used in this Implementation guide. Links are supplied to websites where further information which may help the reader can be found. 
 
 <b>
