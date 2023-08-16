@@ -48,15 +48,15 @@ This index contains all the profiles created for use in NHS England Implementati
 </tr>
 
 <tr>
-<td>{{pagelink:Profile-England-OperationOutcome, text:England-OperationOutcome}}</td>
-<td>draft</td>
-<td>This profile defines the NHS England constraints and extensions on the UK Core OperationOutcome resource for the minimal set of data to query and retrieve information about the outcome of an attempted system operation.</td>
-</tr>
-
-<tr>
 <td>{{pagelink:Profile-England-Observation, text:England-Observation}}</td>
 <td>draft</td>
 <td>This profile defines the NHS England constraints and extensions on the UK Core Observation resource for the minimal set of data to query and retrieve information about measurement and aasertions made about a subject.</td>
+</tr>
+
+<tr>
+<td>{{pagelink:Profile-England-OperationOutcome, text:England-OperationOutcome}}</td>
+<td>draft</td>
+<td>This profile defines the NHS England constraints and extensions on the UK Core OperationOutcome resource for the minimal set of data to query and retrieve information about the outcome of an attempted system operation.</td>
 </tr>
 
 <tr>
