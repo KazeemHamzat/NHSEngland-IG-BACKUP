@@ -350,7 +350,7 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory}}</td>
+<td>{{pagelink:ValueSet-England-NHSDataModelAndDictionaryTreatmentFunction}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-ServiceRequest}}</td>
 </tr>
@@ -410,12 +410,72 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-DMTaskBusinessStatus}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-EPSTaskBusinessStatus}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-EPSTaskBusinessStatus}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMPerformerSiteType}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-DMPerformerSiteType}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-DispensingSitePreference}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMPrescriptionType}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-DMPrescriptionType}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-PrescriptionType}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-ERSAppointmentCancellationReasonCategory}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-AppointmentCancellationReason}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-ERSPriorityCategory}}</td>
 <td>draft</td>
 <td>{{pagelink:Extension-England-ServiceRequestPriority}}</td>
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-ERSPriorityCode}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-ERSReferralStateCategory}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-ERSReferralState}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
