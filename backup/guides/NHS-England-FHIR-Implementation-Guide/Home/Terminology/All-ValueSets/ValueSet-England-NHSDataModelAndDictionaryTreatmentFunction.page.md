@@ -1,4 +1,4 @@
-## ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory
+## ValueSet-England-NHSDataModelAndDictionaryTreatmentFunction
 
 
 <div class="tab">

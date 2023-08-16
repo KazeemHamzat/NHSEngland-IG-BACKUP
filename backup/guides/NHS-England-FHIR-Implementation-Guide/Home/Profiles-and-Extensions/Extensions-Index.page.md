@@ -180,13 +180,7 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-PortalLink}}</td>
-<td>draft</td>
-<td>ServiceRequest</td>
-<td>{{pagelink:Profile-England-ServiceRequest}}</td>
-
-<tr>
-<td>{{pagelink:Extension-England-ServiceRequestPriority}}</td>
+<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
 <td>draft</td>
 <td>ServiceRequest</td>
 <td>{{pagelink:Profile-England-ServiceRequest}}</td>
@@ -200,7 +194,13 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
+<td>{{pagelink:Extension-England-PortalLink}}</td>
+<td>draft</td>
+<td>ServiceRequest</td>
+<td>{{pagelink:Profile-England-ServiceRequest}}</td>
+
+<tr>
+<td>{{pagelink:Extension-England-ServiceRequestPriority}}</td>
 <td>draft</td>
 <td>ServiceRequest</td>
 <td>{{pagelink:Profile-England-ServiceRequest}}</td>

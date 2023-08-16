@@ -31,7 +31,7 @@ More information about the bindings to NHS England ValueSets can be found below.
 <tr>
 <td><code>ServiceRequest.performerType.coding:treatmentFunctionCodes<code></td>
 <td>required</td>
-<td>{{pagelink:ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory}}</td>
+<td>{{pagelink:ValueSet-England-NHSDataModelAndDictionaryTreatmentFunction}}</td>
 </tr>
 <tr>
 <td><code>ServiceRequest.performerType.coding:eRSSpecialty<code></td>
