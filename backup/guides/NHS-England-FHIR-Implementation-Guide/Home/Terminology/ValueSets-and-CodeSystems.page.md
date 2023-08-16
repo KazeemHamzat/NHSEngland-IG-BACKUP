@@ -37,7 +37,7 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <tr>
 <td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
 <td>draft</td>
-<td>{{pagelink:Profile-England-HealthcareService}}</td>
+<td>{{pagelink:Profile-England-HealthcareService}},<br>{{pagelink:Profile-England-ServiceRequest}}</td>
 </tr>
 <tr>
 <td colspan="4">{{pagelink:CodeSystem-England-ERSSpecialty}}</td>
@@ -362,18 +362,6 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
-<td>draft</td>
-<td>{{pagelink:Profile-England-ServiceRequest}}</td>
-</tr>
-<tr>
-<td colspan="4">Composed of {{pagelink:CodeSystem-England-ERSSpecialty}}</td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
 <td>{{pagelink:ValueSet-England-ActionCode}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-Task}}</td>
@@ -410,6 +398,18 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-ERSAppointmentCancellationReasonCategory}}</td>
+<td>draft</td>
+<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-AppointmentCancellationReason}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-DMTaskBusinessStatus}}</td>
 <td>draft</td>
 <td>{{pagelink:Extension-England-EPSTaskBusinessStatus}}</td>
@@ -440,18 +440,6 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-PrescriptionType}}</td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
-<td>{{pagelink:ValueSet-England-ERSAppointmentCancellationReasonCategory}}</td>
-<td>draft</td>
-<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
-</tr>
-<tr>
-<td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-AppointmentCancellationReason}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
