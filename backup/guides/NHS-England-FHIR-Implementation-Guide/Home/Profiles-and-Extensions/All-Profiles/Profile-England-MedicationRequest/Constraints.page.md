@@ -34,7 +34,7 @@ More information about the constraints on the <code>England-MedicationRequest</c
 <td>For continuous intent must be instance-order or original-order</td>
 </tr>
 <tr>
-<td>enhse-mer-005</td>
+<td>nhse-mer-005</td>
 <td>warning</td>
 <td>(courseOfTherapyType.coding.code.startsWith('acute')) or  (courseOfTherapyType.coding.code.startsWith('continuous') and dispenseRequest.exists() and dispenseRequest.numberOfRepeatsAllowed.exists())</td>
 <td>dispenseRequest.numberOfRepeatsAllowed should be populated for continuous and continuous-repeat-dispensing MedicationRequests.</td>

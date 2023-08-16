@@ -52,8 +52,8 @@
   filename: ValueSet-England-MessageEvent.page.md
 - name: ValueSet-England-MessageReasonCode
   filename: ValueSet-England-MessageReasonCode.page.md
-- name: ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory
-  filename: ValueSet-England-NHSDataModelAndDictionaryTreatmentFunctionCategory.page.md
+- name: ValueSet-England-NHSDataModelAndDictionaryTreatmentFunction
+  filename: ValueSet-England-NHSDataModelAndDictionaryTreatmentFunction.page.md
 - name: ValueSet-England-ObservationCategory
   filename: ValueSet-England-ObservationCategory.page.md
 - name: ValueSet-England-OperationOutcomeCode
