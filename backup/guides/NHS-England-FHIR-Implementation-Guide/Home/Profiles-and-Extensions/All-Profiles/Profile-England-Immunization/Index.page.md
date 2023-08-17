@@ -83,6 +83,9 @@ select
 <b>SARS-CoV-2 Not Administered</b> - An example to illustrate the SARS-CoV-2 not administered<br>
 {{pagelink:Example-England-Immunization-SARSCoV2NotAdministered}}
 <br><br>
+<b>Vaccination History</b> - An example to illustrate the patient vaccination history<br>
+{{pagelink:Example-England-Bundle-VaccinationQuery-SearchInclude}}
+<br><br>
 <b>Vaccination Performer</b> - An example to illustrate the vaccination performer<br>
 {{pagelink:Example-England-Immunization-VaccinationPerformer}}
 

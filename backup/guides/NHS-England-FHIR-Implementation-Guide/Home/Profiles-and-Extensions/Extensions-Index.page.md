@@ -20,6 +20,13 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 </tr>
 
 <tr>
+<td>{{pagelink:Extension-England-DMGroupIdentifier}}</td>
+<td>draft</td>
+<td>MedicationDispense</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}</td>
+</tr>
+
+<tr>
 <td>{{pagelink:Extension-England-DMPrescriptionNonDispensingReason}}</td>
 <td>draft</td>
 <td>MedicationDispense</td>
@@ -55,6 +62,13 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 </tr>
 
 <tr>
+<td>{{pagelink:Extension-England-DMDispensingPerformer}}</td>
+<td>draft</td>
+<td>MedicationRequest</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+
+<tr>
 <td>{{pagelink:Extension-England-DMPerformerSiteType}}</td>
 <td>draft</td>
 <td>MedicationRequest</td>
@@ -70,6 +84,13 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 
 <tr>
 <td>{{pagelink:Extension-England-DMPrescriptionId}}</td>
+<td>draft</td>
+<td>MedicationRequest</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+
+<tr>
+<td>{{pagelink:Extension-England-DMPrescriptionStatusHistory}}</td>
 <td>draft</td>
 <td>MedicationRequest</td>
 <td>{{pagelink:Profile-England-MedicationRequest}}</td>

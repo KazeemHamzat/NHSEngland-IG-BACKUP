@@ -8,6 +8,8 @@
   filename: Extension-England-DMControlledDrug.page.md
 - name: Extension-England-DMDispensingPerformer
   filename: Extension-England-DMDispensingPerformer.page.md
+- name: Extension-England-DMGroupIdentifier
+  filename: Extension-England-DMGroupIdentifier.page.md
 - name: Extension-England-DMPerformerSiteType
   filename: Extension-England-DMPerformerSiteType.page.md
 - name: Extension-England-DMPrescriptionEndorsement
