@@ -236,6 +236,24 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-MessageReasonCode}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MessageHeader}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MessageReasonPrescription}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MessageReasonEncounter}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MessageReasonServiceRequest}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-OperationOutcomeCode}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-OperationOutcome}}</td>
@@ -281,18 +299,6 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">Composed of {{pagelink:CodeSystem-England-OrganisationRole}}</td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
-<td>{{pagelink:ValueSet-England-PractitionerRoleCode}}</td>
-<td>draft</td>
-<td>{{pagelink:Profile-England-PractitionerRole}}</td>
-</tr>
-<tr>
-<td colspan="4">Composed of {{pagelink:CodeSystem-England-SDSJobRoleCode}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
