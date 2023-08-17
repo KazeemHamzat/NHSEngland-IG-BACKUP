@@ -35,6 +35,18 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
+<td>{{pagelink:ValueSet-England-ERSAppointmentType}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-HealthcareService}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-ERSAppointmentType}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
 <td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-HealthcareService}},<br>{{pagelink:Profile-England-ServiceRequest}}</td>
@@ -72,6 +84,18 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 
 <tr>
 <td>{{pagelink:ValueSet-England-ReasonImmunizationNotAdministered}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-Immunization}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-VaccinationProcedure}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-Immunization}}</td>
 </tr>
@@ -161,6 +185,18 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem <code>https://dmd.nhs.uk where parent Equal AMPP</code></td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-MedicationDispenseCode}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationDispense}}</td>
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>

@@ -12,6 +12,8 @@
   filename: Example-England-Immunization-SARSCoV2NotAdministered.page.md
 - name: Example-England-Immunization-VaccinationPerformer
   filename: Example-England-Immunization-VaccinationPerformer.page.md
+- name: Example-England-Bundle-VaccinationQuery-SearchInclude
+  filename: Example-England-Bundle-VaccinationQuery-SearchInclude.page.md
 - name: Example-England-Bundle-PatientImmunizationQuery
   filename: Example-England-Bundle-PatientImmunizationQuery.page.md
 - name: Example-England-Location-Hospital
