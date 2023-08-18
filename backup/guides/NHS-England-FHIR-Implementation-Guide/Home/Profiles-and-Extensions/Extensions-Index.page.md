@@ -201,14 +201,14 @@ Additional guidance is available on <a href="https://simplifier.net/guide/UK-Cor
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
+<td>{{pagelink:Extension-England-ERSReferral}}</td>
 <td>draft</td>
 <td>ServiceRequest</td>
 <td>{{pagelink:Profile-England-ServiceRequest}}</td>
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-ERSReferral}}</td>
+<td>{{pagelink:Extension-England-ERSServiceRequestState}}</td>
 <td>draft</td>
 <td>ServiceRequest</td>
 <td>{{pagelink:Profile-England-ServiceRequest}}</td>

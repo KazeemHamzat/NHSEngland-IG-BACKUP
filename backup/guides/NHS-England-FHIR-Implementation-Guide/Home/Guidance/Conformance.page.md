@@ -2,7 +2,7 @@
 
 ### Conformance to UK Core
 
-The NHS England Implementation Guide conforms to FHIR UK Core [Add version of package and IG] but provides an additional layer of conformance for NHS England national programmes, products and systems to aid implementation where it is deemed appropriate by NHS England requirements. 
+The NHS England Implementation Guide conforms to FHIR UK Core STU3 0.0.6 but provides an additional layer of conformance for NHS England national programmes, products and systems to aid implementation where it is deemed appropriate by NHS England requirements. 
 
 ### Conforming to NHS England Implementation Guide (IG)
 

@@ -92,7 +92,7 @@ In circumstances where more detailed information is required for routing this **
 
 
 Systems involved in NHSDigital/UKCore messaging are expected to support this profile only, extensions or derived profiles are permitted but they may only have limited (internal) scope and will not be supported outside of this scope (e.g. externally). 
-This resource **SHOULD NOT** be profiled to further define the contents of the resources and [FHIR MessageDefinition](https://www.hl7.org/fhir/messagedefinition.html) **MUST** be used instead.
+This resource **SHOULD NOT** be profiled to further define the contents of the resources and <a href='https://www.hl7.org/fhir/messagedefinition.html' target="_blank">FHIR MessageDefinition</a> **MUST** be used instead.
 
  <b>Comment</b>
 
@@ -105,11 +105,11 @@ The `Bundle.identifier`, the messageIdentifier, **MUST** have a UUID value.
 
 Systems may chose to map *X-Request-ID* header to the `Bundle.id`, messageId. If both are supplied to a `$process-message` endpoint it is recommended they hold the same values.
 
-MessageHeader can hold previous and extra messageId's in the {{link:https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderMessageID}}
+MessageHeader can hold previous and extra messageId's in the {{pagelink:Extension-England-MessageHeaderMessageID}}
 
 <b> Local Part/Addressing (sender and/or destination.receiver)</b>
 
-When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{link:https://fhir.nhs.uk/StructureDefinition/Extension-England-MessageHeaderLocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
+When exchanging messages between organisations, local references **SHOULD NOT** be used for `sender` and `destination.receiver` references. Local references can make use of the Extension {{pagelink:Extension-England-MessageHeaderLocalPart}}. Messages between Organisations should be directed to the Organisation. The receiving organisation will take responsibility for delivering to the local address. Sending organisations are not expected to be able to deliver to local entities in another organisation/domain/facility. 
 
 This concept is similar to email addresses `local-part@domain` and also HL7 version 2 combination of `Sending/Receiving Application | Sending/Receiving Facility` in the MSH segment.
 
