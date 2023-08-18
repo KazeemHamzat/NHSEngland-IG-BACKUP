@@ -95,18 +95,6 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-VaccinationProcedure}}</td>
-<td>draft</td>
-<td>{{pagelink:Profile-England-Immunization}}</td>
-</tr>
-<tr>
-<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
 <td>{{pagelink:ValueSet-England-VaccineCode}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-Immunization}}</td>

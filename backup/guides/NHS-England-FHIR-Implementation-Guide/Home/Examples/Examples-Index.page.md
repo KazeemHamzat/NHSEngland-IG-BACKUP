@@ -27,6 +27,12 @@
 </tr>
 
 <tr>
+<td>{{pagelink:Example-England-Bundle-VaccinationQuery-SearchInclude}}</td>
+<td>England-Bundle-VaccinationQuery-SearchInclude-Example</td>
+<td>Immunization</td>
+</tr>
+
+<tr>
 <td>{{pagelink:Example-England-Immunization-AdministrationOfSARSCoV2FirstDose}}</td>
 <td>England-Immunization-AdministrationOfSARSCoV2FirstDose-Example</td>
 <td>Immunization</td>

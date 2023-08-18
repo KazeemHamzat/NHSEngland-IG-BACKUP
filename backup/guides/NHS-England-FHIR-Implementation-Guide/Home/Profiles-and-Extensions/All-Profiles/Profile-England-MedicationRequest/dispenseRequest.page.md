@@ -30,7 +30,7 @@ The `expectedSupplyDuration` element defines the expected duration, in days, of 
 For non token based prescriptions the destination pharmacy **MUST** be recorded in the *dispenseRequest.performer.identifier* and a identifier reference (not a resource reference) with an ANANA/ODS Code **MUST** used. 
 
 The extension 
-https://fhir.nhs.uk/StructureDefinition/Extension-England-DMPerformerSiteType    **MUST** be present.
+{{pagelink:Extension-England-DMPerformerSiteType}}   **MUST** be present.
 
 Patients pharmacy preferences may be sourced from PDS.
 
