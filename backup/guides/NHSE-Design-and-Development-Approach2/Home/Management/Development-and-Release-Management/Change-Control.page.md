@@ -14,17 +14,18 @@ This section details a change control process for use with the NHS England stand
 - **Stakeholder** – Any individual or group/organisation using the NHS England IG or involved in FHIR implementation and/or design within NHS England
 
 ### Requesting a Change to the NHS England IG
-Issues for new NHS England IG FHIR assets can be raised at the NHS England IG project level the issue shall indicate the use case or details of the requirement as to why the new asset is needed. Projects or Programmes may also raise requests for new or amended FHIR assets.Requests for a change to the NHS England IG must shall be made using the create issue option in Simplifier if it’s not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or group/organisation looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
+Requests for a change to the NHS England IG shall be made using the create issue option in Simplifier if it’s not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or group/organisation looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
 
 ### Navigation to the NHS England IG Project
 The NHS England IG project is located here in Simplifier https://simplifier.net/guide/nhs-england-fhir-implementation-guide.
 
 ### Requesting a new NHS England IG Asset
-Issues for new NHS England IG FHIR assets can be raised at the NHS England IG project level the issue shall indicate the use case or details of the requirement as to why the new asset is needed. Projects or Programmes may also raise requests for new or amended FHIR assets.
+Requests for new NHS England IG FHIR assets can be raised as an issue at the NHS England IG project level in Simplifier. The requests shall indicate the use case or details of the requirement as to why the new asset is needed.
 
 ### Creating a Simplifier Issue at Project Level
 The NHS England IG uses Simplifier for issue tracking and maintenance.
 Although the NHS England IG is in the public domain, you will need to create an account and login to raise issues. 
+
 
 Creating a Simplifier account is done by going to <a href="https://simplifier.net/NHS-England-Implementation-Guide/~introduction" target="_blank"> https://simplifier.net/</a> and using the sign-up option on the top right of the page. An email address and a chosen password are the only details needed to set up an account. 
 
@@ -33,10 +34,6 @@ To create a issue at the project level, navigate to the project. Once you are in
 ### Login to Simplifier 
 Logging in to your Simplifier account is required to raise issues. Browse to <a href="https://simplifier.net/" target="_blank">https://simplifier.net/</a> and use the login option on the top right of the page, then enter the chosen credentials. 
 <a id="navigateproject"></a>
-
-### Navigation to the NHS England IG Project
-
-The NHS England IG project is located here in <a href="https://simplifier.net/guide/nhs-england-fhir-implementation-guide">Simplifier.</a> 
 
 ### Change to an existing NHS England IG Asset
 When the change request is for a change to an existing NHSE IG FHIR asset, the preferred approach is to raise the issue at the level of the relevant asset.
