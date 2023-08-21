@@ -7,7 +7,7 @@ The NHSE IG development is driven by requests for change which can come from man
 
 
 ### Development Cycle
-The development cycle is feed from two main sources:
+The development cycle is fed from two main sources:
 <ol>
 <li>The Clinical and Technical Assurance Process</li>
 <li>Issues raised by the stakeholders in Simplifier</li>

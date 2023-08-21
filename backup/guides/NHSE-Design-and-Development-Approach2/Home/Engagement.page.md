@@ -8,7 +8,7 @@ However, stakeholders can also be users/implementors of the NHS England IG and m
 
 The Clinical and Technical Assurance process details how stakeholders are engaged as part of assuring the NHS England IG.
 
-The pages in this section contain information about how the NHS England IG development team has engaged with the FHIR Community NHS England programs via presentations and information sharing sessions.
+The pages in this section contain information about how the NHS England IG development team has engaged with the NHS England programs via presentations and information sharing sessions.
 
 ## Awareness and Learning
 
