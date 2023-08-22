@@ -3,7 +3,7 @@ topic: extension-design
 ---
 # {{page-title}}
 
-There will be requirements from NHS England which are England specific and therefore not suitable for inclusion in the FHIR UK Core. Therefore, additional valid requirements can be implemented as extensions to existing UK Core resources. Further information about extensibility is available.
+There will be requirements from NHS England IG which are England specific and therefore not suitable for inclusion in the FHIR UK Core. Therefore, additional valid requirements can be implemented as extensions to existing UK Core resources. Further information about extensibility is available.
 
 There are two basic types of extensions used by UK Core:
 
