@@ -22,14 +22,16 @@
   filename: CodeSystem-England-EPSTaskDispenseWithdrawReason.page.md
 - name: CodeSystem-England-ERSAppointmentType
   filename: CodeSystem-England-ERSAppointmentType.page.md
+- name: CodeSystem-England-ERSBookableType
+  filename: CodeSystem-England-ERSBookableType.page.md
 - name: CodeSystem-England-ERSClinicType
   filename: CodeSystem-England-ERSClinicType.page.md
 - name: CodeSystem-England-ERSErrorCode
   filename: CodeSystem-England-ERSErrorCode.page.md
 - name: CodeSystem-England-ERSPriorityCode
   filename: CodeSystem-England-ERSPriorityCode.page.md
-- name: CodeSystem-England-ERSPurpose
-  filename: CodeSystem-England-ERSPurpose.page.md
+- name: Delete-CodeSystem-England-ERSPurpose
+  filename: Delete-CodeSystem-England-ERSPurpose.page.md
 - name: CodeSystem-England-ERSReferralState
   filename: CodeSystem-England-ERSReferralState.page.md
 - name: CodeSystem-England-ERSRequestFlowType
@@ -40,8 +42,8 @@
   filename: CodeSystem-England-FGMRemovalReason.page.md
 - name: CodeSystem-England-HTTPErrorCode
   filename: CodeSystem-England-HTTPErrorCode.page.md
-- name: CodeSystem-England-MedicationDispenseEndorsement
-  filename: CodeSystem-England-MedicationDispenseEndorsement.page.md
+- name: Delete-CodeSystem-England-MedicationDispenseEndorsement
+  filename: Delete-CodeSystem-England-MedicationDispenseEndorsement.page.md
 - name: CodeSystem-England-MedicationDispenseStatusReason
   filename: CodeSystem-England-MedicationDispenseStatusReason.page.md
 - name: CodeSystem-England-MedicationDispenseType
@@ -52,6 +54,8 @@
   filename: CodeSystem-England-MedicationRequestControlledDrug.page.md
 - name: CodeSystem-England-MedicationRequestCourseOfTherapy
   filename: CodeSystem-England-MedicationRequestCourseOfTherapy.page.md
+- name: CodeSystem-England-MedicationRequestEndorsement
+  filename: CodeSystem-England-MedicationRequestEndorsement.page.md
 - name: CodeSystem-England-MedicationRequestStatusHistory
   filename: CodeSystem-England-MedicationRequestStatusHistory.page.md
 - name: CodeSystem-England-MedicationRequestStatusReason
