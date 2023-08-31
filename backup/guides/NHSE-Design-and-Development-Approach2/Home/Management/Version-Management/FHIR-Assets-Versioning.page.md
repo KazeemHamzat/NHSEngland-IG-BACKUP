@@ -49,13 +49,12 @@ This is defined as a version in which backwards compatible bug fixes are made. A
 
 The NHS England IG is released as a pre-release for comment before an actual release, this will be with full change history for the changes applied so that implementers can agree the versioning that has been applied to the FHIR assets.
 
-## Semantic Versioning
-
+### Semantic Versioning
 Given a version number MAJOR.MINOR.PATCH, increment the:
 
 MAJOR version when you make incompatible changes, MINOR version when you add functionality in a backwards-compatible manner, and PATCH version when you make backwards-compatible bug fixes. Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
-## Pre-Release Labels
+### Pre-Release Labels
 These labels will be taken from the GDS development process stages, and will be one of:
 
 - **Discovery**: a Feasibility study. A 'No code' development. Designed to find out what users are trying to achieve, any constraints, improvement opportunities
