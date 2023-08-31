@@ -34,7 +34,6 @@ This is illustrated below:
     </meta>
 ````
 
-
 ### Definitions of Change Types
 There is no real way to determine whether a NHS England IG change is breaking or not unless you can get agreement with every implementer of the NHS England IG. This is practically impossible to do, so the following sections are to give a brief overview of the sort of changes that might be seen as breaking changes and should not be seen as definitive. 
 #### Major Change
@@ -49,6 +48,27 @@ This is defined as a version in which backwards compatible bug fixes are made. A
 -  Correcting typos in the short description of an element in a FHIR profile
 
 The NHS England IG is released as a pre-release for comment before an actual release, this will be with full change history for the changes applied so that implementers can agree the versioning that has been applied to the FHIR assets.
+
+## Semantic Versioning
+
+Given a version number MAJOR.MINOR.PATCH, increment the:
+
+MAJOR version when you make incompatible changes, MINOR version when you add functionality in a backwards-compatible manner, and PATCH version when you make backwards-compatible bug fixes. Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+## Pre-Release Labels
+These labels will be taken from the GDS development process stages, and will be one of:
+
+- **Discovery**: a Feasibility study. A 'No code' development. Designed to find out what users are trying to achieve, any constraints, improvement opportunities
+
+- **Alpha**: Develop prototypes and test with users. Could be minimal functionality and potentially prototypes for any options to determine which is best
+
+- **Private Beta**: Working version and test with invited users. Handle real transactions and work at scale. ‘Invite only’ or regional. Must Pass assessment by business and technical SME’s
+
+- **Public Beta**: All users can participate. Version unlikely to change substantially, but still needs further testing by a wider group of implementors before becoming live
+
+- **Live**: The live phase is about supporting the service in a sustainable way, and continuing to iterate and make improvements
+
+- **Retiring**: Implementors notified that the service is discontinued and not to be used for new developments
 
 ### Publication of a version within a NHSE IG asset
 Version data will be carried in the version element for all assets.   

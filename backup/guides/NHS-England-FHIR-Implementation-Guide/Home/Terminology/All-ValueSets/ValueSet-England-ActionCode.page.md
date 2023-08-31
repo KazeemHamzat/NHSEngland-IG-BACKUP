@@ -1,6 +1,22 @@
 ## ValueSet-England-ActionCode
 
 
+
+<div id="transpose">
+@```
+from
+	ValueSet
+where
+	name = 'DCH-CareTeam-1'
+select
+	Canonical_URL: url,
+  Current_Version: version,
+  Last_Updated: date,
+	Description: description,
+  Status: status
+```
+</div>
+
 <div class="tab">
  <button class="tablinks active" onclick="openTab(event, 'HTML View')">HTML View</button>
  <button class="tablinks" onclick="openTab(event, 'Table View')">Table View</button>
