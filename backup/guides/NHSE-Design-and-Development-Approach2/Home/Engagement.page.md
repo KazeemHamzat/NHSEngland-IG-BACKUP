@@ -1,4 +1,4 @@
-## {{page-title}}
+# {{page-title}}
 
 This section is about engagement with stakeholders. The NHS England IG has many stakeholders with very differing knowledge levels and interests. These stakeholders will be anyone from NHS England involved in interoperability using FHIR. 
 
