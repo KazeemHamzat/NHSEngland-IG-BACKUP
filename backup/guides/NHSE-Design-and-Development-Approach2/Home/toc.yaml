@@ -1,5 +1,5 @@
-- name: Introduction
-  filename: Introduction.page.md
+- name: Index
+  filename: Index.page.md
 - name: Engagement
   filename: Engagement.page.md
 - name: Management
