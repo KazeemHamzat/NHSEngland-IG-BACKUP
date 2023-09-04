@@ -9,17 +9,16 @@ This section details a change control process for use with the NHS England stand
 
 ### Change Control Roles
 
-- **Requester** - Any individual or group/organisation requesting a change to an existing FHIR asset in the NHS England IG or requesting a new FHIR asset to be added to the NHS England IG.
+- **Requester** - Any individual or team requesting a change to an existing FHIR asset in the NHS England IG or requesting a new FHIR asset to be added to the NHS England IG.
 - **NHS England Development Team**- Individuals who are involved in the NHS England FHIR assets development and/or authoring guidance contained in the NHS England Implementation Guide.
-- **Stakeholder** – Any individual or group/organisation using the NHS England IG or involved in FHIR implementation and/or design within NHS England
+- **Stakeholder** – Any individual or team using the NHS England IG or involved in FHIR implementation and/or design within NHS England.
 
 ### Requesting a Change to the NHS England IG
 Requests for a change to the NHS England IG shall be made using the create issue option in Simplifier if it’s not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or group/organisation looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
 
 ### Navigation to the NHS England IG Project
-The NHS England IG project is located here in Simplifier https://simplifier.net/guide/nhs-england-fhir-implementation-guide.
+The NHS England IG Simplifier project is located [here]( https://simplifier.net/NHS-England-Implementation-Guide/~guides).
 
-### Requesting a new NHS England IG Asset
 Requests for new NHS England IG FHIR assets can be raised as an issue at the NHS England IG project level in Simplifier. The requests shall indicate the use case or details of the requirement as to why the new asset is needed.
 
 ### Creating a Simplifier Issue at Project Level

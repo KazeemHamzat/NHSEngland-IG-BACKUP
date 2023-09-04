@@ -7,7 +7,7 @@ This section documents the approach used by IOPS to produce and maintain the NHS
 
 ### Changes to FHIR Profiles and conformance assets
 - These are hosted on the GitHub project [here](https://github.com/NHSDigital/NHSEngland-FHIR-ImplementationGuide).
-- Each folder contains resources of a specific type. In particular, the StructureDefinition folder contains the FHIR profiles and extensions, the ValueSet and CodeSystem folders contain the ValueSets and CodeSystems used across NHSE programmes, Message and OperationDefinition folders contain the resources defining which profiles to include in specific message types, e.g. prescription-orders, and the CapabilityStatement folder contains resources which define which profiles to validate against in a specific context.
+- Each folder contains resources of a specific type. In particular, the structuredefinitions folder contains the FHIR profiles and extensions, the valuesets and codesystems folders contain the valuesets and codesystems used across NHSE programmes, Message and OperationDefinition folders contain the resources defining which profiles to include in specific message types, e.g. prescription-orders, and the CapabilityStatement folder contains resources which define which profiles to validate against in a specific context.
 - The IOPS change control process is [here](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Management/Development-and-Release-Management?version=current).
 - If approved, changes to FHIR assets will be made in a branch with the same name as the JIRA ticket from which the request originated (e.g. AEA-3019). This links changes to the original request for auditing.
 - To release a package using the changed assets, the branch needs to be merged into the 'main' branch. This will be done through a Pull Request (PR), which can only be merged after receiving approval from the IOPS team.
@@ -74,6 +74,6 @@ Read more about [ValueSets](https://www.hl7.org/fhir/r4/terminologies.html#value
 All FHIR assets SHALL be validated before being publicly available. See [Validation of Implementations](https://simplifier.net/guide/HL7FHIRUKCoreDesignandDevelopmentApproach/Home/ConformanceandDependencies/ValidationofImplementations.guide.md?version=current) for more details.
 
 #### FHIR Resource Spelling
-FHIR Resources, along with ValueSets, CodeSystems and ConceptMaps use the American-English spelling, for example Organization. The NHS England IG approach is to use American-English for any Profile, Extension, ValueSet, CodeSystem, and ConceptMap names, and when directly referring to the names within the Implementation Guide, otherwise using the British-English for all other aspects.
+FHIR Resources, along with valuesets, codesystems and ConceptMaps use the American-English spelling, for example Organization. The NHS England IG approach is to use American-English for any Profile, Extension, ValueSet, CodeSystem, and ConceptMap names, and when directly referring to the names within the Implementation Guide, otherwise using the British-English for all other aspects.
 
 
