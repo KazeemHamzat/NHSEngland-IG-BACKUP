@@ -11,7 +11,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
@@ -36,7 +36,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
@@ -47,7 +47,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>uri</td>
-        <td>In the UK Core the format is the following, with the FHIRAssetName and Specialism in PascalCase:<br/><br/><code>https://fhir.nhs.uk/StructureDefinition/England-<i>[FHIRAssetName][Specialism]</i></code>.</td>
+        <td>In the NHS England IG the format is the following, with the FHIRAssetName and Specialism in PascalCase:<br/><br/><code>https://fhir.nhs.uk/StructureDefinition/England-<i>[FHIRAssetName][Specialism]</i></code>.</td>
     </tr>
     <tr>
         <td>identifier</td>

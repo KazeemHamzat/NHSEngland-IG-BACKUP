@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-The list below contains the element differences between the NHS England IG and UkCore. 
+The list below contains the element differences between HL7 FHIR R4  and NHS England IG. 
 
 ### Base Resource Definitions
 
@@ -11,7 +11,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
@@ -36,7 +36,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
       </tr>
