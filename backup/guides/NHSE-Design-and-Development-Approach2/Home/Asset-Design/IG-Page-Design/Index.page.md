@@ -112,7 +112,7 @@ This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. Th
 
 Where guidance has been added in another IG, such as the glossary, this can be rendered in an IG using the Simpifier { {render: command, which can work across projects and organisations.
 
-for example, the UKCore Glossary can be rendered via:
+for example, the NHSE IG Glossary can be rendered via:
 ~~~~html
 { {render:hl7fhirukcorer4/index-duplicate-49}}
 ~~~~
@@ -122,11 +122,5 @@ for example, the UKCore Glossary can be rendered via:
 Currently, Simplifier commands, such as FQL or pagelink / tree / xml / json / render, will not be processed by the rendered page.
 </div>
 
-
-## Base NHS England templates
-
-NHS themed templates for IG's can be found in <a href="https://simplifier.net/FHIRImplementationGuideTemplate/~guides">https://simplifier.net/FHIRImplementationGuideTemplate/~guides</a>
-
-NOTE: only the "Simplified / UK Core based template" will be maintained going forwards.
-
 <hr class="thickline">
+
