@@ -78,12 +78,17 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>string</td>
         <td>In the NHS England the format is Proper Case:<br/><br/><code>England<i>&lsqb;Business Names&rsqb;</i></code>.</td>
     </tr>
-    <tr>
+  <tr>
         <td>status</td>
         <td>1..1</td>
         <td>1..1</td>
         <td>code</td>
-        <td>See {{pagelink:NamingSystem.status}} for more information.</td>
+        <td>For the NHS England these are defined as: 
+        <ul>
+        <li>draft - ValueSets in development</li>
+        <li>active - ValueSets that have been approved via Clinical and Technical Assurance</li>
+        <li>retired - ValueSets that are no longer required</li>
+        </ul></td>
     </tr>
     <tr>
         <td>date</td>

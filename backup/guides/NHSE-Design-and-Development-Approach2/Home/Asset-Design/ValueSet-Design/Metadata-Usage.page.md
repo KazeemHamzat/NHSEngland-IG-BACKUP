@@ -137,7 +137,7 @@ View further information about <a href="https://hl7.org/fhir/R4/valueset.html" T
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
