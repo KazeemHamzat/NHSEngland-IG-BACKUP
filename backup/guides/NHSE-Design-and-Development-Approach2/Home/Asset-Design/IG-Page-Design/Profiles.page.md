@@ -138,21 +138,6 @@ select
 
 ---
 
-## Example Usage Scenarios
-
-Any example use cases that are specific to the profile and relevant to NHS England can be added here. If there are no examples, then this section is not to be added to the page. If there are example, then it SHALL be in the following format: 
-
-~~~html
-### Example Usage Scenarios
-
-The following are feasible use cases for the England [profile] profile:
-
-- [usage scenario]. 
-
----
-~~~
-
----
 
 ## Profile Specific Implementation Guidance
 This contains any relevant information specifically to the profile. Within this page it may contain use cases or the minimum viable content. The title SHALL be added to the index page, but any information below is optional. 
@@ -162,33 +147,6 @@ This contains any relevant information specifically to the profile. Within this 
 
 [add any specific implementation or use case guidance]
 ~~~
-
----
-
-## Minimum Viable Content
-
-The minimum viable content (MVC) is any element in which has information that the provider and consumer systems SHOULD send or collect. Note, if mandatory data elements (e.g. 1..1 or 1..*) are present then these SHALL be included in the MVC.  
-
-MVC SHALL be determined by use cases, and by analysis of the MustSupport flags used by other FHIR IG's, such as UK Core, US Core, Aus Base, Wales DHCW, NHSE IG, HL7 EU Lab.
-
-~~~~html
-<h3>Minimum Viable Content</h3>
-
-A minimum viable content that all provider and consumer systems SHALL support are the following elements.
-
-<table class="assets">
-<tr>
-<th width="30%">Element</th>
-<th width="70%">Reason</th>
-</tr>
-<tr>
-<td><code>[element]</code></td>
-<td>[reason].</td>
-</tr>
-</table>
-
----
-~~~~
 
 ---
 
