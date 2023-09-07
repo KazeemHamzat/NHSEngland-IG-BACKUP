@@ -132,7 +132,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>markdown</td>
         <td>A copyright statement relating to the Extension and/or its contents.
         <br/><br/>
-        All UK Core Extensions SHALL contain the the copyright as listed in {{pagelink:Publisher--Contact---Copyright}}</td>
+        All NHS England Extensions SHALL contain the the copyright as listed in {{pagelink:Publisher--Contact---Copyright}}</td>
     </tr>
     <tr>
       <td>fhirVersion</td>

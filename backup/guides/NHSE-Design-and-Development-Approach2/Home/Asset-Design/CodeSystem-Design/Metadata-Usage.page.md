@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-The list below contains the element differences between the NHS England and HL7.
+The list below contains the element differences between the HL7 FHIR R4 and NHS England IG.
 
 ### Base Resource Definitions
 
@@ -11,7 +11,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
@@ -36,7 +36,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
@@ -82,9 +82,13 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>1..1</td>
         <td>1..1</td>
         <td>code</td>
-        <td>See {{pagelink:NamingSystem.status}} for more information.</td>
+        <td>For the NHS England these are defined as: 
+        <ul>
+        <li>draft - ValueSets in development</li>
+        <li>active - ValueSets that have been approved via Clinical and Technical Assurance</li>
+        <li>retired - ValueSets that are no longer required</li>
+        </ul></td>
     </tr>
-    <tr>
         <td>date</td>
         <td>0..1</td>
         <td>1..1</td>
@@ -103,7 +107,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..*</td>
         <td>1..*</td>
         <td>ContactDetail</td>
-        <td>Contact details for the publisher.<br/><br/>See the {{pagelink:Publisher--Contact---Copyright}} for details of how this SHALL be populated for all UK Core CodeSystems, where the base URL is <code> https://fhir.nhs.uk/</code>.</td>
+        <td>Contact details for the publisher.<br/><br/>See the {{pagelink:Publisher--Contact---Copyright}} for details of how this SHALL be populated for all NHS England CodeSystems, where the base URL is <code> https://fhir.nhs.uk/</code>.</td>
     </tr>
     <tr>
         <td>description</td>
@@ -132,7 +136,7 @@ View further information about <a href="https://hl7.org/fhir/R4/codesystem.html#
       <tr>
         <th width="15%">Element name</th>
         <th width="10%">Base Cardinality</th>
-        <th width="10%">UK Core Cardinality</th>
+        <th width="10%">NHS England IG Cardinality</th>
         <th width="15%">Type</th>
         <th width="50%">Definition, Constraints and Notes</th>
     </tr>
