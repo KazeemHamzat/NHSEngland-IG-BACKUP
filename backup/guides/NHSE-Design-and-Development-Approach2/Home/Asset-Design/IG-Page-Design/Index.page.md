@@ -6,7 +6,7 @@ To standardise all pages within the FHIR NHS England Implementation Guide (IG)
 
 ## General Rules 
 
-- Information SHALL be unique to UK Core. There SHOULD NOT be any duplication of HL7 FHIR content nor any information within the profile unless it gives context for additional UK Core information. 
+- Information SHALL be unique to NHS England IG. There SHOULD NOT be any duplication of HL7 FHIR content nor any information within the profile unless it gives context for additional NHS England IG information. 
 - Information SHALL NOT contradict HL7 FHIR. 
 - Conformance language SHALL be written in accordance with <a href="https://build.fhir.org/conformance-rules.html#conflang">https://build.fhir.org/conformance-rules.html#conflang</a> . 
 - External links to HL7 FHIR SHALL be the same version as UK Core. 
@@ -33,7 +33,7 @@ To standardise all pages within the FHIR NHS England Implementation Guide (IG)
 |-
 |Title Case | Any headers that are not elements 
 |\<code>camelCase\</code>, or \`camelCase\` | Any elements and it’s values 
-|\<code>PascalCase\</code>, or \`PascalCase\` |Any Profile, ValueSet, or CodeSystem 
+|\<code>PascalCase\</code>, or \`PascalCase\` |Any FHIR assets 
 
 ---
 
@@ -56,7 +56,7 @@ To standardise all pages within the FHIR NHS England Implementation Guide (IG)
 |\<a href="[link]">[link title]\</a> |External Links. Only to be used to link to pages within https://hl7.org/fhir/ and https://simplifier.net/ 
 |\{ \{pagelink:[Topic url]\}\}|Internal Link. For referencing within the IG.  
 
-**Note:** the Topic url can be found using the dropdown button within the IG editor, or for pages named 'Index' these are manually created and can be found at the top of the page. See <b>Topic/b> for more details.
+**Note:** the Topic url can be found using the dropdown button within the IG editor, or for pages named 'Index' these are manually created and can be found at the top of the page. See Topic for more details.
 
 ---
 

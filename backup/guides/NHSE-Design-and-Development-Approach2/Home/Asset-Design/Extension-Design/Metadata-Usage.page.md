@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-The list below contains the element differences between the UKCore and HL7.
+The list below contains the element differences between the HL7 FHIR R4  and NHS England IG.
 
 ### Base Resource Definitions
 
