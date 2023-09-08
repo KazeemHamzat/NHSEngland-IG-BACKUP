@@ -4,7 +4,7 @@
 This page details the Clinical and Technical Assurance process for the NHS England Implementation Guide
 A key part of the NHS England Clinical and Technical Assurance process is to ensure that any profiling of FHIR resources is done in a clinically safe and technically coherent manner and is UK Core conformant.
 
-The IOPS team will manage a regular Clinical and Technical Assurance (C&TA) review cycle, which will allow stakeholders, including programmes, a chance to propose and review changes to the NHS England IG before the release of a live version, i.e. not marked as pre-release (e.g. uk.nhsdigital.r4 2.8.0 - SIMPLIFIER.NET)
+The IOPS team will manage a regular Clinical and Technical Assurance (C&TA) review cycle, which will allow stakeholders, including programmes, a chance to propose and review changes to the NHS England IG before the release of a live version,(e.g. 1.0.0 pre-release version of NHSE IG - SIMPLIFIER.NET)
 
 The exact timescale and scope for the C&TA sprints is yet to be determined.
 
@@ -26,7 +26,7 @@ The process also challenges clinical requirements, should they be insufficiently
 The assurance process promotes consistency in FHIR assets across different healthcare programmes and use cases to support interoperability. There is a risk that programmes might develop FHIR assets which conflict with previous design decisions. This process ensures that the design decisions agreed previously are consistently applied, and any reasons for divergence are documented and justified in a transparent way. FHIR assets should be UK Core unless there is a valid requirement to create NHS England constrained version.
 ________________________________________
 ## What is FHIR Clinical and Technical Assurance?
-In the FHIR Clinical and Technical Assurance process, a team of subject matter experts map use case specific clinical information models from NHS England program a to define if and what constraints are needed on the UK Core for these use cases. This mapping may produce a “profile” of the UK Core profle. During the mapping process, a variety of decisions are made, for example, relating to the use of appropriate terminology bindings, such as SNOMED CT.
+In the FHIR Clinical and Technical Assurance process, a team of subject matter experts map use case specific clinical information models from NHS England program a to define if and what constraints are needed on the UK Core for these use cases. This mapping may produce a “profile” of the UK Core profile. During the mapping process, a variety of decisions are made, for example, relating to the use of appropriate terminology bindings, such as SNOMED CT.
 
 From a Clinical Assurance perspective, FHIR assets are reviewed for:
 - Accuracy (clinical knowledge and clinical practices)
@@ -104,7 +104,7 @@ The following are key inputs to the creation of the NHS England pack:-
 The NHS England pack will be created by the IOPS Team. The pack will include design options; recommended options will be determined after external consultation. The IOPS will create an itinerary to explain key decisions required from stakeholders.
 
 ### External consultation (2.0)
-The NHS England pack will be released for consultation with external stakeholders for a period of no more than 5 days with an ability to provide comments via Simplifier. The pack's release will be advertised on relevant channels e.g. email, , Simplifier news as appropriate. Stakeholders will need to commit resources to attend any team calls. After the review period, the UK Core Development team will review the comments and agree on resolutions which will be presented on a call to stakeholders. The scope of discussion on the consultation call is limited to the issues raised as review comments in the consultation phase. If there is no consensus on the consultation call, this will be escalated to the FHIR product owner and other suitable NHS England personnel make the decision.
+The NHS England pack will be released for consultation with external stakeholders for a period of no more than 5 days with an ability to provide comments via Simplifier. The pack's release will be advertised on relevant channels e.g. email, , Simplifier news as appropriate. Stakeholders will need to commit resources to attend any team calls. After the review period, the IOPS Team will review the comments and agree on resolutions which will be presented on a call to stakeholders. The scope of discussion on the consultation call is limited to the issues raised as review comments in the consultation phase. If there is no consensus on the consultation call, this will be escalated to the FHIR product owner and other suitable NHS England personnel make the decision.
 
 ### Update specifications (3.0)
 The IOPS Team will update the NHS England FHIR assets and associated guidance based on agreement on the call.
@@ -175,7 +175,7 @@ The UK Core FHIR Clinical and Technical Assurance process builds on a previous p
 
 ## Why do we need a Clinical and Technical Assurance Process?
 ### Assets which are fit for purpose
-The process will produce FHIR assets that are fit for purpose. The process encompasses clinical, clinical informatics, clinical safety, terminology, technical and vendor input. The key value added is multi-disciplinary collaboration in an agile team and the ability to improve quality of the product. Without the Clinical and Technical Assurance process, there is a risk that the hand over of requirements from business teams to the UK Core Development team to produce a specification might not meet wider business, clinical and technical requirements. 
+The process will produce FHIR assets that are fit for purpose. The process encompasses clinical, clinical informatics, clinical safety, terminology, technical and vendor input. The key value added is multi-disciplinary collaboration in an agile team and the ability to improve quality of the product. Without the Clinical and Technical Assurance process, there is a risk that the hand over of requirements from business teams to the IOPS Team to produce a specification might not meet wider business, clinical and technical requirements. 
 ### Engaging with system suppliers
 Participation in the assurance process helps those who will be implementing the specifications understand the rationale and details behind the design. System suppliers are engaged as part of the process which gives them an opportunity to raise implementation issues and resolve them before the specifications are published. 
 ### Robust requirement definition
@@ -195,7 +195,7 @@ From a Clinical Assurance perspective, FHIR assets are reviewed for:
 
 From a Technical Assurance perspective, the FHIR assets are reviewed for:
 - Conformance to the FHIR Standard
-- Adherence to the documented guidance for Creating UK Core FHIR assets produced by the UK Core Development team
+- Adherence to the documented guidance for Creating UK Core FHIR assets produced by the IOPS Team
 - Correct usage of the FHIR assets for the use case 
 
 ### Scope
@@ -228,7 +228,7 @@ The FHIR UK Core pack and downloadable FHIR assets will be created with FHIR too
 
 ## How does the Clinical and Technical Assurance Process work?
 The FHIR Clinical and Technical Assurance process includes six steps which are described below. The Clinical and Technical Assurance process team comprises of clinical leads, clinical informaticians, message modellers, terminology specialists, clinical safety staff, First of Type (FoT) representatives from programmes, implementers and vendors and information governance representatives (if needed).
-Note that several programmes could run the process in parallel, so improving the output of the process. When profiles have been through the process once, it is expected that they will not need to go through the whole process again for every use case or programme. Once assured, profiles will be established as UK Core profiles, with business rules added to implementation guides for additional guidance. This will eventually shorten the process for all participants, as only new profiles will be discussed in detail. The change control and tracking of profiles and other FHIR assets will be managed by the UK Core development team.
+Note that several programmes could run the process in parallel, so improving the output of the process. When profiles have been through the process once, it is expected that they will not need to go through the whole process again for every use case or programme. Once assured, profiles will be established as UK Core profiles, with business rules added to implementation guides for additional guidance. This will eventually shorten the process for all participants, as only new profiles will be discussed in detail. The change control and tracking of profiles and other FHIR assets will be managed by the IOPS Team.
 
 ### Main Roles in the Clinical and Technical Assurance Process
 Roles may include, but may not be limited to:-
@@ -240,7 +240,7 @@ Roles may include, but may not be limited to:-
 -  Architect
 -  Business analyst
 -  Project manager
--  UK Core Development team 
+-  IOPS Team 
 
 The roles and responsibilities for the process can be viewed in <a href="#appendixa">Appendix A</a>.   
 ### Key Steps in the Clinical and Technical Assurance process
@@ -268,15 +268,15 @@ The following are key inputs to the creation of the UK Core pack:-
 -  Any associated implementation guides
 -  Links to any useful training material
 
-The UK Core pack will be created by the UK Core Development team. The pack will include design options; recommended options will be determined after external consultation. The UK Core Development team will create an itinerary to explain key decisions required from stakeholders. 
+The NHS IG pack will be created by the IOPS Team. The pack will include design options; recommended options will be determined after external consultation. The IOPS Team will create an itinerary to explain key decisions required from stakeholders. 
 
 ### External consultation (2.0)
-The UK Core pack will be released for consultation with external stakeholders for a period of 15 days with an ability to provide comments via Simplifier. The pack's release will be advertised on relevant channels e.g. email, Ryver, Simplifier news as appropriate.
+The NHS IG pack will be released for consultation with external stakeholders for a period of 15 days with an ability to provide comments via Simplifier. The pack's release will be advertised on relevant channels e.g. email, Ryver, Simplifier news as appropriate.
 Stakeholders will need to commit resources to attend team calls, which are scheduled once a week; this includes one external community call per sprint. 
-After the review period, the UK Core Development team will review the comments and agree on resolutions which will be presented on a call to stakeholders. The scope of discussion on the consultation call is limited to the issues raised as review comments in the consultation phase. If there is no consensus on the consultation call, this will be escalated to the UK FHIR Delivery Senior Leadership Team (SLT) to make decisions.  This team will engage with the UK FHIR community and seek input as needed.  
+After the review period, the IOPS Team will review the comments and agree on resolutions which will be presented on a call to stakeholders. The scope of discussion on the consultation call is limited to the issues raised as review comments in the consultation phase. If there is no consensus on the consultation call, this will be escalated to the UK FHIR Delivery Senior Leadership Team (SLT) to make decisions.  This team will engage with the UK FHIR community and seek input as needed.  
 
 ### Update specifications (3.0) 
-The UK Core Development team will update the UK Core FHIR assets and associated guidance based on agreement on the external call or further agreement with the SLT, if required. 
+The IOPS Team will update the UK Core FHIR assets and associated guidance based on agreement on the external call or further agreement with the SLT, if required. 
 
 ### Handover to the UK Core Change Control process (4.0)
 
@@ -291,14 +291,14 @@ An initial hazard log will be produced in parallel as per the NHS England Clinic
 
 ## Where do I start?
 
--  Anyone who is interested in developing new, or amending existing, FHIR assets should engage with the UK Core Development team to prepare a pack using the Core Pack template which is available in <a href="#appendixc" >Appendix C</a>.  
-- If further clinical and technical assurance work is needed, the UK Core Development team will then start to prepare the schedule, including estimating the number of sprints required.
-- The UK Core Development team will invite other stakeholders, such as terminologists, clinical safety representatives, clinicians, First of Type representatives and vendors to establish representation and availability for the process.
+-  Anyone who is interested in developing new, or amending existing, FHIR assets should engage with the IOPS Team to prepare a pack using the Core Pack template which is available in <a href="#appendixc" >Appendix C</a>.  
+- If further clinical and technical assurance work is needed, the IOPS Team will then start to prepare the schedule, including estimating the number of sprints required.
+- The IOPS Team will invite other stakeholders, such as terminologists, clinical safety representatives, clinicians, First of Type representatives and vendors to establish representation and availability for the process.
 
 
 ### Setting up meetings
--  The UK Core Development team will set up meetings and communicate with all potential participants. 
-- The UK Core Development team will arrange all administration and organisation of agreed meetings. 
+-  The IOPS Team will set up meetings and communicate with all potential participants. 
+- The IOPS Team will arrange all administration and organisation of agreed meetings. 
 
 ## What are the key outputs?
 
@@ -318,7 +318,7 @@ The example outputs of the process are:
 - Any stakeholder can raise an issue in Simplifier relevant to these assets; you need a Simplifier account to do this. You can register at https://simplifier.net/signup.
 
 ### Contact Us
-If you require further information, please email the [UK Core Development team](mailto:interoperabilityteam@nhs.net).
+If you require further information, please email the [IOPS Team](mailto:interoperabilityteam@nhs.net).
 
 ---
 
@@ -334,7 +334,7 @@ The main functions of this team are:-
 - To agree on the technical design decisions for changes to the NHS England profiles working in collaboration with stakeholders.
 - To act as FHIR technical Subject Matter Expert (SME) to answer questions on FHIR constraints, proposed extensions and design principles
 - To post on [Zulip FHIR Chat](https://chat.fhir.org/) for feedback required and liaise with HL7 UK, if required.
-- To Liaise with the UK Core Development Team where required. 
+- To Liaise with the IOPS Team where required. 
 
 ### Project Manager (IOPS Team):
 

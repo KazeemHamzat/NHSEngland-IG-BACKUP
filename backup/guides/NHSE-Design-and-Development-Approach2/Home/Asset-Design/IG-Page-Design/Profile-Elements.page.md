@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-Any profile element that has information relevant to NHS England and is different to HL7 or UK Core SHALL be documented on its own page. The name of the page SHALL be the element naming in camelCase. If the binding to the element differs from HL7or UK Core  then it SHALL be referenced here, along with the relevant page link.  
+Any profile element that has information relevant to NHS England and is different to HL7 or UK Core SHALL be documented on its own page. The name of the page SHALL be the element naming in camelCase. If the binding to the element differs from HL7 or NHSE IG  then it SHALL be referenced here, along with the relevant page link.  
 
 The words ‘optional’ or ‘mandatory’ relating to the element are no longer needed as this has been deemed as duplication of either the element cardinality or MVC.  
 
@@ -38,7 +38,7 @@ Referencing all profiles SHALL be done using the following sentences:
 ~~~html
 The resource being referenced SHALL conform to { {pagelink:Profile-[profile]}}.
 ~~~
-- For a multiple resources, with at least one UK Core profile: 
+- For a multiple resources, with at least one NHSE IG profile: 
 ~~~html
  The resource being referenced SHALL conform to one of the following: 
 - { {pagelink:Profile-[profile]}}
@@ -46,7 +46,7 @@ The resource being referenced SHALL conform to { {pagelink:Profile-[profile]}}.
 ~~~
 - Where the reference is to <code>Resource</code>:
 ~~~html
-Where a UK Core profile exists the resource being referenced SHALL conform to the profile.
+Where a NHSE IG profile exists the resource being referenced SHALL conform to the profile.
 ~~~
 
 

@@ -9,7 +9,7 @@ To standardise all pages within the FHIR NHS England Implementation Guide (IG)
 - Information SHALL be unique to NHS England IG. There SHOULD NOT be any duplication of HL7 FHIR content nor any information within the profile unless it gives context for additional NHS England IG information. 
 - Information SHALL NOT contradict HL7 FHIR. 
 - Conformance language SHALL be written in accordance with <a href="https://build.fhir.org/conformance-rules.html#conflang">https://build.fhir.org/conformance-rules.html#conflang</a> . 
-- External links to HL7 FHIR SHALL be the same version as UK Core. 
+- External links to HL7 FHIR SHALL be the same version as NHS England IG. 
 - Each header SHALL be in Title case unless the header wording is an element, then is SHALL be in camelCase and as an inline code. 
 - Elements and values SHALL be written as an inline code. 
 - The first index title will be in the markdown form as \# Header1. 
