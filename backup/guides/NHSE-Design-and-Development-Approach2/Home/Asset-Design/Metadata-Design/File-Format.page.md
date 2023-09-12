@@ -18,17 +18,18 @@ The filename SHALL be human readable with a maximum character limit of 64 digits
 The url format to be used for these assets is as below, where <samp>[Name]</samp> is in PascalCase: 
 - **Profile:** <code>https://fhir.nhs.uk/StructureDefinition/England-[Name]</code>
 - **Extension** <code>https://fhir.nhs.uk/StructureDefinition/Extension-England-[Name]</code>
-- **ValueSets:** <code>https://fhir.nhs.uk/ValueSet/England-[Name]</code>
-- **CodeSystems:** <code>https://fhir.nhs.uk/CodeSystem/England-[Name]</code>
-- **NamingSystem:** <code>https://fhir.nhs.uk/NamingSystem/England-[Name]</code>
+- **ValueSet:** <code>https://fhir.nhs.uk/ValueSet/England-[Name]</code>
+- **CodeSystem:** <code>https://fhir.nhs.uk/CodeSystem/England-[Name]</code>
+- **NamingSystem:** <code>https://fhir.nhs.uk/Id/England-[Name]</code>
 
 
-**Common properties**
-- **id:** <code>England-[Name]</code> - <i><samp>[Name]</samp> is in PascalCase<i>
-- **name:** <code>England[Name]</code> - <i><samp>[Name]</samp> is in PascalCase<i>
-- **title:** <code>England [Name]</code> – <i><samp>[Name]</samp> is in Proper Case</i>
+**Common properties** 
+
+- **id:** <code>England-[Name]</code> - <samp>[Name]</samp> is in PascalCase
+- **name:** <code>England[Name]</code> - <samp>[Name]</samp> is in PascalCase
+- **title:** <code>England [Name]</code> – <samp>[Name]</samp> is in Proper Case
 - **version:** <code>Major.Minor.Patch</code>
 - **date:** <code>YYYY-MM-DD</code>
-- **status:** <code>draft</code> – <i>or active after C&TA completion</i>
+- **status:** <code>draft</code> – or active after C&TA completion
 
 ---

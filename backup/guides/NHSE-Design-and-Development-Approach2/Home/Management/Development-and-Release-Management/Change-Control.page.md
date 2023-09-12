@@ -14,7 +14,7 @@ This section details a change control process for use with the NHS England stand
 - **Stakeholder** – Any individual or team using the NHS England IG or involved in FHIR implementation and/or design within NHS England.
 
 ### Requesting a Change to the NHS England IG
-Requests for a change to the NHS England IG shall be made using the create issue option in Simplifier if it’s not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or group/organisation looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
+Requests for a change to the NHS England IG shall be made using the create issue option in Simplifier if it’s not a project or programme which is formally engaging with the NHS England development team. Requests may be from an individual or team looking to use the NHS England IG for an implementation or for an issue reported by a member of the development team. The same approach is used to feedback on issues by participants in the Clinical and Technical Assurance process.
 
 ### Navigation to the NHS England IG Project
 The NHS England IG Simplifier project is located [here]( https://simplifier.net/NHS-England-Implementation-Guide/~guides).
