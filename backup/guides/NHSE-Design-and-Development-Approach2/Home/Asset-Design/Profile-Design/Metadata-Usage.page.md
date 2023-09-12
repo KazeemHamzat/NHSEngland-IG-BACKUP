@@ -62,7 +62,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>1..1</td>
         <td>string</td>
         <td>This will follow the  <a href="https://semver.org/" Target="_blank">Semantic Versioning standard</a> <code><i>[major.minor.patch]</i></code>.<br>
-        Further details about <a href="https://simplifier.net/guide/HL7FHIRUKCoreDesignandDevelopmentApproach/Home/DevelopmentandPublication/UKCoreDevelopmentandReleaseManagement#FHIRAssetsVersioning" Target="_blank">internal versioning for NHS England assets</a> are available. </td>
+        Further details about <a href="https://simplifier.net/guide/nhs-england-design-and-development-approach/home/management/version-management/package-versioning.page.md?version=current" Target="_blank">internal versioning for NHS England assets</a> are available. </td>
     </tr>
     <tr>
         <td>name</td>
