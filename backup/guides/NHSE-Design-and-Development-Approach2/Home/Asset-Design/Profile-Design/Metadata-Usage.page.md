@@ -22,7 +22,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
         <td>0..1</td>
         <td>1..1</td>
         <td>id</td>
-         <td>In the NHS England IG the format in the following, with the FHIRAssetName and Specialism in PascalCase:<br/><br/><code>England-<i>[FHIRAssetName]</i></code>.</td>
+         <td>In the NHS England IG the format in the following, with the FHIRAssetName and Specialism in PascalCase:<br/><br/><code>England-[FHIRAssetName]</i></code>.</td>
     </tr>
     </tbody>
 </table>
@@ -47,7 +47,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>uri</td>
-        <td>In the NHS England IG the format is the following, with the FHIRAssetName and Specialism in PascalCase:<br/><br/><code>https://fhir.nhs.uk/StructureDefinition/England-<i>[FHIRAssetName]</i></code>.</td>
+        <td>In the NHS England IG the format is the following, with the FHIRAssetName and Specialism in PascalCase:<br/><br/><code>https://fhir.nhs.uk/StructureDefinition/England-[FHIRAssetName]</i></code>.</td>
     </tr>
     <tr>
         <td>identifier</td>
@@ -61,7 +61,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>This will follow the  <a href="https://semver.org/" Target="_blank">Semantic Versioning standard</a> <code><i>[major.minor.patch]</i></code>.<br>
+        <td>This will follow the  <a href="https://semver.org/" Target="_blank">Semantic Versioning standard</a> <code>[major.minor.patch]</i></code>.<br>
         Further details about <a href="https://simplifier.net/guide/nhs-england-design-and-development-approach/home/management/version-management/package-versioning.page.md?version=current" Target="_blank">internal versioning for NHS England assets</a> are available. </td>
     </tr>
     <tr>
@@ -69,14 +69,14 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England IG the format is PascalCase:<br/><br/><code>England<i>[FHIRAssetName]</i></code> .</td>
+        <td>In the NHS England IG the format is PascalCase:<br/><br/><code>England[FHIRAssetName]</i></code> .</td>
     </tr>
     <tr>
         <td>title</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England IG the format is Proper Case:<br/><br/><code>England<i> [FHIRAssetName]</i><code>.</td>
+        <td>In the NHS England IG the format is Proper Case:<br/><br/><code>England [FHIRAssetName]</i><code>.</td>
     </tr>
     <tr>
         <td>status</td>
@@ -137,7 +137,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>code</td>
-        <td>The version of the FHIR specification on which this StructureDefinition is based - this is the formal version of the specification, without the revision number, e.g. <i>[publication].[major].[minor]</i>.<br><br>The NHS England IG mandates the use of this element.</td>
+        <td>The NHS England IG mandates the use of this element.</td>
     </tr>
     <tr>
         <td>snapshot</td>

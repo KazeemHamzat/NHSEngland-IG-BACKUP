@@ -22,7 +22,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
         <td>0..1</td>
         <td>1..1</td>
         <td>id</td>
-        <td>In the NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>ValueSet-England-<i>[Name]</i></code>.</td>
+        <td>In the NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>ValueSet-England-[Name]</code>.</td>
     </tr>
   </tbody>
 </table>
@@ -47,7 +47,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>uri</td>
-       <td>In NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>https://fhir.nhs.uk/ValueSet/England-<i>[Name]</i></code>.</td>
+       <td>In NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>https://fhir.nhs.uk/ValueSet/England-[Name]</i></code>.</td>
     </tr>
    <tbody>
     <tr>
@@ -62,7 +62,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-       <td>This will follow the  <a href="https://semver.org/">Semantic Versioning standard</a> <code><i>&lsqb;major.minor.patch&rsqb;</i></code>.<br>
+       <td>This will follow the  <a href="https://semver.org/">Semantic Versioning standard</a> <code>&lsqb;major.minor.patch&rsqb;</i></code>.<br>
         Further details about <a href="https://simplifier.net/guide/nhs-england-design-and-development-approach/home/management/version-management/package-versioning.page.md?version=current" Target="_blank">internal versioning for NHS England assets</a> are available. </td>
     </tr>
     <tr>
@@ -70,14 +70,14 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In NHS England the format is PascalCase:<br/><br/><code> England<i>[Name]</i></code>.</td>
+        <td>In NHS England the format is PascalCase:<br/><br/><code> England[Name]</i></code>.</td>
     </tr>
     <tr>
         <td>title</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-         <td>In NHS England the format is PascalCase:<br/><br/><code> England<i> [Name]</i></code>.</td>
+         <td>In NHS England the format is PascalCase:<br/><br/><code> England [Name]</i></code>.</td>
     </tr>
     <tr>
         <td>status</td>
