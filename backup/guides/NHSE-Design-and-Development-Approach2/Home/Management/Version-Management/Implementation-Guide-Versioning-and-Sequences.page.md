@@ -35,7 +35,3 @@ The release aligns with the HL7 UK Ballot process, and the major version number 
 For the full details of FHIR release see <a href="http://www.hl7.org/fhir/r4/versions.html">the FHIR Standard.</a>
 
 ---
-
-
-
-

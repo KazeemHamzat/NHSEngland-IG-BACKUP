@@ -4,4 +4,4 @@ This section provides background information on metadata used within CodeSystem 
 
 Further information about the <a href="https://hl7.org/fhir/R4/codesystem.html" Target="_blank">CodeSystem resource</a> is available online.
 
-<br><br>
+---
