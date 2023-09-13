@@ -5,7 +5,7 @@ To ensure that the NHS England is both clinically and technically assured and ap
 
 ### Clinical & Technical Assurance
 
-The NHS England [Clinical and Technical Assurance](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Assurance---Endorsement/Clinical-and-Technical-Assurance.page.md?version=current "Title") process involves a team of subject matter experts from NHS England who use their knowledge to ensure assets are effectively and safely customised for NHS England use.
+The NHS England [Clinical and Technical Assurance](https://simplifier.net/guide/nhs-england-design-and-development-approach/home/assurance---endorsement/clinical-and-technical-assurance.page.md?version=current) process involves a team of subject matter experts from NHS England who use their knowledge to ensure assets are effectively and safely customised for NHS England use.
 
 
 ---
