@@ -32,7 +32,7 @@ Where the ValueSet includes nullFlavor(s) in addition to other sets of codes, th
 Where no [MainCodeSystems] coded information is available, a specific code from the nullFlavor CodeSystem can be used instead to indicate this.
 ```
 
-For complicated descriptions, particularly where a complex set of SNOMED references is used, and where inclusion of a carriage return / line feed can make the content more presentable in Simplifier, the sequence &#13; can be inserted to start a new line and &#13;&#13; can be inserted to leave a line break before the next line starts. For examples see <a href="#vs_examples">Example ValueSets from the UK Core</a> section.
+For complicated descriptions, particularly where a complex set of SNOMED references is used, and where inclusion of a carriage return / line feed can make the content more presentable in Simplifier, the sequence &#13; can be inserted to start a new line and &#13;&#13; can be inserted to leave a line break before the next line starts.
 
 ---
 

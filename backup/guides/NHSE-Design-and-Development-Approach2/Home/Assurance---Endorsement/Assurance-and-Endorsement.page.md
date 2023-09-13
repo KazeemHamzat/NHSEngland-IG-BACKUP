@@ -1,7 +1,7 @@
 # Assurance and Endorsement
 
 ### Assurance
-To ensure that the NHS England is both clinically and technically assured and appropriate for English use, assurance encompasses both a clear governance structure and an agreed Clinical and Technical Assurance approach..
+To ensure that the NHS England is both clinically and technically assured and appropriate for English use, assurance encompasses both a clear governance structure and an agreed Clinical and Technical Assurance approach.
 
 ### Clinical & Technical Assurance
 

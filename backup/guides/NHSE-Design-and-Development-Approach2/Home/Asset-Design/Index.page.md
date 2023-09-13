@@ -17,7 +17,7 @@ This section documents the approach used by IOPS to produce and maintain the NHS
 
 ## Conformance
 
-The NHS England IG conforms to the [HL7 FHIR® specification Release 4](https://hl7.org/fhir/R4/conformance-module.html) and its assets are profiles derived from the corresponding UK Core Profiles. In addition, the NHS England IG also conforms to [UK Core STU3](https://simplifier.net/guide/uk-core-implementation-guide-stu3-sequence?version=current).
+The NHS England IG conforms to the [HL7 FHIR® specification Release 4](https://hl7.org/fhir/R4/index.html) and its assets are profiles derived from the corresponding UK Core Profiles. In addition, the NHS England IG also conforms to [UK Core STU3](https://simplifier.net/guide/uk-core-implementation-guide-stu3-sequence?version=current).
 
 ## Design Principle
 
@@ -74,4 +74,5 @@ All FHIR assets SHALL be validated before being publicly available. See [Validat
 #### FHIR Asset Spelling
 FHIR assets use the American-English spelling in asset names, for example Organization. The NHS England IG approach is to use American-English for any Profile, Extension, ValueSet, and CodeSystem name, as well as when these are referenced within the Implementation Guide. Otherwise, the use of British-English spelling shall we used.
 
+---
 

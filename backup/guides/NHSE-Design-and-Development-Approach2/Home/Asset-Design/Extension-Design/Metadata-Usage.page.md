@@ -22,7 +22,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
         <td>0..1</td>
         <td>1..1</td>
         <td>id</td>
-        <td>In the NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>England-<i>[Extension name]</i></code>.</td>
+        <td>In the NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>Extension-England-<i>[Name]</i></code>.</td>
     </tr>
     </tbody>
 </table>
@@ -47,7 +47,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>uri</td>
-        <td>In NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>https://fhir.nhs.uk/StructureDefinition/England-(-<i>[Extension name]</i></code>(in PascalCase).</td>
+        <td>In NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>https://fhir.nhs.uk/StructureDefinition/Extension-England-<i>[Name]</i></code>.</td>
     </tr>
     <tr>
         <td>identifier</td>
@@ -62,21 +62,21 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>1..1</td>
         <td>string</td>
         <td>This will follow the  <a href="https://semver.org/">Semantic Versioning standard</a> <code><i>&lsqb;major.minor.patch&rsqb;</i></code>.<br>
-        Further details about <a href="https://simplifier.net/guide/HL7FHIRUKCoreDesignandDevelopmentApproach/Home/DevelopmentandPublication/UKCoreDevelopmentandReleaseManagement#FHIRAssetsVersioning">internal versioning for UK Core assets</a> are available. </td>
+        Further details about <a href="https://simplifier.net/guide/nhs-england-design-and-development-approach/home/management/version-management/package-versioning.page.md?version=current" Target="_blank">internal versioning for NHS England assets</a> are available. </td>
     </tr>
     <tr>
         <td>name</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In NHS England the format is PascalCase:<br/><br/><code>NHS England<i>[Extension name]</i></code> .</td>
+        <td>In NHS England the format is PascalCase:<br/><br/><code> ExtensionEngland<i>[Name]</i></code>.</td>
     </tr>
     <tr>
         <td>title</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England the format in Proper Case:<br/><br/><code>NHS England<i>[Extension name]</i> <code>.</td>
+        <td>In the NHS England the format in Proper Case:<br/><br/><code>ExtensionEngland<i> [Name]</i><code>.</td>
     </tr>
     <tr>
         <td>status</td>
@@ -102,7 +102,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>For all NHS England Extensions, where the base URL is <code>https://fhir.nhs.uk</code>, this will be <code>HL7 UK</code>.</td>
+        <td>For all NHS England Profiles, where the base URL is <code>https://fhir.nhs.uk</code>, the name of the publisher will be NHS England.</td>
     </tr>
     <tr>
         <td>contact</td>
@@ -123,23 +123,21 @@ View further information about <a href="https://www.hl7.org/fhir/R4/structuredef
         <td>0..1</td>
         <td>1..1</td>
         <td>markdown</td>
-        <td>The NHS England IG mandates the use of this element.</td>
+       <td>This provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.</td>
     </tr>
     <tr>
         <td>copyright</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>markdown</td>
-        <td>A copyright statement relating to the Extension and/or its contents.
-        <br/><br/>
-        All NHS England Extensions SHALL contain the the copyright as listed in {{pagelink:Publisher--Contact---Copyright}}</td>
+        <td> All NHS England Profiles SHALL contain the the copyright as listed in {{pagelink:Publisher--Contact---Copyright}}</td>
     </tr>
     <tr>
       <td>fhirVersion</td>
       <td>0..1</td>
       <td>1..1</td>
       <td>code</td>
-      <td>The NHS England IG mandates the use of this element.</td>
+       <td>The version of the FHIR specification on which this StructureDefinition is based - this is the formal version of the specification, without the revision number, e.g. <i>[publication].[major].[minor]</i>.<br><br>The NHS England IG mandates the use of this element.</td>
     </tr>
   </tbody>
 </table>
@@ -159,6 +157,5 @@ Further information about <a href="https://www.hl7.org/fhir/r4/datatypes.html">F
 **Simple extension** - The NHS England IG mandates the use of <code>Extension.value[x]</code> for a simple extension, that is, a cardinality of 1..1.
 
 **Complex extension** - The NHS England IG mandates the use of <code>Extension.extension:<i>[Element]</i>.value[x]</code> for a complex extension, that is, a cardinality of 1..1.
-
 
 ---

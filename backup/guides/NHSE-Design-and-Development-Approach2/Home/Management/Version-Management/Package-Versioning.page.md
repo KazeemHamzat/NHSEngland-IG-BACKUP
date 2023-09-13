@@ -14,11 +14,11 @@ fhir.[fhir version]nhsengland.[sequence release] [major].[minor].[patch]
 
 where
 
-- <code><i>[fhir version]</i></code> - The release version of FHIR used with the NHS England (currently R4).
-- <code><i>[sequence release]</i></code> - The sequence and release (currently stu1).
-- <code><i>[major]</i></code> - The major release aligns with the Implementation Guide major version.
-- <code><i>[minor]</i></code> - The minor version aligns with the Implementation Guide minor version.
-- <code><i>[patch]</i></code> - The patch version starts at 0 and increments by 1 for every package release for a particular Implementation Release. Note: a Implementation guide may have more than one package associated with it.
+- <code>[fhir version]</code> - The release version of FHIR used with the NHS England (currently R4).
+- <code>[sequence release]</code> - The sequence and release (currently stu1).
+- <code>[major]</code> - The major release aligns with the Implementation Guide major version.
+- <code>[minor]</code> - The minor version aligns with the Implementation Guide minor version.
+- <code>[patch]</code> - The patch version starts at 0 and increments by 1 for every package release for a particular Implementation Release. Note: a Implementation guide may have more than one package associated with it.
 
 ### Package example
 

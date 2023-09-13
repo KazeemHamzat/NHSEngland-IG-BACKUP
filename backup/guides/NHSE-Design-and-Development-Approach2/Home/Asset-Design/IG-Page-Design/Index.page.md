@@ -66,20 +66,20 @@ There are two information boxes in use in the IG, a blue box and a yellow box.
 
 Blue should be used for additional callouts of information, e.g.:
 ~~~~html
-<div markdown="span" class="alert alert-info"><i class="fa fa-asterisk"></i> <code>UKCore-MedicationAdministrationCategory</code> was added after specific review and feedback from the Digital and Interoperable Medicines Programme. It was not added under a Clinical & Technical Assurance sprint
+<div markdown="span" class="alert alert-info"><i class="fa fa-asterisk"></i> <code>England-Patient</code> was added after specific review and feedback from the Digital and Interoperable Medicines Programme. It was not added under a Clinical & Technical Assurance sprint
 </div>
 ~~~~
-<div markdown="span" class="alert alert-info"><i class="fa fa-asterisk"></i> <code>UKCore-MedicationAdministrationCategory</code> was added after specific review and feedback from the Digital and Interoperable Medicines Programme. It was not added under a Clinical & Technical Assurance sprint
+<div markdown="span" class="alert alert-info"><i class="fa fa-asterisk"></i> <code>England-Patient</code> was added after specific review and feedback from the Digital and Interoperable Medicines Programme. It was not added under a Clinical & Technical Assurance sprint
 </div>
 
 Yellow should be used for important information, e.g.:
 ~~~~html
 <div markdown="span" class="alert alert-warning" role="alert"><h4><i class="fa fa-info-circle"></i> Important</h4>
-Where the prescription is available, it is recommended to reference via a URL - using the <code>MedicationDispense.authorizingPrescription.identifier</code> element rather than adding the <code>MedicationRequest</code> as a bundle - to avoid duplication.
+Where the prescription is available, it is recommended to reference via a URL - using the <code>Patient.managingOrganization.identifier</code> element rather than adding the <code>Patient</code> as a bundle - to avoid duplication.
 </div>
 ~~~~
 <div markdown="span" class="alert alert-warning" role="alert"><h4><i class="fa fa-info-circle"></i> Important</h4>
-Where the prescription is available, it is recommended to reference via a URL - using the <code>MedicationDispense.authorizingPrescription.identifier</code> element rather than adding the <code>MedicationRequest</code> as a bundle - to avoid duplication.
+Where the prescription is available, it is recommended to reference via a URL - using the <code>Patient.managingOrganization.identifier</code> element rather than adding the <code>Patient</code> as a bundle - to avoid duplication.
 </div>
 
 ---
@@ -95,7 +95,7 @@ For Extensions, Profiles, ValueSets, CodeSystems that have been ADDED, this is d
 ~~~~html
 <div id="newAsset" markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star"></i> Important</h4>
 
-This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. This is a new [Asset Type] added to UK Core, and should undergo review under Ballot Y.
+This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. This is a new [Asset Type] added to NHS England IG, and should undergo review under Ballot Y.
 </div>
 ~~~~
 
@@ -103,7 +103,7 @@ The same div, without the <code>id="newAsset"</code> can be used on a page to ad
 
 <div markdown="span" class="alert alert-success" role="alert"><h4><i class="fa fa-star"></i> Important</h4>
 
-This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. This is a new [Asset Type] added to UK Core, and should undergo review under Ballot Y.
+This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. This is a new [Asset Type] added to NHS England IG, and should undergo review under Ballot Y.
 </div>
 
 ---
@@ -112,7 +112,10 @@ This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. Th
 
 Where guidance has been added in another IG, such as the glossary, this can be rendered in an IG using the Simpifier { {render: command, which can work across projects and organisations.
 
-for example, the NHSE IG Glossary can be rendered via:
+for example, 
+[the NHSE IG Glossary ](https://simplifier.net/guide/nhs-england-design-and-development-approach/home/glossary/index.page.md?version=current)
+
+
 ~~~~html
 { {render:hl7fhirukcorer4/index-duplicate-49}}
 ~~~~

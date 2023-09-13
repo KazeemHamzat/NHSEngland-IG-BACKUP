@@ -22,7 +22,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/resource.htm
         <td>0..1</td>
         <td>1..1</td>
         <td>id</td>
-        <td>In the NHS England IG the format is the following, with the BusinessName in PascalCase:<br/><br/><code>NHS England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In the NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>ValueSet-England-<i>[Name]</i></code>.</td>
     </tr>
   </tbody>
 </table>
@@ -47,7 +47,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>uri</td>
-        <td>In the NHS England the format is the following, with the BusinessName in PascalCase:<br/><br/><code>https://fhir.nhs.uk/ValueSet/England-<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+       <td>In NHS England the format is the following, with the Extension name in PascalCase:<br/><br/><code>https://fhir.nhs.uk/ValueSet/England-<i>[Name]</i></code>.</td>
     </tr>
    <tbody>
     <tr>
@@ -62,21 +62,22 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>This will follow the  <a href="https://semver.org/" Target="_blank">Semantic Versioning standard</a> <code><i>&lsqb;major.minor.patch&rsqb;</i></code>.</td>
+       <td>This will follow the  <a href="https://semver.org/">Semantic Versioning standard</a> <code><i>&lsqb;major.minor.patch&rsqb;</i></code>.<br>
+        Further details about <a href="https://simplifier.net/guide/nhs-england-design-and-development-approach/home/management/version-management/package-versioning.page.md?version=current" Target="_blank">internal versioning for NHS England assets</a> are available. </td>
     </tr>
     <tr>
         <td>name</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England IG the format is PascalCase:<br/><br/><code>NHS England<i>&lsqb;BusinessNames&rsqb;</i></code>.</td>
+        <td>In NHS England the format is PascalCase:<br/><br/><code> England<i>[Name]</i></code>.</td>
     </tr>
     <tr>
         <td>title</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>In the NHS England the format is Proper Case:<br/><br/><code>NHS England<i>&lsqb;Business Names&rsqb;</i></code>.</td>
+         <td>In NHS England the format is PascalCase:<br/><br/><code> England<i> [Name]</i></code>.</td>
     </tr>
     <tr>
         <td>status</td>
@@ -102,7 +103,7 @@ View further information about <a href="https://www.hl7.org/fhir/R4/domainresour
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
-        <td>For all NHS England ValueSets, where the base URL is <code>https://fhir.nhs.uk</code>, this will be <code>NHS England</code>.</td>
+          <td>For all NHS England Profiles, where the base URL is <code>https://fhir.nhs.uk</code>, the name of the publisher will be NHS England.</td>
     </tr>
         <tr>
         <td>contact</td>
