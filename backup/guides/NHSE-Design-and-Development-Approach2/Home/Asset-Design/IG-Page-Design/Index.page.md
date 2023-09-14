@@ -110,15 +110,8 @@ This [Asset Type] underwent Clinical and Technical Assurance during Sprint X. Th
 
 ## Rendering Additional Content
 
-Where guidance has been added in another IG, such as the glossary, this can be rendered in an IG using the Simpifier { {render: command, which can work across projects and organisations.
+Where guidance has been added in another IG, such as the glossary, this can be rendered in an IG using the Simpifier { {render: command }}, which can work across projects and organisations.
 
-for example, 
-[the NHSE IG Glossary ](https://simplifier.net/guide/nhs-england-design-and-development-approach/home/glossary/index.page.md?version=current)
-
-
-~~~~html
-{ {render:hl7fhirukcorer4/index-duplicate-49}}
-~~~~
 
 <div markdown="span" class="alert alert-warning" role="alert">
 <h4><i class="fa fa-info-circle"></i> Important</h4>

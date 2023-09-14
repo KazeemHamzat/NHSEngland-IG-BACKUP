@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-Any profile element that has information relevant to NHS England and is different to HL7 or UK Core SHALL be documented on its own page. The name of the page SHALL be the element naming in camelCase. If the binding to the element differs from HL7 or NHSE IG  then it SHALL be referenced here, along with the relevant page link.  
+Any profile element that has information relevant to NHS England and is different to HL7 or UK Core SHALL be documented on its own page. The name of the page SHALL be the element naming in camelCase. If the binding to the element differs from HL7 or NHSE IG  then it SHALL be referenced here, along with the relevant page link. Initially, the information in each element comes from the definition or comment or requirement values that existed in the equivelant NHS Digital asset.
 
 The words ‘optional’ or ‘mandatory’ relating to the element are no longer needed as this has been deemed as duplication of either the element cardinality or MVC.  
 
