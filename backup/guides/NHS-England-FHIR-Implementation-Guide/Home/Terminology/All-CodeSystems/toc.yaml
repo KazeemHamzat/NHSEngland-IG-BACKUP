@@ -30,8 +30,6 @@
   filename: CodeSystem-England-ERSErrorCode.page.md
 - name: CodeSystem-England-ERSPriorityCode
   filename: CodeSystem-England-ERSPriorityCode.page.md
-- name: Delete-CodeSystem-England-ERSPurpose
-  filename: Delete-CodeSystem-England-ERSPurpose.page.md
 - name: CodeSystem-England-ERSReferralState
   filename: CodeSystem-England-ERSReferralState.page.md
 - name: CodeSystem-England-ERSRequestFlowType
@@ -42,8 +40,6 @@
   filename: CodeSystem-England-FGMRemovalReason.page.md
 - name: CodeSystem-England-HTTPErrorCode
   filename: CodeSystem-England-HTTPErrorCode.page.md
-- name: Delete-CodeSystem-England-MedicationDispenseEndorsement
-  filename: Delete-CodeSystem-England-MedicationDispenseEndorsement.page.md
 - name: CodeSystem-England-MedicationDispenseStatusReason
   filename: CodeSystem-England-MedicationDispenseStatusReason.page.md
 - name: CodeSystem-England-MedicationDispenseType

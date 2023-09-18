@@ -47,12 +47,12 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
+<td>{{pagelink:ValueSet-England-ERSBookableType}}</td>
 <td>draft</td>
-<td>{{pagelink:Profile-England-HealthcareService}},<br>{{pagelink:Profile-England-ServiceRequest}}</td>
+<td>{{pagelink:Profile-England-HealthcareService}}</td>
 </tr>
 <tr>
-<td colspan="4">{{pagelink:CodeSystem-England-ERSSpecialty}}</td>
+<td colspan="4">{{pagelink:CodeSystem-England-ERSBookableType}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
@@ -65,6 +65,30 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">{{pagelink:CodeSystem-England-ERSClinicType}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-ERSRequestFlowType}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-HealthcareService}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-ERSRequestFlowType}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-ERSSpecialty}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-HealthcareService}},<br>{{pagelink:Profile-England-ServiceRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">{{pagelink:CodeSystem-England-ERSSpecialty}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
@@ -109,6 +133,17 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 <td colspan="4">Composed of CodeSystem <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></td>
 </tr>
 <tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-VaccinationProcedure}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-Immunization}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
+</tr>
 <td colspan="4"  class="override"></td>
 </tr>
 
@@ -182,24 +217,24 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 
 <tr>
-<td>{{pagelink:ValueSet-England-MedicationDispenseCode}}</td>
-<td>draft</td>
-<td>{{pagelink:Profile-England-MedicationDispense}}</td>
-</tr>
-<tr>
-<td colspan="4">Composed of CodeSystem <code>http://snomed.info/sct</code></td>
-</tr>
-<tr>
-<td colspan="4"  class="override"></td>
-</tr>
-
-<tr>
 <td>{{pagelink:ValueSet-England-DMMedicationDispenseType}}</td>
 <td>draft</td>
 <td>{{pagelink:Profile-England-MedicationDispense}}</td>
 </tr>
 <tr>
 <td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationDispenseType}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMMedicationRequestControlledDrug}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationRequestControlledDrug}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
@@ -239,6 +274,30 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationRequestCourseOfTherapy}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMPrescriptionEndorsement}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationRequestEndorsement}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
+</tr>
+
+<tr>
+<td>{{pagelink:ValueSet-England-DMPrescriptionTaskStatusReason}}</td>
+<td>draft</td>
+<td>{{pagelink:Profile-England-MedicationRequest}}</td>
+</tr>
+<tr>
+<td colspan="4">Composed of {{pagelink:CodeSystem-England-MedicationRequestStatusHistory}}</td>
 </tr>
 <tr>
 <td colspan="4"  class="override"></td>
