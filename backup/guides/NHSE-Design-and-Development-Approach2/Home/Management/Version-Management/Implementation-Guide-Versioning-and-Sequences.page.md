@@ -6,7 +6,7 @@ There are three numbers used with the versioning in the format n.n.n for example
 
 - The first number is the major version starts at 1
 - The second number is incremented for every development release
-- The third number can also be incremented for patch a development but will not be used very often.
+- The third number can also be incremented for patch a development
 
 The version number will formally be agreed for each release by the NHSE Development Team.
 

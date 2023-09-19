@@ -2,35 +2,38 @@
 This section details the version management approach used with the NHS England Implementation Guides, NHS England Implementation Guides packages and FHIR assets. The approach differs for each of these items and so is documented in separate sections.
 
 ### FHIR Assets Versioning
-All profiles produced for the NHSE IG will be versioned during development using <a href="https://git-scm.com/" Target="_blank"> Git</a> and will follow the standard <a href="https://guides.github.com/introduction/flow/" Target="_blank"> GitFlow model</a>.   
+All FHIR Assets produced for the NHS England IG will be versioned during development using <a href="https://git-scm.com/" Target="_blank"> Git</a> and will follow the standard <a href="https://guides.github.com/introduction/flow/" Target="_blank"> GitFlow model</a>. The version number of each FHIR Asset will reflect the overall version of the release that the asset belongs to. This is in line with the approach used in HL7 FHIR R4. 
 
-The version information is maintained by the IOPS team in line with the Semantic Versioning Standard outlined above. Thus, for a StructureDefinition, this could read:
+The version information is maintained by the IOPS team in line with the Semantic Versioning Standard outlined above. For example, if the overall release version number is v1.0.0, then the below example will show what the version would be like for different assets.
+
+For a StructureDefinition, this would read:
 
 ````xml
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="England-Patient" />
   <url value="https://fhir.nhs.uk/StructureDefinition/England-Patient" />
-  <version value="2.1.0" />
+  <version value="1.0.0" />
 ````
-For a ValueSet, this could read:
+For a ValueSet, this would read:
 
 ````xml
 <ValueSet xmlns="http://hl7.org/fhir">
-<id value="England-MedicationForm"/>
-<url value="https://fhir.nhs.uk/ValueSet/England-MedicationForm"/>
-<version value="2.0.0"/>
+<id value="England-VaccineCode"/>
+<url value="https://fhir.nhs.uk/ValueSet/England-VaccineCode"/>
+<version value="1.0.0"/>
 ````
 
+A referenced URL could also incorporate a version number within it. For example:
 
-<code>https://fhir.nhs.uk/StructureDefinition/England-RelatedPerson|1.1.0</code>
+<code>https://fhir.nhs.uk/StructureDefinition/England-Patient|1.0.0</code>
 
 This is illustrated below:
 
 ````xml
-<RelatedPerson xmlns="http://hl7.org/fhir">
-    <id value="RP123" />
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="P123" />
     <meta>
-        <profile value="https://fhir.nhs.uk/StructureDefinition/England-RelatedPerson|1.1.0" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/England-Patient|1.0.0" />
     </meta>
 ````
 
@@ -69,31 +72,6 @@ These labels will be taken from the GDS development process stages, and will be 
 
 - **Retiring**: Implementors notified that the service is discontinued and not to be used for new developments
 
-### Publication of a version within a NHSE IG asset
-Version data will be carried in the version element for all assets.   
-These assets are :-
-- <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide/Home/ProfilesandExtensions/ProfilesIndex.page.md?version=current" Target="_blank"> StructureDefinitions</a> 
--  <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide/Home/ProfilesandExtensions/ExtensionLibrary" Target="_blank"> Extensions</a>
-- <a href="https://simplifier.net/guide/uk-core-implementation-guide/Home/Terminology/ValueSetsandCodeSystems" Target="_blank"> ValueSets/CodeSystems</a>
-- <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide/Home/Terminology/ConceptMaps" Target="_blank"> ConceptMaps</a>   
-
-The version information is maintained by the <a href="https://simplifier.net/HL7FHIRUKCoreR4/~team" Target="_blank"> UK Core Development team</a> in line with the Semantic Versioning Standard outlined above. Thus, for a StructureDefinition, this could read:
-
-````xml
-<StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="UKCore-Patient" />
-  <url value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient" />
-  <version value="2.1.0" />
-````   
-For a ValueSet, this could read:
-
-````xml
-<ValueSet xmlns="http://hl7.org/fhir">
-<id value="UKCore-MedicationForm"/>
-<url value="https://fhir.hl7.org.uk/ValueSet/UKCore-MedicationForm"/>
-<version value="2.0.0"/>
-````
-Further information about both FHIR asset creation and maintenance is available on the [Asset Design](https://simplifier.net/guide/NHSE-Design-and-Development-Approach2/Home/Asset-Design?version=current "Title") page. 
 
 ### Instance Conformance Identification
 For some information flows, there is a requirement to identify which NHSE IG profile(s) an instance being exchanged between healthcare IT systems conforms to. This could be for the purpose of validation of the instance against the profile definition and/or for conformance testing. This profile conformance is declared using the profile.meta element. The element carries the profile URL appended with the version information. 
@@ -106,15 +84,15 @@ More information about NPM packages is available on the
 The format is: 'URL' "\|" 'version'
 For example:
 
-<code>https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson|1.1.0</code>
+<code>https://fhir.nhs.uk/R4/StructureDefinition/England-Patient|1.0.0</code>
 
 This is illustrated below:
 
 ````xml
-<RelatedPerson xmlns="http://hl7.org/fhir">
-    <id value="RP123" />
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="P123" />
     <meta>
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-RelatedPerson|1.1.0" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/England-Patient|1.0.0" />
     </meta>
 ````
 ---
