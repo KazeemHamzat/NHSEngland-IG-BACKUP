@@ -14,35 +14,15 @@ fhir.[fhir version]nhsengland.[sequence release] [major].[minor].[patch]
 
 where
 
-- <code>[fhir version]</code> - The release version of FHIR used with the NHS England (currently R4).
-- <code>[sequence release]</code> - The sequence and release (currently stu1).
+- <code>[fhir version]</code> - The release version of FHIR used with the NHS England (for example, R4).
+- <code>[sequence release]</code> - The sequence and release (for example, stu1).
 - <code>[major]</code> - The major release aligns with the Implementation Guide major version.
 - <code>[minor]</code> - The minor version aligns with the Implementation Guide minor version.
 - <code>[patch]</code> - The patch version starts at 0 and increments by 1 for every package release for a particular Implementation Release. Note: a Implementation guide may have more than one package associated with it.
 
 ### Package example
 
-For example 'fhir.r4.nhsengland.stu1 0.1.0`
+For example 'fhir.r4.nhsengland.stu1 1.0.0`
 
 
 ---
-
-<!--Original
-The Simplifier NPM packages are released as part of a UK Core release, normally contaning an Implementation Guide and a NPM Package. The NPM package is named based on a seven-item string (1_2_3_4_5_6_7) which is described below:
-
-`fhir`_"fhir version"_`ukcore`_"sequence_release"_"major version"_"minor version"_patch version"`
-
-<ol>
-<li>A fixed value <code>fhir</code></li>
-<li>The release version of FHIR used with the UK Core (currently R4)</li>
-<li>A fixed value <code>ukcore</code></li>
-<li>The sequence and release (currently stu1)
-<li>The major release aligns with the Implementation Guide major version and always 0 unless the release has been though a ballot</li>
-<li>The minor version aligns with the Implementation Guide minor version</li>
-<li>The patch version starts at 0 and increments by 1 for every package release for a particular Implementation Release. Note: a Implementation guide may have more than one package associated with it.
-</ol>
-
-### Package example
-
-For example `fhir.r4.ukcore.stu1 0.1.0`
- -->
