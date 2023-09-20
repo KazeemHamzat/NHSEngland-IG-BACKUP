@@ -9,9 +9,9 @@ The name of a profile consists of a number of name segments, and will be in the 
 
 The segments are defined as follows:-
 
-- **Base**: (Mandatory) - The base for a profile this will always be the FHIR Resource name. 
-- **FHIRAssetName**: (Mandatory) - The name of the base FHIR Resource. 
-- **Specialism**: (Required) - This is only used where there are multiple NHSE profiles for a given base resource type.
+- **Base**: (Mandatory) - The base for a profile this will always be England. 
+- **FHIRAssetName**: (Mandatory) - The name of the base FHIR Resource EG patient. 
+- **Specialism**: (Required) - This is only used where there are derived NHSE profiles for a given base resource type.
 
 
 **Note:** "Mandatory" means that a segment SHALL be present. "Required" means that a segment SHOULD be present, in this case in the event of there being multiple profiles for one base resource.
