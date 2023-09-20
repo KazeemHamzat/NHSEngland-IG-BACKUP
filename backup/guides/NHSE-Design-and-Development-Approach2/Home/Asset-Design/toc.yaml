@@ -1,5 +1,5 @@
-- name: Index
-  filename: Index.page.md
+- name: Overview
+  filename: Overview.page.md
 - name: Metadata Design
   filename: Metadata-Design
 - name: Profile Design
