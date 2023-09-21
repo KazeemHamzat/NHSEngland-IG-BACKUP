@@ -26,3 +26,14 @@ for differential.element where differential.element.path.contains('extension:')
 select
 sliceName, context: path.contains('extension:').replace('.extension', ''), join type { link: '{{pagelink:' & profile.substring(40) & '}}' }
 ```
+
+
+
+
+# Examples:
+
+## New Simplifier Template but only work well for Examples for now. Does not currently work with FQL
+## Details in IOPS-2089 
+<br>
+
+{{page:Home/Examples/AllExamples/Example-England-HealthcareService-CancerScreeningCentre.page.md}}
