@@ -25,19 +25,6 @@ select
 id, join binding { strength, valueSet: '{{pagelink:ValueSet-' & valueSet.substring(29) & '}}' }
 ```
 
-# Bindings2
-@```
-from
-	StructureDefinition
-where
-	id = 'England-MedicationRequest'
-for differential.element
-select
-	id,
-	join binding { strength, description, valueSet }
-```
-
-
 
 # Extensions
 @```
@@ -48,8 +35,63 @@ select
 sliceName, context: path.contains('extension:').replace('.extension', ''), join type { link: '{{pagelink:' & profile.substring(40) & '}}' }
 ```
 
+Extensions2
+
+# Extensions
+@```
+from
+	StructureDefinition
+
+where
+	name = 'EnglandMessageHeader'
 
 
+for differential.element 
+
+select Extension:sliceName,
+
+	join type { Link:profile}
+    
+```
+
+
+Extensions2
+
+# Extensions
+@```
+from
+	StructureDefinition
+
+where
+	name = 'EnglandMessageHeader'
+
+
+for differential.element 
+
+select Extension:sliceName,
+
+	join type { Link:'{{pagelink:' & profile.substring(40) & '}}'}
+```
+
+
+Extensions 3
+
+# Extensions
+@```
+from
+	StructureDefinition
+
+where
+	name = 'EnglandMessageHeader'
+
+select type,
+
+for differential.element 
+
+select Extension:sliceName,
+
+	join type { Link: '{{pagelink:' & profile.substring(40) & '}}'}
+```
 
 # Examples:
 
