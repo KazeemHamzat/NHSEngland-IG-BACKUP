@@ -25,6 +25,20 @@ select
 id, join binding { strength, valueSet: '{{pagelink:ValueSet-' & valueSet.substring(29) & '}}' }
 ```
 
+# Bindings2
+@```
+from
+	StructureDefinition
+where
+	id = 'England-MedicationRequest'
+for differential.element
+select
+	id,
+	join binding { strength, description, valueSet }
+```
+
+
+
 # Extensions
 @```
 from StructureDefinition
