@@ -28,7 +28,29 @@ Implementers of FHIR need to get consistent guidance from NHS England.
 
 ### Use cases
 
-TBC
+### Programme/domain use cases
+
+Each programme/domain SHALL NOT have seperate FHIR assets.
+
+{{render:UseCaseDiagram1}}
+
+<br />
+
+### Event/clinical concept level use cases
+
+Use cases should be at event/clinical concept lebel. FHIR UK Core SHALL be used wherever possible.
+
+{{render:UseCaseDiagram2}}
+
+<br />
+
+### Using NHS England IG for use cases
+
+FHIR UK Core SHALL be used wherever possuble however using NHS England IG for NHS England specific use cases is allowed only by exception.
+
+{{render:UseCaseDiagram3}} 
+
+<br />
 
 ### Scope
 
@@ -183,81 +205,58 @@ Please click [here](https://simplifier.net/guide/nhs-england-design-and-developm
 
 Teams are able to evaluate the maturity of profiles and other FHIR assets across both FHIR UK Core and NHS England IG to make appropriate decisions based on current maturity levels.
 
+The maturity level scoring is based on the likelihood that the profile will subject to change in the future.
+
+#### UK Core
 <table class="assets">
   <thead>
       <tr>
-        <th width="30%">Profile</th>
-        <th width="20%"></th>
-        <th width="30%">Profile</th>
-        <th width="20%"></th>
+        <th width="10%">Maturity Level</th>
+        <th width="22%">Status</th>
+        <th width="65%">Status Definitions</th>
       </tr>
   </thead>
   <tbody>
-        <td>UK Core</td>
-        <td>Maturity</td>
-        <td>NHS England</td>
-        <td>Maturity</td>
+    <tr>
+        <td>Mature</td>
+        <td>Balloted - Active</td>
+        <td>The FHIR assets have completed the C&TA process and the HL7 UK Ballot process, and all issues raised have been resolved and the FHIR assets updated as appropriate. These FHIR assets are now deemed stable and only minor changes are anticipated. No breaking changes are likely.</td>
     </tr>
         <tr>
-        <td>Patient</td>
-        <td>1</td>
-        <td></td>
-        <td></td>
+        <td>Intermediate</td>
+        <td>Clinically & Technically Assured -Active</td>
+        <td>The FHIR assets have completed the C&TA process, which means they have been assured by SMEs against example use cases and updated as required. The assets have been made active and are deemed stable and deemed low risk for changes to implementers. The HL7 UK Ballot may make changes to these assets, but although possible it is not likely to be major or breaking changes.</td>
     </tr>
         <tr>
-        <td>Composition</td>
-        <td>2</td>
-        <td></td>
-        <td></td>
-    </tr>
-        <tr>
-        <td>Allergy Intolerance</td>
-        <td>1</td>
-        <td></td>
-        <td></td>
-    </tr>
-     </tr>
-        <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-     </tr>
-        <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-     </tr>
-        <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-     </tr>
-        <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
+        <td>Initial</td>
+        <td>Draft</td>
+        <td>These FHIR assets have been created only to allow some initial development / implementation work. These have had some input from SMEs but no formal assurance and therefore are likely to have changes which may be breaking applied during C&TA and the HL7 UK Ballot. Implementations using these assets should feedback and participate in the assurance process. These FHIR assets are still implementable at risk.</td>
    </tbody>
 </table>
-<br /><br />
 
+#### NHS England
 <table class="assets">
-     <tr>
-      <th width="50%">Maturity Score</th>
+  <thead>
+      <tr>
+        <th width="10%">Maturity Level</th>
+        <th width="22%">Status</th>
+        <th width="60%">Status Definitions</th>
       </tr>
+  </thead>
+  <tbody>
     <tr>
-        <td>1.33</td>
     </tr>
+        <tr>
+        <td>Mature</td>
+        <td>Clinically & Technically Assured -Active</td>
+        <td>The FHIR assets have completed the C&TA process, which means they have been assured by SMEs against example use cases and updated as required. The assets have been made active and are deemed stable and deemed low risk for changes to implementers. Changes may be made to these assets, but although possible it is not likely to be major or breaking changes.</td>
+    </tr>
+        <tr>
+        <td>Initial</td>
+        <td>Draft</td>
+        <td>These FHIR assets have been created only to allow some initial development / implementation work. These have had some input from SMEs but no formal assurance and therefore are likely to have changes which may be breaking applied during C&TA. Implementations using these assets should feedback and participate in the C&TA process and which will move these to active status.</td>
+   </tbody>
 </table>
-
-TBC - add diagram
 
 ## Sitemap
 
