@@ -1,5 +1,3 @@
-- name: Overview
-  filename: Overview.page.md
 - name: Claiming Conformance to NHS England IG
   filename: Claiming-Conformance-to-NHS-England-IG.page.md
 - name: 'Validation of Implementations '
