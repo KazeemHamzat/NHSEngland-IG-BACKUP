@@ -19,10 +19,10 @@ The C&TA process included three calls, which were recorded, and are provided bel
 
 <table class="assets">
 <tr>
-<th>Date</th>
-<th>Topic</th>
-<th>Slides</th>
-<th>Recording</th>
+<th width="25%">Date</th>
+<th width="25%">Topic</th>
+<th width="25%">Slides</th>
+<th width="25%">Recording</th>
 </tr>
 <tr>
 <td>TBC</td>
