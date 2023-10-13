@@ -24,10 +24,53 @@ Within the NHSE folder is an IG called [NHSE Design and Development Approach](ht
 <tr>
 <td><a href="https://simplifier.net/nhs-england-implementation-guide">NHS England Implementation Guide</td>
 <td>Implementation Guidance</td>
-<td>Implementation Guidance for All NHS England FHIR Assets</td>
+<td>Implementation Guidance for All NHS England FHIR Assets.</td>
 <td>NHS England</td>
 <td>R4</td>
 </tr>	
+
+<tr>
+<td><a href="https://simplifier.net/guide/nhs-england-ig-clinical-and-technical-assurance-doc-pack?version=current">NHS England IG Clinical and Technical Assurance Sprint 1 Documentation Pack</td>
+<td>Implementation Guidance</td>
+<td>The purpose of this pack is to provide guidance documentation for stakeholders involved in the NHS England Implementation Guide Clinical and Technical Assurance (C&TA) process.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>	
+
+<tr>
+<td><a href="https://simplifier.net/guide/nhs-england-implementation-guide-version-history?version=current">NHS England Implementation Guide Version History</td>
+<td>Registry</td>
+<td>A registry of the version of the NHS England and the change history of each version.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
+<tr>
+<td><a href="https://simplifier.net/guide/nhs-england-naming-systems?version=current">NHS England Naming Systems</td>
+<td>Registry</td>
+<td>A registry of NamingSystems that are managed and allocated by HL7 UK.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
+<tr>
+<td><a href="https://simplifier.net/guide/nhs-england-implementation-guide-stu1?version=current">NHS England Implementation Guide STU1</td>
+<td>Implementation Guidance</td>
+<td>This NHS England FHIR Implementation Guide provides additional guidance, rules and constraints which extends the FHIR UK Core Implementation Guide.
+The scope of this Implementation Guide is for programmes and products within NHS England.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
+<tr>
+<td><a href="https://simplifier.net/guide/nhs-england-design-and-development-approach?version=current">NHS England Design and Development Approach</td>
+<td>Guidance</td>
+<td>The design and development approach used to produce the NHS England IG</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
+
 <tr>
 <td><a href="https://simplifier.net/nhs-england-programme-implementation-guides">NHS England Programme Implementation Guides</td>
 <td>Implementation Guidance</td>
@@ -35,6 +78,31 @@ Within the NHSE folder is an IG called [NHSE Design and Development Approach](ht
 <td>NHS England</td>
 <td>R4</td>
 </tr>
+
+<tr>
+<td><a href="https://simplifier.net/guide/child-protection---information-sharing--cp-is--api-producer-impl?version=current">Child Protection - Information Sharing (CP-IS) API Producer Implementation Guidance</td>
+<td>Implementation Guidance</td>
+<td>The Child Protection Information Sharing (CP-IS) initiative aims to share information between NHS clinicians and Local Authority social care practitioners relating to children with either Child Protection, Looked After or Unborn Child care plans.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
+<tr>
+<td><a href="https://simplifier.net/guide/child-protection---information-sharing--cp-is--api-consumer-impl?version=current">Child Protection - Information Sharing (CP-IS) API Consumer Implementation Guidance</td>
+<td>Implementation Guidance</td>
+<td>The Child Protection Information Sharing (CP-IS) initiative aims to share information between NHS clinicians and Local Authority social care practitioners relating to children with either Child Protection, Looked After or Unborn Child care plans.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
+<tr>
+<td><a href="https://simplifier.net/guide/female-genital-mutilation-implementation-guide2?version=current">Female Genital Mutilation - Information Sharing (FGM-IS) API Implementation Guidance</td>
+<td>Implementation Guidance</td>
+<td>It provides a national IT system for healthcare professionals and administrative staff to record that a child with female genitalia has a family history of FGM.</td>
+<td>NHS England</td>
+<td>R4</td>
+</tr>
+
 </tbody>
 </table>
 <br>
