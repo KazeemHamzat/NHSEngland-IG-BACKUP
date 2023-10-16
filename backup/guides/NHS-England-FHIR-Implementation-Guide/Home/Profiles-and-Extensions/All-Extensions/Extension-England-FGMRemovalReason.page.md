@@ -24,7 +24,7 @@ select
 </table>
 <br>
 
-{{page:home/profiles-and-extensions/extensionstemplate.page.md}}
+{{render:Home-Profiles-and-Extensions-ExtensionsTemplate}}
 
 <div id="Examples" class="tabcontent">
   <h3>Examples</h3>
