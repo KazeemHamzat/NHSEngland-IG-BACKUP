@@ -91,8 +91,16 @@
 
 ### Pre-conditions
 
+<hr>
+
 ## FHIR Assets for Sprint 1
 
+<br>
 
-{{render:guide/nhs-england-implementation-guide-stu1/home/profiles-and-extensions/all-extensions/extension-england-organisationrole}}
+{{render:Profiles-and-Extensions-All-Extensions-Extension-England-OrganisationRole}}
 
+
+{{render:Home-Terminology-All-CodeSystems-CodeSystem-England-ODSOrganisationRole}}
+
+
+{{render:Guide-Home-Terminology-All-ValueSets-ValueSet-England-OrganisationRole}}
