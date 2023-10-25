@@ -2,7 +2,8 @@
 
 This NHS England FHIR Implementation Guide provides additional guidance, rules and constraints which extends the <a href="https://simplifier.net/guide/uk-core-implementation-guide-stu3-sequence?version=current" target="_blank">FHIR UK Core Implementation Guide</a>
 
-The scope of this Implementation Guide is for programmes and products within NHS England. Please click [here](https://simplifier.net/guide/nhs-england-implementation-guide-stu1/Home/Guidance/Conformance.page.md?version=current) for conformance guidance for NHS England programmes, products and systems.
+The scope of this Implementation Guide is for programmes and products within NHS England. The NHS England programmes and associated FHIR Assets undergoing review in this sprint are listed in the table below.
+<br>Please click [here](https://simplifier.net/guide/nhs-england-implementation-guide-stu1/Home/Guidance/Conformance.page.md?version=current) for conformance guidance for NHS England programmes, products and systems.
 
 ### NHS England IG Use Cases
  
@@ -45,7 +46,35 @@ The scope of this Implementation Guide is for programmes and products within NHS
     <td>
      {{pagelink:ValueSet-England-OrganisationRole, text:ValueSet-England-OrganisationRole}}
     </td>
-   </tr>  
+   </tr>
+   <tr>
+    <td>
+       
+    </td>
+    <td>
+    </td>
+    <td>
+     {{pagelink:CodeSystem-England-ORDDateTime, text:CodeSystem-England-England-ORDDateTime}}
+    </td>
+   </tr> 
+   <tr>
+    <td> 
+    </td>
+    <td>
+    </td>
+    <td>
+     {{pagelink:Extension-England-DateTime, text:Extension-England-DateTime}}
+    </td>
+   </tr> 
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+     {{pagelink:ValueSet-England-TypedDateTime, text:ValueSet-England-TypedDateTime}}
+    </td>
+   </tr>   
    </tbody>
 </table>
 
