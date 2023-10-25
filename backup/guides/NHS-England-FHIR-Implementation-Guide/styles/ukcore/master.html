@@ -97,7 +97,7 @@
                     </tr>
                     <tr>
                       <td colspan="2"><b>Packages are based on:</b> <a href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a> & <a href="https://simplifier.net/packages/fhir.r4.ukcore.stu3.currentbuild/0.0.6-pre-release/">FHIR UK Core STU3 0.0.6</a></td>
-                      <td colspan="2"><b>Links:</b>&nbsp;<a id="footer-sitemap" href="https://simplifier.net/guide/nhs-england-implementation-guide-stu1/Home/Guidance/Sitemap-Overview.page.md?version={{ guide-version }}">Table of contents</a> | <a id="footer-history" href="https://simplifier.net/guide/nhs-england-implementation-guide-version-history?version=current">Version history</a> | <a id="footer-licence" href="{{content}}/../?version={{ guide-version }}#licence">Licence</a> | <a id="footer-propose" href="https://simplifier.net/NHS-England-Implementation-Guide/~issues">Propose a change</a></td>
+                      <td colspan="2"><b>Links:</b>&nbsp;<a id="footer-sitemap" href="https://simplifier.net/guide/nhs-england-implementation-guide-stu1/Home/Guidance/Sitemap-Overview.page.md?version">Table of contents</a> | <a id="footer-history" href="https://simplifier.net/guide/nhs-england-implementation-guide-version-history?version=current">Version history</a> | <a id="footer-licence" href="{{content}}/../?version={{ guide-version }}#licence">Licence</a> | <a id="footer-propose" href="https://simplifier.net/NHS-England-Implementation-Guide/~issues">Propose a change</a></td>
                     </tr>  
                 </table>
             </div>
@@ -609,7 +609,7 @@
                 $('table.regular').each(function(index) {
                     if ($(this).find("th").length > 0) {
                         if ($(this).find(":contains('System')")) {
-                            $(this).attr("title","Expanded ValueSet codes");
+                            //$(this).attr("title","Expanded ValueSet codes");
                         } else {
                             $(this).attr("title","Imported ValueSet codes");
                         }
@@ -754,11 +754,11 @@
                 //createProfileSubMenus();
                 //createTerminologySeparator();
                 fixFooterVersion();
-                alterValueSetTables();
+                //alterValueSetTables();
                 addCodesSortButton();
                  pageInIframe();
                  wrapSideBar();
-                  fixWebAccessibility()
+               //   fixWebAccessibility()
                 updateFooterPosition();
             });
             
