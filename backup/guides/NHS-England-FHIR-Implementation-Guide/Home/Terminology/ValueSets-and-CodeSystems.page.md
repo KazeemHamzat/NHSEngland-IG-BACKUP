@@ -6,7 +6,9 @@ topic: ValueSetsAndCodeSystems
 This is the list of ValueSets and CodeSystems defined for use within the NHS England Implementation Guide.
 
 Other ValueSets are usable if the binding strength is defined as extensible.
-<br>Additional guidance is available on <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/Terminology/ValueSetsandCodeSystems.page.md?version=current" target="_blank">UK Core ValueSets and CodeSystems</a> web page.
+<br> 
+
+Additional guidance is available on <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/Terminology/ValueSetsandCodeSystems.page.md?version=current" target="_blank">UK Core ValueSets and CodeSystems</a> web page.
 <br><br>
 
 <style>
@@ -60,6 +62,9 @@ Other ValueSets are usable if the binding strength is defined as extensible.
 </tr>
 <tr>
 <td colspan="4">Composed of CodeSystem {{pagelink:CodeSystem-England-ODSOrganisationRole}}</td>
+</tr>
+<tr>
+<td colspan="4"  class="override"></td>
 </tr>
 
 <tr>
