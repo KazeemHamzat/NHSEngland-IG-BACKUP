@@ -175,6 +175,8 @@
                 // Show the desired content with the current view
                 parent.find(".tabcontent[id^='"+tabName+"']").show(0);
             }
+            </script>
+            <script>
 
             // function to turn multiple columns into rows for an fql table, within a specific div
             function transposeFQLTables() {
@@ -347,6 +349,8 @@
             function createTerminologySeparator() {
                 $('ul.nav li.dropdown:eq(2) ul.dropdown-menu li:eq(0)').after('<li role="separator" class="divider"></li>');
             }
+            </script>
+            <script>
 
             //remaps sitemap and licence links to always point within the IG being read
             function fixFooterVersion() {
@@ -374,7 +378,7 @@
                     let destVersion = "?" + destUrl.split("?")[1];
                     destUrl = newUrl + "/Guidance/Sitemap-Overview" + destVersion;
                     if (pageVersion.startsWith("?version=current")){
-                        destUrl = destUrl.replace(destVersion, pageVersion);
+                        destUrl = destUrl.replace(destVersion, ".page.md" + pageVersion);
                     }
                     $(this).attr("href", destUrl) ;
 				});
