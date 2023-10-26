@@ -32,6 +32,6 @@ select
 </div>
 
 <h3>Extension Specific Guidance</h3>
-There is a binding within this extension to ValueSet-England-OrganisationRole.
+There is a binding within this extension to <a href='https://simplifier.net/guide/nhs-england-implementation-guide-stu1/home/terminology/all-valuesets/valueset-england-organisationrole.page.md?version=current' target="_blank">ValueSet-England-OrganisationRole</a>.
 
 ---
