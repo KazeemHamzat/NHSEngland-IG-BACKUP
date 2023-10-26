@@ -32,7 +32,7 @@ select
 </div>
 
 <h3>Extension Specific Guidance</h3>
-There is a binding within this extension to a {{pagelink:ValueSet-England-FlagRemovalReason}}.
+There is a binding within this extension to ValueSet-England-FlagRemovalReason.
 
 ---
     
