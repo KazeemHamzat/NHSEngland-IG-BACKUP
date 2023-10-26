@@ -19,7 +19,7 @@ select
 
 <table id="addToTranspose">
 <tr><td>Context of Use:	</td>
-<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=current' target="_blank"> Organization</td>
+<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=current' target="_blank"> Organization</a></td>
 </tr>
 </table>
 <br>
@@ -32,6 +32,6 @@ select
 </div>
 
 <h3>Extension Specific Guidance</h3>
-There is a binding within this extension to a {{pagelink:ValueSet-England-OrganisationRole}}.
+There is a binding within this extension to ValueSet-England-OrganisationRole.
 
 ---
