@@ -11,10 +11,10 @@ The following versions of NHS England Implementation Guide have been published:
 <th class="width10">Date</th>
 <th class="width10">IG Version</th>
 <th class="width10">FHIR Version</th>
-<th class="width10">UK Core Version</th>
 <th class="width40">Description</th>
 <th class="width10">Guide</th>
-<th class="width10">Package</th>
+<th class="width10">UK Core Package</th>
+<th class="width10">NHS England Package</th>
 </tr>
 <tr>
 <th colspan="7">Current Versions</th>
