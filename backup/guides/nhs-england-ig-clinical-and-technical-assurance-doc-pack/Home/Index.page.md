@@ -19,15 +19,17 @@ The C&TA call will be held as provided below.
 
 <table class="assets">
 <tr>
-<th width="25%">Date</th>
-<th width="25%">Topic</th>
-<th width="25%">Slides</th>
-<th width="25%">Recording</th>
+<th width="20%">Date</th>
+<th width="20%">Topic</th>
+<th width="20%">Meeting Invite</th>
+<th width="20%">Slides</th>
+<th width="20%">Recording</th>
 </tr>
 <tr>
 <td>Thursday 23rd November, 2023 <br>
 Time:14:00 - 15:10pm</td>
 <td>Introduction, overview and use cases</td>
+<td><a href='https://gbr01.safelinks.protection.outlook.com/ap/t-59584e83/?url=https%3A%2F%2Fteams.microsoft.com%2Fl%2Fmeetup-join%2F19%253ameeting_NGE1ZDBjNGMtMDNhZi00NGEzLThiNTYtOGIyMGNjYTUyNjlj%2540thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%252237c354b2-85b0-47f5-b222-07b48d774ee3%2522%252c%2522Oid%2522%253a%252232958b7f-064c-4456-8e72-2feab428d83a%2522%257d&data=05%7C01%7Ckazeem.hamzat%40nhs.net%7Cdcecceb8240040dcfae908dbe12a3372%7C37c354b285b047f5b22207b48d774ee3%7C0%7C0%7C638351343580630970%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=VLozHoKIFaekrU516qKAgCOdWmTD32KG9vxoTTt9djk%3D&reserved=0' target="_blank">Click here</a></td>
 <td><a>Click here</a></td>
 <td><a>Click here</a></td>
 </tr>
@@ -35,6 +37,7 @@ Time:14:00 - 15:10pm</td>
 <td>Tuesday 5th December, 2023 <br>
 Time:14:00 - 14:45pm</td>
 <td>Consolidation Call</td>
+<td><a>Click here</a></td>
 <td>TBC</td>
 <td>TBC</td>
 </tr>
