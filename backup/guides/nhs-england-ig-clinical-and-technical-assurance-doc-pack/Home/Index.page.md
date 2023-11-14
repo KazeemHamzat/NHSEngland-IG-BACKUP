@@ -6,7 +6,7 @@ The purpose of this pack is to provide guidance documentation for stakeholders i
 
 ## Pack Structure
 
-This pack contains the guidance and reference material required to participate in the C&TA process. The content of the NHS England IG Implementation Guide to be reviewed is contained in the <a>NHS England IG Implementation Guide STU1</a>. Items are indexed by C&TA Sprints and the scope of this sprint is items marked accordingly.
+This pack contains the guidance and reference material required to participate in the C&TA process. The content of the NHS England IG Implementation Guide to be reviewed is contained in the <a>NHS England IG Implementation Guide 1.1.0 - STU1</a>. Items are indexed by C&TA Sprints and the scope of this sprint is items marked accordingly.
 
 ## Background
 This sprint involves creating a review pack for consultation, including a first draft of mapping by the NHS England IG Development team, which is published to the NHS England Programmes stakeholders for a review period of 7 working days, and subsequently followed by a consolidation call.
@@ -25,14 +25,16 @@ The C&TA call will be held as provided below.
 <th width="25%">Recording</th>
 </tr>
 <tr>
-<td>TBC</td>
-<td>TBC</td>
+<td>Thursday 23rd November, 2023 <br>
+Time:14:00 - 15:10pm</td>
+<td>Introduction, overview and use cases</td>
 <td><a>Click here</a></td>
 <td><a>Click here</a></td>
 </tr>
 <tr>
-<td>TBC</td>
-<td>TBC</td>
+<td>Tuesday 5th December, 2023 <br>
+Time:14:00 - 14:45pm</td>
+<td>Consolidation Call</td>
 <td>TBC</td>
 <td>TBC</td>
 </tr>
