@@ -1,10 +1,10 @@
 - name: Index
   filename: Index.page.md
-- name: FGM
-  filename: FGM
-- name: CP-IS
-  filename: CP-IS
+- name: Female Genital Mutilation
+  filename: Female-Genital-Mutilation
+- name: Child Protection - Information Sharing
+  filename: Child-Protection---Information-Sharing
 - name: Multi-cancer Early Detection
   filename: Multi-cancer-Early-Detection
-- name: ORD / ODS
-  filename: ORD---ODS
+- name: Organisational Reference Data
+  filename: Organisational-Reference-Data
