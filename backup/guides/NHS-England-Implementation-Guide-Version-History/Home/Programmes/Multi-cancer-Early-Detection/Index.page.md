@@ -30,7 +30,9 @@
 <li>Lab notes all now in DiagnosticReport extension</li>
 <li>All performer references point to Lag Organization</li>
 <li>All specimen references have specimen identifier in display</li>
-<li>Detected site SNOMED display changed to "Multi-cancer early detection predicted first cancer signal origin by machine learning-based classifier"<br/>"Multi-cancer early detection predicted second cancer signal origin by machine learning-based classifier"</ul>
+<li>Detected site SNOMED display changed to "Multi-cancer early detection predicted first cancer signal origin by machine learning-based classifier"<br/>"Multi-cancer early detection predicted second cancer signal origin by machine learning-based classifier"</li>
+<li>Data mapping table updated to reference generic screening organisation identifiers</li>
+</ul>
 </td>
 </tr>
 </table>
