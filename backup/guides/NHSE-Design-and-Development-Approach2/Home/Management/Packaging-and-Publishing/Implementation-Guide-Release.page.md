@@ -75,4 +75,4 @@ If there are any errors spotted after publishing the guide it is possible to ove
 
 3. Select Publish.
 
-----------------------
+-----
