@@ -1,12 +1,12 @@
 ---
 subject: https://fhir.nhs.uk/England/CodeSystem/England-PFSPrescriptionOrderingParameter
 ---
-## England PFS Prescription Order Parameter
+## England PFS Prescription Ordering Parameter
 @```
 from
 	CodeSystem
 where
-	name = 'EnglandFGMRemovalReason'
+	name = 'EnglandPFSPrescriptionOrderingParameter'
 select
 	Description: description
 ```
@@ -14,7 +14,7 @@ select
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 
 <div id="Feedback" class="tabcontent">
-<h4><a href='https://simplifier.net/NHS-England-Implementation-Guide/CodeSystem-England-FGMRemovalReason/~issues?level=File' target="_blank">Propose a change to CodeSystem-England-PFSPrescriptionOrderParameter </a></h4>
+<h4><a href='https://simplifier.net/NHS-England-Implementation-Guide/CodeSystem-England-PFSPrescriptionOrderingParameter/~issues?level=File' target="_blank">Propose a change to CodeSystem-England-PFSPrescriptionOrderParameter </a></h4>
 </div>
 
 
