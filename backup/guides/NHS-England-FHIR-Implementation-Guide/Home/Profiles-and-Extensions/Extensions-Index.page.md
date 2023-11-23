@@ -9,7 +9,7 @@ This extension library contains all the Extensions created for use within the NH
 The table below lists all of the current Extensions and their context of use.
 The 'Context of Use' column indicates the profile and/or element where the extension may be applied.
 
-Additional guidance is available on <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Extensions-Index?version=current" target="_blank">UK Core Extensions</a> web page.
+Additional guidance is available on the <a href="https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Extensions-Index?version=current" target="_blank">UK Core Extensions</a> web page.
 
 <table class="regular assets" title="Extensions list">
 <tr>
