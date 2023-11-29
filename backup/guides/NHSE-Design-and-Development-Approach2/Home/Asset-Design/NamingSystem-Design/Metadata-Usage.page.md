@@ -107,12 +107,11 @@ See the {{pagelink:Publisher--Contact---Copyright}} for details of how this SHAL
         <td>For all NHS England NamingSystems, where the base URL is <code>https://*.nhs.uk/</code>, this will be <code>NHS England</code>.</td>
     </tr>
     <tr>
-    <tr>
         <td>type</td>
         <td>0..1</td>
         <td>0..0</td>
         <td>string</td>
-        <td>For all NHS England NamingSystems, where the base URL is <code>https://fhir.nhs.uk/England</code>, this will be <code>NHS England</code>.</td>
+        <td>Not needed as we don't manage a list of types</code>.</td>
     </tr>
         <td>description</td>
         <td>0..1</td>
@@ -121,11 +120,32 @@ See the {{pagelink:Publisher--Contact---Copyright}} for details of how this SHAL
          <td>The NHS England IG mandates the use of this element.</td>
     </tr>
     </tr>
+        <td>useContext</td>
+        <td>0..*</td>
+        <td>0..0</td>
+        <td>UsageContext</td>
+         <td>Not needed as we don't manage a list of use contexts.</td>
+    </tr>
+    </tr>
+        <td>jurisdiction</td>
+        <td>0..*</td>
+        <td>0..0</td>
+        <td>CodeableConcept</td>
+         <td>Not needed as it's within realm of England only.</td>
+    </tr>
+    </tr>
         <td>usage</td>
         <td>0..1</td>
         <td>1..1</td>
         <td>string</td>
          <td>A description of how and where the NamingSystem is used.</td>
+    </tr>
+        </tr>
+        <td>uniqueId</td>
+        <td>1..*</td>
+        <td>1..*</td>
+        <td>BackboneElement</td>
+         <td>Unique identifiers used for system.</td>
     </tr>
     </tbody>
 </table>
