@@ -38,10 +38,10 @@ For programme specific implementations guidance, please click the table header.
   <tbody>
    <tr>
     <td>
-      {{pagelink:CodeSystem-England-ORDDateTime, text:CodeSystem-England-ORDDateTime}}
+      {{pagelink:CodeSystem-England-ODSDateTime, text:CodeSystem-England-ODSDateTime}}
     </td>
     <td>
-      {{pagelink:Extension-England-DateTime, text:Extension-England-DateTime}}
+      {{pagelink:Extension-England-TypedDateTime, text:Extension-England-TypedDateTime}}
     </td>
     <td>
       {{pagelink:ValueSet-England-TypedDateTime, text:ValueSet-England-TypedDateTime}}
@@ -49,7 +49,7 @@ For programme specific implementations guidance, please click the table header.
    </tr>
    <tr>
     <td>
-      {{pagelink:CodeSystem-England-ORDOrganisationRole, text:CodeSystem-England-ORDOrganisationRole}}
+      {{pagelink:CodeSystem-England-ODSOrganisationRole, text:CodeSystem-England-ODSOrganisationRole}}
     </td>
     <td>
       {{pagelink:Extension-England-OrganisationRole, text:Extension-England-OrganisationRole}}
@@ -71,17 +71,17 @@ For programme specific implementations guidance, please click the table header.
    </tr>
    <tr>
     <td>
-      {{pagelink:CodeSystem-England-ORDRecordClass, text:CodeSystem-England-ORDRecordClass}}
+      {{pagelink:CodeSystem-England-ODSRecordClass, text:CodeSystem-England-ODSRecordClass}}
     </td>
    </tr>
    <tr>
     <td>
-      {{pagelink:CodeSystem-England-ORDRecordUseType, text:CodeSystem-England-ORDRecordUseType}}
+      {{pagelink:CodeSystem-England-ODSRecordUseType, text:CodeSystem-England-ODSRecordUseType}}
     </td>
    </tr>
    <tr>
     <td>
-      {{pagelink:CodeSystem-England-ORDRelationship, text:CodeSystem-England-ORDRelationship}}
+      {{pagelink:CodeSystem-England-ODSRelationship, text:CodeSystem-England-ODSRelationship}}
     </td>
    </tr>
   </tbody>
