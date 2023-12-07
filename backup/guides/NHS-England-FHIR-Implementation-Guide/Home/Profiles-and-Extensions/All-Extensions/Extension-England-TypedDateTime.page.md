@@ -2,7 +2,7 @@
 subject: https://fhir.nhs.uk/England/StructureDefinition/Extension-England-TypedDateTime 
 ---
 
-## StructureDefinition Extension-England-Typed-DateTime
+## StructureDefinition Extension-England-TypedDateTime
 
 <div id="transpose">
 @```
@@ -32,7 +32,7 @@ select
 </div>
 
 <div id="Feedback" class="tabcontent">
-<h4><a href='https://simplifier.net/NHS-England-Implementation-Guide/Extension-England-DateTime/~issues?level=File' target="_blank">Propose a change to Extension-England-TypedDateTime</a></h4>
+<h4><a href='https://simplifier.net/NHS-England-Implementation-Guide/Extension-England-TypedDateTime/~issues?level=File' target="_blank">Propose a change to Extension-England-TypedDateTime</a></h4>
 </div>
 
 <h3>Extension Specific Guidance</h3>
