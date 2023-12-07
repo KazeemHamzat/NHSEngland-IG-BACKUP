@@ -1,5 +1,5 @@
 ---
-subject: https://ord.nhs.uk/CodeSystem/role
+subject: https://digital.nhs.uk/services/organisation-data-service/CodeSystem/ODSOrganisationRole
 ---
 ## England ODS Organisation Role
 @```
@@ -14,7 +14,7 @@ select
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 
 <div id="Feedback" class="tabcontent">
-<h4><a href='https://simplifier.net/NHS-England-Implementation-Guide/CodeSystem-England-ORDOrganisationRole/~issues?level=File' target="_blank">Propose a change to CodeSystem-England-ODSOrganisationRole </a></h4>
+<h4><a href='https://simplifier.net/NHS-England-Implementation-Guide/CodeSystem-England-ODSOrganisationRole/~issues?level=File' target="_blank">Propose a change to CodeSystem-England-ODSOrganisationRole </a></h4>
 </div>
 
 ---
