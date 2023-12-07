@@ -22,21 +22,22 @@ Additional guidance is available on the <a href="https://simplifier.net/guide/UK
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-DateTime}}</td>
-<td>draft</td>
-<td>Organization, OrganizationAffiliation</td>
-<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=current' target="_blank">UK Core Organization</a>, <a href='https://simplifier.net/guide/UKCoreImplementationGuideAssetsinDevelopment/Home/ProfilesandExtensions/Profile-UKCore-OrganizationAffiliation?version=current' target="_blank">UK Core OrganizationAffiliation</a></td>
-<td>NO</td>
-<td>2</td>
-</tr>
-
-<tr>
 <td>{{pagelink:Extension-England-FlagRemovalReason}}</td>
 <td>active</td>
 <td>Flag</td>
 <td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Flag?version=current' target="_blank">UK Core Flag</a></td>
 <td>NO</td>
 <td>1</td>
+</tr>
+
+<tr>
+<td>{{pagelink:Extension-England-OrganisationRole}}</td>
+<td>draft</td>
+<td>Organisation</td>
+<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Organisation?version=current' target="_blank">UK Core Organisation</a>, <a href='https://simplifier.net/guide/UKCoreImplementationGuideAssetsinDevelopment/Home/ProfilesandExtensions/Profile-UKCore-OrganizationAffiliation?version=current' target="_blank">UK Core OrganizationAffiliation</a>
+</td>
+<td>NO</td>
+<td>2</td>
 </tr>
 
 <tr>
@@ -49,11 +50,10 @@ Additional guidance is available on the <a href="https://simplifier.net/guide/UK
 </tr>
 
 <tr>
-<td>{{pagelink:Extension-England-OrganisationRole}}</td>
+<td>{{pagelink:Extension-England-TypedDateTime}}</td>
 <td>draft</td>
-<td>Organisation</td>
-<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Organisation?version=current' target="_blank">UK Core Organisation</a>, <a href='https://simplifier.net/guide/UKCoreImplementationGuideAssetsinDevelopment/Home/ProfilesandExtensions/Profile-UKCore-OrganizationAffiliation?version=current' target="_blank">UK Core OrganizationAffiliation</a>
-</td>
+<td>Organization, OrganizationAffiliation</td>
+<td><a href='https://simplifier.net/guide/UK-Core-Implementation-Guide-STU3-Sequence/Home/ProfilesandExtensions/Profile-UKCore-Organization?version=current' target="_blank">UK Core Organization</a>, <a href='https://simplifier.net/guide/UKCoreImplementationGuideAssetsinDevelopment/Home/ProfilesandExtensions/Profile-UKCore-OrganizationAffiliation?version=current' target="_blank">UK Core OrganizationAffiliation</a></td>
 <td>NO</td>
 <td>2</td>
 </tr>
