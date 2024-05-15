@@ -39,8 +39,8 @@ with header
 
 <div id="Feedback" class="tabcontent">
   <h3>Feedback</h3>
-Propose a change to:{{page:Home/Templates/FeedbackLink.page.md}}
+<h4>Click here to: {{page:Home/Templates/FeedbackLink.page.md}}</h4>
 </div>
 
-</div>
+---
 
