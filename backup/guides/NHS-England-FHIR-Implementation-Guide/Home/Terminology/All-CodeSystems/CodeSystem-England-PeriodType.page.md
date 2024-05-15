@@ -2,14 +2,7 @@
 subject: https://fhir.nhs.uk/England/CodeSystem/England-PeriodType
 ---
 ## England Period Type
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandPeriodType'
-select
-	Description: description
-```
+
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 

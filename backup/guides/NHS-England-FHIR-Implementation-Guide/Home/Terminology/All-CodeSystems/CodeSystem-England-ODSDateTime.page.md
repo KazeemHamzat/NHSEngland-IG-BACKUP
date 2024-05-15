@@ -3,14 +3,6 @@ subject: https://fhir.nhs.uk/England/CodeSystem/England-ODSDateTime
 ---
 ## England ODS Date Time
 
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandODSDateTime'
-select
-	Description: description
-```
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 

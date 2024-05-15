@@ -2,14 +2,7 @@
 subject: https://digital.nhs.uk/services/organisation-data-service/CodeSystem/ODSRecordClass
 ---
 ## England ODS Record Class
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandODSRecordClass'
-select
-	Description: description
-```
+
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 

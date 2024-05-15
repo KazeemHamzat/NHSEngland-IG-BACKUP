@@ -2,14 +2,7 @@
 subject: https://digital.nhs.uk/services/organisation-data-service/CodeSystem/ODSRelationship
 ---
 ## England ODS Relationship
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandODSRelationship'
-select
-	Description: description
-```
+
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 
