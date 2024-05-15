@@ -2,14 +2,7 @@
 subject: https://digital.nhs.uk/services/organisation-data-service/CodeSystem/ODSOrganisationRole
 ---
 ## England ODS Organisation Role
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandODSOrganisationRole'
-select
-	Description: description
-```
+
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 

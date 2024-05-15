@@ -2,14 +2,7 @@
 subject: https://fhir.nhs.uk/England/CodeSystem/England-PFSPrescriptionOrderingParameter
 ---
 ## England PFS Prescription Ordering Parameter
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandPFSPrescriptionOrderingParameter'
-select
-	Description: description
-```
+
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 

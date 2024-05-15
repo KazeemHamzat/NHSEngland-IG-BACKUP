@@ -2,14 +2,7 @@
 subject: https://fhir.nhs.uk/England/CodeSystem/England-ODSRecordUseType
 ---
 ## England ODS Record Use Type
-@```
-from
-	CodeSystem
-where
-	name = 'EnglandODSRecordUseType'
-select
-	Description: description
-```
+
 
 {{render:Home-Terminology-All-CodeSystems-CodeSystemTemplate}}
 
