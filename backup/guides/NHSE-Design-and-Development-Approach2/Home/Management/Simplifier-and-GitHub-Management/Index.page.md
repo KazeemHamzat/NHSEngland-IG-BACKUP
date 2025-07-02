@@ -1,5 +1,0 @@
----
-topic: SimplifierAndGitHubManagement
----
-
-## {{page-title}}
